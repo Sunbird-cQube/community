@@ -3,3 +3,5 @@
 * [About cQube](README.md)
 * [Getting Started](getting-started.md)
 * [Installation](installation.md)
+* [Discussions](https://github.com/Sunbird-cQube/community/discussions)
+
