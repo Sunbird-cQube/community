@@ -8,7 +8,9 @@
 * Domain name \(with SSL\)
 * 1 TB Storage
 
-#### Reverse proxy rules The following ports have to be configured in the nginix server with reverse proxy:
+### Reverse proxy rules 
+
+#### The following ports have to be configured in the nginix server with reverse proxy:
 
 * Port 4200 should be proxied to the '/'
 * Port 8080 should be proxied to the '/auth'
