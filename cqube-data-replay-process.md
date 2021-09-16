@@ -84,3 +84,18 @@ The complete workflow process will be like below.
 
 
 
+List of tables cleared for the data source
+
+| datasource | parameter | list of tables | function call |
+| :--- | :--- | :--- | :--- |
+| student\_attendance | month,year | student\_attendance\_meta,student\_attendance\_staging\_1,student\_attendance\_staging\_2,student\_attendance\_trans,school\_student\_total\_attedance | select del\_data\(p\_data\_source=&gt;'student\_attendance',p\_year=&gt;2022,VARIADIC p\_month=&gt;array\[1,2\]\); |
+| teacher\_attendance | month,year | teacher\_attendance\_meta,teacher\_attendance\_staging\_1,teacher\_attendance\_staging\_1,teacher\_attendance\_temp,teacher\_attendance\_trans,school\_teacher\_total\_attendance | select del\_data\(p\_data\_source=&gt;'teacher\_attendance',p\_year=&gt;2022,VARIADIC p\_month=&gt;array\[1,2\]\); |
+| crc | month,year | crc\_location\_trans,crc\_inspection\_trans,crc\_visits\_frequency | select del\_data\(p\_data\_source=&gt;'crc',p\_year=&gt;2022,VARIADIC p\_month=&gt;array\[1,2\]\); |
+| semester\_assessment\_test | exam\_code/semester | semester\_exam\_mst,semester\_exam\_result\_staging\_2,semester\_exam\_school\_qst\_result,semester\_exam\_result\_temp,semester\_exam\_school\_result,semester\_exam\_qst\_mst,semester\_exam\_result\_staging\_1,semester\_exam\_result\_trans | select pat\_del\_data\(p\_data\_source=&gt;'periodic\_assessment\_test',VARIADIC p\_exam\_code=&gt;array\['PAT0302290720201','PAT0302290720202'\]\); |
+| periodic\_assessment\_test | exam\_code | periodic\_exam\_mst,periodic\_exam\_result\_staging\_2,periodic\_exam\_school\_qst\_result,periodic\_exam\_result\_temp,periodic\_exam\_school\_result,periodic\_exam\_qst\_mst,periodic\_exam\_result\_staging\_1,periodic\_exam\_result\_trans | select pat\_del\_data\(p\_data\_source=&gt;'periodic\_assessment\_test',VARIADIC p\_exam\_code=&gt;array\['PAT0302290720201','PAT0302290720202'\]\); |
+| diksha\_tpd | batch\_id | diksha\_tpd\_agg,diksha\_tpd\_trans,diksha\_tpd\_content\_temp,diksha\_tpd\_staging | select diksha\_tpd\_del\_data\(p\_data\_source=&gt;'diksha\_tpd',VARIADIC p\_batch\_id =&gt;array\['0302290720201','0302290720202'\]\); |
+| diksha\_summary\_rollup | from\_date,to\_date | diksha\_content\_staging,diksha\_content\_temp,diksha\_content\_trans,diksha\_total\_content | select diksha\_summary\_rollup\_del\_data\('diksh a\_summary\_rollup','2022-12-27','2022-1 2-31'\); |
+| infrastructure | all | infrastructure\_temp,infrastructure\_trans | select all\_del\_data\('infrastructure'\); |
+| static | all | block\_tmp,block\_mst,district\_tmp,district\_mst,cluster\_tmp,cluster\_mst,school\_master,school\_tmp,school\_hierarchy\_details,school\_geo\_master | select all\_del\_data\('static'\); |
+| udise | all | udise\_sch\_incen\_cwsn,udise\_nsqf\_plcmnt\_c12,udise\_sch\_enr\_reptr,udise\_nsqf\_basic\_info,udise\_sch\_incentives,udise\_nsqf\_trng\_prov,udise\_sch\_exmmarks\_c10,udise\_nsqf\_class\_cond,udise\_school\_metrics\_trans,udise\_sch\_exmmarks\_c12,udise\_sch\_pgi\_details,udise\_nsqf\_enr\_caste,udise\_sch\_enr\_age,udise\_sch\_exmres\_c10,udise\_sch\_profile,udise\_nsqf\_enr\_sub\_sec,udise\_sch\_enr\_by\_stream,udise\_sch\_exmres\_c12,udise\_sch\_recp\_exp,udise\_nsqf\_exmres\_c10,udise\_sch\_enr\_cwsn,udise\_sch\_exmres\_c5,udise\_sch\_safety,udise\_nsqf\_exmres\_c12,udise\_sch\_enr\_fresh,udise\_sch\_exmres\_c8,udise\_sch\_staff\_posn,udise\_nsqf\_faculty,udise\_sch\_enr\_medinstr,udise\_sch\_facility,udise\_tch\_profile,udise\_nsqf\_plcmnt\_c10,udise\_sch\_enr\_newadm | select all\_del\_data\('udise'\); |
+
