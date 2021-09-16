@@ -9,3 +9,7 @@
 
 * [V1.2](release-notes/v1.2.md)
 
+## Network setup
+
+* [Untitled](network-setup/untitled.md)
+
