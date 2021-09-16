@@ -17,6 +17,10 @@
 * [Workflow Upgradation steps](workflow-upgradation-steps.md)
 * [Workflow Process](workflow-process.md)
 * [Emission Process](emission-process-1.md)
+* [Admin Login Process](admin-login-process.md)
+* [cQube data replay process](cqube-data-replay-process.md)
+* [Design Principles](design-principles.md)
+* [Ad-hoc analyst](ad-hoc-analyst.md)
 * [Discussions](https://github.com/Sunbird-cQube/community/discussions)
 
 ## Release Notes
