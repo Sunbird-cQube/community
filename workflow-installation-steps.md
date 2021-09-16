@@ -3,12 +3,12 @@
 ## Steps cQube\_Workflow Installation:
 
 * Open Terminal
-* Navigate to the directory where cQube\_Workflow has been downloaded or cloned
+* Navigate to the directory where cQube\_Workflow has been downloaded or cloned 
 
-```text
-cd cQube_Workflow/work_deploy/
-git checkout release-3.1
-```
+  ```text
+  cd cQube_Workflow/work_deploy/
+  git checkout release-3.1
+  ```
 
 **Usecases folder structure**
 
@@ -43,9 +43,9 @@ git checkout release-3.1
   * Configures Prometheus and node exporter
 * Give the following permission to the install.sh file
 
-```text
-chmod u+x install.sh
-```
+  ```text
+  chmod u+x install.sh
+  ```
 
 * Install cQube using the non-root user with sudo privilege
 * Configuration filled in config.yml will be validated first. If there is any error during validation, you will be prompted with the appropriate error message and the installation will be aborted. Refer the error message and solve the errors appropriately, then re-run the installation script `sudo ./install.sh`

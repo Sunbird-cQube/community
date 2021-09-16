@@ -37,17 +37,17 @@
 * Save and Close the file
 * Give the following permission to the upgrade.sh file
 
-```text
-chmod u+x upgrade.sh
-```
+  ```text
+  chmod u+x upgrade.sh
+  ```
 
 * Run the script to update cQube using the non-root user with sudo privilege
 
-  Start the upgradation by running upgrade.sh shell script file as mentioned below:
+  Start the upgradation by running upgrade.sh shell script file as mentioned below:\`\`\`
 
-```text
-sudo ./upgrade.sh
-```
+  ```text
+  sudo ./upgrade.sh
+  ```
 
 Configuration filled in upgradation\_config.yml will be validated first. If there is any error during validation, you will be prompted with the appropriate error message and the upgradation will be aborted. Refer the error message and solve the errors appropriately. Restart the upgradation process `sudo ./upgrade.sh`
 
