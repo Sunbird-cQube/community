@@ -1,4 +1,4 @@
-# Network Architecture
+# AWS - Network Architecture
 
 The following steps define how the cQube setup and workflow is completed in AWS. cQube mainly consists of the areas mentioned below:  
 
