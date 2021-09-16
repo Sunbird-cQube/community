@@ -98,15 +98,16 @@ cqube_emission
 ```
 
 * For udise data file structure, please refer the operational document.
-* After creating the emission user, Update the emission user details mentioned below in cQube/development/python/client/config.py.
-  * emission username
-  * emission password
-  * location of the cqube\_emission directory where the files are placed as below. Example:`/home/ubuntu/cqube_emission/`
-  * emission\_url  \( `https://<cqube-domain>/data` Note: URL depends upon the server configured in firewall which includes SSL and reverse proxy location\)
+* After getting the emission access token from admin console, update the details mentioned below in cQube\_Workflow/development/python/client/config.py.
+  * Emission access token
+  * File location of the cqube\_emission directory where the files are placed as below. Example:`/home/ubuntu/cqube_emission/`
+  * Emission End point i.e., emission\_url  Ex:`https://<cqube-domain>/data` Note: URL depends upon the server configured in firewall which includes SSL and reverse proxy location\)
 * After completing the configuration. Save and close the file.
-* Execute the client.py file located in cQube/development/python/client/ directory, as mentioned below to emit the data files to s3\_emission bucket.
+* Execute the client.py file located in `cQube_Workflow/development/python/client/` directory, as mentioned below to emit the data files to s3\_emission bucket.
 
+  ```text
   python3 client.py
+  ```
 
-* Finally see the output in `https://<cqube_domain>`
+* Finally see the output in `https://<cqube_domain>/`
 
