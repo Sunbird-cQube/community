@@ -2,6 +2,7 @@
 
 * [About cQube](README.md)
 * [Getting Started](getting-started.md)
+* [Prerequisites for Installation process](prerequisites-for-installation-process.md)
 * [Installation](installation.md)
 * [Discussions](https://github.com/Sunbird-cQube/community/discussions)
 
@@ -20,10 +21,6 @@
 ## cQube\_Base setup
 
 * [Untitled](cqube_base-setup/untitled.md)
-
-## Prerequisites for Installation process
-
-* [Prerequisites](prerequisites-for-installation-process/untitled.md)
 
 ## Installation steps
 
