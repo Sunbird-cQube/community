@@ -4,6 +4,7 @@
 * [Getting Started](getting-started.md)
 * [cQube Features](cqube-features.md)
 * [Network Architecture](network-architecture-diagram.md)
+* [Private Data Center - Network Architecture](private-data-center-network-architecture.md)
 * [Prerequisites for Installation process](prerequisites-for-installation-process.md)
 * [Base Installation steps](base-installation-steps.md)
 * [Base Upgradation steps](base-upgradation-steps.md)

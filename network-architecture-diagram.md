@@ -110,7 +110,7 @@ The steps involved to create the public subnet
 * Create the first EC2 instance with OpenVPN AWS AMI and configure it to connect with the private subnet.
 * Create the second EC2 instance with Ubuntu 18.04 AWS AMI and install Nginx to connect with the cQube server which is in the private subnet.
 
-EC2: Openvpn server
+**EC2**: Openvpn server
 
     - create an ec2 instance with openvpn ami 
 
@@ -120,7 +120,7 @@ EC2: Openvpn server
 
       - port 22 inbound to 1 public ip \(admin's\)
 
-EC2: Nginx server
+**EC2:** Nginx server
 
     - create an ec2 instance with ubuntu 18.04 ami
 
@@ -134,7 +134,7 @@ EC2: Nginx server
 
       - port 22 inbound to openvpn server
 
-NAT Gateway:
+**NAT Gateway**:
 
     - create a nat gateway / nat instance
 
