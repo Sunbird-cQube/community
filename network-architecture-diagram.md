@@ -39,7 +39,7 @@ The steps involved to create EC2 instance in private subnet
 
     - 8 core cpu, 32 gb ram and 1 tb storage
 
-**security\_group:**
+**Security\_group:**
 
  ****     - port 4200, 3000, 8000 inbound from nginx 
 
