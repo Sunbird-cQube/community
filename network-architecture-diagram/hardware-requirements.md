@@ -5,7 +5,7 @@ The below table describes the Infrastructure details to install the cQube\_Base 
 | Activity | Infrastructure used for cQube\_Base installation | Required Skills |
 | :--- | :--- | :--- |
 | 1-2 Weeks | 2 Days |  |
-| Filling of the requirements in the required format and obtaining relevant approvals for procurement of the Infrastructure and securing funding for monthly/yearly spend. | AWS account 1. cQube Server\(CPU - 8 Core RAM - 32 GB Storage - 500 GB\)2. S3 Buckets\(S3 emission 100GB S3 input - 750 GB S3 Output - 250 GB\) | AWS Basic Operation Skills -EC2 -S3 -Load -Balancer -IAM -VPC -Route53 -Certificate Manager \(SSL\) |
+| Filling of the requirements in the required format and obtaining relevant approvals for procurement of the Infrastructure and securing funding for monthly/yearly spend. | AWS account 1. cQube Server\(CPU - 8 Core RAM - 32 GB Storage - 500 GB\) 2. S3 Buckets\(S3 emission 100GB S3 input - 750 GB S3 Output - 250 GB\) | AWS Basic Operation Skills -EC2 -S3 -Load -Balancer -IAM -VPC -Route53 -Certificate Manager \(SSL\) |
 |  | [OpenVPN](https://aws.amazon.com/blogs/awsmarketplace/setting-up-openvpn-access-server-in-amazon-vpc/) Access Server \( EC2 instance CPU - 1 Core RAM - 2 GB,Storage - 10 GB\) | VPN admin Operations |
 |  | NGINX Reverse proxy\(EC2 instance CPU - 2 Core RAM - 4 GB Storage - 30 GB\) | NGINX configuration skills |
 |  | NAT gateway | AWS NAT gateway |
