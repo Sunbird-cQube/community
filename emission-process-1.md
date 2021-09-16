@@ -106,5 +106,5 @@ cqube_emission
 
   python3 client.py
 
-* Finally see the output in \`https://&lt;cqube\_domain&gt;\` 
+* Finally see the output in `https://<cqube_domain>`
 
