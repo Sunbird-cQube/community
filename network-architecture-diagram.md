@@ -114,3 +114,50 @@ Below is the sample configuration \[for reference\] to add in nginx conf.
     `}`  
 
 
+## **Public Subnet**
+
+Public subnet will contain two EC2 instances, one is for OpenVPN and another is for Nginx, which will act as a reverse proxy. It is used to provide connectivity with the private subnet.
+
+The steps involved to create the public subnet
+
+* Create a subnet in that same VPC where the private subnet was created with a Routing Table attached to the Internet Gateway.
+* Create the first EC2 instance with OpenVPN AWS AMI and configure it to connect with the private subnet.
+* Create the second EC2 instance with Ubuntu 18.04 AWS AMI and install Nginx to connect with the cQube server which is in the private subnet.
+
+EC2: Openvpn server
+
+    - create an ec2 instance with openvpn ami 
+
+    - create users to access the instances and for cQube admin pages 
+
+    security\_group:
+
+      - port 22 inbound to 1 public ip \(admin's\)
+
+EC2: Nginx server
+
+    - create an ec2 instance with ubuntu 18.04 ami
+
+    - configure the nginx to connect Load balancer and cQube server
+
+    - configuration file will be provided
+
+    security\_group:
+
+      - port 80, 443 inbound to Load balancer
+
+      - port 22 inbound to openvpn server
+
+NAT Gateway:
+
+    - create a nat gateway / nat instance
+
+    - configure the connection to cQube server
+
+    security\_group:
+
+      - port 80, 443 inbound from private\_subnet  
+
+
+\*\*\*\*
+
