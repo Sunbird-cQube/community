@@ -1,7 +1,5 @@
 # Prerequisites for Installation process
 
-
-
 #### Prerequisites to install cQube:
 
 * ubuntu 18.04 \(supported\)
@@ -29,6 +27,4 @@
 * Port 9000 should be open from openvpn to the cQube server
 * Port 4201 should be open from openvpn to the cQube server
 * Port 3001 should be open from openvpn to the cQube server   
-
-  Note: For Installation: follow the below steps directly, for upgradation follow the Upgradation: steps mentioned in the last section.
 
