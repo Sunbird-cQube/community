@@ -19,7 +19,7 @@ The cQube network setup process is described in the block diagram below:
 * The Green arrow in the network diagram indicates the end user's connectivity through the load balancer.
 * The purple color arrow in the network diagram indicates the developers connectivity through the VPN.
 
-### **Private Subnet**
+## **Private Subnet**
 
 Private subnet is used to secure the cQube server from public access. The instance will not be having the public ip. An EC2 instance will be created in a private subnet and all cQube components will be installed in this.  
 ****
@@ -66,5 +66,51 @@ The steps involved to create EC2 instance in private subnet
 **Security Group:**
 
    ****   - port 80, 443 inbound from 0.0.0.0/0  
+
+
+## **User Actions in creation of Nginx**
+
+**Addition of Gzipping to the UI -** Have to enable the compression in the proxy server for the content type 'application/javascript' and 'text/css'.  
+****
+
+Below is the sample configuration \[for reference\] to add in nginx conf. 
+
+`server {`
+
+               `gzip on;`
+
+              `gzip_types      application/javascript text/css;`
+
+             `gzip_min_length 1000;`
+
+              `gzip_static on;`
+
+            `}`  
+  
+**Cache implementation -** Have to enable caching in the proxy server for /api location directive.  
+****
+
+Below is the sample configuration \[for reference\] to add in nginx conf.  
+`location /api {`
+
+          `proxy_cache my_cache;`
+
+          `proxy_buffering on;`
+
+          `proxy_cache_methods POST;`
+
+          `proxy_cache_key "$request_uri|$request_body";`
+
+          `proxy_ignore_headers Expires Cache-Control X-Accel-Expires;`
+
+          `proxy_cache_valid any 30m;`
+
+          `proxy_ignore_headers "Set-Cookie";`
+
+         `proxy_cache_use_stale error timeout updating http_500 http_502 http_503 http_504;`
+
+         `add_header X-Proxy-Cache $upstream_cache_status;`
+
+    `}`  
 
 
