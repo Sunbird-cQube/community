@@ -3,9 +3,10 @@
 * Open Terminal
 * Navigate to the directory where cQube has been downloaded or cloned
 
-  cd cQube\_Workflow/work\_deploy
-
+  ```text
+  cd cQube_Workflow/work_deploy
   git checkout release-3.1
+  ```
 
   **Usecases folder structure**
 
