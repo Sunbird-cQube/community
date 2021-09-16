@@ -13,3 +13,7 @@
 
 * [Untitled](network-setup/untitled.md)
 
+## Hardware, Software, and Security requirements
+
+* [Untitled](hardware-software-and-security-requirements/untitled.md)
+
