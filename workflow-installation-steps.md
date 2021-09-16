@@ -1,7 +1,5 @@
 # Workflow Installation steps
 
-
-
 ## Steps cQube\_Workflow Installation:
 
 * Open Terminal
@@ -28,7 +26,7 @@ git checkout release-3.1
   **If user opting for educational\_old\_theme open the educational\_old\_theme folder**
 
 * Copy the config.yml.template to config.yml `cp config.yml.template config.yml`
-* Edit using nano \`config.yml\`
+* Edit using \`nano config.yml\`
 * Enable datasources as true or false in datasource\_config.yml and datasource\_validation.sh, in datasource\_validation.sh  An array of mandatory values should be same as datasource\_config.yml file values.
 * if the user opting for new datasource.  should add new datasource name inside the datasource\_config.yml file and datasource\_validation.sh array list.
 * Fill the configuration details for the below mentioned list in config.yml \(\* all the values are mandatory\)
@@ -57,5 +55,5 @@ chmod u+x install.sh
   sudo ./install.sh
   ```
 
-* Once installation is completed without any errors, you will be prompted the following message. CQube installed successfully!!
+* Once installation is completed without any errors, you will be prompted the following message.  **cQube installed successfully!!** 
 
