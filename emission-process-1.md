@@ -1,6 +1,8 @@
 # Emission Process
 
+### Emission flow diagram
 
+![](.gitbook/assets/image%20%281%29.png)
 
 ### Uploading data to S3 Emission bucket:
 
