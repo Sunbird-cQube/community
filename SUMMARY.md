@@ -11,7 +11,6 @@
 * [Workflow Upgradation steps](workflow-upgradation-steps.md)
 * [Workflow Process](workflow-process.md)
 * [Emission Process](emission-process-1.md)
-* [Connectivity](connectivity.md)
 * [Discussions](https://github.com/Sunbird-cQube/community/discussions)
 
 ## Release Notes
