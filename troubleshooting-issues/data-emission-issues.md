@@ -1,0 +1,13 @@
+# Data Emission Issues
+
+
+
+|  | **Where** |  | **Why** | **How to resolve** |  |  |  |  |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Error message** | **Error Location** | **Error type** | **Error identification \(Cause\)** | **Probable resolution** |  |  |  |  |
+| Error: 400, f'Bad request, filename not provided in payload' | console emission logs | When the key/filename is not provided in the request | When the key/filename is not provided in the request | Provide the valid key/filename in the request body |  |  |  |  |
+| Error: 404, f'Bad request, unable to find the file - validate the filename in payload' | console emission logs | When the key/filename specified doesn't exist | When the key/filename is provided in the request, doesn't exist in cQube bucket | Provide the valid key/filename in the request body while uploading or dowloading |  |  |  |  |
+| Error: 400, f'Bad request, not cqube bucket - validate the bucket name' | console emission logs | When the bucket name specified doesn't exist | When the bucket name provided in the request, doesn't exist | Provide the valid bucket name in the request body while uploading or dowloading                      | Error: 400, f'Bad request, validate the payload'    console emission logs | When the payload has missing fields | When any of the fields are missing in the payload, this issue will occur | Request with the required fields in the request |
+| Error: No credentials found for given 'iss' | console emission logs | When the token is not issued by cQube | When the token is not issued by cQube | The valid token issued by admin needs to be used |  |  |  |  |
+| Error: "Bad token; invalid JSON" | console emission logs | When the token is not valid | When the token is not issued by cQube and is invalid | The valid token issued by admin needs to be used |  |  |  |  |
+

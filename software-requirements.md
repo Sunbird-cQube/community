@@ -1,7 +1,5 @@
 # Software Requirements
 
-
-
 Ubuntu 18.04: This is the operating system that supports the cQube product
 
 * Java JDK1.8: This provides an environment for NIFI installation     

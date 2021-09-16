@@ -8,12 +8,9 @@ The following steps define how the cQube setup and workflow is completed in AWS.
 3. AWS Load Balancer
 4. IAM user and Role creation for S3 connectivity.
 
-The cQube network setup process is described in the block diagram below:  
-
+The cQube network setup process is described in the block diagram below:
 
 ![AWS - cQube network setup diagram ](../.gitbook/assets/image%20%282%29.png)
-
-
 
 * The Yellow arrows in the network diagram indicate the file upload users’ connectivity through the load balancer.
 * The Green arrow in the network diagram indicates the end user's connectivity through the load balancer.

@@ -23,6 +23,8 @@
 * [Troubleshooting Issues](troubleshooting-issues/README.md)
   * [Data Processing-NIFI Issues](troubleshooting-issues/data-processing-nifi-issues.md)
   * [Data Processing-PostgreSQL Issues](troubleshooting-issues/data-processing-postgresql-issues.md)
+  * [Data Emission Issues](troubleshooting-issues/data-emission-issues.md)
+  * [Angular & Node Issues](troubleshooting-issues/angular-and-node-issues.md)
 * [Discussions](https://github.com/Sunbird-cQube/community/discussions)
 
 ## Release Notes
