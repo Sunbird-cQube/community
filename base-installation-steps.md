@@ -10,9 +10,9 @@
 * Edit using nano config.yml
 * If you are opting for storage\_type as s3. Copy the aws\_s3\_config.yml.template to aws\_s3\_config.yml 
 
-```text
-cp aws_s3_config.yml.template aws_s3_config.yml
-```
+  ```text
+  cp aws_s3_config.yml.template aws_s3_config.yml
+  ```
 
 * Edit using `nano aws_s3_config.yml`
 * If you are opting for storage\_type as local. Copy the local\_storage\_config.yml.template to local\_storage\_config.yml 

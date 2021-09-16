@@ -5,22 +5,24 @@
 * Open Terminal
 * Navigate to the directory where cQube has been downloaded or cloned
 
-  cd cQube\_Base/
-
+  ```text
+  cd cQube_Base/
   git checkout release-3.1
+  ```
 
 * Copy the config.yml.template to config.yml cp config.yml.template config.yml
 * If you are opting for storage\_type as s3. Copy the aws\_s3\_upgradation\_config.yml.template to aws\_s3\_upgradationconfig.yml 
 
-```text
-cp aws_s3_upgradation_config.yml.template aws_s3_upgradation_config.yml
-```
+  ```text
+  cp aws_s3_upgradation_config.yml.template aws_s3_upgradation_config.yml 
+
+  ```
 
 * If you are opting for storage\_type as local. Copy the local\_storage\_upgradation\_config.yml.template to local\_storage\_upgradation\_config.yml 
 
-```text
-cp local_storageupgradation_upgradation_config.yml.template local_storage_upgradation_config.yml
-```
+  ```text
+  cp local_storageupgradation_upgradation_config.yml.template local_storage_upgradation_config.yml
+  ```
 
 * This script will update the below cQube components:
   * Creates & Updates table,sequence,index in postgresql database
