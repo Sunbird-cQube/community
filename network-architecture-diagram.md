@@ -11,7 +11,7 @@ The following steps define how the cQube setup and workflow is completed in AWS.
 The cQube network setup process is described in the block diagram below:  
 
 
-![cQube network setup diagram ](.gitbook/assets/image%20%282%29.png)
+![AWS - cQube network setup diagram ](.gitbook/assets/image%20%282%29.png)
 
 
 
