@@ -1,7 +1,5 @@
 # Security requirements
 
-
-
 * cQube product security will be provided by implementing the private subnet with AWS load balancer as described in the Section 2 of this document.    
 * All the ports will be accessed by Nginx server only, So those ports will not be accessed directly from the internet.    
 * S3 buckets will be secured by the default AWS security.    
