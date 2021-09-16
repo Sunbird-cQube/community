@@ -75,44 +75,30 @@ The steps involved to create EC2 instance in private subnet
 
 Below is the sample configuration \[for reference\] to add in nginx conf. 
 
-`server {`
+```text
+server {
+        gzip on;
+        gzip_types      application/javascript text/css;
+        gzip_min_length 1000;
+        gzip_static on;
+        }
+```
 
-               `gzip on;`
+Below is the sample configuration \[for reference\] to add in nginx conf.
 
-              `gzip_types      application/javascript text/css;`
-
-             `gzip_min_length 1000;`
-
-              `gzip_static on;`
-
-            `}`  
-  
-**Cache implementation -** Have to enable caching in the proxy server for /api location directive.  
-****
-
-Below is the sample configuration \[for reference\] to add in nginx conf.  
-`location /api {`
-
-          `proxy_cache my_cache;`
-
-          `proxy_buffering on;`
-
-          `proxy_cache_methods POST;`
-
-          `proxy_cache_key "$request_uri|$request_body";`
-
-          `proxy_ignore_headers Expires Cache-Control X-Accel-Expires;`
-
-          `proxy_cache_valid any 30m;`
-
-          `proxy_ignore_headers "Set-Cookie";`
-
-         `proxy_cache_use_stale error timeout updating http_500 http_502 http_503 http_504;`
-
-         `add_header X-Proxy-Cache $upstream_cache_status;`
-
-    `}`  
-
+```text
+location /api {
+          proxy_cache my_cache;
+          proxy_buffering on;
+          proxy_cache_methods POST;
+          proxy_cache_key "$request_uri|$request_body";
+          proxy_ignore_headers Expires Cache-Control X-Accel-Expires;
+          proxy_cache_valid any 30m;
+          proxy_ignore_headers "Set-Cookie";
+         proxy_cache_use_stale error timeout updating http_500 http_502 http_503 http_504;
+         add_header X-Proxy-Cache $upstream_cache_status;
+    }
+```
 
 ## **Public Subnet**
 
