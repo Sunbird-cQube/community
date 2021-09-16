@@ -47,13 +47,17 @@ cp local_storage_config.yml.template local_storage_config.yml
 * Update the diksha parameters\(api\_url,token,encryption key,dataset name channel\_id,org\_id\) in the development/python/cQube-raw-data-fetch-parameters.txt
 * Give the following permission to the install.sh file
 
-  chmod u+x install.sh
+```text
+chmod u+x install.sh
+```
 
 * Install cQube using the non-root user with sudo privilege
 * Configuration filled in config.yml will be validated first. If there is any error during validation, you will be prompted with the appropriate error message and the installation will be aborted. Refer the error message and solve the errors appropriately, then re-run the installation script `sudo ./install.sh`
 * Start the installation by running install.sh shell script file as mentioned below:
 
-  `sudo ./install.sh`
+```text
+sudo ./install.sh
+```
 
 Once installation is completed without any errors, you will be prompted the following message. CQube installed successfully!!
 
