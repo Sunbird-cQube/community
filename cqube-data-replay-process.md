@@ -86,6 +86,8 @@ The complete workflow process will be like below.
 
 List of tables cleared for the data source
 
+
+
 | datasource | parameter | list of tables | function call |
 | :--- | :--- | :--- | :--- |
 | student\_attendance | month,year | student\_attendance\_meta,student\_attendance\_staging\_1,student\_attendance\_staging\_2,student\_attendance\_trans,school\_student\_total\_attedance | select del\_data\(p\_data\_source=&gt;'student\_attendance',p\_year=&gt;2022,VARIADIC p\_month=&gt;array\[1,2\]\); |
@@ -97,5 +99,5 @@ List of tables cleared for the data source
 | diksha\_summary\_rollup | from\_date,to\_date | diksha\_content\_staging,diksha\_content\_temp,diksha\_content\_trans,diksha\_total\_content | select diksha\_summary\_rollup\_del\_data\('diksh a\_summary\_rollup','2022-12-27','2022-1 2-31'\); |
 | infrastructure | all | infrastructure\_temp,infrastructure\_trans | select all\_del\_data\('infrastructure'\); |
 | static | all | block\_tmp,block\_mst,district\_tmp,district\_mst,cluster\_tmp,cluster\_mst,school\_master,school\_tmp,school\_hierarchy\_details,school\_geo\_master | select all\_del\_data\('static'\); |
-| udise | all | udise\_sch\_incen\_cwsn,udise\_nsqf\_plcmnt\_c12,udise\_sch\_enr\_reptr,udise\_nsqf\_basic\_info,udise\_sch\_incentives,udise\_nsqf\_trng\_prov,udise\_sch\_exmmarks\_c10,udise\_nsqf\_class\_cond,udise\_school\_metrics\_trans,udise\_sch\_exmmarks\_c12,udise\_sch\_pgi\_details,udise\_nsqf\_enr\_caste,udise\_sch\_enr\_age,udise\_sch\_exmres\_c10,udise\_sch\_profile,udise\_nsqf\_enr\_sub\_sec,udise\_sch\_enr\_by\_stream,udise\_sch\_exmres\_c12,udise\_sch\_recp\_exp,udise\_nsqf\_exmres\_c10,udise\_sch\_enr\_cwsn,udise\_sch\_exmres\_c5,udise\_sch\_safety,udise\_nsqf\_exmres\_c12,udise\_sch\_enr\_fresh,udise\_sch\_exmres\_c8,udise\_sch\_staff\_posn,udise\_nsqf\_faculty,udise\_sch\_enr\_medinstr,udise\_sch\_facility,udise\_tch\_profile,udise\_nsqf\_plcmnt\_c10,udise\_sch\_enr\_newadm | select all\_del\_data\('udise'\); |
+| udise | all | udise\_sch\_incen\_cwsn,udise\_nsqf\_plcmnt\_c12 udise\_sch\_enr\_reptr,udise\_nsqf\_basic\_info,udise\_sch\_incentives,udise\_nsqf\_trng\_prov,udise\_sch\_exmmarks\_c10, udise\_nsqf\_class\_cond,udise\_school\_metrics\_trans,udise\_sch\_exmmarks\_c12 udise\_sch\_pgi\_details,udise\_nsqf\_enr\_caste,  udise\_sch\_enr\_age,udise\_sch\_exmres\_c10,udise\_sch\_profile,udise\_nsqf\_enr\_sub\_sec,udise\_sch\_enr\_by\_stream, udise\_sch\_exmres\_c12,udise\_sch\_recp\_exp,udise\_nsqf\_exmres\_c10,udise\_sch\_enr\_cwsn,udise\_sch\_exmres\_c5,udise\_sch\_safety, udise\_nsqf\_exmres\_c12,udise\_sch\_enr\_fresh, udise\_sch\_exmres\_c8,udise\_sch\_staff\_posn,udise\_nsqf\_faculty,udise\_sch\_enr\_medinstr, udise\_sch\_facility,udise\_tch\_profile,udise\_nsqf\_plcmnt\_c10,udise\_sch\_enr\_newadm | select all\_del\_data\('udise'\); |
 

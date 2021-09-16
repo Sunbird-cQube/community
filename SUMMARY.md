@@ -20,6 +20,9 @@
 * [cQube data replay process](cqube-data-replay-process.md)
 * [Design Principles](design-principles.md)
 * [Ad-hoc analyst](ad-hoc-analyst.md)
+* [Troubleshooting Issues](troubleshooting-issues/README.md)
+  * [Data Processing-NIFI Issues](troubleshooting-issues/data-processing-nifi-issues.md)
+  * [Data Processing-PostgreSQL Issues](troubleshooting-issues/data-processing-postgresql-issues.md)
 * [Discussions](https://github.com/Sunbird-cQube/community/discussions)
 
 ## Release Notes
