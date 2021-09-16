@@ -84,7 +84,7 @@ server {
         }
 ```
 
-Below is the sample configuration \[for reference\] to add in nginx conf.
+Below is the sample configuration for reference to add in nginx conf.
 
 ```text
 location /api {
