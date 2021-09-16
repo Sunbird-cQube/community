@@ -2,6 +2,7 @@
 
 * [About cQube](README.md)
 * [Getting Started](getting-started.md)
+* [cQube Features](cqube-features.md)
 * [Prerequisites for Installation process](prerequisites-for-installation-process.md)
 * [Installation](installation.md)
 * [Discussions](https://github.com/Sunbird-cQube/community/discussions)
