@@ -142,8 +142,52 @@ The steps involved to create the public subnet
 
     security\_group:
 
-      - port 80, 443 inbound from private\_subnet  
+      - port 80, 443 inbound from private\_subnet
+
+## **AWS Load Balancer** 
+
+AWS load balancer is used in cQube to avoid the security risks and also to control the traffic among the servers to improve uptime and easily scale the cQube by adding or removing servers, with minimal disruption to cQube traffic flows. cQube is using the Classic Load Balancer
+
+**The steps involved to create the load balancer**
+
+1. Open the Amazon EC2 console at [https://console.aws.amazon.com/ec2/v2/home](https://console.aws.amazon.com/ec2/v2/home)
+2. On the navigation bar, choose a Region for your load balancer. Be sure to select the same Region that you selected for your EC2 instances.
+3. On the navigation pane, under LOAD BALANCING, choose Load Balancers.
+4. Choose Create Load Balancer.
+5. For Classic Load Balancer, choose Create.
+
+**The steps involved to configure the load balancer with EC2 instance**
+
+* On the Configure Health Check page, leave Ping Protocol set to HTTP and Ping Port set to 80.
+* For Ping Path, replace the default value with a single forward slash \("/"\). This tells Elastic Load Balancing to send health check queries to the default home page for your web server, such as index.html.
+* On the Add EC2 Instances page, select the Nginx instance to register with the load balancer.
+
+## **IAM user and Role creation for S3 connectivity**
+
+An AWS Identity and Access Management \(IAM\) user is an entity that you create in AWS to represent the person or application that uses it to interact with AWS. A user in AWS consists of a name and credentials. An IAM user with administrator permissions is not the same thing as the AWS account root user. ****To provide the connectivity between EC2 and S3 we need to create an IAM user with a supported role. The role should have the List, Read and Write permissions  
 
 
-\*\*\*\*
+We have multiple ways to create the IAM user account, But in cQube we created the IAM user from the AWS GUI by following the below points.
+
+**AWS S3:**
+
+    ****- create 3 buckets for input, output and emission
+
+    **IAM User:**
+
+   ****   - create an IAM user
+
+      - assign iam\_policy to user 
+
+      - download the aws access\_key and secret\_key
+
+    **IAM Policy:**
+
+      - create a policy from AWS IAM 
+
+      - provide access to list, read and write the object to s3 buckets
+
+  
+**Note:** By adding vpc endpoint to connect to s3 buckets, the data transmission between ec2 and s3 happens within aws network. This helps to increase the network speed by 15%.  
+
 
