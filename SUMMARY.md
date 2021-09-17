@@ -19,6 +19,7 @@
 * [Emission Process](emission-process-1.md)
 * [Data Validation after Ingestion](data-validation-after-ingestion.md)
 * [Admin Login Process](admin-login-process.md)
+* [Admin Features](admin-features.md)
 * [cQube data replay process](cqube-data-replay-process.md)
 * [Design Principles](design-principles.md)
 * [Ad-hoc analyst](ad-hoc-analyst.md)
