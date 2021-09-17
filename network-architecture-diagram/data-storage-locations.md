@@ -1,7 +1,5 @@
 # Data Storage Locations
 
-
-
 * S3 emission data Location: The data emitted from the state education system has to be
 
   stored until the NIFI reads the data. S3 emission storage buckets are the storage
