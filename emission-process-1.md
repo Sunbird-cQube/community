@@ -21,7 +21,7 @@
 * The API sends an acknowledgement on successful emission.
 * Create cqube\_emission directory and place the data files as shown in file structure below inside the cqube\_emission folder.
 
-#### Master Files
+#### Static Files
 
 ```text
 cqube_emission
@@ -79,7 +79,7 @@ cqube_emission
 │       └── periodic_exam_grade_details.csv
 ```
 
-#### Transactional Files
+#### Transaction Files
 
 ```text
 cqube_emission
@@ -110,11 +110,168 @@ cqube_emission
 │       └── semester_exam_result_trans.csv
 ```
 
-* For udise data file structure, please refer the operational document.
+**UDISE Files**
 
-
+```text
+├── udise
+│   └── sch_facility.zip
+│       └── sch_facility.csv
+├── udise
+│   └── nsqf_plcmnt_c12.zip
+│       └── nsqf_plcmnt_c12.csv
+├── udise
+│   └── nsqf_plcmnt_c10.zip
+│       └── nsqf_plcmnt_c10.csv
+├── udise
+│   └── nsqf_class_cond.zip
+│       └── nsqf_class_cond.csv
+├── udise
+│   └── sch_exmres_c12.zip
+│       └── sch_exmres_c12.csv
+├── udise
+│   └── sch_exmres_c10.zip
+│       └── sch_exmres_c10.csv
+├── udise
+│   └── sch_exmres_c5.zip
+│       └── sch_exmres_c5.csv
+├── udise
+│   └── sch_incen_cwsn.zip
+│       └── sch_incen_cwsn.csv
+├── udise
+│   └── sch_enr_by_stream.zip
+│       └── sch_enr_by_stream.csv
+├── udise
+│   └── sch_enr_cwsn.zip
+│       └── sch_enr_cwsn.csv
+├── udise
+│   └── sch_enr_medinstr.zip
+│       └── sch_enr_medinstr.csv
+├── udise
+│   └── sch_enr_age.zip
+│       └── sch_enr_age.csv
+├── udise
+│   └── sch_enr_newadm.zip
+│       └── sch_enr_newadm.csv
+├── udise
+│   └── sch_enr_reptr.zip
+│       └── sch_enr_reptr.csv
+├── udise
+│   └── sch_enr_fresh.zip
+│       └── sch_enr_fresh.csv
+├── udise
+│   └── sch_staff_posn.zip
+│       └── sch_staff_posn.csv
+├── udise
+│   └── sch_exmmarks_c10.zip
+│       └── sch_exmmarks_c10.csv
+├── udise
+│   └── sch_exmmarks_c12.zip
+│       └── sch_exmmarks_c12.csv
+├── udise
+│   └── nsqf_exmres_c10.zip
+│       └── nsqf_exmres_c10.csv
+├── udise
+│   └── nsqf_exmres_c12.zip
+│       └── nsqf_exmres_c12.csv
+├── udise
+│   └── nsqf_trng_prov.zip
+│       └── nsqf_trng_prov.csv
+├── udise
+│   └── nsqf_faculty.zip
+│       └── nsqf_faculty.csv
+├── udise
+│   └── sch_exmres_c8.zip
+│       └── sch_exmres_c8.csv
+├── udise
+│   └── sch_profile.zip
+│       └── sch_profile.csv
+├── udise
+│   └── tch_profile.zip
+│       └── tch_profile.csv
+├── udise
+│   └── sch_recp_exp.zip
+│       └── sch_recp_exp.csv
+├── udise
+│   └── nsqf_basic_info.zip
+│       └── nsqf_basic_info.csv
+├── udise
+│   └── nsqf_enr_caste.zip
+│       └── nsqf_enr_caste.csv
+├── udise
+│   └── nsqf_enr_sub_sec.zip
+│       └── nsqf_enr_sub_sec.csv
+├── udise
+│   └── sch_pgi_details.zip
+│       └── sch_pgi_details.csv
+├── udise
+│   └── sch_safety.zip
+│       └── sch_safety.csv
+├── udise
+│   └── sch_incentives.zip
+│       └── sch_incentives.csv
+```
 
 * The example spec for the emission API will be as like below
+
+### Emission file naming conventions & structure:
+
+* All the files should be in a CSV format with PIPE\("\|"\) separated.
+* The data files should be emitted individually in zip format.
+* The list of columns which have to be emitted for a data source are provided in the [file](https://docs.google.com/spreadsheets/d/16t_YpoKFkXK6NBrVZPgSbzdtM5GLptLC0ZKZmAMB1vg).
+* The header should be in the same order as described in the [file](https://docs.google.com/spreadsheets/d/16t_YpoKFkXK6NBrVZPgSbzdtM5GLptLC0ZKZmAMB1vg), for that respective data set.
+* Data emission overview of data flow can be viewed [here](https://docs.google.com/document/d/1wXWIf7MDEShmNxIq32NgwMGkWwYucMPNd-TaUpmLhIc/edit)
+* Below is the list of data sources used in various reports. 
+
+| Source Name | Used in report | cQube Data Source Name |
+| :--- | :--- | :--- |
+| District Master | All reports | district\_master |
+| Block Master | All reports | block\_master |
+| Cluster Master | All reports | cluster\_master |
+| School Master | All reports | school\_master |
+| CRC Inspection Master | CRC Report | inspection\_master |
+| CRC User Location Master | CRC Report | user\_location\_master |
+| Student Attendance | SAR Report | student\_attendance |
+| Infrastructure Master | Infrastructure Report | infra\_trans |
+| Semester | SEMESTER Report | semester |
+| Diksha | DIKSHA | diksha |
+| School Facility | UDISE | sch\_facility |
+| NSQF Class 12 Placement | UDISE | nsqf\_plcmnt\_c12 |
+| NSQF Class 10 Placement | UDISE | nsqf\_plcmnt\_c10 |
+| NSQF Class Condition | UDISE | nsqf\_class\_cond |
+| School Exam Result Class 12 | UDISE | sch\_exmres\_c12 |
+| School Exam Result Class 10 | UDISE | sch\_exmres\_c10 |
+| School Exam Result Class 5 | UDISE | sch\_exmres\_c5 |
+| School Incentives CWSN | UDISE | sch\_incen\_cwsn |
+| School Enrollment by stream | UDISE | sch\_enr\_by\_stream |
+| School Enrollment by CWSN | UDISE | sch\_enr\_cwsn |
+| School Enrollment by Medium of Instruction | UDISE | sch\_enr\_medinstr |
+| School Enrollment by Age | UDISE | sch\_enr\_age |
+| School Enrollment by Report | UDISE | sch\_enr\_reptr |
+| School Enrollment by Fresh | UDISE | sch\_enr\_fresh |
+| School Enrollment by New Admission | UDISE | sch\_enr\_newadm |
+| School staff position | UDISE | sch\_staff\_posn |
+| School Exam Class 10 marks  | UDISE | sch\_exmmarks\_c10 |
+| School Exam Class 12 marks  | UDISE | sch\_exmmarks\_c12 |
+| NSQF Exam Class 10 Results | UDISE | nsqf\_exmres\_c10 |
+| NSQF Exam Class 10 Results | UDISE | nsqf\_exmres\_c12 |
+| NSQF Training Provision | UDISE | nsqf\_trng\_prov |
+| NSQF Faculty | UDISE | nsqf\_faculty |
+| School Exam class 8 results | UDISE | sch\_exmres\_c8 |
+| School Profile | UDISE | sch\_profile |
+| Teacher Profile | UDISE | tch\_profile |
+| School Receipt Expenditure  | UDISE | sch\_recp\_exp |
+| NSQF Basic information | UDISE | nsqf\_basic\_info |
+| NSQF Enrollment by Caste | UDISE | nsqf\_enr\_caste |
+| NSQF Enrollment by Sub section | UDISE | nsqf\_enr\_sub\_sec |
+| School PGI Indicators | UDISE | sch\_pgi\_details |
+| School Safety | UDISE | sch\_safety |
+| School Incentives | UDISE | sch\_incentives |
+| Periodic Exam Master | Periodic Exams | periodic\_exam\_mst |
+| Periodic Exam Question Master | Periodic Exams | periodic\_exam\_qst\_mst |
+| Periodic Exam Results | Periodic Exams | periodic\_exam\_result\_trans |
+| Semester Exam Master | Semester Exams | semester\_exam\_mst |
+| Semester Exam Question Master | Semester Exams | semester\_exam\_qst\_mst |
+| Semester Exam Results | Semester Exams | semester\_exam\_result\_trans |
 
 **API headers** 
 
@@ -169,11 +326,18 @@ Request Body:
   * File location of the cqube\_emission directory where the files are placed as below. Example:`/home/ubuntu/cqube_emission/`
   * Emission End point i.e., emission\_url  Ex:`https://<cqube-domain>/data` Note: URL depends upon the server configured in firewall which includes SSL and reverse proxy location\)
 * After completing the configuration. Save and close the file.
+
+#### Emission order & instructions:
+
+* Static files as defined in above in this page need to be emitted first.
+* For the CRC report, the inspection\_master needs to be emitted prior to user\_location\_master to visualise the CRC reports.
+* For PAT \(Periodic assessment report\), periodic\_exam\_mst and periodic\_exam\_qst\_mst needs to be emitted prior to periodic\_exam\_result\_trans
+* school\_grade\_enrolment file can be emitted either as periodic\_exam\_grade\_details or semester\_exam\_grade\_details. The data will be updated to school\_grade\_enrolment and will be used in school\_hierarchy\_details. The count from school\_hierarchy details will be used in pat & sat reports. Before the sat & pat workflow the school\_grade\_enrolment needs to be emitted.
 * Execute the client.py file located in `cQube_Workflow/development/python/client/` directory, as mentioned below to emit the data files to s3\_emission bucket.
 
-  ```text
-  python3 client.py
-  ```
+```text
+python3 client.py
+```
 
 * Finally see the output in `https://<cqube_domain>/`
 

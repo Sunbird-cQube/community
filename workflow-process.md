@@ -1,6 +1,6 @@
 # Workflow process
 
-cQube workflow consists mainly two parts
+cQube workflow consists of mainly two parts
 
 1. Data emission
 2. Data processing
