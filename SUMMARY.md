@@ -29,5 +29,5 @@
 
 ## Release Notes
 
-* [V1.2](release-notes/v1.2.md)
+* [cQube - Release Notes V1.0](release-notes/v1.2.md)
 
