@@ -13,6 +13,7 @@
 * [Private Data Center - Network Architecture](use-getting-started/private-data-center-network-architecture.md)
 * [Security Implementations](use-getting-started/security-requirements.md)
 * [Prerequisites for Installation process](use-getting-started/prerequisites-for-installation-process.md)
+* [cQube Installation](use-getting-started/cqube-installation.md)
 * [Base Installation steps](use-getting-started/base-installation-steps.md)
 * [Base Upgradation steps](use-getting-started/base-upgradation-steps.md)
 * [Workflow Installation steps](use-getting-started/workflow-installation-steps.md)
@@ -30,6 +31,7 @@
   * [Data Processing-PostgreSQL Issues](use-getting-started/troubleshooting-issues/data-processing-postgresql-issues.md)
   * [Data Emission Issues](use-getting-started/troubleshooting-issues/data-emission-issues.md)
   * [Angular & Node Issues](use-getting-started/troubleshooting-issues/angular-and-node-issues.md)
+* [Acronyms](use-getting-started/acronyms.md)
 * [Discussions](https://github.com/Sunbird-cQube/community/discussions)
 
 ## Release Notes
