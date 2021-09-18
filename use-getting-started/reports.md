@@ -1,6 +1,6 @@
 # Reports
 
-cQube reports provide data-based insights in the field of education. These reports help cQube users to make appropriate decisions based on the insights. 
+cQube reports provide data-based insights in the field of education. These reports help cQube admins to make appropriate decisions based on the insights. 
 
 ### Landing page dashboard
 
