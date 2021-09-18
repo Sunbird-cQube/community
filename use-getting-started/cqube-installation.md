@@ -1,4 +1,4 @@
-# Setting up cQube
+# cQube Setup
 
 The cQube product can be installed in a two-step installation process. cQube installation package is divided into below 2 components 
 
