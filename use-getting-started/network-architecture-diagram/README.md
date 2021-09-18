@@ -9,7 +9,7 @@ The following steps define how the cQube setup and workflow is completed in AWS.
 
 The cQube network setup process is described in the block diagram below:
 
-![AWS - cQube network setup diagram ](../../.gitbook/assets/image%20%282%29.png)
+![AWS - cQube network setup diagram](https://lh4.googleusercontent.com/xZkyU-9oUYTjmVYDb7uLi5WVXl7t3Pf9okjTMWILPyl8r_e4YqJQnefgX-92LH2lMvxLWmq6ptaQ3ajB9cDbkur08cNnsL5vDZgIQUzQT_nZuwmM2KPZAIcsANSqsHJiyF3yjOl6=s0)
 
 * The Yellow arrows in the network diagram indicate the file upload users’ connectivity through the load balancer.
 * The Green arrow in the network diagram indicates the end user's connectivity through the load balancer.
