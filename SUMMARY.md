@@ -26,6 +26,7 @@
 * [cQube data replay process](use-getting-started/cqube-data-replay-process.md)
 * [S3 Partitioning](use-getting-started/design-principles.md)
 * [Ad-hoc analyst](use-getting-started/ad-hoc-analyst.md)
+* [Reports](use-getting-started/reports.md)
 * [Troubleshooting Issues](use-getting-started/troubleshooting-issues/README.md)
   * [Data Processing-NIFI Issues](use-getting-started/troubleshooting-issues/data-processing-nifi-issues.md)
   * [Data Processing-PostgreSQL Issues](use-getting-started/troubleshooting-issues/data-processing-postgresql-issues.md)
