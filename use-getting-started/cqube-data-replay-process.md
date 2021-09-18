@@ -80,7 +80,7 @@ Data reprocessing will take place in the normal cQube emission process.
 
 The complete workflow process will be like below.
 
-![Workflow Process](.gitbook/assets/image%20%286%29.png)
+![Workflow Process](../.gitbook/assets/image%20%286%29.png)
 
 
 
