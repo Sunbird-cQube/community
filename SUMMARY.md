@@ -20,6 +20,7 @@
 * [Workflow Upgradation steps](use-getting-started/workflow-upgradation-steps.md)
 * [Workflow process](use-getting-started/workflow-process.md)
 * [Emission Process](use-getting-started/emission-process-1.md)
+* [cQube ER Diagrams](use-getting-started/cqube-er-diagrams.md)
 * [Data Validation after Ingestion](use-getting-started/data-validation-after-ingestion.md)
 * [Admin Login Process](use-getting-started/admin-login-process.md)
 * [Admin Features](use-getting-started/admin-features.md)
