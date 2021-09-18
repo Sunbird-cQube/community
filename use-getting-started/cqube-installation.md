@@ -69,8 +69,6 @@ As of now there are a total of 12 processor groups available in cQube.
 
 Keycloak will allow single sign-on with Identity and Access Management services to cQube. Keycloak will be configured to cQube at the time of installation in the execution process of install.sh command. If two factor authentication is set up the below screen would appear after first time login for all the users. Users need to set up two factor authentication for the first time from his/her mobile using the Google authenticator.
 
-Figure : QR code registration for 2 factor authentication ![](https://lh6.googleusercontent.com/rbRWqEk6wtxadP678tTHE43-hQdOwa98ta1v4wzoH_nZpbyaHurJ3E7-ud4JtkIfh3M_T7Il-hUOzBxiM4g23SzIdhQ5D3jhepe4QsmjmEGWtZwyUeDHQ73EukQFoZMZPACC2AcF=s0)
-
   Below are steps:
 
 * Download Google Authenticator app into your mobile.
@@ -81,8 +79,7 @@ Figure : QR code registration for 2 factor authentication ![](https://lh6.google
 
 Session time should be mentioned in the config.yml File during the installation / Upgradation. 
 
-The default time for the session expiry would be 7 days. Users have the facility to decrease the session out time to a minimum of 30 minutes and maximum of 3650 days.  
-
+The default time for the session expiry would be 7 days. Users have the facility to decrease the session out time to a minimum of 30 minutes and maximum of 3650 days.
 
 Minutes should be mentioned as ‘M’ and Days mention ‘D’. 
 
@@ -102,68 +99,50 @@ The Nifi configuration process allows us to change the query parameters before t
 * The Query results should be affected on UI Reports.
 * Below are a few examples to add or remove filters & apply functions to the query.
 
-Example:  
+Example:
 
+1. Adding a filter to the existing query for the static processor
 
-1. Adding a filter to the existing query for the static processor  
-
-
-By default the static\_get\_invalid\_names parameter in static\_data\_parameters.txt would be  
-
+By default the static\_get\_invalid\_names parameter in static\_data\_parameters.txt would be
 
 The Original Query:
 
-"static\_get\_invalid\_names":'''select school\_id,school\_name,block\_id,district\_id,cluster\_id from school\_hierarchy\_details where cluster\_name is null or block\_name is null or district\_name is null  
-
+"static\_get\_invalid\_names":'''select school\_id,school\_name,block\_id,district\_id,cluster\_id from school\_hierarchy\_details where cluster\_name is null or block\_name is null or district\_name is null
 
 The Updated Query:
 
-"static\_get\_invalid\_names":'''select school\_id,school\_name,block\_id,district\_id,cluster\_id from school\_hierarchy\_details where cluster\_name is null or block\_name is null or district\_name is null or school\_name is null''',  
+"static\_get\_invalid\_names":'''select school\_id,school\_name,block\_id,district\_id,cluster\_id from school\_hierarchy\_details where cluster\_name is null or block\_name is null or district\_name is null or school\_name is null''',
 
-
-Output: By adding the additional filter to not allow the school\_name with null records into cQube reports.  
-
+Output: By adding the additional filter to not allow the school\_name with null records into cQube reports.
 
 2. Updating infra parameter based on active infrastructure attributes
 
-By default the infra\_normalize parameter in infra\_parameters.txt would be  
+By default the infra\_normalize parameter in infra\_parameters.txt would be
 
+The Original Query parameter:
 
-The Original Query parameter:  
-
-
-"infra\_normalize":'''select school\_id ,
-
-case when HaveDrinkingWater &lt;&gt;1 then 0 else 1 end as drinking\_water,
-
+```text
+"infra_normalize":'''select school_id ,
+case when HaveDrinkingWater <>1 then 0 else 1 end as drinking_water,
 case when NoOfToilet=0 or NoOfToilet is null then 0 else 1 end as toilet,
+case when HaveCWSNToilet <>1 then 0 else 1 end as cwsn_toilet,
+case when HaveElectricity <>1 then 0 else 1 end as electricity,
+case when HaveCCTV <>1 then 0 else 1 end as cctv,
+case when HaveLibrary <>1 then 0 else 1 end as library from flowfile'''
+```
 
-case when HaveCWSNToilet &lt;&gt;1 then 0 else 1 end as cwsn\_toilet,
+The above query parameter can be changed according to the data fields activated by the state.
 
-case when HaveElectricity &lt;&gt;1 then 0 else 1 end as electricity,
+If only three of the fields choose to be activated by the state the query needs to be updated as below.
 
-case when HaveCCTV &lt;&gt;1 then 0 else 1 end as cctv,
+The Updated Query parameter:
 
-case when HaveLibrary &lt;&gt;1 then 0 else 1 end as library from flowfile'''  
-
-
-The above query parameter can be changed according to the data fields activated by the state.  
-
-
-If only three of the fields choose to be activated by the state the query needs to be updated as below.  
-
-
-The Updated Query parameter:  
-
-
-"infra\_normalize":'''select school\_id ,
-
+```text
+"infra_normalize":'''select school_id ,
 case when NoOfToilet =0 then 0 else 1 end as toilet,
-
-case when HaveElectricity&lt;&gt;1 then 0 else 1 end as electricity,
-
-case when solarpanel\_yn=TRUE then 1 else 0 end as solar\_panel from flowfile'''  
-
+case when HaveElectricity<>1 then 0 else 1 end as electricity,
+case when solarpanel_yn=TRUE then 1 else 0 end as solar_panel from flowfile'''
+```
 
 We need to update the query in the infrastructure configuration file i.e., infra\_parameters.txt file after that the installation process can be started. This will map with the infrastructure input data with the cQube database tables.
 
@@ -178,14 +157,12 @@ Below Steps will be performed to implement the database configuration stage:
 * The case statement needs to be updated in the infrastructure configuration file [infra\_parameters.txt](https://github.com/project-sunbird/cQube/blob/release-1.8/development/python/infra_parameters.txt) file by updating the parameter: infra\_normalize.
 * From the below table the infra\_normalize parameter will look like :
 
-"infra\_normalize":'''select school\_id ,
-
+```text
+"infra_normalize":'''select school_id ,
 case when NoOfToilet =0 then 0 else 1 end as toilet,
-
-case when HaveElectricity&lt;&gt;1 then 0 else 1 end as electricity,
-
-case when solarpanel\_yn=TRUE then 1 else 0 end as solar\_panel from flowfile''',  
-
+case when HaveElectricity<>1 then 0 else 1 end as electricity,
+case when solarpanel_yn=TRUE then 1 else 0 end as solar_panel from flowfile''',
+```
 
 * Example table :
 
@@ -354,7 +331,7 @@ Note :-
 4. While opening [udise\_config.csv](https://github.com/project-sunbird/cQube/blob/release-1.5/development/postgres/udise_config.csv) file in excel , please use ‘\|’ as a delimiter.
 5. For newly created metrics/indices the field metric\_config is updated as value 'created' in udise\_config.csv file to differentiate the existing static metrics/ indices with newly created metrics/indices
 
-The indices,metrics normalization and  calculations will happen as in the below example.
+The indices,metrics normalisation and  calculations will happen as in the below example.
 
 If a state selected community participation and medical index indices and their metrics as below
 
