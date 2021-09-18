@@ -1,7 +1,6 @@
 # Table of contents
 
 * [About cQube](README.md)
-* [Getting Started](getting-started.md)
 * [cQube Features](cqube-features.md)
 * [Software Requirements](software-requirements.md)
 * [cQube Software Architecture](cqube-software-architecture.md)

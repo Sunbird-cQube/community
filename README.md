@@ -1,6 +1,4 @@
 # About cQube
 
-cQube is a solution that provides states the ability to see their existing education data in an integrated manner to gain insights and drive action promptly.
-
-This solution has been developed using only open source technologies. It provides user level based access control for state and district level accesses. This system can be used both in a small scale as well as in a large scale for monitoring schools. It can provide insights on school teachers and students across the country as well as across any region. This analytics tool can ingest data, process and clean up data, and automatically create actionable insights for the state education board.
+cQube is an open-source platform for creating data-based insights in the field of education. It is a solution that provides states the ability to see their existing education data in an integrated manner to gain insights and drive action promptly. It provides flexibility, scalability and ease of use in creating dashboards for actionable insights while also enabling adhoc analysts to create customised insights. It is built modularly on top of mature open source tools providing for extensibility and further customisation.
 
