@@ -21,7 +21,7 @@
 * If you are opting for storage\_type as local. Copy the local\_storage\_upgradation\_config.yml.template to local\_storage\_upgradation\_config.yml 
 
   ```text
-  cp local_storage_upgradation_upgradation_config.yml.template local_storage_upgradation_config.yml
+  cp local_storage_upgradation_config.yml.template local_storage_upgradation_config.yml
   ```
 
 * This script will update the below cQube components:
