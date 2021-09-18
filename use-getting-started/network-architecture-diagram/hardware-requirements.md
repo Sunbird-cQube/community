@@ -9,7 +9,7 @@ The below table describes the Infrastructure details to install the cQube\_Base 
 |  | [OpenVPN](https://aws.amazon.com/blogs/awsmarketplace/setting-up-openvpn-access-server-in-amazon-vpc/) Access Server \( EC2 instance CPU - 1 Core RAM - 2 GB,Storage - 10 GB\) | VPN admin Operations |
 |  | NGINX Reverse proxy\(EC2 instance CPU - 2 Core RAM - 4 GB Storage - 30 GB\) | NGINX configuration skills |
 |  | NAT gateway | AWS NAT gateway |
-|  | Ubuntu 18.04 | Will be taken care while creating EC2 instance |
+|  | Ubuntu 18.04 server | Will be taken care while creating EC2 instance |
 |  | Java jdk 1.8 | Will be installed through One-Step cQube\_Base Installation |
 |  | Python 3 | Will be installed through One-Step cQube\_Base Installation |
 |  | NIFI 1.12.1 | Will be installed through One-Step cQube\_Base Installation |

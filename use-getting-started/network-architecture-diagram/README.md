@@ -1,7 +1,6 @@
 # AWS - Network Architecture
 
-The following steps define how the cQube setup and workflow is completed in AWS. cQube mainly consists of the areas mentioned below:  
-
+The following steps define how the cQube setup and workflow is completed in AWS. cQube mainly consists of the areas mentioned below:
 
 1. Private Subnet
 2. Public Subnet
@@ -18,11 +17,7 @@ The cQube network setup process is described in the block diagram below:
 
 ## **Private Subnet**
 
-Private subnet is used to secure the cQube server from public access. The instance will not be having the public ip. An EC2 instance will be created in a private subnet and all cQube components will be installed in this.  
-****
-
-**Note:** For the concurrent users  between 100 to1000, The recommended Nginx machine type  would be 'm' or 'c' series 2 core machine to use. And need to increase the machine size according to the concurrent users traffic.  
-****
+Private subnet is used to secure the cQube server from public access. The instance will not be having the public ip. An EC2 instance will be created in a private subnet and all cQube components will be installed in this.
 
 The steps involved to create EC2 instance in private subnet
 
@@ -62,15 +57,15 @@ The steps involved to create EC2 instance in private subnet
 
 **Security Group:**
 
-   ****   - port 80, 443 inbound from 0.0.0.0/0  
+   ****   - port 80, 443 inbound from 0.0.0.0/0
 
+**Note:** For the concurrent users  between 100 to1000, The recommended Nginx machine type  would be 'm' or 'c' series 2 core machine to use. And need to increase the machine size according to the concurrent users traffic.
 
 ## **User Actions in creation of Nginx**
 
-**Addition of Gzipping to the UI -** Have to enable the compression in the proxy server for the content type 'application/javascript' and 'text/css'.  
-****
+**Addition of G zipping to the UI -** Have to enable the compression in the proxy server for the content type 'application/javascript' and 'text/css'.
 
-Below is the sample configuration \[for reference\] to add in nginx conf. 
+Below is the sample configuration for reference to add in nginx conf. 
 
 ```text
 server {
@@ -99,7 +94,7 @@ location /api {
 
 ## **Public Subnet**
 
-Public subnet will contain two EC2 instances, one is for OpenVPN and another is for Nginx, which will act as a reverse proxy. It is used to provide connectivity with the private subnet.
+Public subnet will contain two EC2 instances, one is for OpenVPN and another is for nginx, which will act as a reverse proxy. It is used to provide connectivity with the private subnet.
 
 The steps involved to create the public subnet
 
@@ -115,7 +110,7 @@ The steps involved to create the public subnet
 
     security\_group:
 
-      - port 22 inbound to 1 public ip \(admin's\)
+      - port 22 inbound to 1 public IP \(admin's\)
 
 **EC2:** Nginx server
 
@@ -143,7 +138,7 @@ The steps involved to create the public subnet
 
 ## **AWS Load Balancer** 
 
-AWS load balancer is used in cQube to avoid the security risks and also to control the traffic among the servers to improve uptime and easily scale the cQube by adding or removing servers, with minimal disruption to cQube traffic flows. cQube is using the Classic Load Balancer
+AWS load balancer is used in cQube to avoid the security risks and also to control the traffic among the servers to improve up-time and easily scale the cQube by adding or removing servers, with minimal disruption to cQube traffic flows. cQube is using the Application Load Balancer
 
 **The steps involved to create the load balancer**
 
@@ -151,7 +146,7 @@ AWS load balancer is used in cQube to avoid the security risks and also to contr
 2. On the navigation bar, choose a Region for your load balancer. Be sure to select the same Region that you selected for your EC2 instances.
 3. On the navigation pane, under LOAD BALANCING, choose Load Balancers.
 4. Choose Create Load Balancer.
-5. For Classic Load Balancer, choose Create.
+5. For Application Load Balancer, choose Create.
 
 **The steps involved to configure the load balancer with EC2 instance**
 
@@ -161,8 +156,7 @@ AWS load balancer is used in cQube to avoid the security risks and also to contr
 
 ## **IAM user and Role creation for S3 connectivity**
 
-An AWS Identity and Access Management \(IAM\) user is an entity that you create in AWS to represent the person or application that uses it to interact with AWS. A user in AWS consists of a name and credentials. An IAM user with administrator permissions is not the same thing as the AWS account root user. ****To provide the connectivity between EC2 and S3 we need to create an IAM user with a supported role. The role should have the List, Read and Write permissions  
-
+An AWS Identity and Access Management \(IAM\) user is an entity that you create in AWS to represent the person or application that uses it to interact with AWS. A user in AWS consists of a name and credentials. An IAM user with administrator permissions is not the same thing as the AWS account root user. ****To provide the connectivity between EC2 and S3 we need to create an IAM user with a supported role. The role should have the List, Read and Write permissions
 
 We have multiple ways to create the IAM user account, But in cQube we created the IAM user from the AWS GUI by following the below points.
 
