@@ -2,8 +2,6 @@
 
 The following is a list of acronyms which will be used throughout this document:
 
-        Table – 1: Acronyms
-
 | Acronym | Description |
 | :--- | :--- |
 | S3 | Simple Storage Service |
