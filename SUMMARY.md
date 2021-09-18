@@ -13,7 +13,7 @@
 * [Private Data Center - Network Architecture](use-getting-started/private-data-center-network-architecture.md)
 * [Security Implementations](use-getting-started/security-requirements.md)
 * [Prerequisites for Installation process](use-getting-started/prerequisites-for-installation-process.md)
-* [cQube Setup](use-getting-started/cqube-installation.md)
+* [cQube Setup & configuration](use-getting-started/cqube-installation.md)
 * [Base Installation steps](use-getting-started/base-installation-steps.md)
 * [Base Upgradation steps](use-getting-started/base-upgradation-steps.md)
 * [Workflow Installation steps](use-getting-started/workflow-installation-steps.md)
