@@ -1,4 +1,4 @@
-# Design Principles
+# S3 Partitioning
 
 ## S3 bucket partitioning
 

@@ -24,7 +24,7 @@
 * [Admin Login Process](use-getting-started/admin-login-process.md)
 * [Admin Features](use-getting-started/admin-features.md)
 * [cQube data replay process](use-getting-started/cqube-data-replay-process.md)
-* [Design Principles](use-getting-started/design-principles.md)
+* [S3 Partitioning](use-getting-started/design-principles.md)
 * [Ad-hoc analyst](use-getting-started/ad-hoc-analyst.md)
 * [Troubleshooting Issues](use-getting-started/troubleshooting-issues/README.md)
   * [Data Processing-NIFI Issues](use-getting-started/troubleshooting-issues/data-processing-nifi-issues.md)
