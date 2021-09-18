@@ -51,5 +51,5 @@
 
 Configuration filled in upgradation\_config.yml will be validated first. If there is any error during validation, you will be prompted with the appropriate error message and the upgradation will be aborted. Refer the error message and solve the errors appropriately. Restart the upgradation process `sudo ./upgrade.sh`
 
-Once upgradation is completed without any errors, you will be prompted the following message. CQube upgraded successfully!!
+Once upgradation is completed without any errors, you will be prompted the following message. **cQube upgraded successfully!!**
 
