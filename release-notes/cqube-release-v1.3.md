@@ -2,7 +2,7 @@
 description: 'Release Version 1.3, 11 September 2020'
 ---
 
-# cQube - Release V1.3
+# cQube - Release Notes V1.3
 
 **1.**           **Objectives of the cQube release 1.3**
 
