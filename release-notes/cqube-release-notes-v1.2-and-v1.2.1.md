@@ -2,7 +2,7 @@
 description: 'Release Version 1.2,  20 August 2020. Release Version 1.2.1, 26 August 2020'
 ---
 
-# cQube - Release Notes V1.2 and V1.2.1
+# cQube - Release Notes V 1.2 and V 1.2.1
 
 **1.**           **Objectives of the cQube release 1.2 and release 1.2.1**
 
