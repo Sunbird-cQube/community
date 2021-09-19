@@ -1,10 +1,10 @@
 ---
-description: 'Release Version 1.2,  20 August 2020. Release Version 1.2.1, 26 August 2020'
+description: 'Release Version 1.2 - 20 August 2020, Version 1.2.1 - 26 August 2020'
 ---
 
 # cQube - Release Notes V 1.2 and V 1.2.1
 
-**1.**           **Objectives of the cQube release 1.2 and release 1.2.1**
+ **1.**           **Objectives of the cQube release 1.2 and release 1.2.1**
 
 cQube release version 1.2 and version 1.2.1, as an upgrade to the cQube release 1.1 updated with a new reporting feature using diksha data, telemetry visualization, semester exception and Process configurations, Two factor authentication.
 
