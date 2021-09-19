@@ -1,6 +1,6 @@
 # cQube Features
 
-### Actionable Insights for the state education system using the daily data with the following advantages:
+### cQube provides actionable Insights to the state education system with the daily data and has the following advantages:
 
 * Integration with other platforms – Automated data sharing, enhanced existing reports by adding multiple sources. 
 * Consistent measurement of outcomes for government initiatives - budget allocation, prioritization.
