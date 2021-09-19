@@ -44,5 +44,5 @@
 * [cQube - Release Notes V 1.3](release-notes/cqube-release-v1.3.md)
 * [cQube - Release Notes V 1.2 and V 1.2.1](release-notes/cqube-release-notes-v1.2-and-v1.2.1.md)
 * [cQube - Release Notes V 1.1](release-notes/cqube-release-notes-v1.1.md)
-* [cQube - Release Notes V1.0](release-notes/cqubeversion-1.0.md)
+* [cQube - Release Notes V 1.0](release-notes/cqubeversion-1.0.md)
 

@@ -2,7 +2,7 @@
 description: 'Release Version 1.0,  June 2020'
 ---
 
-# cQube - Release Notes V1.0
+# cQube - Release Notes V 1.0
 
 1. **Objectives of the cQube release 1.0**
 
