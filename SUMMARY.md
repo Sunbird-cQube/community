@@ -38,6 +38,7 @@
 
 ## cQube Release Notes <a id="release-notes"></a>
 
+* [cQube - Release Notes V1.2 and V1.2.1](release-notes/cqube-release-notes-v1.2-and-v1.2.1.md)
 * [cQube - Release Notes V1.1](release-notes/cqube-release-notes-v1.1.md)
 
 ---
