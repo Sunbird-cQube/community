@@ -38,6 +38,7 @@
 
 ## cQube Release Notes <a id="release-notes"></a>
 
+* [cQube - Release V 1.8 and V 1.8.1](release-notes/cqube-release-v-1.8-and-v-1.8.1.md)
 * [cQube - Release Notes V 1.7](release-notes/cqube-release-notes-v-1.7.md)
 * [cQube - Release Notes V 1.6 and V 1.6.1](release-notes/cqube-release-notes-v-1.6.md)
 * [cQube - Release Notes V 1.5](release-notes/cqube-release-notes-v-1.5.md)
