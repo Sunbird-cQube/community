@@ -36,7 +36,8 @@
 * [Acronyms](use-getting-started/acronyms.md)
 * [Discussions](https://github.com/Sunbird-cQube/community/discussions)
 
-## Release Notes
+## cQube Release Notes <a id="release-notes"></a>
 
+* [cQube Release Notes V1.1](release-notes/cqube-release-notes-v1.1.md)
 * [cQube - Release Notes V1.0](release-notes/v1.2.md)
 
