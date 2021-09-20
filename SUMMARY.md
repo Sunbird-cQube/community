@@ -1,6 +1,7 @@
 # Table of contents
 
-* [About cQube](README.md)
+* [cQube Summary](README.md)
+* [About cQube](about-cqube.md)
 * [cQube Features](cqube-features.md)
 
 ## USE: GETTING STARTED
