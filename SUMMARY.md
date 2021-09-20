@@ -10,7 +10,6 @@
 * [AWS - Network Architecture](use-getting-started/network-architecture-diagram/README.md)
   * [Hardware requirements](use-getting-started/network-architecture-diagram/hardware-requirements.md)
   * [Data Storage Locations](use-getting-started/network-architecture-diagram/data-storage-locations.md)
-* [Private Data Center - Network Architecture](use-getting-started/private-data-center-network-architecture.md)
 * [Security Implementations](use-getting-started/security-requirements.md)
 * [Prerequisites for Installation process](use-getting-started/prerequisites-for-installation-process.md)
 * [cQube Setup & configuration](use-getting-started/cqube-installation.md)
