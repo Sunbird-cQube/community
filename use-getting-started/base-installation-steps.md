@@ -67,7 +67,7 @@
 
 - Install cQube using the non-root user with sudo privilege
 
-- Configuration filled in config.yml will be validated first. If there is any error during validation, you will be prompted with the appropriate error message and the installation will be aborted. Refer the error message and solve the errors appropriately, then re-run the installation script sudo ./install.sh
+- Configuration filled in config.yml will be validated first. If there is any error during validation, you will be prompted with the appropriate error message and the installation will be aborted. Refer the error message and solve the errors appropriately, then re-run the installation script ```sudo ./install.sh```
 
 - Start the installation by running install.sh shell script file as mentioned below:
 
@@ -75,4 +75,4 @@
   sudo ./install.sh
   ```
 
-Once installation is completed without any errors, you will be prompted the following message. CQube installed successfully!!
+Once installation is completed without any errors, you will be prompted the following message. **CQube installed successfully!!**
