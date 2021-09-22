@@ -37,7 +37,7 @@
   * Installs Ansible
   * Installs Openjdk
   * Installs Python, pip and flask
-  * Installs Postgresql
+  * Installs PostgreSQL
   * Installs NodeJS
   * Installs Angular and Chart JS
   * Installs Apache Nifi
@@ -46,7 +46,7 @@
   * Installs Prometheus and node exporter
 * Save and Close the file
 
-### Configuration of infrastructure attributes and udise data indices, metrics:
+### Configuration of infrastructure attributes and UDISE data indices, metrics:
 
 * Based on the number of infrastructure attributes required by the state, configure the infrastructure report by filling the required fields in the file infrastructure\_master.csv:
 * To edit below mentioned infrastructure details
