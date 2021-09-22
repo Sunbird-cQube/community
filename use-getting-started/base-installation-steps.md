@@ -11,7 +11,7 @@
   ```
   cp config.yml.template config.yml
   ```
-- Edit using nano config.yml
+- Edit using ```nano config.yml```
 - If you are opting for storage_type as s3. Copy the aws_s3_config.yml.template to aws_s3_config.yml 
   ```
   cp aws_s3_config.yml.template aws_s3_config.yml
