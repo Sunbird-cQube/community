@@ -1,10 +1,10 @@
 # Emission Process
 
-### Emission flow diagram
+## Emission flow diagram
 
 ![](../.gitbook/assets/image%20%281%29%20%281%29.png)
 
-### Uploading data to S3 Emission bucket:
+## Uploading data to S3 Emission bucket:
 
 * Data from the state education system will be emitted into the S3 emission data folder using the cQube data emission API.
 * The data emission will happen from the data source location. 
@@ -21,7 +21,7 @@
 * The API sends an acknowledgement on successful emission.
 * Create cqube\_emission directory and place the data files as shown in file structure below inside the cqube\_emission folder.
 
-#### Static Files
+### Static Files
 
 ```text
 cqube_emission
@@ -79,7 +79,7 @@ cqube_emission
 │       └── periodic_exam_grade_details.csv
 ```
 
-#### Transaction Files
+### Transaction Files
 
 ```text
 cqube_emission
@@ -213,7 +213,7 @@ cqube_emission
 
 * The example spec for the emission API will be as like below
 
-### Emission file naming conventions & structure:
+## Emission file naming conventions & structure:
 
 * All the files should be in a CSV format with PIPE\("\|"\) separated.
 * The data files should be emitted individually in zip format.
@@ -250,8 +250,8 @@ cqube_emission
 | School Enrollment by Fresh | UDISE | sch\_enr\_fresh |
 | School Enrollment by New Admission | UDISE | sch\_enr\_newadm |
 | School staff position | UDISE | sch\_staff\_posn |
-| School Exam Class 10 marks  | UDISE | sch\_exmmarks\_c10 |
-| School Exam Class 12 marks  | UDISE | sch\_exmmarks\_c12 |
+| School Exam Class 10 marks | UDISE | sch\_exmmarks\_c10 |
+| School Exam Class 12 marks | UDISE | sch\_exmmarks\_c12 |
 | NSQF Exam Class 10 Results | UDISE | nsqf\_exmres\_c10 |
 | NSQF Exam Class 10 Results | UDISE | nsqf\_exmres\_c12 |
 | NSQF Training Provision | UDISE | nsqf\_trng\_prov |
@@ -259,7 +259,7 @@ cqube_emission
 | School Exam class 8 results | UDISE | sch\_exmres\_c8 |
 | School Profile | UDISE | sch\_profile |
 | Teacher Profile | UDISE | tch\_profile |
-| School Receipt Expenditure  | UDISE | sch\_recp\_exp |
+| School Receipt Expenditure | UDISE | sch\_recp\_exp |
 | NSQF Basic information | UDISE | nsqf\_basic\_info |
 | NSQF Enrollment by Caste | UDISE | nsqf\_enr\_caste |
 | NSQF Enrollment by Sub section | UDISE | nsqf\_enr\_sub\_sec |
@@ -273,7 +273,7 @@ cqube_emission
 | Semester Exam Question Master | Semester Exams | semester\_exam\_qst\_mst |
 | Semester Exam Results | Semester Exams | semester\_exam\_result\_trans |
 
-**API headers** 
+**API headers**
 
 ```text
 {
@@ -284,9 +284,9 @@ cqube_emission
 
 **List Buckets Endpoint**
 
-GET https://cqube.tibilprojects.com/data/list\_s3\_buckets
+GET [https://cqube.tibilprojects.com/data/list\_s3\_buckets](https://cqube.tibilprojects.com/data/list_s3_buckets)
 
-Sample Output: 
+Sample Output:
 
 ```text
 {
@@ -298,9 +298,9 @@ Sample Output:
 
 **List S3 Files Endpoint**
 
-POST https://cqube.tibilprojects.com/data/list\_s3\_files
+POST [https://cqube.tibilprojects.com/data/list\_s3\_files](https://cqube.tibilprojects.com/data/list_s3_files)
 
-Request Body: 
+Request Body:
 
 ```text
 {
@@ -310,9 +310,9 @@ Request Body:
 
 **S3 Presigned Download Endpoint**
 
-POST https://cqube.tibilprojects.com/data/download\_uri
+POST [https://cqube.tibilprojects.com/data/download\_uri](https://cqube.tibilprojects.com/data/download_uri)
 
-Request Body: 
+Request Body:
 
 ```text
 {
@@ -327,7 +327,7 @@ Request Body:
   * Emission End point i.e., emission\_url  Ex:`https://<cqube-domain>/data` Note: URL depends upon the server configured in firewall which includes SSL and reverse proxy location\)
 * After completing the configuration. Save and close the file.
 
-#### Emission order & instructions:
+### Emission order & instructions:
 
 * Static files as defined in above in this page need to be emitted first.
 * For the CRC report, the inspection\_master needs to be emitted prior to user\_location\_master to visualise the CRC reports.

@@ -15,20 +15,20 @@
   * education\_usecase
   * education\_usecase\_theme2
 
-      **If user opting for education\_usecase open the education\_usecase folder**
+    **If user opting for education\_usecase open the education\_usecase folder**
 
-* Copy the config.yml.template to config.yml 
+* Copy the config.yml.template to config.yml
 
   ```text
   cp config.yml.template config.yml
   ```
 
 * Edit using `nano config.yml`
-* Enable datasources as true or false in datasource.yml and datasource\_validation.sh, in datasource\_validation.sh  an array of mandatory values should be same as datasource.yml file values. 
+* Enable datasources as true or false in datasource.yml and datasource\_validation.sh, in datasource\_validation.sh an array of mandatory values should be same as datasource.yml file values.
 
   **If user opting for educational\_usecase open the educational\_usecase\_theme2 folder**
 
-* Copy the config.yml.template to config.yml 
+* Copy the config.yml.template to config.yml
 
   ```text
   cp config.yml.template config.yml

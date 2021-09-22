@@ -56,7 +56,7 @@
   ```
 
 * Save and Close the file
-* Based on the number of udise attributes required by the state, configure the udise\_config.csv file by filling the required fields in the file udise\_config.csv:
+* Based on the number of UDISE attributes required by the state, configure the udise\_config.csv file by filling the required fields in the file udise\_config.csv:
 * To edit below mentioned UDISE details
 
   ```text
