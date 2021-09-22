@@ -15,7 +15,7 @@
   * education\_usecase
   * education\_usecase\_theme2
 
-    **if user opting for education\_usecase open the education\_usecase folder**
+      **If user opting for education\_usecase open the education\_usecase folder**
 
 * Copy the config.yml.template to config.yml 
 
@@ -26,7 +26,7 @@
 * Edit using `nano config.yml`
 * Enable datasources as true or false in datasource.yml and datasource\_validation.sh, in datasource\_validation.sh  an array of mandatory values should be same as datasource.yml file values. 
 
-  **if user opting for educational\_usecase open the educational\_usecase\_theme2 folder**
+  **If user opting for educational\_usecase open the educational\_usecase\_theme2 folder**
 
 * Copy the config.yml.template to config.yml 
 
