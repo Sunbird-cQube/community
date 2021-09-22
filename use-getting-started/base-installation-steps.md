@@ -5,28 +5,28 @@
 ## cQube\_Base Installation:
 
 * open Terminal
-* Navigate to the directory where cQube\_Base has been downloaded or cloned 
+* Navigate to the directory where cQube\_Base has been downloaded or cloned
 
   ```text
   cd cQube_Base/
   git checkout release-3.1
   ```
 
-* Copy the config.yml.template to config.yml 
+* Copy the config.yml.template to config.yml
 
   ```text
   cp config.yml.template config.yml
   ```
 
 * Edit using `nano config.yml`
-* If you are opting for storage\_type as s3. Copy the aws\_s3\_config.yml.template to aws\_s3\_config.yml 
+* If you are opting for storage\_type as s3. Copy the aws\_s3\_config.yml.template to aws\_s3\_config.yml
 
   ```text
   cp aws_s3_config.yml.template aws_s3_config.yml
   ```
 
 * Edit using `nano aws_s3_config.yml`
-* If you are opting for storage\_type as local. Copy the local\_storage\_config.yml.template to local\_storage\_config.yml 
+* If you are opting for storage\_type as local. Copy the local\_storage\_config.yml.template to local\_storage\_config.yml
 
   ```text
   cp local_storage_config.yml.template local_storage_config.yml
