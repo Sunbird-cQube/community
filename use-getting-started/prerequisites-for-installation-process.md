@@ -19,14 +19,14 @@
 
 #### Nginx - cQube server firewall configuration
 
-* Port 4200 should be open from nginx to the cQube server
-* Port 8080 should be open from nginx to the cQube server
-* Port 3000 should be open from nginx to the cQube server
-* Port 8000 should be open from nginx to the cQube server
+* Port 4200 should be open from Nginx to the cQube server
+* Port 8080 should be open from Nginx to the cQube server
+* Port 3000 should be open from Nginx to the cQube server
+* Port 8000 should be open from Nginx to the cQube server
 
-**Openvpn - cQube server firewall configuration**
+**OpenVPN - cQube server firewall configuration**
 
-* Port 9000 should be open from openvpn to the cQube server
-* Port 4201 should be open from openvpn to the cQube server
-* Port 3001 should be open from openvpn to the cQube server   
+* Port 9000 should be open from OpenVPN to the cQube server
+* Port 4201 should be open from OpenVPN to the cQube server
+* Port 3001 should be open from OpenVPN to the cQube server   
 
