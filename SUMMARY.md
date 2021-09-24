@@ -1,8 +1,14 @@
 # Table of contents
 
 * [cQube Summary](README.md)
+
+## LEARN
+
+---
+
 * [About cQube](about-cqube.md)
 * [cQube Features](cqube-features.md)
+* [Listen to Experts \(Youtube\)](https://www.youtube.com/watch?v=kbeFmTsWlAI)
 
 ## USE
 
