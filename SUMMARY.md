@@ -4,37 +4,36 @@
 * [About cQube](about-cqube.md)
 * [cQube Features](cqube-features.md)
 
-## USE: GETTING STARTED
+## USE
 
-* [Software Requirements](use-getting-started/software-requirements.md)
-* [cQube Software Architecture](use-getting-started/cqube-software-architecture.md)
-* [AWS - Network Architecture](use-getting-started/network-architecture-diagram/README.md)
-  * [Hardware requirements](use-getting-started/network-architecture-diagram/hardware-requirements.md)
-  * [Data Storage Locations](use-getting-started/network-architecture-diagram/data-storage-locations.md)
-* [Security Implementations](use-getting-started/security-requirements.md)
-* [Prerequisites for Installation process](use-getting-started/prerequisites-for-installation-process.md)
-* [cQube Setup & configuration](use-getting-started/cqube-installation.md)
-* [Base Installation steps](use-getting-started/base-installation-steps.md)
-* [Base Upgradation steps](use-getting-started/base-upgradation-steps.md)
-* [Workflow Installation steps](use-getting-started/workflow-installation-steps.md)
-* [Workflow Upgradation steps](use-getting-started/workflow-upgradation-steps.md)
-* [Workflow process](use-getting-started/workflow-process.md)
-* [Emission Process](use-getting-started/emission-process-1.md)
-* [cQube ER Diagrams](use-getting-started/cqube-er-diagrams.md)
-* [Data Validation after Ingestion](use-getting-started/data-validation-after-ingestion.md)
-* [Admin Login Process](use-getting-started/admin-login-process.md)
-* [Admin Features](use-getting-started/admin-features.md)
-* [cQube data replay process](use-getting-started/cqube-data-replay-process.md)
-* [S3 Partitioning](use-getting-started/design-principles.md)
-* [Ad-hoc analyst](use-getting-started/ad-hoc-analyst.md)
-* [Reports](use-getting-started/reports.md)
-* [Troubleshooting Issues](use-getting-started/troubleshooting-issues/README.md)
-  * [Data Processing-NIFI Issues](use-getting-started/troubleshooting-issues/data-processing-nifi-issues.md)
-  * [Data Processing-PostgreSQL Issues](use-getting-started/troubleshooting-issues/data-processing-postgresql-issues.md)
-  * [Data Emission Issues](use-getting-started/troubleshooting-issues/data-emission-issues.md)
-  * [Angular & Node Issues](use-getting-started/troubleshooting-issues/angular-and-node-issues.md)
-* [Acronyms](use-getting-started/acronyms.md)
-* [Discussions](https://github.com/Sunbird-cQube/community/discussions)
+* [Software Requirements](use/software-requirements.md)
+* [cQube Software Architecture](use/cqube-software-architecture.md)
+* [AWS - Network Architecture](use/network-architecture-diagram/README.md)
+  * [Hardware requirements](use/network-architecture-diagram/hardware-requirements.md)
+  * [Data Storage Locations](use/network-architecture-diagram/data-storage-locations.md)
+* [Security Implementations](use/security-requirements.md)
+* [Prerequisites for Installation process](use/prerequisites-for-installation-process.md)
+* [cQube Setup & configuration](use/cqube-installation.md)
+* [Base Installation steps](use/base-installation-steps.md)
+* [Base Upgradation steps](use/base-upgradation-steps.md)
+* [Workflow Installation steps](use/workflow-installation-steps.md)
+* [Workflow Upgradation steps](use/workflow-upgradation-steps.md)
+* [Workflow process](use/workflow-process.md)
+* [Emission Process](use/emission-process-1.md)
+* [cQube ER Diagrams](use/cqube-er-diagrams.md)
+* [Data Validation after Ingestion](use/data-validation-after-ingestion.md)
+* [Admin Login Process](use/admin-login-process.md)
+* [Admin Features](use/admin-features.md)
+* [cQube data replay process](use/cqube-data-replay-process.md)
+* [S3 Partitioning](use/design-principles.md)
+* [Ad-hoc analyst](use/ad-hoc-analyst.md)
+* [Reports](use/reports.md)
+* [Troubleshooting Issues](use/troubleshooting-issues/README.md)
+  * [Data Processing-NIFI Issues](use/troubleshooting-issues/data-processing-nifi-issues.md)
+  * [Data Processing-PostgreSQL Issues](use/troubleshooting-issues/data-processing-postgresql-issues.md)
+  * [Data Emission Issues](use/troubleshooting-issues/data-emission-issues.md)
+  * [Angular & Node Issues](use/troubleshooting-issues/angular-and-node-issues.md)
+* [Acronyms](use/acronyms.md)
 
 ## cQube Release Notes <a id="release-notes"></a>
 
@@ -56,11 +55,11 @@
 * [cQube - Release Notes V 1.1](release-notes/cqube-release-notes-v1.1.md)
 * [cQube - Release Notes V 1.0](release-notes/cqubeversion-1.0.md)
 
-## IMPORTANT LINKS
+## ENGAGE
 
 ---
 
 * [Source Code](https://github.com/Sunbird-cQube)
-* [Engage and Discuss](https://github.com/Sunbird-cQube/community/discussions)
-* [Report Issues](https://github.com/Sunbird-cQube/community/issues)
+* [Discuss](https://github.com/Sunbird-cQube/community/discussions)
+* [Report](https://github.com/Sunbird-cQube/community/issues)
 
