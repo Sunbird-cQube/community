@@ -10,11 +10,11 @@
 
 ### Reverse proxy rules 
 
-#### The following ports have to be configured in the nginix server with reverse proxy:
+#### The following ports have to be configured in the Nginx server with reverse proxy:
 
 * Port 4200 should be proxied to the '/'
 * Port 8080 should be proxied to the '/auth'
-* Port 3000 should be proxied to the '/api'
+* Port 3000 should be proxied to the '/API'
 * Port 8000 should be proxied to the '/data'
 
 #### Nginx - cQube server firewall configuration
