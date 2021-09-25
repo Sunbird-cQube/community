@@ -17,11 +17,11 @@ The cQube network setup process is described in the block diagram below:
 
 ## **Private Subnet**
 
-Private subnet is used to secure the cQube server from public access. The instance will not be having the public ip. An EC2 instance will be created in a private subnet and all cQube components will be installed in this.
+Private subnet is used to secure the cQube server from public access. The instance will not be having the public IP. An EC2 instance will be created in a private subnet and all cQube components will be installed in this.
 
 The steps involved to create EC2 instance in private subnet
 
-* Create a virtual private cloud\(VPC\) in AWS 
+* Create a virtual private cloud \(VPC\) in AWS 
 * Create a subnet in the created VPC with no Routing Table attached to Internet gateway
 * Create an EC2 instance to install all the cQube software components.
 
@@ -29,19 +29,19 @@ The steps involved to create EC2 instance in private subnet
 
     - create an ec2 instance with below mentioned configuration
 
-    - 8 core cpu, 32 gb ram and 1 tb storage
+    - 8 core CPU, 32 GB RAM and 1 TB storage
 
-**Security\_group:**
+**Security group:**
 
- ****     - port 4200, 3000, 8000 inbound from nginx 
+ ****     - port 4200, 3000, 8000 inbound from Nginx 
 
-      - port 4201, 3001, 9000, 8080, 8096, 22 inbound from openvpn server
+      - port 4201, 3001, 9000, 8080, 8096, 22 inbound from OpenVPN server
 
 **Load Balancer:**
 
     - create a load balancer 
 
-    - configure it to connect to nginx on port 80, 443
+    - configure it to connect to Nginx on port 80, 443
 
 **Domain Name:** 
 
@@ -59,13 +59,13 @@ The steps involved to create EC2 instance in private subnet
 
    ****   - port 80, 443 inbound from 0.0.0.0/0
 
-**Note:** For the concurrent users  between 100 to1000, The recommended Nginx machine type  would be 'm' or 'c' series 2 core machine to use. And need to increase the machine size according to the concurrent users traffic.
+**Note:** For the concurrent users  between 100 to1000, the recommended Nginx machine type  would be 'm' or 'c' series 2 core machine to use. And need to increase the machine size according to the concurrent user's traffic.
 
 ## **User Actions in creation of Nginx**
 
-**Addition of G zipping to the UI -** Have to enable the compression in the proxy server for the content type 'application/javascript' and 'text/css'.
+**Addition of G zipping to the UI -** Have to enable the compression in the proxy server for the content type 'application/JavaScript' and 'text/CSS'.
 
-Below is the sample configuration for reference to add in nginx conf. 
+Below is the sample configuration for reference to add in Nginx conf. 
 
 ```text
 server {
@@ -76,7 +76,7 @@ server {
         }
 ```
 
-Below is the sample configuration for reference to add in nginx conf.
+Below is the sample configuration for reference to add in Nginx conf.
 
 ```text
 location /api {
@@ -94,7 +94,7 @@ location /api {
 
 ## **Public Subnet**
 
-Public subnet will contain two EC2 instances, one is for OpenVPN and another is for nginx, which will act as a reverse proxy. It is used to provide connectivity with the private subnet.
+Public subnet will contain two EC2 instances, one is for OpenVPN and another is for Nginx, which will act as a reverse proxy. It is used to provide connectivity with the private subnet.
 
 The steps involved to create the public subnet
 
@@ -102,13 +102,13 @@ The steps involved to create the public subnet
 * Create the first EC2 instance with OpenVPN AWS AMI and configure it to connect with the private subnet.
 * Create the second EC2 instance with Ubuntu 18.04 AWS AMI and install Nginx to connect with the cQube server which is in the private subnet.
 
-**EC2**: Openvpn server
+**EC2**: OpenVPN server
 
-    - create an ec2 instance with openvpn ami 
+    - create an ec2 instance with OpenVPN ami 
 
     - create users to access the instances and for cQube admin pages 
 
-    security\_group:
+    Security group:
 
       - port 22 inbound to 1 public IP \(admin's\)
 
@@ -116,25 +116,25 @@ The steps involved to create the public subnet
 
     - create an ec2 instance with ubuntu 18.04 ami
 
-    - configure the nginx to connect Load balancer and cQube server
+    - configure the Nginx to connect Load balancer and cQube server
 
     - configuration file will be provided
 
-    security\_group:
+    Security group:
 
       - port 80, 443 inbound to Load balancer
 
-      - port 22 inbound to openvpn server
+      - port 22 inbound to OpenVPN server
 
 **NAT Gateway**:
 
-    - create a nat gateway / nat instance
+    - create a Nat gateway / Nat instance
 
     - configure the connection to cQube server
 
-    security\_group:
+    Security group:
 
-      - port 80, 443 inbound from private\_subnet
+      - port 80, 443 inbound from private subnet
 
 ## **AWS Load Balancer** 
 
@@ -158,7 +158,7 @@ AWS load balancer is used in cQube to avoid the security risks and also to contr
 
 An AWS Identity and Access Management \(IAM\) user is an entity that you create in AWS to represent the person or application that uses it to interact with AWS. A user in AWS consists of a name and credentials. An IAM user with administrator permissions is not the same thing as the AWS account root user. ****To provide the connectivity between EC2 and S3 we need to create an IAM user with a supported role. The role should have the List, Read and Write permissions
 
-We have multiple ways to create the IAM user account, But in cQube we created the IAM user from the AWS GUI by following the below points.
+We have multiple ways to create the IAM user account, but in cQube we created the IAM user from the AWS GUI by following the below points.
 
 **AWS S3:**
 
@@ -168,9 +168,9 @@ We have multiple ways to create the IAM user account, But in cQube we created th
 
    ****   - create an IAM user
 
-      - assign iam\_policy to user 
+      - assign IAM policy to user 
 
-      - download the aws access\_key and secret\_key
+      - download the AWS access key and secret key
 
     **IAM Policy:**
 
@@ -179,6 +179,6 @@ We have multiple ways to create the IAM user account, But in cQube we created th
       - provide access to list, read and write the object to s3 buckets
 
   
-**Note:** By adding vpc endpoint to connect to s3 buckets, the data transmission between ec2 and s3 happens within aws network. This helps to increase the network speed by 15%.  
+**Note:** By adding VPC endpoint to connect to s3 buckets, the data transmission between ec2 and s3 happens within AWS network. This helps to increase the network speed by 15%.  
 
 
