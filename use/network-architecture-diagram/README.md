@@ -13,7 +13,7 @@ The cQube network setup process is described in the block diagram below:
 
 * The Yellow arrows in the network diagram indicate the file upload users’ connectivity through the load balancer.
 * The Green arrow in the network diagram indicates the end user's connectivity through the load balancer.
-* The purple color arrow in the network diagram indicates the developers connectivity through the VPN.
+* The purple color arrow in the network diagram indicates the developer's connectivity through the VPN.
 
 ## **Private Subnet**
 
