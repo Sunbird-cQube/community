@@ -11,7 +11,7 @@ Operating system : Ubuntu 18.04 Server
 
   which can be used in the visualization charts.     
 
-* Angular 9.1.6 + ChartJS 2.9.3 + Leaflet 1.6.0: Angular, ChartJS and Leaflet are used to create dashboards/ user reports. The data stored in the S3 output bucket can directly be used to create the reports. 
+* Angular 9.1.6 + Chart.js 2.9.3 + Leaflet 1.6.0: Angular, Chart.js and Leaflet are used to create dashboards/ user reports. The data stored in the S3 output bucket can directly be used to create the reports. 
 * Keycloak 10.0.2: It is a single sign on solution for web apps and RESTful web services. 
-* Kong 2.5 : It is a lightweight API Gateway that secure, manage, and extend APIs and microservices.
+* Kong 2.5: It is a lightweight API Gateway that secure, manage, and extend APIs and microservices.
 
