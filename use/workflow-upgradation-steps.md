@@ -8,7 +8,7 @@
   git checkout release-3.1
   ```
 
-  **Usecases folder structure**
+  **Use cases folder structure**
 
   * education\_usecase
   * education\_usecase\_theme2
@@ -22,7 +22,7 @@
   ```
 
 * Edit using `nano config.yml`
-* Enable datasources as true or false in datasource\_config.yml and datasource\_validation.sh, in datasource\_validation.sh  an array of mandatory values should be same as datasource\_config.yml file values. 
+* Enable data sources as true or false in datasource\_config.yml and datasource\_validation.sh, in datasource\_validation.sh  an array of mandatory values should be same as datasource\_config.yml file values. 
 
   **If user opting for education\_usecase\_theme2 open the education\_usecase\_theme2 folder**
 
@@ -33,14 +33,14 @@
   ```
 
 * Edit using `nano config.yml`
-* Enable datasources as true or false in datasource\_config.yml and datasource\_validation.sh, in datasource\_validation.sh  an array of mandatory values should be same as datasource\_config.yml file values.
-* If the user opting for new datasource.  should add new datasource name inside the datasource\_config.yml file and datasource\_validation.sh array list.
+* Enable data sources as true or false in datasource\_config.yml and datasource\_validation.sh, in datasource\_validation.sh  an array of mandatory values should be same as datasource\_config.yml file values.
+* If the user opting for new data source.  should add new data source name inside the datasource\_config.yml file and datasource\_validation.sh array list.
 * Fill the configuration details for the below mentioned list in config.yml \(\* all the values are mandatory\)
 * This script will update the below cQube components:
-  * Creates & Updates table,sequence,index in postgresql database
+  * Creates & Updates table, sequence, index in PostgreSQL database
   * Updates NodeJS server side code
   * Updates Angular and Chart JS client side code
-  * Updates & configure Apache Nifi template
+  * Updates & configure Apache NIFI template
   * Updates & configure Keycloak
 * Fill the configuration details in config.yml \(\* all the values are mandatory, make sure to fill the same configuration details which were used during installation\)
 * Edit using `nano config.yml`
