@@ -1,7 +1,6 @@
-# Ad-hoc analyst
+# Ad-hoc analysis
 
-* They are the dynamic report creators of cQube. 
-* The ad hoc analyst can make use of third-party visualization tools like METABASE, Tableau, KNIME or any other visualization tool to create dynamic dashboards and develop dynamic reports by directly accessing the database in read only mode using OpenVPN.
+* This feature enables extension of aggregated and raw data for any type of ad-hoc analysis outside cQube by using any third party tool like Excel, METABASE, Tableau, KNIME or any other tool.
 * Ad-hoc users can download the JSON files from the S3 output bucket through the API.
 * The example spec for the download API will be as like below
 

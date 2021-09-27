@@ -31,7 +31,7 @@
 * [Admin Features](use/admin-features.md)
 * [cQube data replay process](use/cqube-data-replay-process.md)
 * [S3 Partitioning](use/design-principles.md)
-* [Ad-hoc analyst](use/ad-hoc-analyst.md)
+* [Ad-hoc analysis](use/ad-hoc-analyst.md)
 * [Reports](use/reports.md)
 * [Troubleshooting Issues](use/troubleshooting-issues/README.md)
   * [Data Processing-NIFI Issues](use/troubleshooting-issues/data-processing-nifi-issues.md)
