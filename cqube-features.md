@@ -14,8 +14,6 @@ cQube has functionality to ingest & analyze daily, weekly, half yearly and yearl
 **Multiple visual options** - cQube provides multiple visual options to users for different views of the reports as given below:
 
 * Map based visualizations/reports
-  * Attendance 
-  * Infrastructure
 * Scatter plot visualizations/reports
 * Stacked bar visualizations/reports
 * Table format visualizations/reports
