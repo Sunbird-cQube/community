@@ -15,7 +15,7 @@
 * The API will have different end points
 * Data emission users will request the cQube admin for the emission API token.
 * Data emission users incorporate the API token into the emission process code.
-* The Emission process makes an API call to generate AWS S3, one time presigned URL.
+* The Emission process makes an API call to generate AWS S3, one time preassigned URL.
 * API calls to emit the data files using the https protocol into cQube.
 * API takes the data file as a parameter.
 * The API sends an acknowledgement on successful emission.
@@ -308,7 +308,7 @@ Request Body:
 }
 ```
 
-**S3 Presigned Download Endpoint**
+**S3 Preassigned Download Endpoint**
 
 POST [https://cqube.tibilprojects.com/data/download\_uri](https://cqube.tibilprojects.com/data/download_uri)
 
@@ -330,7 +330,7 @@ Request Body:
 ### Emission order & instructions:
 
 * Static files as defined in above in this page need to be emitted first.
-* For the CRC report, the inspection\_master needs to be emitted prior to user\_location\_master to visualise the CRC reports.
+* For the CRC report, the inspection\_master needs to be emitted prior to user\_location\_master to visualize the CRC reports.
 * For PAT \(Periodic assessment report\), periodic\_exam\_mst and periodic\_exam\_qst\_mst needs to be emitted prior to periodic\_exam\_result\_trans
 * school\_grade\_enrolment file can be emitted either as periodic\_exam\_grade\_details or semester\_exam\_grade\_details. The data will be updated to school\_grade\_enrolment and will be used in school\_hierarchy\_details. The count from school\_hierarchy details will be used in pat & sat reports. Before the sat & pat workflow the school\_grade\_enrolment needs to be emitted.
 * Execute the client.py file located in `cQube_Workflow/development/python/client/` directory, as mentioned below to emit the data files to s3\_emission bucket.

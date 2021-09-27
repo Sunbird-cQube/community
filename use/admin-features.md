@@ -19,15 +19,15 @@ Admin can enter the AWS console and perform the files cleanup, files Download ac
 
 * Raw data will be downloaded in CSV format and the metrics data will be downloaded in JSON format.
 
-**Nifi Scheduler:** 
+**NIFI Scheduler:** 
 
-Admin can control the Nifi processes by choosing the start and stop times.
+Admin can control the NIFI processes by choosing the start and stop times.
 
-* All the Nifi processes will be listed.
+* All the NIFI processes will be listed.
 * The Schedule Time column has a drop down box with the hours. By selecting the hour the process will be automatically started at the scheduled time every day.
-* The Stopping Hours column has a drop down box with the numbers. By selecting the number the scheduled running Nifi process will be stopped after the selected number of hours.
-* Nifi process information was added to the schedule table to understand the status of Nifi processes whether they are in the running state or stopped state.
-* Nifi schedules added another feature of scheduling for Daily, Weekly, Monthly and Yearly.
+* The Stopping Hours column has a drop down box with the numbers. By selecting the number the scheduled running NIFI process will be stopped after the selected number of hours.
+* NIFI process information was added to the schedule table to understand the status of NIFI processes whether they are in the running state or stopped state.
+* NIFI schedules added another feature of scheduling for Daily, Weekly, Monthly and Yearly.
 * If the user wanted to select the Daily schedule - The user has to mention the time of the schedule
 
 If the user wanted to select the Weekly schedule - The user has to mention the Day of the Week
@@ -78,7 +78,7 @@ Admin has an user interface screen "Monitoring Details'' screen in the admin das
 * RAM usage
 * CPU Usage 
 * Data storage disk usage
-* Nifi heap memory usage
+* NIFI heap memory usage
 * Data source file metrics
 * JVM usage
 
@@ -137,6 +137,6 @@ Data retention has been implemented for the transaction tables of the below data
 
 By default the data retention period is set to 90 days. The retention period can be set at a 30 day interval, 30 days, 60 days, 90 days. or Under specified days until 360 days in the data retention/replay screen. 
 
-Based on the retention period set, the data will be cleared from the transaction tables for the above sources. The data older than the retention period cannot be emitted for the above data sources, such data will be cleared and the information is logged in nifi. If the data replay is initiated for the data older than the retention period, within 5 days data re-emission is allowed.  
+Based on the retention period set, the data will be cleared from the transaction tables for the above sources. The data older than the retention period cannot be emitted for the above data sources, such data will be cleared and the information is logged in NIFI. If the data replay is initiated for the data older than the retention period, within 5 days data re-emission is allowed.  
 
 

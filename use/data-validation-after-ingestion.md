@@ -10,7 +10,7 @@ Validation for duplicate records: Records which have duplicate values for all fi
 
 **Records with duplicate ID:** For the rest of the duplicate records where the records are having the same ID \(the primary/composite key like student ID/ assessment ID/ infra ID/ CRC visit ID\) and different values for rest of the columns will not be inserted into the database tables as ID is the primary key.
 
-**Example:** For the Duplicate records with different lat long details for school\_master data file,  NIFI eliminates the records which have the same school\_id with different lat long details or different names or different values.
+**Example:** For the Duplicate records with different Lat Long details for school\_master data file,  NIFI eliminates the records which have the same school\_id with different Lat Long details or different names or different values.
 
 **Records with same values:** For semester report, The records which are having the same values for fields Student ID, School ID, semester, studying class and different values for the subjects then NIFI will eliminate those records. 
 

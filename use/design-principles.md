@@ -36,5 +36,5 @@ S3/cqube-gj-input/student_attendance/2020/2020-05/2020-05-29_student_attendance
 
 * All the files in the S3 Output bucket will be in the JSON format.
 * S3 output bucket follows the hierarchical partitioning based on the data source, Year, Month, date and timestamp, similar to the partitioning that the S3 input bucket follows.
-* Metadata files will have information of the latest updated output files which helps cQube to consider the latest output file during the visualisation stage.
+* Metadata files will have information of the latest updated output files which helps cQube to consider the latest output file during the visualization stage.
 
