@@ -10,7 +10,7 @@
     git checkout release-3.1
   ```
 
-  **Usecases folder structure**
+  **Use cases folder structure**
 
   * education\_usecase
   * education\_usecase\_theme2
@@ -24,7 +24,7 @@
   ```
 
 * Edit using `nano config.yml`
-* Enable datasources as true or false in datasource.yml and datasource\_validation.sh, in datasource\_validation.sh an array of mandatory values should be same as datasource.yml file values.
+* Enable data sources as true or false in datasource.yml and datasource\_validation.sh, in datasource\_validation.sh an array of mandatory values should be same as datasource.yml file values.
 
   **If user opting for educational\_usecase open the educational\_usecase\_theme2 folder**
 
@@ -35,17 +35,17 @@
   ```
 
 * Edit using `nano config.yml`
-* Enable datasources as true or false in datasource\_config.yml and datasource\_validation.sh, in datasource\_validation.sh  an array of mandatory values should be same as datasource\_config.yml file values.
-* If the user opting for new datasource.  should add new datasource name inside the datasource\_config.yml file and datasource\_validation.sh array list.
+* Enable data sources as true or false in datasource\_config.yml and datasource\_validation.sh, in datasource\_validation.sh  an array of mandatory values should be same as datasource\_config.yml file values.
+* If the user opting for new data source.  should add new data source name inside the datasource\_config.yml file and datasource\_validation.sh array list.
 * Fill the configuration details for the below mentioned list in config.yml \(\* all the values are mandatory\)
 * cQube\_Workflow installation process configuring the components in a sequence as mentioned below:
   * Configures Ansible
-  * Configures Openjdk
+  * Configures OpenJDK
   * Configures Python, pip and flask
-  * Configures Postgresql
+  * Configures PostgreSQL
   * Configures NodeJS
   * Configures Angular and Chart JS
-  * Configures Apache Nifi
+  * Configures Apache NIFI
   * Configures Keycloak
   * Configures Grafana
   * Configures Prometheus and node exporter
