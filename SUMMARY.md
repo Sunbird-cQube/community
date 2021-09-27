@@ -1,6 +1,6 @@
 # Table of contents
 
-* [cQube Summary](README.md)
+* [About cQube](README.md)
 
 ## LEARN
 
