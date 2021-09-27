@@ -4,8 +4,8 @@
 
 ## cQube\_Base Installation:
 
-* open Terminal
-* Navigate to the directory where cQube\_Base has been downloaded or cloned
+* Open Terminal
+* Navigate to the directory from where cQube\_Base can be downloaded or cloned
 
   ```text
   cd cQube_Base/
@@ -35,12 +35,12 @@
 * Fill the configuration details for the below mentioned list in config.yml \(\* all the values are mandatory\)
 * cQube\_Base installation process installs the components in a sequence as mentioned below:
   * Installs Ansible
-  * Installs Openjdk
+  * Installs OpenJDK
   * Installs Python, pip and flask
   * Installs PostgreSQL
   * Installs NodeJS
   * Installs Angular and Chart JS
-  * Installs Apache Nifi
+  * Installs Apache NIFI
   * Installs Keycloak
   * Installs Grafana
   * Installs Prometheus and node exporter
@@ -64,8 +64,8 @@
   ```
 
 * Save and Close the file
-* For more information to configure the weights & columns for udise/infrastucture, please refer operational document.
-* Update the diksha parameters\(api\_url,token,encryption key,dataset name channel\_id,org\_id\) in the development/python/cQube-raw-data-fetch-parameters.txt
+* For more information to configure the weights & columns for UDISE/infrastructure, please refer operational document.
+* Update the diksha parameters\(api\_url, token, encryption key, dataset name channel\_id, org\_id\) in the development/python/cQube-raw-data-fetch-parameters.txt
 * Give the following permission to the install.sh file
 
   ```text
