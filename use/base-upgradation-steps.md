@@ -3,7 +3,7 @@
 ## cQube\_Base Upgradation:
 
 * Open Terminal
-* Navigate to the directory where cQube has been downloaded or cloned
+* Navigate to the directory from where cQube can be downloaded or cloned
 
   ```text
   cd cQube_Base/
