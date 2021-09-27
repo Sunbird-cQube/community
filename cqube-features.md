@@ -1,4 +1,4 @@
-# cQube Features
+# cQube Product Features
 
 ### cQube provides actionable Insights to the state education system with the daily data and has the following advantages:
 

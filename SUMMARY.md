@@ -7,7 +7,7 @@
 ---
 
 * [About cQube](about-cqube.md)
-* [cQube Features](cqube-features.md)
+* [cQube Product Features](cqube-features.md)
 * [Listen to Experts \(Youtube\)](https://www.youtube.com/watch?v=kbeFmTsWlAI)
 
 ## USE
