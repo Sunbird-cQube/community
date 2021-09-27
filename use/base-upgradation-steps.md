@@ -29,10 +29,10 @@
   ```
 
 * This script will update the below cQube components:
-  * Creates & Updates table,sequence,index in postgresql database
+  * Creates & Updates table, sequence, index in PostgreSQL database
   * Updates NodeJS server side code
   * Updates Angular and Chart JS client side code
-  * Updates & configure Apache Nifi template
+  * Updates & configure Apache NIFI template
   * Updates & configure Keycloak
 * Fill the configuration details in config.yml \(\* all the values are mandatory, make sure to fill the same configuration details which were used during installation\)
 * Edit using `nano config.yml`
@@ -51,7 +51,7 @@
   sudo ./upgrade.sh
   ```
 
-Configuration filled in config.yml will be validated first. If there is any error during validation, you will be prompted with the appropriate error message and the upgradation will be aborted. Refer the error message and solve the errors appropriately. Restart the upgradation processsudo `./upgrade.sh`
+Configuration filled in config.yml will be validated first. If there is any error during validation, you will be prompted with the appropriate error message and the upgradation will be aborted. Refer the error message and solve the errors appropriately. Restart the upgradation process sudo `./upgrade.sh`
 
 Once upgradation is completed without any errors, you will be prompted the following message. **CQube upgraded successfully!!**
 
