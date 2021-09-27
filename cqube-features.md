@@ -15,6 +15,7 @@ cQube has functionality to ingest & analyze daily, weekly, half yearly and yearl
 
 * Map based visualizations/reports
 * Scatter plot visualizations/reports
+* Heat map visualizations/reports
 * Stacked bar visualizations/reports
 * Table format visualizations/reports
 * Bar chart visualization/reports
