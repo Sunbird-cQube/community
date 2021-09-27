@@ -11,7 +11,7 @@ cQube has functionality to ingest & analyze daily, weekly, half yearly and yearl
 * Reports data - All the visual reports can be downloaded by user for further analysis or actions
 * Raw data - Raw data can be downloaded by users for further analysis
 
-**Multiple visual options** - cQube provides multiple visual options to users for different views of the reports as given below:
+**Multiple visual options** - cQube provides multiple visual options to users for different views of the reports \(Visual and Tabular\) as given below:
 
 * Map based visualizations/reports
 * Scatter plot visualizations/reports
