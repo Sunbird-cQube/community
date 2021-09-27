@@ -22,7 +22,7 @@ Landing page of the Map report will be represented for the whole state by having
 
 All the dots will be displayed at the center of the screen. Zoom functionality will be applicable only for the school level representation that too only up to the state dimensional level only. Maps can be dragged up to state specific. 
 
-Tooltip: On mouse hover of the dot, The user will be able to see the tooltip which can give the results in formation of the metric calculations. Along with the results the tooltips are containing the data like id and the location name and location details also.
+Tooltip: On mouse hover of the dot, the user will be able to see the tooltip which can give the results in formation of the metric calculations. Along with the results the tooltips are containing the data like id and the location name and location details also.
 
 Blocks button: Block button will be a clickable function and it will display the information and the metrics results with the color gradient dots, tooltip information of the total blocks of the state.
 
@@ -43,15 +43,15 @@ Time series: By selection of the time represented dropdown values users will get
 * Student attendance report has the Year and Month time series selection.
 * Semester report is having the Semester wise time series selection.
 * Infrastructure report does not have the time series. It represents the whole information of the infrastructure data. 
-* CRC report, Teacher attendance, student attendance, PAT map report, UDISE is having the Previous day, last 7 days & 30 days time selection.
+* CRC report, Teacher attendance, student attendance, PAT map report, UDISE is having the Previous day, last 7 & 30 day's time selection.
 
 Absolute & Relative toggle button: The Absolute and Relative toggle button in the footer will represent the dots color in the absolute and relative calculation explained below.
 
 Absolute color will be calculated in the range of 1 to 100. The statically derived 50 gradient colors will be distributed between Red and Green colors. Each color will be assigned with 2 numbers interval
 
-Relative color will be calculated by taking the difference between the maximum & Minimum values of the data and applying the statically derived 50 gradient colors will be distributed between Red and Green colors. Each color will be assigned the mean value of the difference.
+Relative color will be calculated by taking the difference between the maximum & Minimum values of the data and applying the statically derived 50 gradient colors will be distributed between red and green colors. Each color will be assigned the mean value of the difference.
 
-Download Functionality: The download icon provides the download functionality of the report metrics based on the selection of the drop down values. The report names are named as below
+Download Functionality: The download icon provides the download functionality of the report metrics based on the selection of the drop-down values. The report names are named as below
 
 ```text
 {report_name}_{time_period/region_specification}_{district_id/block_id/cluster_id/school_id}_{date}.csv
@@ -68,7 +68,7 @@ The functionalities of the exception reports will be the same as the map reports
 
 The landing page of the scatter plot report will be represented for the whole state by having the several normalized metrics using the raw data and you can read more about them.
 
-A key feature of this dashboard is its ability to Zoom In and Out at various administrative levels. The administrative levels include District, Block and Cluster. 
+A key feature of this dashboard is its ability to Zoom-In and Zoom-Out at various administrative levels. The administrative levels include District, Block and Cluster. 
 
 This has been done to provide relevant insights at the appropriate administrative level. In addition to visualizing data, the dashboard also gives you the ability to download the data at various administrative levels. 
 
@@ -76,11 +76,11 @@ This feature has been enabled to provide freedom to power users to derive additi
 
 Table representation: The table in the scatter plot will have the different insights as columns of the table which represent the performances of different educational areas.
 
-X-Axis & Y-Axis: these are the dropdown boxes which contain the columns of the above mentioned table. By selecting the x-axis value and the y-axis value the dot will be displayed at the cross point of the x & y results.
+X-Axis & Y-Axis: these are the dropdown boxes which contain the columns of the above-mentioned table. By selecting the x-axis value and the y-axis value the dot will be displayed at the cross point of the x & y results.
 
-Drop down functionality: Drop down functionality will be experienced by the selection from the “Choose a District”, “Choose a Block” and “Choose a cluster” drop down box values. 
+Drop down functionality: Drop down functionality will be experienced by the selection from the “Choose a District”, “Choose a Block” and “Choose a cluster” drop-down box values. 
 
-Download Functionality: The download icon provides the download functionality of the report metrics based on the selection of the drop down values.
+Download Functionality: The download icon provides the download functionality of the report metrics based on the selection of the drop-down values.
 
 ### Table format visualization 
 
@@ -92,9 +92,9 @@ Content Selection: Content selection is the dropdown box which will represent th
 
 Drop down functionality: Drop down functionality will be experienced by the selection from the “Choose a District” drop down box values.
 
-Time series: By selection of the time represented dropdown values users will get the time series information. Time series will be changed according to the data sources. Diksha is having the Previous day, last 7 days & 30 days time selection.
+Time series: By selection of the time represented dropdown values users will get the time series information. Time series will be changed according to the data sources. Diksha is having the Previous day, last 7 & 30 day's time selection.
 
-Download Functionality: The download icon provides the download functionality of the report metrics based on the selection of the drop down values.
+Download Functionality: The download icon provides the download functionality of the report metrics based on the selection of the drop-down values.
 
 ### Bar Chart visualization 
 
@@ -106,9 +106,9 @@ Choose collection Name: By choosing the Collection name from the dropdown the ba
 
 Drop down functionality: Drop down functionality will be experienced by the selection from the “Choose a District” drop down box values.
 
-Time series: By selection of the time represented dropdown values users will get the time series information. Time series will be changed according to the data sources. Diksha is having the Previous day, last 7 days & 30 days time selection.
+Time series: By selection of the time represented dropdown values users will get the time series information. Time series will be changed according to the data sources. Diksha is having the Previous day, last 7 & 30 day's time selection.
 
-Download Functionality: The download icon provides the download functionality of the report metrics based on the selection of the drop down values.
+Download Functionality: The download icon provides the download functionality of the report metrics based on the selection of the drop-down values.
 
 ### Heat Map Report visualization 
 
@@ -148,8 +148,8 @@ Trends Chart is introduced to cQube to observe how the schools are performing in
 
 By clicking on the hyperlink user will be redirected to the trends chart. Below are the trends chart functionalities
 
-* By default trends chart will load the full state information on the home page
-* At a time user can select up to 10 inner hierarchical level selections such as Districts, Blocks and clusters and user has to click the submit button
+* By default, trends chart will load the full state information on the home page
+* At a time, user can select up to 10 inner hierarchical level selections such as Districts, Blocks and clusters and user has to click the submit button
 * If the user selects only one option and clicks on the submit button, Then the next level of hierarchical locations will be displayed.
 * Users will be able to select the academic year from the “Choose year” select box.
 * Each option will be represented with different color coding and the code will be given as a legend at the right side of the screen
@@ -181,7 +181,7 @@ PAT: Map visualization, Heat map, Table type visualizations
 
 PAT Exception Report: Exception Map visualization
 
-Composite Report : Scatter plot visualization
+Composite Report: Scatter plot visualization
 
-Telemetry : Map visualization
+Telemetry: Map visualization
 
