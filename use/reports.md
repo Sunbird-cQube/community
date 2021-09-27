@@ -6,21 +6,21 @@ cQube reports provide data-based insights in the field of education. These repor
 
 cQube dashboard will contain the shortcut icons of all the reports. Telemetry details will be displayed on each icon. The number of views will be displayed for the last one day, 7 days and last 30 days with a 15 seconds time delay. Each icon will have an ‘i’ symbol at the right corner of the icon which will display the description of the report with whoever mouse.  
 
-For the visualisation of the metrics cQube uses the below types of reports.
+For the visualization of the metrics cQube uses the below types of reports.
 
-1. Map based visualisation
-2. Scatter plot visualisation
+1. Map based visualization
+2. Scatter plot visualization
 3. Stacked bar report
-4. Table format visualisation
-5. Bar chart visualisation
+4. Table format visualization
+5. Bar chart visualization
 
-More details of the visualisation feature wise details are explained below,
+More details of the visualization feature wise details are explained below,
 
-### Map based visualisation 
+### Map based visualization 
 
-Landing page of the Map report will be represented for the whole state by having the colour gradient dots on the different districts of the state. Colour gradient will be declared from Red-Green where Red represents the poor performance and the Green represents the good performance.
+Landing page of the Map report will be represented for the whole state by having the color gradient dots on the different districts of the state. Color gradient will be declared from Red-Green where Red represents the poor performance and the Green represents the good performance.
 
-All the dots will be displayed at the centre of the screen. Zoom functionality will be applicable only for the school level representation that too only up to the state dimensional level only. Maps can be dragged up to state specific. 
+All the dots will be displayed at the center of the screen. Zoom functionality will be applicable only for the school level representation that too only up to the state dimensional level only. Maps can be dragged up to state specific. 
 
 Tooltip: On mouse hover of the dot, The user will be able to see the tooltip which can give the results in formation of the metric calculations. Along with the results the tooltips are containing the data like id and the location name and location details also.
 
@@ -32,9 +32,9 @@ Schools button: Schools button will be a clickable function and it will display 
 
 Drill down functionality: Users will be redirected to the next hierarchical level of the locations by clicking on the dots. 
 
-For example: If the user clicks on some district’s dot, then the visualisation will be populated by all the blocks of the districts.
+For example: If the user clicks on some district’s dot, then the visualization will be populated by all the blocks of the districts.
 
-If the user clicks on some block’s dot, then the visualisation will be populated by all the clusters of the districts.
+If the user clicks on some block’s dot, then the visualization will be populated by all the clusters of the districts.
 
 Drop down functionality: Drop down functionality will be experienced by the selection from the “Choose a District”, “Choose a Block” and “Choose a cluster” drop down box values. 
 
@@ -64,9 +64,9 @@ date & time -->{DD-MM-YYYY}
 
 The functionalities of the exception reports will be the same as the map reports except the color representation of the dots. The color of the dots will be represented in the reverse order of the normal report. The colors will be applied from Red to Green gradient for the maximum to minimum value.
 
-### Scatter plot visualisation 
+### Scatter plot visualization 
 
-The landing page of the scatter plot report will be represented for the whole state by having the several normalised metrics using the raw data and you can read more about them.
+The landing page of the scatter plot report will be represented for the whole state by having the several normalized metrics using the raw data and you can read more about them.
 
 A key feature of this dashboard is its ability to Zoom In and Out at various administrative levels. The administrative levels include District, Block and Cluster. 
 
