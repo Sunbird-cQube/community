@@ -6,7 +6,6 @@
 
 ---
 
-* [About cQube](about-cqube.md)
 * [cQube Product Features](cqube-features.md)
 * [Listen to Experts \(Youtube\)](https://www.youtube.com/watch?v=kbeFmTsWlAI)
 
