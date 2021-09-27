@@ -70,7 +70,7 @@ The landing page of the scatter plot report will be represented for the whole st
 
 A key feature of this dashboard is its ability to Zoom In and Out at various administrative levels. The administrative levels include District, Block and Cluster. 
 
-This has been done to provide relevant insights at the appropriate administrative level. In addition to visualising data, the dashboard also gives you the ability to download the data at various administrative levels. 
+This has been done to provide relevant insights at the appropriate administrative level. In addition to visualizing data, the dashboard also gives you the ability to download the data at various administrative levels. 
 
 This feature has been enabled to provide freedom to power users to derive additional insights that may not be captured in this dashboard. You can download the data using the dropdown option on the top right corner.
 
@@ -82,9 +82,9 @@ Drop down functionality: Drop down functionality will be experienced by the sele
 
 Download Functionality: The download icon provides the download functionality of the report metrics based on the selection of the drop down values.
 
-### Table format visualisation 
+### Table format visualization 
 
-Diksha is using the table format representation. The landing page of the table format visualisation is having the metrics in combination with the ‘Textbook content plays’ and the ‘Course content plays’. This report is having the pagination and a total of 1000 records will be shown in each page.
+Diksha is using the table format representation. The landing page of the table format visualization is having the metrics in combination with the ‘Textbook content plays’ and the ‘Course content plays’. This report is having the pagination and a total of 1000 records will be shown in each page.
 
 Each cell of the table will represent the color gradient based on the performance. The color gradient is applied same as heat map and 10 different colors between red to green
 
@@ -98,7 +98,7 @@ Download Functionality: The download icon provides the download functionality of
 
 ### Bar Chart visualization 
 
-Diksha is using the bar chart visualisation. The landing page of the bar chart visualisation is having the metrics of in combination with the ‘Textbook content plays’ and the ‘Course content plays’ in the form of horizontal bars.
+Diksha is using the bar chart visualization. The landing page of the bar chart visualization is having the metrics of in combination with the ‘Textbook content plays’ and the ‘Course content plays’ in the form of horizontal bars.
 
 Content Selection: Content selection is the dropdown box which will represent the overall content, Textbook content and course content. By selecting the value table will be filtered as per the selected value.
 
@@ -126,7 +126,7 @@ Heatmap contains various filters as described below.
 
 Choose view by: This filter contains the Question ID & Indicator. By the selection of Choose view the report should show the Y-axis changes the representation to Question id and Indicator name.
 
-Heat map shows the results by applying the colour gradient will be declared from Red-Green where Red represents the poor performance and the Green represents the good performance.
+Heat map shows the results by applying the color gradient will be declared from Red-Green where Red represents the poor performance and the Green represents the good performance.
 
 ### Progress card  Report
 
@@ -156,32 +156,32 @@ By clicking on the hyperlink user will be redirected to the trends chart. Below 
 * X- Axis should be the performance and the Y-axis should be the months of the academic year.
 * Users will be able to see the Relative & Absolute markers on Y-Axis by selecting the switch at the left bottom of the report. 
 
-Data source wise reports Visualisations are as below  
+Data source wise reports Visualizations are as below  
 
 
-Student Attendance Report: Map visualisation, Heat Map
+Student Attendance Report: Map visualization, Heat Map
 
-Student Attendance Exception Report: Exception Map visualisation
+Student Attendance Exception Report: Exception Map visualization
 
-Teacher Attendance Report: Map visualisation
+Teacher Attendance Report: Map visualization
 
-Teacher Attendance Exception Report: Exception Map visualisation
+Teacher Attendance Exception Report: Exception Map visualization
 
-Semester Report: Map visualisation
+Semester Report: Map visualization
 
-CRC Report: Scatter plot visualisation
+CRC Report: Scatter plot visualization
 
-School Infrastructure Reports: Map Visualisation and Scatter plot visualisation
+School Infrastructure Reports: Map Visualization and Scatter plot visualization
 
-Diksha: Bar chart and table type visualisations 
+Diksha: Bar chart and table type visualizations 
 
-UDISE: Map visualisation
+UDISE: Map visualization
 
-PAT: Map visualisation, Heat map, Table type visualisations 
+PAT: Map visualization, Heat map, Table type visualizations 
 
-PAT Exception Report: Exception Map visualisation
+PAT Exception Report: Exception Map visualization
 
-Composite Report : Scatter plot visualisation
+Composite Report : Scatter plot visualization
 
-Telemetry : Map visualisation
+Telemetry : Map visualization
 
