@@ -1,6 +1,6 @@
 # Ad-hoc analysis
 
-* cQube enables download of computed metrics for analysis outside cQube by using any third party tool like Excel, METABASE, Tableau, KNIME or any other tool.
+* cQube enables download of computed metrics for analysis outside cQube by using any third party tool like Excel, METABASE, Tableau, KNIME or any other similar tool.
 * Users can download the JSON files from the S3 output bucket through the API.
 * The example spec for the download API will be as like below
 
