@@ -1,7 +1,7 @@
 # Ad-hoc analysis
 
-* This feature enables extension of aggregated and raw data for any type of ad-hoc analysis outside cQube by using any third party tool like Excel, METABASE, Tableau, KNIME or any other tool.
-* Ad-hoc users can download the JSON files from the S3 output bucket through the API.
+* cQube enables download of computed metrics for analysis outside cQube by using any third party tool like Excel, METABASE, Tableau, KNIME or any other tool.
+* Users can download the JSON files from the S3 output bucket through the API.
 * The example spec for the download API will be as like below
 
 API headers 
