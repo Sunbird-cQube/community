@@ -1,6 +1,6 @@
 # cQube Product Features
 
-cQube has functionality to ingest & analyze daily, weekly, half yearly and yearly data  and provides reports/insights based on the data feed  to derive and take action based on the reports/insights generated.
+cQube has functionality to ingest & analyze daily, weekly, half yearly and yearly data  and provides visualizations for a common set of state education data. This can be used to derive and take action based on the reports/insights generated.
 
 ### Following are the basic features of cQube -
 
