@@ -10,7 +10,7 @@ Visualizations are available on the web through a browser for authorized users w
 
 **Multiple visual options** - cQube provides various types of visualizations to users based on the data source. 
 
-Different visualizations has been provided for different data source for giving fine grained insights and actionability.
+Different visualizations has been provided for different data sources for giving fine grained insights and actionability. Examples of visualizations are as follows:
 
 * Map based visualizations/reports
 * Scatter plot visualizations/reports
