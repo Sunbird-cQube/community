@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About cQube](README.md)
+* [Sunbird cQube Overview](README.md)
 
 ## LEARN
 
