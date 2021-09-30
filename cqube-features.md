@@ -1,24 +1,23 @@
 # cQube Product Features
 
-cQube has the functionality to ingest & analyze daily, weekly, half yearly and yearly data  and provides visualizations for a common set of state education data. This can be used to derive and take action based on the reports/insights generated.
+The cQube product ingests & analyzes daily, weekly, half yearly or yearly data and provides reports and insights based on the data ingested.  These insights and reports generated can be used by stakeholders and decision makers to derive informed insights and take appropriate actions.
 
-Visualizations are available on the web through a browser for authorized users with login credentials.
+**The basic features of cQube are as mentioned below -**
 
-### Following are the features of cQube -
+**Multiple data source integration** – cQube can integrate with multiple data sources via predefined and extended APIs. This helps in automating the data ingestion process based on the frequency of data.
 
-**Multiple data source integration** – cQube creates metrics for data from different data sources  and visualizations are provided to provide correlation between them. 
+**Multiple options for data interfaces** - cQube provides multiple options for data interfaces based on predefined roles of the user.
 
-**Multiple visual options** - cQube provides various types of visualizations to users based on the data source. 
+* Reports data – Data is analyzed and insights are depicted visually in the form of charts and maps.
+* Raw data – Data that has been analyzed and are depicted in the form of tables and lists.
 
-Different visualizations has been provided for different data sources for giving fine grained insights and actionability. Examples of visualizations are as follows:
+**Multiple visual options** - cQube provides multiple visual options to users for different views of the reports \(Visual and Tabular\) as mentioned below:
 
-* Map based visualizations/reports
-* Scatter plot visualizations/reports
-* Heat map visualizations/reports
-* Stacked bar visualizations/reports
-* Table format visualizations/reports
-* Bar chart visualization/reports
-* Trend visualizations/reports
-
-
+* Map based visualizations/ reports
+* Scatter plot visualizations/ reports
+* Heat map visualizations/ reports
+* Stacked bar visualizations/ reports
+* Table format visualizations/ reports
+* Bar chart visualization/ reports
+* Trend visualizations/ reports
 
