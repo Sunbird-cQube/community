@@ -1,6 +1,6 @@
 # AWS - Network Architecture
 
-The following steps define how the cQube setup and workflow is completed in AWS. cQube mainly consists of the areas mentioned below:
+The following steps define how the cQube setup and workflow is completed in AWS. cQube mainly comprises of the areas mentioned below:
 
 1. Private Subnet
 2. Public Subnet
@@ -11,13 +11,13 @@ The cQube network setup process is described in the block diagram below:
 
 ![AWS - cQube network setup diagram](https://lh4.googleusercontent.com/xZkyU-9oUYTjmVYDb7uLi5WVXl7t3Pf9okjTMWILPyl8r_e4YqJQnefgX-92LH2lMvxLWmq6ptaQ3ajB9cDbkur08cNnsL5vDZgIQUzQT_nZuwmM2KPZAIcsANSqsHJiyF3yjOl6=s0)
 
-* The Yellow arrows in the network diagram indicate the file upload users’ connectivity through the load balancer.
+* The Yellow arrows in the network diagram indicate the connectivity through the load balancer, for those users who upload the files.
 * The Green arrow in the network diagram indicates the end user's connectivity through the load balancer.
-* The purple color arrow in the network diagram indicates the developer's connectivity through the VPN.
+* The purple colored arrow in the network diagram indicates the developer's connectivity through the VPN.
 
 ## **Private Subnet**
 
-Private subnet is used to secure the cQube server from public access. The instance will not be having the public IP. An EC2 instance will be created in a private subnet and all cQube components will be installed in this.
+Private subnet is used to secure the cQube server from unauthenticated users and public access. The instance will not have the public IP. An EC2 instance will be created in a private subnet and all cQube components will be installed in this.
 
 The steps involved to create EC2 instance in private subnet
 
@@ -27,7 +27,7 @@ The steps involved to create EC2 instance in private subnet
 
 **EC2**: cQube server
 
-    - create an ec2 instance with below mentioned configuration
+    - Create an ec2 instance with configuration mentioned below:
 
     - 8 core CPU, 32 GB RAM and 1 TB storage
 
@@ -39,33 +39,33 @@ The steps involved to create EC2 instance in private subnet
 
 **Load Balancer:**
 
-    - create a load balancer 
+    - Create a load balancer 
 
-    - configure it to connect to Nginx on port 80, 443
+    - Configure it to connect to Nginx on port 80, 443
 
 **Domain Name:** 
 
-      - create a domain name
+      - Create a domain name
 
-      - configure CNAME of load balancer to domain name
+      - Configure CNAME of load balancer to domain name
 
 **SSL:**
 
-      - create a certificate from AWS Certificate Manager
+      - Create a certificate from AWS Certificate Manager
 
-      - attach it to load balancer
+      - Attach it to the load balancer
 
 **Security Group:**
 
    ****   - port 80, 443 inbound from 0.0.0.0/0
 
-**Note:** For the concurrent users  between 100 to1000, the recommended Nginx machine type  would be 'm' or 'c' series 2 core machine to use. And need to increase the machine size according to the concurrent user's traffic.
+**Note:** For the concurrent users  between 100 to1000, the recommended Nginx machine is the type with a 'm' or 'c' series 2 core machine. The machine size has to be increased according based on the concurrent user's traffic.
 
-## **User Actions in creation of Nginx**
+## **User Actions in the creation of Nginx**
 
-**Addition of G zipping to the UI -** Have to enable the compression in the proxy server for the content type 'application/JavaScript' and 'text/CSS'.
+**Addition of G zipping to the UI -** User has to enable the compression in the proxy server for the content type 'application/JavaScript' and 'text/CSS'.
 
-Below is the sample configuration for reference to add in Nginx conf. 
+The sample configuration for reference to add in Nginx conf. is shown in the figure below: 
 
 ```text
 server {
@@ -76,7 +76,7 @@ server {
         }
 ```
 
-Below is the sample configuration for reference to add in Nginx conf.
+The sample configuration for reference to add in Nginx conf. is shown in the figure below:
 
 ```text
 location /api {
@@ -96,17 +96,17 @@ location /api {
 
 Public subnet will contain two EC2 instances, one is for OpenVPN and another is for Nginx, which will act as a reverse proxy. It is used to provide connectivity with the private subnet.
 
-The steps involved to create the public subnet
+The following are the steps involved to create the public subnet:
 
-* Create a subnet in that same VPC where the private subnet was created with a Routing Table attached to the Internet Gateway.
-* Create the first EC2 instance with OpenVPN AWS AMI and configure it to connect with the private subnet.
-* Create the second EC2 instance with Ubuntu 18.04 AWS AMI and install Nginx to connect with the cQube server which is in the private subnet.
+* Create a subnet in that same VPC where the private subnet has been created, with a Routing Table attached to the Internet Gateway.
+* Create the first EC2 instance with OpenVPN AWS AMI and configure it to connect with the private subnet. 
+* Create the second EC2 instance with Ubuntu 18.04 AWS AMI and install Nginx to connect to the cQube server which is present in the private subnet.
 
 **EC2**: OpenVPN server
 
-    - create an ec2 instance with OpenVPN ami 
+    - Create an ec2 instance with OpenVPN ami 
 
-    - create users to access the instances and for cQube admin pages 
+    - Create users to access the instances and for cQube admin pages 
 
     Security group:
 
@@ -114,11 +114,11 @@ The steps involved to create the public subnet
 
 **EC2:** Nginx server
 
-    - create an ec2 instance with ubuntu 18.04 ami
+    - Create an ec2 instance with ubuntu 18.04 ami
 
-    - configure the Nginx to connect Load balancer and cQube server
+    - Configure Nginx to connect the Load balancer and the cQube server
 
-    - configuration file will be provided
+    - The configuration file will be provided
 
     Security group:
 
@@ -128,9 +128,9 @@ The steps involved to create the public subnet
 
 **NAT Gateway**:
 
-    - create a Nat gateway / Nat instance
+    - Create a Nat gateway / Nat instance
 
-    - configure the connection to cQube server
+    - Configure the connection to the cQube server
 
     Security group:
 
@@ -138,21 +138,21 @@ The steps involved to create the public subnet
 
 ## **AWS Load Balancer** 
 
-AWS load balancer is used in cQube to avoid the security risks and also to control the traffic among the servers to improve up-time and easily scale the cQube by adding or removing servers, with minimal disruption to cQube traffic flows. cQube is using the Application Load Balancer
+AWS load balancer is used in cQube to avoid any security risks and also to control traffic among the servers. It is used to improve up-time and to make cQube easily scalable, by adding or removing servers, with minimal disruption to cQube traffic flows. cQube is using the Application Load Balancer.
 
-**The steps involved to create the load balancer**
+**Steps involved in creating the load balancer:**
 
 1. Open the Amazon EC2 console at [https://console.aws.amazon.com/ec2/v2/home](https://console.aws.amazon.com/ec2/v2/home)
-2. On the navigation bar, choose a Region for your load balancer. Be sure to select the same Region that you selected for your EC2 instances.
+2. On the navigation bar, choose a region for the load balancer. Select the same region that has been selected for the EC2 instances.
 3. On the navigation pane, under LOAD BALANCING, choose Load Balancers.
-4. Choose Create Load Balancer.
-5. For Application Load Balancer, choose Create.
+4. Choose the option "Create Load Balancer".
+5. For Application Load Balancer, choose "Create".
 
-**The steps involved to configure the load balancer with EC2 instance**
+**Steps involved in configuring the load balancer with EC2 instance**
 
-* On the Configure Health Check page, leave Ping Protocol set to HTTP and Ping Port set to 80.
-* For Ping Path, replace the default value with a single forward slash \("/"\). This tells Elastic Load Balancing to send health check queries to the default home page for your web server, such as index.html.
-* On the Add EC2 Instances page, select the Nginx instance to register with the load balancer.
+* On the Configure Health Check page, set the Ping Protocol to HTTP and Ping Port to 80.
+* Replace the default value with a single forward slash \("/"\) for ping path. This sends a message to the Elastic Load Balancing to send health check queries to the default home page for the web server, for example: index.html.
+* Select the Nginx instance to register with the load balancer on the Add EC2 Instances page,.
 
 ## **IAM user and Role creation for S3 connectivity**
 
