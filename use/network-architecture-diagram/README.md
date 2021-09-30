@@ -156,29 +156,29 @@ AWS load balancer is used in cQube to avoid any security risks and also to contr
 
 ## **IAM user and Role creation for S3 connectivity**
 
-An AWS Identity and Access Management \(IAM\) user is an entity that you create in AWS to represent the person or application that uses it to interact with AWS. A user in AWS consists of a name and credentials. An IAM user with administrator permissions is not the same thing as the AWS account root user. ****To provide the connectivity between EC2 and S3 we need to create an IAM user with a supported role. The role should have the List, Read and Write permissions
+An AWS Identity and Access Management \(IAM\) user is an entity that is created in AWS to represent the person or application that uses it to interact with AWS. A user in AWS contains a name and credentials. An IAM user with administrator permissions is different from the AWS account root user. ****One has to create an IAM user with a supported role to provide the connectivity between EC2 and S3 . The role should have list, read and write permissions
 
-We have multiple ways to create the IAM user account, but in cQube we created the IAM user from the AWS GUI by following the below points.
+There are multiple ways to create the IAM user account, but in cQube the IAM user has been created from the AWS GUI by following the steps mentioned below:
 
 **AWS S3:**
 
-    ****- create 3 buckets for input, output and emission
+    ****- Create 3 buckets for input, output and emission
 
     **IAM User:**
 
-   ****   - create an IAM user
+   ****   - Create an IAM user
 
-      - assign IAM policy to user 
+      - Assign IAM policy to user 
 
-      - download the AWS access key and secret key
+      - Download the AWS access key and secret key
 
     **IAM Policy:**
 
-      - create a policy from AWS IAM 
+      - Create a policy from AWS IAM 
 
-      - provide access to list, read and write the object to s3 buckets
+      - Provide access to list, read and write the object to s3 buckets
 
   
-**Note:** By adding VPC endpoint to connect to s3 buckets, the data transmission between ec2 and s3 happens within AWS network. This helps to increase the network speed by 15%.  
+**Note:** The data transmission between ec2 and s3 happens within the AWS network by adding VPC endpoint to connect to s3 buckets. This helps increase the network speed by 15%.  
 
 
