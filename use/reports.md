@@ -6,7 +6,7 @@ cQube reports provide data-based insights in the field of education. These repor
 
 cQube dashboard will contain the shortcut icons of all the reports. Telemetry details will be displayed on each icon. The number of views will be displayed for the last one day, 7 days and last 30 days with a 15 seconds time delay. Each icon will have an ‘i’ symbol at the right corner of the icon which will display the description of the report with whoever mouse.  
 
-For the depiction of the metrics cQube uses the below types of reports.
+For the visualization of the metrics cQube uses the below types of reports.
 
 1. Map based visualization
 2. Scatter plot visualization
