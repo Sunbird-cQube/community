@@ -1,6 +1,6 @@
 # AWS - Network Architecture
 
-The following steps define how the cQube setup and workflow is completed in AWS. cQube mainly comprises of the areas mentioned below:
+The following steps define the cQube setup and workflow completion process in AWS. cQube mainly comprises of the areas mentioned below:
 
 1. Private Subnet
 2. Public Subnet
