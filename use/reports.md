@@ -10,7 +10,7 @@ For the visualization of the metrics cQube uses the below types of reports.
 
 1. Map based visualization
 2. Scatter plot visualization
-3. Stacked bar report
+3. Stacked bar report visualization
 4. Table format visualization
 5. Bar chart visualization
 
