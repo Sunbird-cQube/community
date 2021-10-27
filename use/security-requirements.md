@@ -1,6 +1,6 @@
 # Security Implementations
 
-* cQube product security is  provided by implementing the private subnet with AWS load balancer as described in the [AWS - Network Architecture](https://cqube.sunbird.org/use-getting-started/network-architecture-diagram).    
+* cQube product security is  provided by implementing the private subnet with AWS load balancer as described in the [AWS - Network Architecture](https://cqube.sunbird.org/use/network-architecture-diagram).    
 * All the ports can be accessed by Nginx server only, none of these ports can be accessed directly from the internet.
 * Kong API Gateway will secure, manage, and extend API Endpoints.
 * Keycloak Identity Server is being used for securing web applications. Keycloak uses open protocol standards like [OpenID Connect](https://openid.net/connect/) or [SAML 2.0](http://saml.xml.org/saml-specifications) to secure the applications. Google OAuth can be enabled for the two-factor authentication.
