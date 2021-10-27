@@ -1,6 +1,6 @@
 # Admin Login Process
 
-![Admin user flow through VPN](https://lh4.googleusercontent.com/A-OehMBXbXoNdckmWGz-NxS6dsp2wYl_jGFyUDjm1K_Zkrki03DpqgfbLEhenx06U6xS2KcAxPwFyK8eaIMewtYZgXbRZKysv9JWt8waBzXB46SDiNFMF4qBNcKXvEFVZragFrFf=s0)
+![Admin user flow through VPN](https://github.com/Sunbird-cQube/community/blob/master/.gitbook/assets/Admin%20Login%20Process.png)
 
 Admin must follow  the 2 factor authentication process to perform the admin tasks. The Admin user should connect to the VPN to avail the 2 factor authentication by following the steps mentioned below:
 
