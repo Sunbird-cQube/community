@@ -12,7 +12,7 @@ cQube mainly have following features to support data analysis and visualizations
 **Data Ingestion** – cQube can accept data via API on set interval defined by emission user depends on the need and updates on the data. It also provides feature to ingest data on ad-hoc basis for certain updates or missing data. Generally, the defined intervals are Daily, Weekly, Monthly, Half-Yearly or Yearly.
 
 
-**Data Processing** - Data processing includes the data validation, Data transformation and metrics calculations once data ingested to cQube it goes through detailed testing and validation before computing metrics (e.g., File format, Column Validation, Data type validation, Missing value validation, Data duplication check)
+**Data Processing** - Data processing includes the data validation, Data transformation and metrics calculations once data ingested to cQube it goes through detailed testing and validation before computing metrics <br> (e.g., File format, Column Validation, Data type validation, Missing value validation, Data duplication check)
 
 Once data passed through the test & validation phase it goes to processing stage where all calculation will be performed for the defined metrics and output will be sent to designated output folder for visualization
 
