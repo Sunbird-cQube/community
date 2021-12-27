@@ -1,5 +1,4 @@
-##### 1. Workflow Installation
-**Steps to install cQube Workflow:**
+### Steps for Workflow Installation
 - Open Terminal
 - Navigate to the directory where cQube_Workflow has been downloaded or cloned
   - cd cQube_Workflow/work_deploy/
