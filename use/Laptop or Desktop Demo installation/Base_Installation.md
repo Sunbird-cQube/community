@@ -1,5 +1,4 @@
-##### 1. Laptop Installation
-##### 1.1 Base Installation
+### Steps for Base Installation at Laptop/Desktop
 - Open Terminal
 - Navigate to the directory where cQube_Base has been downloaded or cloned
   - cd cQube_Base/
