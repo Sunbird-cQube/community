@@ -147,30 +147,3 @@ This is used for listing the state names
 ##### 18. Validate.sh - This script is used for validating the installation of cQube configuration variables
        18.1 please find the below step for develop validate.sh
        step1: validating the variables which all are added in config.yml.template to install the cQube workflow.
-    
-
-
-
-      
-      
-      
-      
-      
-      
-      
-      
-	 
-      
-        
-    
-
-
-      
-      
-          
-      
-          
-          
-          
-          
-          
