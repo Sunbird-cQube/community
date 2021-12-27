@@ -64,14 +64,14 @@
 - Inside the use case folder create required below files
 - validation_scripts
 
-##### 1. backup_postgre.sh 
+##### 5.1 backup_postgre.sh 
 This script is used for taking backup of postgre     database for future validation
       Below are the steps for develop backup_postgre.sh:
         step1: Need base directory where the cQube base is installed
         step2: Database details
       Backup command: 
         pg_dump -h localhost -U $db_user -F t $db_name >    $base_dir/cqube/postgres/backups/date +%Y%m%d%H%M$bk_db_name.tar
-##### 2. Install_aws.sh
+##### 5.2 Install_aws.sh
 This script is used for AWS Command Line Interface with   the common features and calling patterns. Learn how to install the AWS CLI on your Windows, Linux. 
       Below are the steps for develop Install_aws.sh
 	  step1: https://s3.amazonaws.com/aws-cli/awscli-bundle.zip 
@@ -79,35 +79,35 @@ This script is used for AWS Command Line Interface with   the common features an
        ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws  > /dev/null 2>&1
       ./awscli-bundle/install -b ~/bin/aws  > /dev/null 2>&1
       ./awscli-bundle/install -h  > /dev/null 2>&1
-##### 3. state_codes
+##### 5.3 state_codes
 state code is used to differentiate between the states
       example: gujarat, OD etc
-##### 4. validate_static_datasource.sh
+##### 5.4 validate_static_datasource.sh
 This script is used for datasource status in postgre
      please find the below steps for develop validate_static_datasource.sh
      step1: Need to validate static date sources, current data sources and data source config
 	 step2: Need to compare current data source with data source config
-##### 5 .version - it used for manage the versions
+##### 5.5 version - it used for manage the versions
      Below are the stepss for .version
 	  step1: which version need to be installed that version installed 
       ex: cqube_workflow_version: "3.1"
-##### 6. config.yml.template
+##### 5.6 config.yml.template
 This script is used for cQube configuration parameters
       please find the below steps for develop config.yml.template
       step1: first need to fill the all the necessary parameters
       Ex: base_dir: /opt
       State_code:
       Static_datasource
-##### 7. Datasource_config.yml
+##### 5.7 Datasource_config.yml
 This script is used for datasource enabling and disabling
       please find the below steps for develop datasource_config.yml
       step1: use case necessary data sources should be enabled
       step2: user needed data sources can able to add  
-##### 8. Datasource_Validation.sh
+##### 5.8 Datasource_Validation.sh
 This script is used for validating the data sources
       please find the below steps for develop datasource_validation.sh
       step1: need to validate needed data sources which all are added in datasource_config.yml
-##### 9. Install.sh
+##### 5.9 Install.sh
 This script is used for running installation of ansible script
       please find the below steps for develop install.sh
 	  step1: Installing the ansible tool
@@ -115,33 +115,33 @@ This script is used for running installation of ansible script
 	  step3: calling validate.sh and datasource_validation.sh
 	  step4: checking the existence ansible.cfg file
       step5: calling the ansible playbook to install the cQube workflow  
-##### 10. Install_ui.sh
+##### 5.10 Install_ui.sh
 This script is used for running installation of angular related ansible code
       please find the below steps for develop install_ui.sh
 	  step1:calling angular related installation ansible playbooks
-##### 11. Memory_config.yml
+##### 5.11 Memory_config.yml
 This script is used for memory configuration parameters
-##### 12. Requirement.txt -
+##### 5.12 Requirement.txt -
 This requirements.txt file is used for specifying what python packages are required to run the project you are looking at. Typically the requirements.txt file is located in the root directory of your project
-##### 13. State_List:
+##### 5.13 State_List:
 This is used for listing the state names
-##### 14. Update_ui.sh - This is script is used for upgradation of angular related ansible code
+##### 5.14 Update_ui.sh - This is script is used for upgradation of angular related ansible code
        Below are the steps for develop update_ui.sh
        step1:calling angular related upgradation ansible playbook
-##### 15. Upgradation_config.yml.template - This script is used for upgradation of cQube configuration parameters
+##### 5.15 Upgradation_config.yml.template - This script is used for upgradation of cQube configuration parameters
       Below are the steps for develop upgradation_config.yml.template
       step1:first need to fill the all the necessary parameters
       Ex: base_dir: /opt
       State_code:
       Static_datasource
-##### 16. Upgaradation_Validate.sh- This script is used for validating the upgradation of cQube configuration variables
+##### 5.16 Upgaradation_Validate.sh- This script is used for validating the upgradation of cQube configuration variables
        Below are the steps for develop upgaradation_validate.sh
        step1:validating the variables which are all added in upgradation_config.yml
-##### 17. Upgrade.sh - This script is used for upgrading the ansible code
+##### 5.17 Upgrade.sh - This script is used for upgrading the ansible code
        Below are the steps for develop upgrade.sh
 	   step1:checking the existence of upgradtion_config.yml
 	   step2:calling the upgradation of validation scripts
            step3: calling the upgradation ansible playbooks to upgrade cQube workflow 
-##### 18. Validate.sh - This script is used for validating the installation of cQube configuration variables
+##### 5.18 Validate.sh - This script is used for validating the installation of cQube configuration variables
        Below step are used to develop validate.sh
        step1: validating the variables which all are added in config.yml.template to install the cQube workflow.
