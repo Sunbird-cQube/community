@@ -1,7 +1,7 @@
 ### Steps for Mock Data Processing
 Create the directory and place the data files as shown in file structure below inside the emission directory.
-####  Note : Process the data files one after the another.
-#### Master Files
+#####  Note : Process the data files one after the another.
+##### Master Files
 - district_master
     - district_mst.zip
         - district_mst.csv
@@ -21,7 +21,7 @@ Create the directory and place the data files as shown in file structure below i
     - diksha_enrolment_tpd.zip
         - diksha_enrolment_tpd.csv
 
-#### Transactional Files
+##### Transactional Files
 
 **Student Attendance Data Processing**
 - student_attendance
