@@ -39,12 +39,10 @@
           3.3 3 Create new data source UIs
           3.3.4 Place into git
           3.3.5 Merge it with main cQube branch
-##### 4. **Integration with cQube**
+##### 4. **Integration and maintanance of use-case with cQube**
       4.1 Scenario 1 - Contribute to cQube
       4.2 Scenario 2 - Maintain standalone repository(separate use case)
-##### 5. **Upgradation** 
-      5.1 S1
-      5.2 S2
+
 ##### 6. **Risk and Challenges**
 
 ##### **Creating new use case in cQube - cQube base is installed and we have to create new use case**
