@@ -1,6 +1,19 @@
 ### Steps for Mock Data Processing
 Create the directory and place the data files as shown in file structure below inside the emission directory.
 
+##### Scripts:
+Scripts folder contains the Python code to generate the mockup data and the data configrations.
+
+##### test_data_lite:
+test_data_lite folder contains the data with a sample of few records(3 schools) to make the cQube light weight. This data will be used just for the lighter demos. 
+
+##### test_data:
+test_data folder contains the data with one million of records to describe a perfect view of cQube demo.
+<br></br>
+<br></br>
+
+**Based on the requirement the data can be selected from either test_data_lite/test_data**
+
 **Note : Process the data files one after the another.**
 ##### Master Files
 - district_master
