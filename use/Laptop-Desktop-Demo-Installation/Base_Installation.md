@@ -1,10 +1,10 @@
 ### Steps for Base Installation at Laptop/Desktop
 - Open Terminal
 - Navigate to the directory where cQube_Base has been downloaded or cloned
-  ```text
+```text
   - cd cQube_Base/
   - git checkout release-3.3
-  ```
+```
 - Copy the config.yml.template to config.yml
 ```text
   - cp config.yml.template config.yml
