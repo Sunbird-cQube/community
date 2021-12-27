@@ -2,11 +2,11 @@
 
 ##### **Objective:** 
 ###### To provide high level view on adding new data source to cQube and maintenance
-##### 1. **Prerequisite:** All the cQube prerequisites remains same 
-      1.1 3 VMs
+##### 1. **Prerequisite:** All the cQube prerequisites remains same such as below
+      1.1 Three VMs are required for cQube installation
       1.2 Domain Name
       1.3 VPN service
-      1.4 The team which is creating the use case should know the following
+      1.4 The team which is creating the use case should know the development of following software
           1.4.1 Ansible (Shell scripting)
           1.4.2 Postgresql
           1.4.3 NIFI
@@ -43,7 +43,7 @@
       4.1 Scenario 1 - Contribute to cQube
       4.2 Scenario 2 - Maintain standalone repository(separate use case)
 
-##### 6. **Risk and Challenges**
+##### 5. **Risks and Challenges**
 
 ##### **Creating new use case in cQube - cQube base is installed and we have to create new use case**
 
