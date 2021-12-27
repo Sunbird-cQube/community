@@ -18,6 +18,7 @@
   * [Data Storage Locations](use/network-architecture-diagram/data-storage-locations.md)
 * [Security Implementations](use/security-requirements.md)
 * [Prerequisites for Installation process](use/prerequisites-for-installation-process.md)
+* [Use-Case Creation steps](use/use-case.md)
 * [cQube Setup & configuration](use/cqube-installation.md)
 * [Base Installation steps](use/base-installation-steps.md)
 * [Base Upgradation steps](use/base-upgradation-steps.md)
