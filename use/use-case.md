@@ -20,7 +20,7 @@
           2.1.4 NodeJS
           2.1.5 Angular
           2.1.6 APIs
-##### 3. **Steps for development of new use case**
+##### 3. **Different types of use cases**
       3.1 Completely new use case
           3.1.1 Create git structure
           3.1.2 Create required files (scripts)
