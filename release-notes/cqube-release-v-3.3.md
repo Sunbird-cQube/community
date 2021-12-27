@@ -6,23 +6,23 @@
 |---------|----------------|------------------|
 |cQube    |09 December 2021 |V 3.3    |
 
-1. #### Objectives of the cQube release 3.3
+#### 1. Objectives of the cQube release 3.3
 cQube release version 3.3, This release includes the new reports for Diksha which represents the Program level - course progress, GPS of learning- TPD & ETB, Heartbeat of the Nation Learning, User Onboarding, User Engagement, Usage per capita, Content Preference and the Customized report names, report headings and report descriptions.
-2. #### Scope
+#### 2.Scope
 cQube product release features and issues are described in this version 3.3. This document contains a short description of new Diksha reports and Enhancements to the cQube product.
-3. #### Summary of the Product Features  
+#### 3. Summary of the Product Features  
 This document contains information on the following new features and enhancements to the existing features of the cQube product: 
-    • Program level - course progress Report
-    • GPS of learning
-    • TPD Report
-    • ETB Report
-    • Heartbeat of the Nation Learning Report
-    • User Onboarding
-    • User Engagement 
-    • Usage per capita 
-    • Content Preference 
-    • Customized report names, report headings and report descriptions.
-4. #### Description of the Product Features
+- Program level - course progress Report
+- GPS of learning
+    - TPD Report
+    - ETB Report
+- Heartbeat of the Nation Learning Report
+- User Onboarding
+- User Engagement 
+- Usage per capita 
+- Content Preference 
+- Customized report names, report headings and report descriptions.
+#### 4. Description of the Product Features
 1. ##### Program level - course progress Report
 |Sl No.   |Feature   |Description|Roles Impacted|
 |---------|----------------|------------------|-------------|
@@ -31,8 +31,8 @@ This document contains information on the following new features and enhancement
 |3| - For the lower levels, X axis as Number of users onboarding, completion, and Certificate & Y axis as next level location names.
 
 2. ##### GPS of learning
-    • TPD Report
-    • ETB Report
+- TPD Report
+- ETB Report
 
 |Sl No.   |Feature   |Description|Roles Impacted|
 |---------|----------------|------------------|-------------|
