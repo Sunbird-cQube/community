@@ -50,6 +50,12 @@ cqube_emission
 ├── diksha
 │   └── diksha_api_progress_exhaust_batch_ids.zip
 │       └── diksha_api_progress_exhaust_batch_ids.csv
+├── diksha_enrolment
+│   └── diksha_enrolment.zip
+│       └── diksha_enrolment.csv
+├── diksha_enrolment
+│   └── diksha__etb_enrolment.zip
+│       └── diksha_etb_enrolment.csv
 ├── sat
 │   └── semester_exam_mst.zip
 │       └── semester_exam_mst.csv
