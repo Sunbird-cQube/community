@@ -100,8 +100,11 @@ cqube_emission
 │   └── infra_trans.zip
 │       └── infra_trans.csv
 ├── diksha
-│   └── diksha.zip
-│       └── diksha.csv
+│   └── diksha_data_summary.zip
+│       └── diksha_data_summary.csv
+├── diksha
+│   └── diksha_tpd.zip
+│       └── diksha_tpd.csv
 ├── pat
 │   └── periodic_exam_result_trans.zip
 │       └── periodic_exam_result_trans.csv
