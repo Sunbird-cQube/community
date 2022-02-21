@@ -54,7 +54,7 @@ cqube_emission
 │   └── diksha_enrolment.zip
 │       └── diksha_enrolment.csv
 ├── diksha_enrolment
-│   └── diksha__etb_enrolment.zip
+│   └── diksha_etb_enrolment.zip
 │       └── diksha_etb_enrolment.csv
 ├── sat
 │   └── semester_exam_mst.zip
