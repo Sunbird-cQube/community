@@ -40,6 +40,20 @@ This configuration should be performed at the installation stage of cQube. The s
 
 [https://github.com/project-sunbird/cQube/blob/release-1.7/ansible/installation\_scripts/state\_list](https://github.com/project-sunbird/cQube/blob/release-1.7/ansible/installation_scripts/state_list)
 
+#### Configuration to disable Map reports
+For the states who do not require the map reports, we have added a new feature which disables the map reports and remains with other existing reports.
+
+To enable this feature, edit the config file as mentioned below before starting the installation or upgradation.
+
+`nano config.yml `
+
+add 'none' as value to 'map_name' variable.
+
+`map_name : 'none'` 
+
+After successful installation or upgradation, map reports will be disabled. 
+Now school master data can have null/empty values in latitude and longitude columns.
+
 #### Enable / Disable the process groups
 
 This configuration should be performed at the installation / Up-gradation stage of cQube. The cQube user may select the process groups which they wanted to include into the cQube. While the installation / Up-gradation of the cQube user will be available to select the existing process group by giving the true / false in the datasource\_config.yml document which is available at the link below.
