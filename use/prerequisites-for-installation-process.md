@@ -27,7 +27,7 @@
 
 * Port 9000 should be open from OpenVPN to the cQube server   
 
-![cQube Nginx Routes](../.gitbook/assets/cqube_nginx_routes.png)
+
 
 #### Reverse proxy rules (internal routing):
 The following ports have to be configured in the Nginix server with reverse proxy:
@@ -44,3 +44,4 @@ The following ports have to be configured in the Nginix server with reverse prox
 
 - Port 80 should be open from openvpn to the Nginx
 
+![cQube Nginx Routes](../.gitbook/assets/cqube_nginx_routes.png)
