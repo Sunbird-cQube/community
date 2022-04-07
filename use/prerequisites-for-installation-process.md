@@ -8,13 +8,12 @@
 * Domain name \(with SSL\)
 * 1 TB Storage
 
-### Reverse proxy rules 
 
-#### The following ports have to be configured in the Nginx server with reverse proxy:
+#### Reverse proxy rules (public routing):
 
 * Port 4200 should be proxied to the '/'
 * Port 8080 should be proxied to the '/auth'
-* Port 3000 should be proxied to the '/API'
+* Port 3000 should be proxied to the '/api'
 * Port 8000 should be proxied to the '/data'
 
 #### Nginx - cQube server firewall configuration
@@ -26,7 +25,19 @@
 
 **OpenVPN - cQube server firewall configuration**
 
-* Port 9000 should be open from OpenVPN to the cQube server
-* Port 4201 should be open from OpenVPN to the cQube server
-* Port 3001 should be open from OpenVPN to the cQube server   
+* Port 9000 should be open from OpenVPN to the cQube server   
 
+#### Reverse proxy rules (internal routing):
+The following ports have to be configured in the Nginix server with reverse proxy:
+
+- Port 4201 should be proxied to the '/'
+- Port 3001 should be proxied to the '/api'
+
+#### Nginx - cQube server firewall configuration
+
+- Port 4201 should be open from Nginx to the cQube server
+- Port 3001 should be open from Nginx to the cQube server 
+
+#### Openvpn - cQube server firewall configuration
+
+- Port 80 should be open from openvpn to the Nginx
