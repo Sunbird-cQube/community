@@ -18,7 +18,7 @@ cQube release version 3.6, This release includes
   With the new implementation all map reports should show selection based lower level information on clicking the Blocks, Clusters & Schools buttons. 
 
 
-**2.Scope**
+**2. Scope**
 
 cQube product release features and issues are described in this version 3.6. This document contains a short description of user level access, Selection based lower level information on clicking the Blocks, Clusters & Schools buttons and Enhancements to the cQube product.
 
