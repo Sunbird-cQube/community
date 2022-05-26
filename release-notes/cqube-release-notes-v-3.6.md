@@ -39,3 +39,10 @@ This document contains information on the following new features and enhancement
 - [User level Access of the cQube Reports](https://github.com/Sunbird-cQube/community/issues/45)
 
 - [Selection based lower level information on click of level buttons](https://github.com/Sunbird-cQube/community/issues/49)
+
+**5. Production bug fix**
+- When the heat map is having more than 100 columns and drag the Horizontal scroll bar 60% towards right lossing the cell color on clicking of the particular cell.
+
+  [Heat Map cell color disappears on hover](https://github.com/Sunbird-cQube/community/issues/43)
+
+
