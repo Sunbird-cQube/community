@@ -46,9 +46,9 @@
 * [Acronyms](use/acronyms.md)
 
 ## cQube Release Notes <a id="release-notes"></a>
-* [cQube - Release V 3.6](release-notes/cqube-release-v-3.6.md)
-* [cQube - Release V 3.5](release-notes/cqube-release-v-3.5.md)
-* [cQube - Release V 3.4](release-notes/cqube-release-v-3.4.md)
+* [cQube - Release V 3.6](release-notes/cqube-release-notes-v-3.6.md)
+* [cQube - Release V 3.5](release-notes/cqube-release-notes-v-3.5.md)
+* [cQube - Release V 3.4](release-notes/cqube-release-notes-v-3.4.md)
 * [cQube - Release V 3.3](release-notes/cqube-release-v-3.3.md)
 * [cQube - Release V 3.2](release-notes/cqube-release-notes-v-3.2.md)
 * [cQube - Release V 3.1](release-notes/cqube-release-v-3.1.md)
