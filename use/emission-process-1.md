@@ -26,24 +26,45 @@
 ```text
 cqube_emission
 |
+├── district_master
+│   └── district_mst.zip
+│       └── district_mst.csv
 ├── block_master
 │   └── block_mst.zip
 │       └── block_mst.csv
 ├── cluster_master
 │   └── cluster_mst.zip
 │       └── cluster_mst.csv
-├── district_master
-│   └── district_mst.zip
-│       └── district_mst.csv
 ├── school_master
 │   └── school_mst.zip
 │       └── school_mst.csv
+├── school_category
+│   └── school_category_master.zip
+│       └── school_category_master.csv
+├── school_management
+│   └── school_management_master.zip
+│       └── school_management_master.csv
+├── grade_details
+│   └── grade_details.zip
+│       └── grade_details.csv
+├── subject_details
+│   └── subject_details.zip
+│       └── subject_details.csv
 ├── pat
 │   └── periodic_exam_mst.zip
 │       └── periodic_exam_mst.csv
 ├── pat
 │   └── periodic_exam_qst_mst.zip
 │       └── periodic_exam_qst_mst.csv
+├── sat
+│   └── semester_exam_mst.zip
+│       └── semester_exam_mst.csv
+├── sat
+│   └── semester_exam_qst_mst.zip
+│       └── semester_exam_qst_mst.csv
+├── sat
+│   └── semester_exam_subject_details.zip
+│       └── semester_exam_subject_details.csv
 ├── diksha
 │   └── diksha_tpd_mapping.zip
 │       └── diksha_tpd_mapping.csv
@@ -56,33 +77,9 @@ cqube_emission
 ├── diksha_enrolment
 │   └── diksha_etb_enrolment.zip
 │       └── diksha_etb_enrolment.csv
-├── sat
-│   └── semester_exam_mst.zip
-│       └── semester_exam_mst.csv
-├── sat
-│   └── semester_exam_qst_mst.zip
-│       └── semester_exam_qst_mst.csv
-├── sat
-│   └── semester_exam_subject_details.zip
-│       └── semester_exam_subject_details.csv
-├── school_category
-│   └── school_category_master.zip
-│       └── school_category_master.csv
-├── school_management
-│   └── school_management_master.zip
-│       └── school_management_master.csv
-├── sat
-│   └── semester_exam_subject_details.zip
-│       └── semester_exam_subject_details.csv
-├── sat
-│   └── semester_exam_grade_details.zip
-│       └── semester_exam_grade_details.csv
-├── pat
-│   └── periodic_exam_subject_details.zip
-│       └── periodic_exam_subject_details.csv
-├── pat
-│   └── periodic_exam_grade_details.zip
-│       └── periodic_exam_grade_details.csv
+
+
+
 ```
 
 ### Transaction Files
