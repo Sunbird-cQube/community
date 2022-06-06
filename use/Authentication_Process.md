@@ -13,9 +13,9 @@ cQube uses internal (Keycloak) APIs for authentication and authorizaion of  user
 
    **Types of Users**
 
-    - Admin User
-    - Report Viewer User
-    - Emission User
+   * Admin User
+   * Report Viewer User
+   * Emission User
 
 **Description of the Admin User**
 - User with Admin role, User can access all the reports and admin features like creating users,viewing the data from storage layer etc..
