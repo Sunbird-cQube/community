@@ -18,15 +18,15 @@ cQube uses internal (Keycloak) APIs for authentication and authorizaion of  user
    * Emission User
 
 **Description of the Admin User**
-- User with Admin role, User can access all the reports and admin features like creating users,viewing the data from storage layer etc..
+User with Admin role, User can access all the reports and admin features like creating users,viewing the data from storage layer etc..
 for detailed admin feature refere this (https://cqube.sunbird.org/use/admin-features)
 
 
 **Description of the Report Viewer User**
-- User with report_viewer role, can access all the reports.
+User with report_viewer role, can access all the reports.
 
 **Description of the Emission User**
-- User with emission_user role, can upload the files to cQube via Emission API.
+User with emission_user role, can upload the files to cQube via Emission API.
 
 
 **State Login**
