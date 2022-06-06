@@ -28,6 +28,7 @@
 * [Emission Process](use/emission-process-1.md)
 * [cQube ER Diagrams](use/cqube-er-diagrams.md)
 * [Data Validation after Ingestion](use/data-validation-after-ingestion.md)
+* [User Authentication Process](use/Authentication_Process.md)
 * [Admin Login Process](use/admin-login-process.md)
 * [Admin Features](use/admin-features.md)
 * [cQube data replay process](use/cqube-data-replay-process.md)
