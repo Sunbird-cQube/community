@@ -23,9 +23,11 @@ for detailed admin feature refere this (https://cqube.sunbird.org/use/admin-feat
 
 
 **Description of the Report Viewer User**
+
 User with report_viewer role, can access all the reports.
 
 **Description of the Emission User**
+
 User with emission_user role, can upload the files to cQube via Emission API.
 
 
@@ -34,6 +36,7 @@ User with emission_user role, can upload the files to cQube via Emission API.
 State will be having only Report Viewer Users. cQube uses state Login API for authentication and authorizaion of users
 
 **API Spec**
+
 Below is the Technical spec to connect to the state API for getting the User credentials along with the user level & Access Location 
 
 **Below is the spec for request body**
