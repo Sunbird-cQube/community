@@ -1,6 +1,6 @@
 # Login Process
 
-![User Login flow ](../.gitbook/assets/User%20Authentication%20Flow%20Chart.png)
+
 
 cQube supports two types of Login mechanisms
 
