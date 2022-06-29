@@ -6,17 +6,10 @@
 * Navigate to the directory where cQube\_Workflow has been downloaded or cloned
 
   ```text
-    cd cQube_Workflow/work_deploy/
+    cd cQube_Workflow/work_deploy/education_usecase
     git checkout release-3.6
   ```
 
-  **Use cases folder structure**
-
-  * education\_usecase
-  * education\_usecase\_theme2
-
-    **If user opting for education\_usecase open the education\_usecase folder**
-
 * Copy the config.yml.template to config.yml
 
   ```text
@@ -24,20 +17,43 @@
   ```
 
 * Edit using `nano config.yml`
-* Enable data sources as true or false in datasource.yml and datasource\_validation.sh, in datasource\_validation.sh an array of mandatory values should be same as datasource.yml file values.
+* Enable data sources as true or false in datasource_config.yml 
+* Edit using `nano datasource_config.yml`
 
-  **If user opting for educational\_usecase open the educational\_usecase\_theme2 folder**
+* If infrastructure and udise is set to true in datasource_config.yml, follow the below steps to configure infrastructure and udise, Else skip the Configuration.
 
-* Copy the config.yml.template to config.yml
+    #### Configuration of infrastructure attributes and UDISE data indices, metrics:
 
-  ```text
-  cp config.yml.template config.yml
-  ```
+    - Based on the number of infrastructure attributes required by the state, configure the infrastructure report by filling the required fields in the  infrastructure_master.csv file under cQube_Workflow/development/datasource/infra/postgres/ directory
+    - To edit below mentioned infrastructure details
 
-* Edit using `nano config.yml`
-* Enable data sources as true or false in datasource\_config.yml and datasource\_validation.sh, in datasource\_validation.sh  an array of mandatory values should be same as datasource\_config.yml file values.
-* If the user opting for new data source.  should add new data source name inside the datasource\_config.yml file and datasource\_validation.sh array list.
-* Fill the configuration details for the below mentioned list in config.yml \(\* all the values are mandatory\)
+      ```text
+      nano infrastructure_master.csv
+      ```
+
+    - Based on the configured columns  in infrastructure_master.csv, update the infra_parameters.txt file with the configured columns
+    under development/datasource/infra/nifi/ directory.
+    
+      ```text
+      nano infra_parameters.txt
+      ```
+      change the value of **infra_normalize** under infra_parameters.txt
+    
+    
+    - Save and Close the file
+    - Based on the number of UDISE attributes required by the state, configure the udise\_config.csv file by filling the required fields in the  udise\_config.csv file under cQube_Workflow/development/datasource/udise/postgres/ directory
+    - To edit below mentioned UDISE details
+
+      ```text
+      nano udise_config.csv
+      ```
+
+    - Save and Close the file
+    - For more information to configure the weights & columns for UDISE/infrastructure, please refer operational document.
+* Update the diksha parameters\(api\_url, token, encryption key, dataset name,channel\_id, org\_id\) in the diksha_parameters.txt file under       cQube_Workflow/development/datasource/diksha/nifi/
+
+
+
 * cQube\_Workflow installation process configuring the components in a sequence as mentioned below:
   * Configures Ansible
   * Configures OpenJDK
