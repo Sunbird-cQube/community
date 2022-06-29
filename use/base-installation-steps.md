@@ -32,7 +32,6 @@
   cp local_storage_config.yml.template local_storage_config.yml
   ```
 
-* Fill the configuration details for the below mentioned list in config.yml \(\* all the values are mandatory\)
 * cQube\_Base installation process installs the components in a sequence as mentioned below:
   * Installs Ansible
   * Installs OpenJDK
@@ -46,26 +45,6 @@
   * Installs Prometheus and node exporter
 * Save and Close the file
 
-### Configuration of infrastructure attributes and UDISE data indices, metrics:
-
-* Based on the number of infrastructure attributes required by the state, configure the infrastructure report by filling the required fields in the file infrastructure\_master.csv:
-* To edit below mentioned infrastructure details
-
-  ```text
-  nano infrastructure_master.csv
-  ```
-
-* Save and Close the file
-* Based on the number of UDISE attributes required by the state, configure the udise\_config.csv file by filling the required fields in the file udise\_config.csv:
-* To edit below mentioned UDISE details
-
-  ```text
-  nano udise_config.csv
-  ```
-
-* Save and Close the file
-* For more information to configure the weights & columns for UDISE/infrastructure, please refer operational document.
-* Update the diksha parameters\(api\_url, token, encryption key, dataset name channel\_id, org\_id\) in the development/python/cQube-raw-data-fetch-parameters.txt
 * Give the following permission to the install.sh file
 
   ```text
