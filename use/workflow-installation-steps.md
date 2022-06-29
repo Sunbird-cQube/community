@@ -7,7 +7,7 @@
 
   ```text
     cd cQube_Workflow/work_deploy/
-    git checkout release-3.1
+    git checkout release-3.6
   ```
 
   **Use cases folder structure**
