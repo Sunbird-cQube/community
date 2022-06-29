@@ -19,7 +19,7 @@ cQube uses internal (Keycloak) APIs for authentication and authorizaion of  user
 
 **Description of the Admin User**
 User with Admin role, User can access all the reports and admin features like creating users,viewing the data from storage layer etc..
-for detailed admin feature refere this (https://cqube.sunbird.org/use/admin-features)
+for detailed admin feature refer this (https://cqube.sunbird.org/use/admin-features)
 
 
 **Description of the Report Viewer User**
@@ -74,7 +74,7 @@ Below is the response For the Invalid User
 - cQube state login users can  access the reports as per the user levels. 
 - On click of pat report  user can be able to see their respective level of data.
 - The Blocks, Clusters and Schools buttons would be disabled for the all the users accept the state level users.
-- A button would be provided as "Access Your location'. When the user clicks on the button then the user may able to see their particular location and the lower levels of their locations.
+- A button would be provided as "Access Your location". When the user clicks on the button then the user may able to see their particular location and the lower levels of their locations.
 - The upper level select options will be disabled for the users. The user may get only the lower level location selection which are belongs to the user location.
 
 The current Access levels we have in cQube are,
