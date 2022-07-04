@@ -18,7 +18,7 @@ Through configuration files, Users can also create new reports with the existing
 
 Below is the link for sample configuration file format
 
-https://docs.google.com/spreadsheets/d/1BovHM11DE9SmYELlIBfzaZMrZuE7xxkictfDzi7Ryao/edit#gid=0
+[sample configuration file](https://github.com/Sunbird-cQube/community/blob/master/use/textbook_distribution.csv)
 
 
 **steps to create the configuration file**
