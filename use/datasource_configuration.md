@@ -72,7 +72,7 @@ Filename should be the datasource name.
 ```
 - Navigate to the admin console/Logs and check the NiFi app log
 
-On successfull file processing, you should see the below message 
+On successful file processing, you should see the below message 
  ```
  **** Succesfully Executed! ****
  file: <filename> executed succesfully.
