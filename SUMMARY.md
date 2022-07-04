@@ -31,7 +31,7 @@
 * [User Authentication Process](use/Authentication_Process.md)
 * [Admin Login Process](use/admin-login-process.md)
 * [Admin Features](use/admin-features.md)
-* [cQube-Datasource configuration](use/datasource_configuration.md)
+* [cQube Datasource Configuration](use/datasource_configuration.md)
 * [cQube data replay process](use/cqube-data-replay-process.md)
 * [S3 Partitioning](use/design-principles.md)
 * [Ad-hoc analysis](use/ad-hoc-analyst.md)
