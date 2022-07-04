@@ -1,0 +1,40 @@
+keywords,Table_name,Columns,Data_Type,Constraints,Ref_Table,Ref_column,Null_validation_required,check_same_id
+,textbook_distribution,student_id,bigint,primary key,,,Yes,Yes
+,,school_id,bigint,,,,Yes,Yes
+,,textbook_name,Varchar(100),,,,Yes,Yes
+,,grade,int,,,,Yes,Yes
+,,subject,Varchar(20),,,,Yes,Yes
+,,academic_year,Varchar(7),,,,Yes,Yes
+,,distribution_date,date,,,,Yes,Yes
+,,issued,Varchar(5),,,,,
+,,month,int,,,,,
+table_1_trans,,,,,,,,
+,level_of_data,filters_required,time_selections,date_column_to_filter,nifi_select_columns,,,
+,student,school,daily,distribution_date,school_id,,,
+,,cluster,weekly,,grade,,,
+,,block,monthly,,subject,,,
+,,district,last_30_days,,year,,,
+,,grade,last_7_days,,month,,,
+,,subject,overall,,week,,,
+,,,,,date,,,
+,,,,,no_of_books_distributed,,,
+type_of_data,,,,,,,,
+,metric_type,select_column,ref_columns,result_metric,condition,group_by_columns,primary_key,
+,count,school_id,student_id,no_of_books_distributed,issued='Yes',school_id,school_id,
+,,textbook_name,,,,textbook_name,textbook_name,
+,,grade,,,,grade,grade,
+,,subject,,,,subject,subject,
+,,academic_year,,,,academic_year,academic_year,
+,,distribution_date,,,,distribution_date,distribution_date,
+,,month,,,,month,,
+aggregation,,,,,,,,
+,metric_type,select_column,ref_columns,result_metric,condition,group_by_columns,,
+,sum,school_id,no_of_books_distributed,no_of_books_distributed,school_id,school_id,,
+,,academic_year,,,,academic_year,,
+,,distribution_date,,,,distribution_date,,
+,,month,,,,month,,
+report,,,,,,,,
+,data_source_name,report_type,description,,,,,
+,book_distribution,lo_table,Map shows the number of books distributed,,,,,
+,book_distribution,map,Map shows the number of books distributed,,,,,
+visualization,,,,,,,,
