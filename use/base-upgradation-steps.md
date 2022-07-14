@@ -7,7 +7,7 @@
 
   ```text
   cd cQube_Base/
-  git checkout release-3.1
+  git checkout release-3.6
   ```
 
 * Copy the config.yml.template to config.yml
