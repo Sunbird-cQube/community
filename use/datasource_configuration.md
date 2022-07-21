@@ -61,8 +61,7 @@ Below is the link for sample configuration file format
 - metric_type: supported metric_type
     - sum.
     - count.
-    - cummulative. 
-    - percentage.
+
 
 
 **Steps to configure the new data source**
