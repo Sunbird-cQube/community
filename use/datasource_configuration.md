@@ -15,6 +15,11 @@ Through configuration files, Users can also create new reports with the existing
 - Line chart
 
 
+**cQube latest Software architecture**
+
+![cQube latest software architecture](../.gitbook/assets/cQube_architecture_latest.png)
+
+
 
 Below is the link for sample configuration file format
 
