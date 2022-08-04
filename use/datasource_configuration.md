@@ -8,11 +8,11 @@ Through configuration files, Users can also create new reports with the existing
 
 - Map report
 - Table report
-- Heat chart
-- Bar chart
-- Multi Bar chart
-- Pie chart
-- Line chart
+- Heat chart (coming soon)
+- Bar chart (coming soon)
+- Multi Bar chart (coming soon)
+- Pie chart (coming soon)
+- Line chart (coming soon)
 
 
 **cQube latest Software architecture**
