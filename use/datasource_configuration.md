@@ -19,7 +19,7 @@ Through configuration files, Users can also create new reports with the existing
 
 ![cQube latest software architecture](../.gitbook/assets/cQube_architecture_latest.png)
 
-**NOTE: Python file for new metrics (in the above architecture) is not be supported now, will be enabled in future.**
+**NOTE: Python files for new metrics (in the above architecture) is not be supported now, will be enabled in future.**
 
 
 Below is the link for sample configuration file format
