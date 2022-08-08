@@ -1,9 +1,9 @@
 # Data Validation after Ingestion
 
-NIFI fetches the data from the S3 emission bucket/data folder and sends it to the S3 input bucket/data folder. Once the data is sent to input bucket/data folder the following validations are performed:
+NIFI fetches the data from the emission data storage and sends it to the input data storage. Once the data is sent to input data storage the following validations are performed:
 
-* Column level validations: Column datatype mismatch, Number of columns, Data exceeding the column size.
-* Improper Data handling: Missing/ null data values for mandatory fields, Empty data files, Special characters, Blank lines in data files.
+* Column level validations: Column datatype mismatch, Number of columns.
+* Improper Data handling: Missing/null data values for mandatory fields, Empty data files, Special characters, Blank lines in data files.
 * Duplicate records validation: NIFI validates the duplicate records by grouping the same kind of records together.
 
 Validation for duplicate records: Records which have duplicate values for all fields \(mirror  record\) then NIFI will consider the first record and the rest of the records will be eliminated. 
