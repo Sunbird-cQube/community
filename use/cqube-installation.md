@@ -2,8 +2,12 @@
 
 The cQube product can be installed in a two-step installation process. cQube installation package is divided into below 2 components 
 
-* cQube base installation
-* cQube workflow Installation
+* cQube base 
+  - cQube base contains all cQube required softwares installations.
+* cQube workflow 
+  - cQube workflow has all the Business logics implementations.
+
+
 
 **cQube base installation:** The cQube base installation installs the complete cQube stack, which includes Ansible automation scripts to install Java, Python, NIFI, Angular, Chart.JS, Leaflet and PostgreSQL installations. All the software's will be installed without any data or data processing units. S3 emission data, S3 input bucket, S3 output bucket and the remaining S/W configurations will be taken care by cQube base installation. 
 
