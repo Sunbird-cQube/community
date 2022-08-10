@@ -48,8 +48,8 @@ Below is the link for sample configuration file format
  Example: District/block/cluster/ etc..
 
 - time_selections: supported time selections
-    - daily
-    - weekly
+    - daily (maximum 30 days)
+    - weekly (maximum 15 weeks)
     - monthly
     - last_30_days
     - last_7_days
