@@ -2,7 +2,7 @@
 
 cQube supports creating new data sources using configuration files. Through which User can enter the required details like the name of the new data source, columns , data types, Metric type and type of visualization reports. 
 
-Through configuration files, Users can also create new reports with the existing data sources.
+Through configuration files, Users can also create new reports with the existing data sources.(coming soon)
 
 **List of report types supported through configuration**
 
