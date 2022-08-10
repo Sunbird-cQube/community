@@ -50,10 +50,11 @@ Below is the link for sample configuration file format
 - time_selections: supported time selections
     - daily (maximum 30 days)
     - weekly (maximum 15 weeks)
-    - monthly
+    - year_and_month
     - last_30_days
     - last_7_days
     - overall
+
 
 - date_column_to_filter: date column to consider for metrics generation.
 - nifi_select_columns: columns to display on UI.
