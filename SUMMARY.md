@@ -46,7 +46,7 @@
   * [Data Processing-PostgreSQL Issues](use/troubleshooting-issues/data-processing-postgresql-issues.md)
   * [Data Emission Issues](use/troubleshooting-issues/data-emission-issues.md)
   * [Angular & Node Issues](use/troubleshooting-issues/angular-and-node-issues.md)
-
+* [FAQs](use/FAQs.md)
 
 ## cQube Release Notes <a id="release-notes"></a>
 * [cQube - Release V 3.7](release-notes/cqube-release-notes-v-3.7.md)
