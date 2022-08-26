@@ -38,6 +38,11 @@ Metrics mean calculations are performed on the data. Below are the predefined me
    * OTP cinfiguration with Google Authenticator
    * For the Admin, Must connect with VPN. This provides an extra layer of security for the admin activities. 
    
-   
+For more reference, Please follow the below links
+
+https://cqube.sunbird.org/use/network-architecture-diagram
+
+https://cqube.sunbird.org/use/admin-login-process
+
 
 
