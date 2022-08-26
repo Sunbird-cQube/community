@@ -19,9 +19,11 @@ Metrics mean calculations are performed on the data. Below are the predefined me
    * cumulative sum.
  
  **4.	What are the benefits of the cQube?**
+ 
  It is open source, flexible to use, and can be extended to multiple use cases as per need. It is a configurable tool.
  
  **5.	How is cQube secure more than cQube?**
+ 
  cQube is having the below layers in the network and The NGINX server helps to make cQube more secure. 
  
    * Private Subnet
