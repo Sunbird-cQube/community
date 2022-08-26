@@ -40,7 +40,7 @@ Metrics mean calculations are performed on the data. Below are the predefined me
    
 For more reference, Please follow the below links
 
-https://cqube.sunbird.org/use/network-architecture-diagram
+(https://cqube.sunbird.org/use/network-architecture-diagram)[use/network-architecture-diagram]
 
 https://cqube.sunbird.org/use/admin-login-process
 
