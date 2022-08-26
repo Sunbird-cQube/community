@@ -12,6 +12,7 @@
 ## USE
 
 * [Software Requirements](use/software-requirements.md)
+* [Acronyms](use/acronyms.md)
 * [cQube Software Architecture](use/cqube-software-architecture.md)
 * [AWS - Network Architecture](use/network-architecture-diagram/README.md)
   * [Hardware requirements](use/network-architecture-diagram/hardware-requirements.md)
@@ -45,7 +46,7 @@
   * [Data Processing-PostgreSQL Issues](use/troubleshooting-issues/data-processing-postgresql-issues.md)
   * [Data Emission Issues](use/troubleshooting-issues/data-emission-issues.md)
   * [Angular & Node Issues](use/troubleshooting-issues/angular-and-node-issues.md)
-* [Acronyms](use/acronyms.md)
+
 
 ## cQube Release Notes <a id="release-notes"></a>
 * [cQube - Release V 3.7](release-notes/cqube-release-notes-v-3.7.md)
