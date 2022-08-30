@@ -1,7 +1,7 @@
 # cQube Software Architecture
 
 
-### cQube Architectire describes about three main layers of the application. 
+### cQube Architecture describes about three main layers of the application. 
 
 1. Data Input
 2. Data Cleansing, Data Transformation and Data Processing
