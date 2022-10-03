@@ -11,9 +11,9 @@
 ## cQube-v4.0.1 Release Notes
 https://docs.google.com/document/d/1hvBSQFhZ5C2h4NtMkRqoTxQ2Joa4cSSkdIhRpjw9vu8/edit?usp=sharing
 
-## cQube-v4.0.1 Installation 
+## Installation 
 
-https://github.com/Sunbird-cQube/cQube_Edu/tree/cqube-v4.0.1
+[Installation steps](https://github.com/Sunbird-cQube/cQube_Edu/tree/cqube-v4.0.1)
 
 
 ## Known Issues
