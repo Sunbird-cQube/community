@@ -1,11 +1,11 @@
-# cQube - Release V 4.0.1( Work In Progress )
+# cQube - Release V 4.0-aplha( Work In Progress )
 
 
 #### Document Release Version
 
 |Project    |Release Date    |Release Version|
 |---------|----------------|------------------|
-|cQube    | Oct 2022 |V 4.0.1    |
+|cQube    | Oct 2022 |V 4.0-aplha    |
 
 
 ## cQube-v4.0.1 Release Notes
