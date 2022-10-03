@@ -13,7 +13,7 @@
 
 ## Installation 
 
-[Installation steps](https://github.com/Sunbird-cQube/cQube_Edu/tree/cqube-v4.0.1)
+[Installation steps](https://github.com/Sunbird-cQube/cQube_Edu/blob/cqube-4.0-alpha/README.md)
 
 
 
