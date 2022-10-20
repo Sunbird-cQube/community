@@ -1,11 +1,11 @@
-# cQube - Release V 4.0-beta - draft
+# cQube - Release V 4.0-beta
 
 #### Document Release Version
 
 
 |Project    |Release Date    |Release Version|
 |---------|----------------|------------------|
-|cQube    |  Oct 2022 |V 4.0-beta    |
+|cQube    | 21 Oct 2022 |V 4.0-beta    |
 
 ## Overview
 
@@ -24,10 +24,6 @@ cQube v4.0-beta  has improved features and bug fixes.
 
 User can configure the DB backup during Installation.
 Based on the configuration, the database(Postgre DB) will be backed up and stored in input storage (supported storages are aws s3, azure blob storage and on-premise).
-
-For more details on Database backup refer this.
-
-[Database backup setup document]() <updated link should be provided by Asif>
 
 **2. Download Report option.**
 
