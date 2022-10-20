@@ -49,6 +49,7 @@
 * [FAQs](use/FAQs.md)
 
 ## cQube Release Notes <a id="release-notes"></a>
+* [cQube - Release V 4.0-beta](release-notes/cqube-release-notes-v4.0-beta.md)
 * [cQube - Release V 4.0-alpha](release-notes/cqube-release-notes-v4.0-alpha.md)
 * [cQube - Release V 3.7](release-notes/cqube-release-notes-v-3.7.md)
 * [cQube - Release V 3.6](release-notes/cqube-release-notes-v-3.6.md)
