@@ -25,6 +25,10 @@ cQube v4.0-beta  has improved features and bug fixes.
 User can configure the DB backup during Installation.
 Based on the configuration, the database(Postgre DB) will be backed up and stored in input storage (supported storages are aws s3, azure blob storage and on-premise).
 
+For more details refer the below link 
+
+[Databse backup document](https://drive.google.com/u/1/open?id=15sWXbn5efRZG8WnV9U89pCDwbj1jKlUK)
+
 **2. Download Report option.**
 
 **3. Full screen option for charts.**
