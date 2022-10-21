@@ -106,9 +106,8 @@ Below mentioned dashboards, and it's input files should be in .csv format( '|' i
 2. Student Performance
 3. Attendance
 
-## **Bug Fixes**
-
-[Bug fixes](https://github.com/orgs/Sunbird-cQube/projects/5/views/3?filterQuery=label%3A%22From-v4.0-Alpha%22+status%3A%22QA+Complete+%F0%9F%91%8C%F0%9F%8F%BD%22)
+## **Enhancements and Bug Fixes** 
+[Link to the Github board](https://github.com/orgs/Sunbird-cQube/projects/5/views/3?filterQuery=status%3A%22QA+Complete+%F0%9F%91%8C%F0%9F%8F%BD%22+milestone%3A%22cQube+4.0+Beta%22+status%3A)
 
 ## **Known Issues**
 
@@ -119,7 +118,7 @@ Below mentioned dashboards, and it's input files should be in .csv format( '|' i
 
 2.Dynamic Footer date not working for cQube-v3.7 reports [Link](https://github.com/Sunbird-cQube/community/issues/478)
 
-### **Azure Blob storage**
+### **Azure Blob Storage**
 
 1.Diksha enrolment file  Processing not working [Link](https://github.com/Sunbird-cQube/community/issues/656)
 
