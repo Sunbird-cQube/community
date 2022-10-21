@@ -23,7 +23,7 @@ Based on the configuration, the database(Postgre DB) will be backed up and store
 
 For more details refer the below link
 
-[Database backup document](https://drive.google.com/u/1/open?id=15sWXbn5efRZG8WnV9U89pCDwbj1jKlUK)
+[Database backup document](https://docs.google.com/document/d/1eNVqwvEYE9YTTFBGmNnJJtqNJZU4lIfA/edit?usp=sharing&ouid=111398008183795839322&rtpof=true&sd=true)
 
 **2. Download Report option.**
 
