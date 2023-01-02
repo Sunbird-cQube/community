@@ -12,5 +12,5 @@ The technical design for all items in the roadmap have been linked as follows:
 
 1. [High Level Design](https://project-sunbird.atlassian.net/wiki/spaces/CQUB/pages/3258024044?atlOrigin=eyJpIjoiOWMyMjM3NGQ1M2U0NGY1MGFkZDEyZGY0YjQwMWNiOTAiLCJwIjoiaiJ9)
 
-2. [Low Level Design for Ingestion & Processing blocks]()
+2. [Low Level Design for Ingestion & Processing blocks](https://project-sunbird.atlassian.net/wiki/spaces/CQUB/pages/3266740614/cQube+%7C+LLD+-+v12Dec2022?atlOrigin=eyJpIjoiZWE0YTNjNjk5MmI5NGRiNWJiZWI2ODUyY2JhNDYzN2YiLCJwIjoiaiJ9)
 
