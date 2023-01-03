@@ -4,10 +4,8 @@
 
 ## LEARN
 
----
-
-* [cQube Product Description](cqube-features.md)
-* [Listen to Experts \(Youtube\)](https://www.youtube.com/watch?v=kbeFmTsWlAI)
+* [cQube Product Description](learn/cqube-features.md)
+* [Listen to Experts (Youtube)](https://www.youtube.com/watch?v=kbeFmTsWlAI)
 
 ## USE
 
@@ -25,18 +23,18 @@
 * [Base Upgradation steps](use/base-upgradation-steps.md)
 * [Workflow Installation steps](use/workflow-installation-steps.md)
 * [Workflow Upgradation steps](use/workflow-upgradation-steps.md)
-* [Laptop/Desktop Installation](use/Laptop-Desktop-Demo-Installation/README.md)
-  * [Base Installation](use/Laptop-Desktop-Demo-Installation/Base_Installation.md)
-  * [Workflow Installation](use/Laptop-Desktop-Demo-Installation/WorkFlow_Installation.md)
-  * [Mock Data Processing](use/Laptop-Desktop-Demo-Installation/Mock-Data-Processing.md)
+* [Laptop/Desktop Installation](use/laptop-desktop-demo-installation/README.md)
+  * [Base Installation](use/laptop-desktop-demo-installation/base\_installation.md)
+  * [Workflow Installation](use/laptop-desktop-demo-installation/workflow\_installation.md)
+  * [Mock Data Processing](use/laptop-desktop-demo-installation/mock-data-processing.md)
 * [Workflow process](use/workflow-process.md)
 * [Emission Process](use/emission-process-1.md)
 * [cQube ER Diagrams](use/cqube-er-diagrams.md)
 * [Data Validation after Ingestion](use/data-validation-after-ingestion.md)
-* [User Authentication Process](use/Authentication_Process.md)
+* [User Authentication Process](use/authentication\_process.md)
 * [Admin Login Process](use/admin-login-process.md)
 * [Admin Features](use/admin-features.md)
-* [cQube Datasource Configuration](use/datasource_configuration.md)
+* [cQube Datasource Configuration](use/datasource\_configuration.md)
 * [cQube data replay process](use/cqube-data-replay-process.md)
 * [S3 Partitioning](use/design-principles.md)
 * [Ad-hoc analysis](use/ad-hoc-analyst.md)
@@ -46,9 +44,10 @@
   * [Data Processing-PostgreSQL Issues](use/troubleshooting-issues/data-processing-postgresql-issues.md)
   * [Data Emission Issues](use/troubleshooting-issues/data-emission-issues.md)
   * [Angular & Node Issues](use/troubleshooting-issues/angular-and-node-issues.md)
-* [FAQs](use/FAQs.md)
+* [FAQs](use/faqs.md)
 
-## cQube Release Notes <a id="release-notes"></a>
+## cQube Release Notes <a href="#release-notes" id="release-notes"></a>
+
 * [cQube - Release V 4.1-beta](release-notes/cqube-release-notes-v4.1-beta.md)
 * [cQube - Release V 4.0-beta](release-notes/cqube-release-notes-v4.0-beta.md)
 * [cQube - Release V 4.0-alpha](release-notes/cqube-release-notes-v4.0-alpha.md)
@@ -78,9 +77,6 @@
 
 ## ENGAGE
 
----
-
 * [Source Code](https://github.com/Sunbird-cQube)
 * [Discuss](https://github.com/Sunbird-cQube/community/discussions)
 * [Report](https://github.com/Sunbird-cQube/community/issues)
-

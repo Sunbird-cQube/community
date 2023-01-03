@@ -1,13 +1,13 @@
 # Admin Features
 
-**Create users:** 
+**Create users:**&#x20;
 
 * Admin can create new cQube users from the user interface page.
 * Admin will assign the role to the user while creation by choosing the role drop down value.
 
 **S3 buckets:**
 
- Admin can perform view files and download actions in the S3 buckets by the following steps:
+&#x20;Admin can perform view files and download actions in the S3 buckets by the following steps:
 
 * By using the user interface admin is able to view the raw data files from the S3 input bucket, Metrics files from the S3 output buckets, Transformed and Aggregated data files from the S3 output bucket files.
 * Admin can able to download the metrics files in the JSON format, transformed and Aggregated data files in CSV format from the S3 output buckets
@@ -19,7 +19,7 @@ Admin can enter the AWS console and perform the files cleanup, files Download ac
 
 * Raw data will be downloaded in CSV format and the metrics data will be downloaded in JSON format.
 
-**NIFI Scheduler:** 
+**NIFI Scheduler:**&#x20;
 
 Admin can control the NIFI processes by choosing the start and stop times.
 
@@ -32,40 +32,40 @@ Admin can control the NIFI processes by choosing the start and stop times.
 
 If the user wanted to select the Weekly schedule - The user has to mention the Day of the Week
 
-If the user wants to select the Monthly schedule - The user has to mention the Date of the Month. If the month is not having the specified date then the schedule will be run on the previous day of selected day  
+If the user wants to select the Monthly schedule - The user has to mention the Date of the Month. If the month is not having the specified date then the schedule will be run on the previous day of selected day\
 
 
-If the user wants to select the Yearly schedule - The user has to mention the Date & Month of the Year. 
+If the user wants to select the Yearly schedule - The user has to mention the Date & Month of the Year.&#x20;
 
-If the month is not having the specified date then the schedule will be run on the previous day of selected day  
-
-
-Below are the default schedules for each data source.   
+If the month is not having the specified date then the schedule will be run on the previous day of selected day\
 
 
-| Data Source | Start Time | Active Run Time\(In Hours\) |
-| :--- | :--- | :--- |
-| Static data  | 10AM | 1 hour |
-| PAT Data  | 11AM  | 2 hours |
-| Infrastructure Data | 1:20PM | 1 hour |
-| CRC Data | 2:30PM | 2 hours |
-| Teacher Attendance Data | 4:40PM | 1 hour |
-| UDISE Data | 5:50PM | 2 hours |
-| Student Attendance Data | 8PM | 2 hours |
-| Semester Data | 10:10PM | 2 hours |
-| Diksha Data | 12:20AM | 4 hours |
-| Composite Report | 5:40AM | 1 hour |
-| Progress card | 6:50AM |  1 hour |
+Below are the default schedules for each data source. \
 
-**View Logs:** 
+
+| Data Source             | Start Time | Active Run Time(In Hours) |
+| ----------------------- | ---------- | ------------------------- |
+| Static data             | 10AM       | 1 hour                    |
+| PAT Data                | 11AM       | 2 hours                   |
+| Infrastructure Data     | 1:20PM     | 1 hour                    |
+| CRC Data                | 2:30PM     | 2 hours                   |
+| Teacher Attendance Data | 4:40PM     | 1 hour                    |
+| UDISE Data              | 5:50PM     | 2 hours                   |
+| Student Attendance Data | 8PM        | 2 hours                   |
+| Semester Data           | 10:10PM    | 2 hours                   |
+| Diksha Data             | 12:20AM    | 4 hours                   |
+| Composite Report        | 5:40AM     | 1 hour                    |
+| Progress card           | 6:50AM     |  1 hour                   |
+
+**View Logs:**&#x20;
 
 * All the log files will be consolidated into a common folder using soft links.
-* New log files will be created every day and the old logs are retained for 7 days. At any point of time, there are 6 log files in the folder, old files are deleted when new files are created.   
-* Admin will have an option to view the last 200 lines on the browser with the help of the user interface provided. There will be a download option provided to download the entire log file. 
+* New log files will be created every day and the old logs are retained for 7 days. At any point of time, there are 6 log files in the folder, old files are deleted when new files are created.  &#x20;
+* Admin will have an option to view the last 200 lines on the browser with the help of the user interface provided. There will be a download option provided to download the entire log file.&#x20;
 * Log files will be downloaded in .log format.
 * The list of log files provided to the admin are as follows:
-  * Application Logs \(Error and Info logs\)
-  * Admin Logs \(Angular and Node logs\)
+  * Application Logs (Error and Info logs)
+  * Admin Logs (Angular and Node logs)
   * System logs
   * NIFI logs
   * Data emission process logs
@@ -76,7 +76,7 @@ Below are the default schedules for each data source.
 Admin has an user interface screen "Monitoring Details'' screen in the admin dashboard, which connects to Grafana. And also Admin can use the Prometheus APIs to integrate with Grafana for viewing the cQube application health. The following details are displayed in the grafana dashboard:
 
 * RAM usage
-* CPU Usage 
+* CPU Usage&#x20;
 * Data storage disk usage
 * NIFI heap memory usage
 * Data source file metrics
@@ -123,20 +123,18 @@ Admin can be able to delete some portion of the records from the database tables
 
 **Data Retention:**
 
-Data retention has been implemented for the transaction tables of the below data sources.  
+Data retention has been implemented for the transaction tables of the below data sources.\
 
 
-1.Semester Assessment Test - \(semester\_exam\_result\_trans\)
+1.Semester Assessment Test - (semester\_exam\_result\_trans)
 
-2.Periodic Assessment Test - \(periodic\_exam\_result\_trans\)
+2.Periodic Assessment Test - (periodic\_exam\_result\_trans)
 
-3.Diksha Summary rollup - \(diksha\_content\_trans\)
+3.Diksha Summary rollup - (diksha\_content\_trans)
 
-4.CRC - \(crc\_inspection\_trans,crc\_location\_trans\)  
-
-
-By default the data retention period is set to 90 days. The retention period can be set at a 30 day interval, 30 days, 60 days, 90 days. or Under specified days until 360 days in the data retention/replay screen. 
-
-Based on the retention period set, the data will be cleared from the transaction tables for the above sources. The data older than the retention period cannot be emitted for the above data sources, such data will be cleared and the information is logged in NIFI. If the data replay is initiated for the data older than the retention period, within 5 days data re-emission is allowed.  
+4.CRC - (crc\_inspection\_trans,crc\_location\_trans)\
 
 
+By default the data retention period is set to 90 days. The retention period can be set at a 30 day interval, 30 days, 60 days, 90 days. or Under specified days until 360 days in the data retention/replay screen.&#x20;
+
+Based on the retention period set, the data will be cleared from the transaction tables for the above sources. The data older than the retention period cannot be emitted for the above data sources, such data will be cleared and the information is logged in NIFI. If the data replay is initiated for the data older than the retention period, within 5 days data re-emission is allowed.\
