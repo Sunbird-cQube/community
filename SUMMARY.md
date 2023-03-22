@@ -97,6 +97,7 @@
 * [Error monitoring post ingestion](data-ingestion-and-processing/error-monitoring-post-ingestion.md)
 * [Scheduling the processing of ingested data](data-ingestion-and-processing/scheduling-the-processing-of-ingested-data.md)
 
-## Group 1
+## 📊 Data Visualisation
 
-* [Page 2](group-1/page-2.md)
+* [Programs, Reports & Indicators](data-visualisation/programs-reports-and-indicators.md)
+* [UI Customisations](data-visualisation/ui-customisations.md)

@@ -69,7 +69,7 @@ For windows:
 
 `git clone` [`https://github.com/Sunbird-cQube/cqube-devops.git`](https://github.com/Sunbird-cQube/cqube-devops.git)
 
-<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 3:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch
 
@@ -98,7 +98,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * s3 archived bucket name
 * s3 error bucket name
 
-<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 7:** Optional\_variables - Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for **yes** to enter their credentials otherwise can opt for **no** when the question pops up
 
@@ -106,7 +106,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * db\_name ( Enter the postgres database name )
 * db\_password ( Enter the postgres password )
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 8:** Once the config file is generated, A preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing **yes.** If option **no** is selected then the install.sh moves to the next section.
 

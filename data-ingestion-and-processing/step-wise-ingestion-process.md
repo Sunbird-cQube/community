@@ -17,7 +17,7 @@ Data ingestion can be done using APIs. Please use postman as a tool to run these
 * [Download](https://www.postman.com/downloads/) the postman application **** and import the collection.
 * Select the import option in postman to import the collection. Please refer to the screenshot.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Step-wise Ingestion Process:
 
@@ -38,7 +38,7 @@ API Endpoint: \<domain\_name>/ingestion/new\_programs
 
 HTTP Method: POST
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 This API will import the event / dimension / dataset CSV and upload it into the combined\_input folder in cloud / local SDC if there are no errors. Then, the adapter in cQube will use the same files to breakdown the combined input into multiple input files. Later, those files will be used by the NiFi processor to process and create datasets into the database.
 
@@ -80,7 +80,7 @@ HTTP Method: POST
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
 
 This API will be used to write events into the CSV file and upload it in to the combined\_input folder in cloud / SDC if there are no errors. Then, the adapter will use the same files to break down the combined input into multiple input files. Later, those files will then be used by the NiFi processor to ingest the data into the database. The API can be used to add individual events into CSV.
 
@@ -90,9 +90,9 @@ Provide the valid input details for the parameters as shown below. The request b
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
 
 **Step 3:** Click on the send button for the request and if the request is successful the user should see a response message. Please refer to the screenshot.
 
@@ -118,11 +118,11 @@ API Endpoint: \<domain\_name>/ingestion/national\_programs
 
 HTTP Method: POST
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:** Build the request body with reference to YAML file. The request body for the above API is attached here for yaml: [https://github.com/Sunbird-cQube/spec-ms/blob/march-release/spec.yaml](https://github.com/Sunbird-cQube/spec-ms/blob/march-release/spec.yaml). Provide the valid input details for the parameters as shown below.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:** Click on the send button for the request and if the request is successful, the user should see a response message as “File uploaded successfully”. The files will be uploaded to the emission folder created in the respective cloud storage / SDC.
 

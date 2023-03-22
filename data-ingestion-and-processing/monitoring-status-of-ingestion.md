@@ -12,11 +12,11 @@ API Endpoint: \<domain\_name>/ingestion/file-status
 
 HTTP Method: GET
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:** Send the query parameters with reference to the YAML file. The query parameters for the above API is attached here for yaml: [https://github.com/Sunbird-cQube/spec-ms/blob/march-release/spec.yaml](https://github.com/Sunbird-cQube/spec-ms/blob/march-release/spec.yaml). Provide the valid input details for the parameters as shown below.&#x20;
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:** Click on the send button for the request and if the request is successful the user should see a response message which contains the status of the file.
 
