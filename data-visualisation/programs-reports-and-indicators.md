@@ -9,12 +9,12 @@ There are a total of 9 programs available in cQube v5.0:
 1. [Student Attendance](programs-reports-and-indicators.md#1.-student-attendance)
 2. [Teacher Attendance](programs-reports-and-indicators.md#2.-teacher-attendance)
 3. [Review Meetings](programs-reports-and-indicators.md#3.-review-meetings)
-4. DIKSHA
-5. NISHTHA
-6. PM POSHAN
-7. NAS
-8. PGI
-9. UDISE
+4. [NISHTHA](programs-reports-and-indicators.md#4.-nishtha)
+5. [DIKSHA](programs-reports-and-indicators.md#5.-diksha)
+6. [PM POSHAN](programs-reports-and-indicators.md#6.-pm-poshan)
+7. [NAS](programs-reports-and-indicators.md#7.-nas)
+8. [UDISE](programs-reports-and-indicators.md#8.-udise)
+9. [PGI](programs-reports-and-indicators.md#9.-pgi)
 
 ### 1. Student Attendance
 
