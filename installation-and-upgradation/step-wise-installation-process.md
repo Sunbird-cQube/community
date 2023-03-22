@@ -85,7 +85,7 @@ For windows:
 
 `sudo ./install.sh`
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Install.sh file contains a shell script where it will run shell scripts and ansible-playbook to setup cQube.
 
@@ -226,7 +226,7 @@ Once the installation is completed, You will be prompted with the following mess
 
 **cQube Installed Successfully**
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can check the containers running status by using following command
 

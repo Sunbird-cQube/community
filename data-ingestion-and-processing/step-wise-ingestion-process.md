@@ -17,7 +17,7 @@ Data ingestion can be done using APIs. Please use postman as a tool to run these
 * [Download](https://www.postman.com/downloads/) the postman application **** and import the collection.
 * Select the import option in postman to import the collection. Please refer to the screenshot.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step-wise Ingestion Process:
 
@@ -52,7 +52,7 @@ Provide valid input details for the parameters shown below.
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
 **Step 4**: Click on the send button for request and if the request is successful the user should see a response message. Please refer to the below screenshot.
 
@@ -92,15 +92,15 @@ Provide the valid input details for the parameters as shown below. The request b
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
 
 **Step 3:** Click on the send button for the request and if the request is successful the user should see a response message. Please refer to the screenshot.
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
 
 After successful execution of the event / dimension / dataset API, we get the response and the data sent in the request body will be written to the CSV file. Any errors will be written to a CSV file and valid data will be written to a separate CSV file.
 
@@ -128,5 +128,5 @@ HTTP Method: POST
 
 The zip file will be extracted and will be read by the adapters and then moved into the input folders.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
