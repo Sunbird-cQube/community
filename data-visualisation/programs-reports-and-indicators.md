@@ -247,8 +247,7 @@ The Digital Infrastructure for Knowledge Sharing is an initiative of the Nationa
 
 1. ETB Coverage Status
 2. Content Coverage on QR
-3. Learning Sessions
-4. Learning Sessions on Potential Users
+3. Learning Sessions on Potential Users
 
 ### **6. PM POSHAN:**
 
