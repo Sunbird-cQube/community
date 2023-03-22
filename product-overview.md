@@ -10,9 +10,6 @@ description: >-
 
 cQube is envisioned as a ready-to-use / pre-packaged, configurable, and extendable DPG solution to enable observability and action towards effective policy implementation in education and other sectors, involving various stakeholders across govt, society, and private sectors.
 
-* cQube for education (Ed) will accelerate adoption of VSK as envisioned under MoE’s program
-* The Ed configurations, along with programmatic SOPs will constitute a VSK Playbook as an additional public good
-
 ### Problem Statement
 
 There are several challenges that government program owners face while leveraging technology for monitoring public programs:

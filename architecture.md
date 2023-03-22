@@ -1,5 +1,5 @@
 ---
-description: Details out the technical architecture of cQube
+description: Details out the revised technical architecture of cQube
 ---
 
 # Architecture
