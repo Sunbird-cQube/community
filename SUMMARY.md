@@ -81,10 +81,19 @@
 * [Discuss](https://github.com/Sunbird-cQube/community/discussions)
 * [Report](https://github.com/Sunbird-cQube/community/issues)
 
-## Installation & Upgradation
+## 👩💻 Installation & Upgradation
 
 * [Getting Started](installation-and-upgradation/getting-started.md)
+* [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
+* [Step-wise Installation Process](installation-and-upgradation/step-wise-installation-process.md)
+* [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
 
-***
+## 🔃 Data Ingestion & Processing
 
-* [Hardware Requirements](hardware-requirements.md)
+* [cQube Schemas](data-ingestion-and-processing/cqube-schemas.md)
+* [Step-wise Adapter Creation Process](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
+* [Step-wise Ingestion Process](data-ingestion-and-processing/step-wise-ingestion-process.md)
+
+## Group 1
+
+* [Page 2](group-1/page-2.md)
