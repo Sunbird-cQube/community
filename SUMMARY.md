@@ -84,3 +84,7 @@
 ## Installation & Upgradation
 
 * [Getting Started](installation-and-upgradation/getting-started.md)
+
+***
+
+* [Hardware Requirements](hardware-requirements.md)
