@@ -16,8 +16,8 @@ cQube requires 2 types of schemas for the programs that need to be enabled:
 There are 3 state programs available in cQube v5.0:
 
 1. [Student Attendance](cqube-schemas.md#student-attendance)
-2. Teacher Attendance
-3. Review Meetings
+2. [Teacher Attendance](cqube-schemas.md#teacher-attendance)
+3. [Review Meetings](cqube-schemas.md#review-meetings)
 
 ### Student Attendance:
 
