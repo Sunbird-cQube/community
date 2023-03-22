@@ -213,7 +213,7 @@ Note: If the repository is already cloned then the script will pull the updated 
 * Kong-ms
 * Nginx-ms
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **compose.yml -** A docker compose ansible script gets triggered where it will up all the containers to running state.
 
