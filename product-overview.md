@@ -1,3 +1,9 @@
+---
+description: >-
+  Describes the problem statement (why) and vision (what) of cQube & cQube Ed
+  along with their roadmap (how)
+---
+
 # Product Overview
 
 ### cQube Vision
