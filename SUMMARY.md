@@ -80,3 +80,7 @@
 * [Source Code](https://github.com/Sunbird-cQube)
 * [Discuss](https://github.com/Sunbird-cQube/community/discussions)
 * [Report](https://github.com/Sunbird-cQube/community/issues)
+
+## Installation & Upgradation
+
+* [Getting Started](installation-and-upgradation/getting-started.md)
