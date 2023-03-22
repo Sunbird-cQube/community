@@ -2,7 +2,7 @@
 
 cQube ERD
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 
 
@@ -20,4 +20,4 @@ cQube ERD
 
 **cQube DIKSHA ERD:**
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
