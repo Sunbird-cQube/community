@@ -28,11 +28,11 @@ The user needs to upload the image into the specified directory: dashboard-ms > 
 
 3. **dashboard\_header2\_title :** This key is used to change the state name in the title of the cQube dashboard. It is depicted in the image below:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>dashboard_header2_title</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>dashboard_header2_title</p></figcaption></figure>
 
 4. **dashboard\_header2\_image1 :** This key is used to change the first image next to the title of the cQube dashboard. It is depicted in the image below:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>dashboard_header2_image1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>dashboard_header2_image1</p></figcaption></figure>
 
 The user needs to upload the image into the specified directory: dashboard-ms > src > assets > images
 
@@ -48,11 +48,11 @@ Post making the changes, the user needs to redeploy the code again.
 
 The name of the programs, icons and sequence of the side menubar can be changed as explained below.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 This can be changed in the menu configuration file present in the query-builder micro service (query-builder > menus.csv).&#x20;
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (2).png>)
 
 The users can change the menu sequence and program name in this file. They need to add the required details mentioned in the CSV to add a new program in the menu bar. If they add / change any icon for the menu, they need to upload the icon images into the following directory dashboard-ms > src > assets > images
 

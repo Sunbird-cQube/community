@@ -107,3 +107,9 @@
 
 * [Programs, Reports & Indicators](data-visualisation/programs-reports-and-indicators.md)
 * [UI Customisations](data-visualisation/ui-customisations.md)
+
+***
+
+* [Reporting a Bug](reporting-a-bug.md)
+* [Requesting for Support](requesting-for-support.md)
+* [Suggesting Enhancements](suggesting-enhancements.md)
