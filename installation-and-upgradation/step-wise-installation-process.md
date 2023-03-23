@@ -75,7 +75,7 @@ For windows:
 
 `cd cqube-devops/ && git checkout dev`
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 4:** Give the following permissions to the install.sh file
 

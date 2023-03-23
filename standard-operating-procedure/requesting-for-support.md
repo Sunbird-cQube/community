@@ -10,7 +10,7 @@ Support may be required if the cQube adopter is stuck somewhere while setting up
 
 All the requests for support should be posted as Q\&A on the cQube Discussion Forum on GitHub - [Link](https://github.com/Sunbird-cQube/community/discussions/categories/q-a).
 
-### Requesting for Support through Q\&A
+### Requesting for Support on GitHub
 
 A new discussion should be created in the GitHub Discussion Forum of cQube **only** if any similar discussion doesn't already exist or has been answered by the cQube Product Team. The unanswered / open discussions for cQube can be seen [here](https://github.com/Sunbird-cQube/community/discussions/categories/q-a?discussions\_q=category%3AQ%26A+is%3Aopen) and the closed discussions can be seen [here](https://github.com/Sunbird-cQube/community/discussions/categories/q-a?discussions\_q=category%3AQ%26A+is%3Aclosed).
 
@@ -20,15 +20,16 @@ A new discussion should be created in the GitHub Discussion Forum of cQube **onl
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-2. Detail out the support that you need with a title and description. You can add any images for context on the request.
+2. Start a new discussion.
+3. Detail out the support that you need with a title and description. You can add any images for context on the request.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-3. Attach relevant label(s) to the support being requested.
+4. Attach relevant label(s) to the support being requested.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-4. Click on 'Start Discussion'
+5. Click on 'Start Discussion'
 
 ### Response from the cQube Product Team
 

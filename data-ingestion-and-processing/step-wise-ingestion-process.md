@@ -76,7 +76,7 @@ API Endpoint:&#x20;
 
 HTTP Method: POST
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
