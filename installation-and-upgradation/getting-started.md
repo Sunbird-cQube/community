@@ -4,6 +4,10 @@ description: 'Shows you a list of things to help you get started with cQube v5.0
 
 # Getting Started
 
+cQube v5.0, the latest version of cQube, enables monitoring of 9 out-of-the-box state and national education programs for performance improvement. All of these programs will be tailored to the user role and jurisdiction. Any new program can also be added by the state for monitoring purposes.
+
+The product overview of cQube has been linked [here](../product-overview.md) for further details.
+
 ## Skills Needed
 
 Following technical skills are required to install and manage cQube v5.0:
