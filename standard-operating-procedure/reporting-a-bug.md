@@ -18,21 +18,21 @@ A new issue should be created in the GitHub Community of cQube **only** if any s
 
 1. Go to the issues tab of cQube Community on Github - [https://github.com/Sunbird-cQube/community/issues](https://github.com/Sunbird-cQube/community/issues)
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Click on 'New Issue'. Then select 'Get Started' in front of 'Bug report'.
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-3. Detail out the bug that you are facing with a title, description, steps to reproduce, expected behaviour, relevant screenshots and desktop / mobile configurations, .
+3. Detail out the bug that you are facing with a title, description, steps to reproduce, expected behaviour, relevant screenshots and desktop / mobile configurations.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 4. Attach relevant label(s) to the bug being reported.
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
 
-5. Submit the issue.
+5. Click on 'Submit new issue'.
 
 ### Response from the cQube Product Team
 

@@ -108,8 +108,8 @@
 * [Programs, Reports & Indicators](data-visualisation/programs-reports-and-indicators.md)
 * [UI Customisations](data-visualisation/ui-customisations.md)
 
-***
+## ⏱ Standard Operating Procedure
 
-* [Reporting a Bug](reporting-a-bug.md)
-* [Requesting for Support](requesting-for-support.md)
-* [Suggesting Enhancements](suggesting-enhancements.md)
+* [Reporting a Bug](standard-operating-procedure/reporting-a-bug.md)
+* [Requesting for Support](standard-operating-procedure/requesting-for-support.md)
+* [Suggesting Enhancements](standard-operating-procedure/suggesting-enhancements.md)
