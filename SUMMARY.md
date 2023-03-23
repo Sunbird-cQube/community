@@ -46,8 +46,9 @@
   * [Angular & Node Issues](use/troubleshooting-issues/angular-and-node-issues.md)
 * [FAQs](use/faqs.md)
 
-## cQube Release Notes <a href="#release-notes" id="release-notes"></a>
+## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
 
+* [cQube - Release V 5.0](release-notes/cqube-release-v-5.0.md)
 * [cQube - Release V 4.1-beta](release-notes/cqube-release-notes-v4.1-beta.md)
 * [cQube - Release V 4.0-beta](release-notes/cqube-release-notes-v4.0-beta.md)
 * [cQube - Release V 4.0-alpha](release-notes/cqube-release-notes-v4.0-alpha.md)
