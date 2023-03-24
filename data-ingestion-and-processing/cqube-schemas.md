@@ -30,6 +30,8 @@ This program entails indicators to monitor compliance and performance of student
 
 Following schema will be required to enable the student attendance program:
 
+If CSV is being ingested, the file name should be -> _studentsattendance-event.data.csv_
+
 | #  | Column Name                  | Data Type | Description                                                            | Validation                            |
 | -- | ---------------------------- | --------- | ---------------------------------------------------------------------- | ------------------------------------- |
 | 1  | date                         | string    | Date when the data was recorded                                        | YYYY-MM-DD format to be used          |
@@ -55,6 +57,8 @@ This program entails indicators to monitor compliance and performance of teacher
 
 Following schema will be required to enable the teacher attendance program:
 
+If CSV is being ingested, the file name should be -> _teachersattendance-event.data.csv_
+
 | #  | Column Name                  | Data Type | Description                                                            | Validation                        |
 | -- | ---------------------------- | --------- | ---------------------------------------------------------------------- | --------------------------------- |
 | 1  | date                         | string    | Date when the data was recorded                                        | YYYY-MM-DD format to be used      |
@@ -78,6 +82,8 @@ Following schema will be required to enable the review meetings program:
 
 1. **For district review meetings:**
 
+If CSV is being ingested, the file name should be -> _district-event.data.csv_
+
 | # | Column Name        | Data Type | Description                                               | Validation                   |
 | - | ------------------ | --------- | --------------------------------------------------------- | ---------------------------- |
 | 1 | date               | string    | Date of the meeting conducted at the district             | YYYY-MM-DD format to be used |
@@ -86,6 +92,8 @@ Following schema will be required to enable the review meetings program:
 | 4 | meeting\_conducted | string    | Whether the meeting is conducted or not                   | 1, 0                         |
 
 2. **For block review meetings:**
+
+If CSV is being ingested, the file name should be -> _block-event.data.csv_
 
 | # | Column Name        | Data Type | Description                                               | Validation                   |
 | - | ------------------ | --------- | --------------------------------------------------------- | ---------------------------- |
@@ -97,6 +105,8 @@ Following schema will be required to enable the review meetings program:
 
 3. **For cluster review meetings:**
 
+If CSV is being ingested, the file name should be -> _cluster-event.data.csv_
+
 | # | Column Name        | Data Type | Description                                               | Validation                   |
 | - | ------------------ | --------- | --------------------------------------------------------- | ---------------------------- |
 | 1 | date               | string    | Date of the meeting conducted at the cluster              | YYYY-MM-DD format to be used |
@@ -105,3 +115,7 @@ Following schema will be required to enable the review meetings program:
 | 4 | district\_id       | string    | Unique ID of the district as per the dimension table      | NA                           |
 | 5 | academicyear\_id   | string    | Unique ID of the academic year as per the dimension table | NA                           |
 | 6 | meeting\_conducted | string    | Whether meeting is conducted or not                       | 1, 0                         |
+
+[Here ](https://docs.google.com/spreadsheets/d/1hW94tQNc0DIMAAj8bZVZ5jxk6fXf0YK5d3-kL1bCL0Y/edit#gid=1933044832)is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here ](https://docs.google.com/spreadsheets/d/1ex0\_pAUyfVIU4ZZeNJysKNpEGHrVsFirEqK2h-kFDs4/edit#gid=1431369508)is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
+## Dimension Schema
