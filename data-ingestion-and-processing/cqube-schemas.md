@@ -9,7 +9,7 @@ description: >-
 cQube requires 2 types of schemas for the programs that need to be enabled:
 
 1. [Event Schema](cqube-schemas.md#event-schema)
-2. Dimension Schema
+2. [Dimension Schema](cqube-schemas.md#dimension-schema)
 
 ## Event Schema
 
@@ -72,7 +72,7 @@ If CSV is being ingested, the file name should be -> _teachersattendance-event.d
 | 9  | teachers\_attendance\_marked | integer   | Total number of teachers whose attendance was marked                   | NA                                |
 | 10 | teachers\_marked\_present    | integer   | Total number of teachers who were present                              | NA                                |
 
-[Here](https://docs.google.com/spreadsheets/d/1aF9kbA-DiJswb\_5apWnbQU9LRuUEqyYRx3Oc4mbrorY/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/12KkfH1cokh8PM1toWYuCBgcXr82LMIYAzpN7ktljeOY/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1LrEnftK8Z2ecDajN0qNIdd3gz1TjeMrdPTzxM35F5jw/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1DjG3N11fi3pLN43Qj9t1L6loNDM0LHpBlfFQKK3Wb7w/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### Review Meetings:
 
@@ -116,7 +116,7 @@ If CSV is being ingested, the file name should be -> _cluster-event.data.csv_
 | 5 | academicyear\_id   | string    | Unique ID of the academic year as per the dimension table | NA                           |
 | 6 | meeting\_conducted | string    | Whether meeting is conducted or not                       | 1, 0                         |
 
-[Here ](https://docs.google.com/spreadsheets/d/1hW94tQNc0DIMAAj8bZVZ5jxk6fXf0YK5d3-kL1bCL0Y/edit#gid=1933044832)is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here ](https://docs.google.com/spreadsheets/d/1ex0\_pAUyfVIU4ZZeNJysKNpEGHrVsFirEqK2h-kFDs4/edit#gid=1431369508)is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1Nj77UxNZ45xmPpsiSX0V0qbAKbdLrkokkJQRzXvDoyg/edit#gid=1933044832) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1PUlqh1VCaYNLhBvRbdJIyxqnogmRWiQv3Bkq-e4UhJ0/edit#gid=1933044832) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ## Dimension Schema
 
