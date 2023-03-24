@@ -56,7 +56,7 @@ Provide valid input details for the parameters shown below.
 
 **Step 4**: Click on the send button for request and if the request is successful the user should see a response message. Please refer to the below screenshot.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
@@ -80,7 +80,7 @@ HTTP Method: POST
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
 
 This API will be used to write events into the CSV file and upload it in to the combined\_input folder in cloud / SDC if there are no errors. Then, the adapter will use the same files to break down the combined input into multiple input files. Later, those files will then be used by the NiFi processor to ingest the data into the database. The API can be used to add individual events into CSV.
 
@@ -122,7 +122,7 @@ HTTP Method: POST
 
 **Step 2:** Build the request body with reference to YAML file. The request body for the above API is attached here for yaml: [https://github.com/Sunbird-cQube/spec-ms/blob/march-release/spec.yaml](https://github.com/Sunbird-cQube/spec-ms/blob/march-release/spec.yaml). Provide the valid input details for the parameters as shown below.
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:** Click on the send button for the request and if the request is successful, the user should see a response message as “File uploaded successfully”. The files will be uploaded to the emission folder created in the respective cloud storage / SDC.
 

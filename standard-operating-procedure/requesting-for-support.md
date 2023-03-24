@@ -23,11 +23,11 @@ A new discussion should be created in the GitHub Discussion Forum of cQube **onl
 2. Start a new discussion.
 3. Detail out the support that you need with a title and description. You can add any images for context on the request.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (6).png" alt=""><figcaption></figcaption></figure>
 
 4. Attach relevant label(s) to the support being requested.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 5. Click on 'Start Discussion'
 

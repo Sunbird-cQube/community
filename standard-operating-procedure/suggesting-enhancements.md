@@ -25,11 +25,11 @@ A new discussion should be created in the GitHub Discussion Forum of cQube **onl
 2. Start a new discussion.
 3. Detail out the enhancement that you are suggesting with a title and description. You can add any images for context on the suggestion.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Attach relevant label(s) to the enhancement being suggested.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 5. Click on 'Start Discussion'
 

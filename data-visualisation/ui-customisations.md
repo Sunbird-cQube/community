@@ -22,7 +22,7 @@ There are certain keys specified for respective configuration to be changed as m
     <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>dashboard_header1_title</p></figcaption></figure>
 2. **dashboard\_header1\_image :** This key is used to change the image of the cQube dashboard page present at the top. It is depicted in the image below:
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>dashboard_header1_image</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>dashboard_header1_image</p></figcaption></figure>
 
 The user needs to upload the image into the specified directory: dashboard-ms > src > assets > images
 
@@ -58,4 +58,4 @@ The users can change the menu sequence and program name in this file. They need 
 
 The sample CSV filled is shown below:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
