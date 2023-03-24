@@ -122,7 +122,16 @@ If CSV is being ingested, the file name should be -> _cluster-event.data.csv_
 
 For all the state programs, some dimensions (master data) will need to be ingested by the cQube adopter as well.
 
-There are x dimensions for which the data needs to be ingested by the cQube adopter in order to get the state programs:
+There are 8 dimensions for which the data needs to be ingested by the cQube adopter in order to get the state programs:
+
+1. [State Dimension](cqube-schemas.md#state-dimension)
+2. [District Dimension](cqube-schemas.md#district-dimension)
+3. [Block Dimension](cqube-schemas.md#block-dimension)
+4. [Cluster Dimension](cqube-schemas.md#cluster-dimension)
+5. [School Dimension](cqube-schemas.md#school-dimension)
+6. [School Category Dimension](cqube-schemas.md#school-category-dimension)
+7. Grade Dimension
+8. Gender Dimension
 
 ### State Dimension:
 
