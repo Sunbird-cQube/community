@@ -13,7 +13,7 @@ cQube requires 2 types of schemas for the programs that need to be enabled:
 
 ## Event Schema
 
-There are 3 state programs available in cQube v5.0:
+There are 3 state programs available in cQube v5.0 for which the event schema needs to be ingested by the cQube adopter:
 
 1. [Student Attendance](cqube-schemas.md#student-attendance)
 2. [Teacher Attendance](cqube-schemas.md#teacher-attendance)
@@ -119,3 +119,113 @@ If CSV is being ingested, the file name should be -> _cluster-event.data.csv_
 [Here ](https://docs.google.com/spreadsheets/d/1hW94tQNc0DIMAAj8bZVZ5jxk6fXf0YK5d3-kL1bCL0Y/edit#gid=1933044832)is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here ](https://docs.google.com/spreadsheets/d/1ex0\_pAUyfVIU4ZZeNJysKNpEGHrVsFirEqK2h-kFDs4/edit#gid=1431369508)is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ## Dimension Schema
+
+For all the state programs, some dimensions (master data) will need to be ingested by the cQube adopter as well.
+
+There are x dimensions for which the data needs to be ingested by the cQube adopter in order to get the state programs:
+
+### State Dimension:
+
+This is the data for the particular state.
+
+If CSV is being ingested, the file name should be -> _state-dimension.data.csv_
+
+| # | Column Name | Data Type | Description            | Validation |
+| - | ----------- | --------- | ---------------------- | ---------- |
+| 1 | state\_id   | string    | Unique ID in the table | NA         |
+| 2 | state\_name | string    | Name of the state      | NA         |
+| 3 | latitude    | string    | Latitude of the state  | NA         |
+| 4 | longitude   | string    | Longitude of the state | NA         |
+
+Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
+### District Dimension:
+
+This is the data for all districts in the state.
+
+If CSV is being ingested, the file name should be -> _district-dimension.data.csv_
+
+| # | Column Name    | Data Type | Description               | Validation |
+| - | -------------- | --------- | ------------------------- | ---------- |
+| 1 | state\_id      | string    | Unique ID in the table    | NA         |
+| 2 | state\_name    | string    | Name of the state         | NA         |
+| 3 | district\_id   | string    | Unique ID in the district | NA         |
+| 4 | district\_name | string    | Name of the district      | NA         |
+| 5 | latitude       | string    | Latitude of the district  | NA         |
+| 6 | longitude      | string    | Longitude of the district | NA         |
+
+Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
+### Block Dimension:
+
+This is the data for all blocks and districts in the state.
+
+If CSV is being ingested, the file name should be -> _block-dimension.data.csv_
+
+| # | Column Name    | Data Type | Description               | Validation |
+| - | -------------- | --------- | ------------------------- | ---------- |
+| 1 | district\_id   | string    | Unique ID in the district | NA         |
+| 2 | district\_name | string    | Name of the district      | NA         |
+| 3 | block\_id      | string    | Unique ID in the block    | NA         |
+| 4 | block\_name    | string    | Name of the block         | NA         |
+| 5 | latitude       | string    | Latitude of the block     | NA         |
+| 6 | longitude      | string    | Longitude of the block    | NA         |
+
+Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
+### Cluster Dimension:
+
+This is the data for all clusters, blocks and districts in the state.
+
+If CSV is being ingested, the file name should be -> _cluster-dimension.data.csv_
+
+| # | Column Name    | Data Type | Description               | Validation |
+| - | -------------- | --------- | ------------------------- | ---------- |
+| 1 | district\_id   | string    | Unique ID in the district | NA         |
+| 2 | district\_name | string    | Name of the district      | NA         |
+| 3 | block\_id      | string    | Unique ID in the block    | NA         |
+| 4 | block\_name    | string    | Name of the block         | NA         |
+| 5 | cluster\_id    | string    | Unique ID in the cluster  | NA         |
+| 6 | cluster\_name  | string    | Name of the cluster       | NA         |
+| 7 | latitude       | string    | Latitude of the cluster   | NA         |
+| 8 | longitude      | string    | Longitude of the cluster  | NA         |
+
+Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
+### School Dimension:
+
+This is the data for all schools, clusters, blocks and districts in the state.
+
+If CSV is being ingested, the file name should be -> _school-dimension.data.csv_
+
+| #  | Column Name        | Data Type | Description                                         | Validation |
+| -- | ------------------ | --------- | --------------------------------------------------- | ---------- |
+| 1  | district\_id       | string    | Unique ID in the district                           | NA         |
+| 2  | district\_name     | string    | Name of the district                                | NA         |
+| 3  | block\_id          | string    | Unique ID in the block                              | NA         |
+| 4  | block\_name        | string    | Name of the block                                   | NA         |
+| 5  | cluster\_id        | string    | Unique ID in the cluster                            | NA         |
+| 6  | cluster\_name      | string    | Name of the cluster                                 | NA         |
+| 7  | school\_id         | string    | Unique ID in the school                             | NA         |
+| 8  | school\_name       | string    | Name of the school                                  | NA         |
+| 9  | schoolcategory\_id | string    | ID of the school category for the respective school | NA         |
+| 10 | grade\_id          | string    | ID of the grade present in the school               | NA         |
+| 11 | latitude           | string    | Latitude of the school                              | NA         |
+| 12 | longitude          | string    | Longitude of the school                             | NA         |
+
+Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
+### School Category Dimension:
+
+This is the data for categories of schools present in the state (Eg: Primary, Upper Primary, Secondary, Senior Secondary or any other kind of category).
+
+If CSV is being ingested, the file name should be -> _schoolcategory-dimension.data.csv_
+
+| # | Column Name          | Data Type | Description                                                 | Validation |
+| - | -------------------- | --------- | ----------------------------------------------------------- | ---------- |
+| 1 | schoolcategory\_id   | string    | Unique ID of the school category                            | NA         |
+| 2 | schoolcategory\_name | string    | Name of the school category                                 | NA         |
+| 3 | grades               | string    | Array of grades available in the respective school category | NA         |
+
+Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
