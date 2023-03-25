@@ -238,3 +238,30 @@ If CSV is being ingested, the file name should be -> _schoolcategory-dimension.d
 
 Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
+### Grade Dimension:
+
+This is the data for grades present in schools in the state (Eg: 1, 2, 3, 4, 5 or any other grades present in the state).
+
+If CSV is being ingested, the file name should be -> _grade-dimension.data.csv_
+
+| # | Column Name   | Data Type | Description                                | Validation |
+| - | ------------- | --------- | ------------------------------------------ | ---------- |
+| 1 | grade\_id     | string    | Unique ID of the grade                     | NA         |
+| 2 | grade\_nas    | string    | Grades as per the NAS program by GoI       | NA         |
+| 3 | grade\_diksha | string    | Grades as per the DIKSHA program by GoI    | NA         |
+| 4 | grade\_state  | string    | Grade as per what is followed in the state | NA         |
+
+Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
+### Gender Dimension:
+
+This is the master data for genders present in the state (Eg: Male, Female, Other).
+
+If CSV is being ingested, the file name should be -> _gender-dimension.data.csv_
+
+| # | Column Name | Data Type | Description             | Validation |
+| - | ----------- | --------- | ----------------------- | ---------- |
+| 1 | gender\_id  | string    | Unique ID of the gender | NA         |
+| 2 | gender      | string    | Name of the gender      | NA         |
+
+Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
