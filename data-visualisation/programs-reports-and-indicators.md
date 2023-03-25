@@ -24,184 +24,184 @@ This program entails indicators to monitor compliance and performance of student
 
 For a State Officer:
 
-| Indicator                             | Chart Type | Applicable Filters |
-| ------------------------------------- | ---------- | ------------------ |
-| Average Attendance Compliance %       | Big Number | Date Range         |
-| District-wise Attendance Compliance % | Table      | Date Range         |
+| Indicator                                            | Chart Type | Applicable Filters |
+| ---------------------------------------------------- | ---------- | ------------------ |
+| Average % Schools Reporting Student Attendance       | Big Number | Date Range         |
+| District-wise % Schools Reporting Student Attendance | Table      | Date Range         |
 
 For a District Officer:
 
-| Indicator                                     | Chart Type | Applicable Filters   |
-| --------------------------------------------- | ---------- | -------------------- |
-| Average Attendance Compliance %               | Big Number | District, Date Range |
-| Block-wise Attendance Compliance %            | Table      | District, Date Range |
-| District-wise Rank in Attendance Compliance % | Table      | Date Range           |
+| Indicator                                                    | Chart Type | Applicable Filters   |
+| ------------------------------------------------------------ | ---------- | -------------------- |
+| Average % Schools Reporting Student Attendance               | Big Number | District, Date Range |
+| Block-wise % Schools Reporting Student Attendance            | Table      | District, Date Range |
+| District-wise Rank in % Schools Reporting Student Attendance | Table      | Date Range           |
 
 For a Block Officer:
 
-| Indicator                                  | Chart Type | Applicable Filters          |
-| ------------------------------------------ | ---------- | --------------------------- |
-| Average Attendance Compliance %            | Big Number | District, Block, Date Range |
-| Cluster-wise Attendance Compliance %       | Table      | District, Block, Date Range |
-| Block-wise Rank in Attendance Compliance % | Table      | District, Date Range        |
+| Indicator                                                 | Chart Type | Applicable Filters          |
+| --------------------------------------------------------- | ---------- | --------------------------- |
+| Average % Schools Reporting Student Attendance            | Big Number | District, Block, Date Range |
+| Cluster-wise % Schools Reporting Student Attendance       | Table      | District, Block, Date Range |
+| Block-wise Rank in % Schools Reporting Student Attendance | Table      | District, Date Range        |
 
 For a Cluster Officer:
 
-| Indicator                                    | Chart Type | Applicable Filters                   |
-| -------------------------------------------- | ---------- | ------------------------------------ |
-| Average Attendance Compliance %              | Big Number | District, Block, Cluster, Date Range |
-| School-wise Attendance Compliance %          | Table      | District, Block, Cluster, Date Range |
-| Cluster-wise Rank in Attendance Compliance % | Table      | District, Block, Date Range          |
+| Indicator                                                   | Chart Type | Applicable Filters                   |
+| ----------------------------------------------------------- | ---------- | ------------------------------------ |
+| Average % Schools Reporting Student Attendance              | Big Number | District, Block, Cluster, Date Range |
+| School-wise % Student attendance being reported             | Table      | District, Block, Cluster, Date Range |
+| Cluster-wise Rank in % Schools Reporting Student Attendance | Table      | District, Block, Date Range          |
 
 For a School Principal:
 
-| Indicator                                    | Chart Type | Applicable Filters                           |
-| -------------------------------------------- | ---------- | -------------------------------------------- |
-| Average Attendance Compliance %              | Big Number | District, Block, Cluster, School, Date Range |
-| Grade-wise Attendance Compliance % (1 to 12) | Table      | District, Block, Cluster, School, Date Range |
-| School-wise Rank in Attendance Compliance %  | Table      | District, Block, Cluster, Date Range         |
+| Indicator                                               | Chart Type | Applicable Filters                           |
+| ------------------------------------------------------- | ---------- | -------------------------------------------- |
+| Average % Student attendance being reported             | Big Number | District, Block, Cluster, School, Date Range |
+| Grade-wise % Student attendance being reported          | Table      | District, Block, Cluster, School, Date Range |
+| School-wise Rank in % Student attendance being reported | Table      | District, Block, Cluster, Date Range         |
 
-* **Average Students Present:** This report shows the summary of students being present in the schools (out of the ones being marked). This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
+* **Average Students Present:** This report shows the % of students present (out of the ones for whom attendance is being reported) within the selected time duration on an average. This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
 
 For a State Officer:
 
-| Indicator                                                                     | Chart Type | Applicable Filters |
-| ----------------------------------------------------------------------------- | ---------- | ------------------ |
-| Average % Students Present                                                    | Big Number | Date Range         |
-| District-wise Attendance %                                                    | Table      | Date Range         |
-| Gender-wise Attendance % (Male, Female, Other)                                | Bar Chart  | Date Range         |
-| Grade-wise Attendance % (Primary, Upper Primary, Secondary, Senior Secondary) | Bar Chart  | Date Range         |
+| Indicator                        | Chart Type | Applicable Filters |
+| -------------------------------- | ---------- | ------------------ |
+| Average % Students Present       | Big Number | Date Range         |
+| District-wise % Students Present | Table      | Date Range         |
+| Gender-wise % Students Present   | Bar Chart  | Date Range         |
+| Grade-wise % Students Present    | Bar Chart  | Date Range         |
 
 For a District Officer:
 
-| Indicator                                                                     | Chart Type | Applicable Filters   |
-| ----------------------------------------------------------------------------- | ---------- | -------------------- |
-| Average Attendance %                                                          | Big Number | District, Date Range |
-| Block-wise Attendance %                                                       | Table      | District, Date Range |
-| District-wise Rank in Attendance %                                            | Table      | Date Range           |
-| Gender-wise Attendance % (Male, Female, Other)                                | Bar Chart  | District, Date Range |
-| Grade-wise Attendance % (Primary, Upper Primary, Secondary, Senior Secondary) | Bar Chart  | District, Date Range |
+| Indicator                                | Chart Type | Applicable Filters   |
+| ---------------------------------------- | ---------- | -------------------- |
+| Average % Students Present               | Big Number | District, Date Range |
+| Block-wise % Students Present            | Table      | District, Date Range |
+| District-wise Rank in % Students Present | Table      | Date Range           |
+| Gender-wise % Students Present           | Bar Chart  | District, Date Range |
+| Grade-wise % Students Present            | Bar Chart  | District, Date Range |
 
 For a Block Officer:
 
-| Indicator                                                                     | Chart Type | Applicable Filters          |
-| ----------------------------------------------------------------------------- | ---------- | --------------------------- |
-| Average Attendance %                                                          | Big Number | District, Block, Date Range |
-| Cluster-wise Attendance %                                                     | Table      | District, Block, Date Range |
-| Block-wise Rank in Attendance %                                               | Table      | District, Date Range        |
-| Gender-wise Attendance % (Male, Female, Other)                                | Bar Chart  | District, Block, Date Range |
-| Grade-wise Attendance % (Primary, Upper Primary, Secondary, Senior Secondary) | Bar Chart  | District, Block, Date Range |
+| Indicator                             | Chart Type | Applicable Filters          |
+| ------------------------------------- | ---------- | --------------------------- |
+| Average % Students Present            | Big Number | District, Block, Date Range |
+| Cluster-wise % Students Present       | Table      | District, Block, Date Range |
+| Block-wise Rank in % Students Present | Table      | District, Date Range        |
+| Gender-wise % Students Present        | Bar Chart  | District, Block, Date Range |
+| Grade-wise % Students Present         | Bar Chart  | District, Block, Date Range |
 
 For a Cluster Officer:
 
-| Indicator                                                                     | Chart Type | Applicable Filters                   |
-| ----------------------------------------------------------------------------- | ---------- | ------------------------------------ |
-| Average Attendance %                                                          | Big Number | District, Block, Cluster, Date Range |
-| School-wise Attendance %                                                      | Table      | District, Block, Cluster, Date Range |
-| Cluster-wise Rank in Attendance %                                             | Table      | District, Block, Date Range          |
-| Gender-wise Attendance % (Male, Female, Other)                                | Bar Chart  | District, Block, Cluster, Date Range |
-| Grade-wise Attendance % (Primary, Upper Primary, Secondary, Senior Secondary) | Bar Chart  | District, Block, Cluster, Date Range |
+| Indicator                               | Chart Type | Applicable Filters                   |
+| --------------------------------------- | ---------- | ------------------------------------ |
+| Average % Students Present              | Big Number | District, Block, Cluster, Date Range |
+| School-wise % Students Present          | Table      | District, Block, Cluster, Date Range |
+| Cluster-wise Rank in % Students Present | Table      | District, Block, Date Range          |
+| Gender-wise % Students Present          | Bar Chart  | District, Block, Cluster, Date Range |
+| Grade-wise % Students Present           | Bar Chart  | District, Block, Cluster, Date Range |
 
 For a School Principal:
 
-| Indicator                                      | Chart Type | Applicable Filters                           |
-| ---------------------------------------------- | ---------- | -------------------------------------------- |
-| Average Attendance %                           | Big Number | District, Block, Cluster, School, Date Range |
-| Grade-wise Attendance % (1 to 12)              | Table      | District, Block, Cluster, School, Date Range |
-| School-wise Rank in Attendance %               | Table      | District, Block, Cluster, Date Range         |
-| Gender-wise Attendance % (Male, Female, Other) | Bar Chart  | District, Block, Cluster, School, Date Range |
+| Indicator                      | Chart Type | Applicable Filters                           |
+| ------------------------------ | ---------- | -------------------------------------------- |
+| Average % Students Present     | Big Number | District, Block, Cluster, School, Date Range |
+| Grade-wise % Students Present  | Table      | District, Block, Cluster, School, Date Range |
+| School-wise % Students Present | Table      | District, Block, Cluster, Date Range         |
+| Gender-wise % Students Present | Bar Chart  | District, Block, Cluster, School, Date Range |
 
 For a Class Teacher:
 
-| Indicator                                      | Chart Type | Applicable Filters                                  |
-| ---------------------------------------------- | ---------- | --------------------------------------------------- |
-| Average Attendance %                           | Big Number | District, Block, Cluster, School, Grade, Date Range |
-| Grade-wise Rank in Attendance %                | Table      | District, Block, Cluster, School, Date Range        |
-| Gender-wise Attendance % (Male, Female, Other) | Bar Chart  | District, Block, Cluster, School, Grade, Date Range |
+| Indicator                             | Chart Type | Applicable Filters                                  |
+| ------------------------------------- | ---------- | --------------------------------------------------- |
+| % Students Present                    | Big Number | District, Block, Cluster, School, Grade, Date Range |
+| Grade-wise Rank in % Students Present | Table      | District, Block, Cluster, School, Date Range        |
+| Gender-wise % Students Present        | Bar Chart  | District, Block, Cluster, School, Grade, Date Range |
 
 ### 2. Teacher Attendance
 
-This program entails indicators to monitor compliance and performance of teacher attendance. Following are the reports within this program:
+This program entails indicators to monitor reporting of attendance and presence of teachers in the jurisdiction. Following are the reports within this program:
 
-* **Teacher Attendance Compliance:** This report shows the compliance of attendance being marked by teachers. This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
+* **Average Teachers Reporting Attendance:** This report shows the % of teachers reporting their attendance within the selected time duration on an average. This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
+
+For a State Officer:
+
+| Indicator                                     | Chart Type | Applicable Filters |
+| --------------------------------------------- | ---------- | ------------------ |
+| Average % Teachers Reporting Attendance       | Big Number | Date Range         |
+| District-wise % Teachers Reporting Attendance | Table      | Date Range         |
+
+For a District Officer:
+
+| Indicator                                             | Chart Type | Applicable Filters   |
+| ----------------------------------------------------- | ---------- | -------------------- |
+| Average % Teachers Reporting Attendance               | Big Number | District, Date Range |
+| Block-wise % Teachers Reporting Attendance            | Table      | District, Date Range |
+| District-wise Rank in % Teachers Reporting Attendance | Table      | Date Range           |
+
+For a Block Officer:
+
+| Indicator                                          | Chart Type | Applicable Filters          |
+| -------------------------------------------------- | ---------- | --------------------------- |
+| Average % Teachers Reporting Attendance            | Big Number | District, Block, Date Range |
+| Cluster-wise % Teachers Reporting Attendance       | Table      | District, Block, Date Range |
+| Block-wise Rank in % Teachers Reporting Attendance | Table      | District, Date Range        |
+
+For a Cluster Officer:
+
+| Indicator                                            | Chart Type | Applicable Filters                   |
+| ---------------------------------------------------- | ---------- | ------------------------------------ |
+| Average % Teachers Reporting Attendance              | Big Number | District, Block, Cluster, Date Range |
+| School-wise % Teachers Reporting Attendance          | Table      | District, Block, Cluster, Date Range |
+| Cluster-wise Rank in % Teachers Reporting Attendance | Table      | District, Block, Date Range          |
+
+For a School Principal:
+
+| Indicator                                           | Chart Type | Applicable Filters                           |
+| --------------------------------------------------- | ---------- | -------------------------------------------- |
+| Average % Teachers Reporting Attendance             | Big Number | District, Block, Cluster, School, Date Range |
+| School-wise Rank in % Teachers Reporting Attendance | Table      | District, Block, Cluster, Date Range         |
+
+* **Teacher Attendance Summary:** This report shows the % of teachers present in the school (out of the ones who have reported their attendance) within the selected time duration on an average. This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
 
 For a State Officer:
 
 | Indicator                             | Chart Type | Applicable Filters |
 | ------------------------------------- | ---------- | ------------------ |
-| Average Attendance Compliance %       | Big Number | Date Range         |
-| District-wise Attendance Compliance % | Table      | Date Range         |
+| <p>Average % Teachers Present<br></p> | Big Number | Date Range         |
+| District-wise % Teachers Present      | Table      | Date Range         |
 
 For a District Officer:
 
-| Indicator                                     | Chart Type | Applicable Filters   |
-| --------------------------------------------- | ---------- | -------------------- |
-| Average Attendance Compliance %               | Big Number | District, Date Range |
-| Block-wise Attendance Compliance %            | Table      | District, Date Range |
-| District-wise Rank in Attendance Compliance % | Table      | Date Range           |
+| Indicator                                | Chart Type | Applicable Filters   |
+| ---------------------------------------- | ---------- | -------------------- |
+| Average % Teachers Present               | Big Number | District, Date Range |
+| Block-wise % Teachers Present            | Table      | District, Date Range |
+| District-wise Rank in % Teachers Present | Table      | Date Range           |
 
 For a Block Officer:
 
-| Indicator                                  | Chart Type | Applicable Filters          |
-| ------------------------------------------ | ---------- | --------------------------- |
-| Average Attendance Compliance %            | Big Number | District, Block, Date Range |
-| Cluster-wise Attendance Compliance %       | Table      | District, Block, Date Range |
-| Block-wise Rank in Attendance Compliance % | Table      | District, Date Range        |
+| Indicator                             | Chart Type | Applicable Filters          |
+| ------------------------------------- | ---------- | --------------------------- |
+| Average % Teachers Present            | Big Number | District, Block, Date Range |
+| Cluster-wise % Teachers Present       | Table      | District, Block, Date Range |
+| Block-wise Rank in % Teachers Present | Table      | District, Date Range        |
 
 For a Cluster Officer:
 
-| Indicator                                    | Chart Type | Applicable Filters                   |
-| -------------------------------------------- | ---------- | ------------------------------------ |
-| Average Attendance Compliance %              | Big Number | District, Block, Cluster, Date Range |
-| School-wise Attendance Compliance %          | Table      | District, Block, Cluster, Date Range |
-| Cluster-wise Rank in Attendance Compliance % | Table      | District, Block, Date Range          |
+| Indicator                               | Chart Type | Applicable Filters                   |
+| --------------------------------------- | ---------- | ------------------------------------ |
+| Average % Teachers Present              | Big Number | District, Block, Cluster, Date Range |
+| School-wise % Teachers Present          | Table      | District, Block, Cluster, Date Range |
+| Cluster-wise Rank in % Teachers Present | Table      | District, Block, Date Range          |
 
 For a School Principal:
 
-| Indicator                                   | Chart Type | Applicable Filters                           |
-| ------------------------------------------- | ---------- | -------------------------------------------- |
-| Average Attendance Compliance %             | Big Number | District, Block, Cluster, School, Date Range |
-| School-wise Rank in Attendance Compliance % | Table      | District, Block, Cluster, Date Range         |
-
-* **Teacher Attendance Summary:** This report shows the summary of teachers being present in the school (out of the ones marking their attendance). This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
-
-For a State Officer:
-
-| Indicator                  | Chart Type | Applicable Filters |
-| -------------------------- | ---------- | ------------------ |
-| Average Attendance %       | Big Number | Date Range         |
-| District-wise Attendance % | Table      | Date Range         |
-
-For a District Officer:
-
-| Indicator                          | Chart Type | Applicable Filters   |
-| ---------------------------------- | ---------- | -------------------- |
-| Average Attendance %               | Big Number | District, Date Range |
-| Block-wise Attendance %            | Table      | District, Date Range |
-| District-wise Rank in Attendance % | Table      | Date Range           |
-
-For a Block Officer:
-
-| Indicator                       | Chart Type | Applicable Filters          |
-| ------------------------------- | ---------- | --------------------------- |
-| Average Attendance %            | Big Number | District, Block, Date Range |
-| Cluster-wise Attendance %       | Table      | District, Block, Date Range |
-| Block-wise Rank in Attendance % | Table      | District, Date Range        |
-
-For a Cluster Officer:
-
-| Indicator                         | Chart Type | Applicable Filters                   |
-| --------------------------------- | ---------- | ------------------------------------ |
-| Average Attendance %              | Big Number | District, Block, Cluster, Date Range |
-| School-wise Attendance %          | Table      | District, Block, Cluster, Date Range |
-| Cluster-wise Rank in Attendance % | Table      | District, Block, Date Range          |
-
-For a School Principal:
-
-| Indicator                        | Chart Type | Applicable Filters                           |
-| -------------------------------- | ---------- | -------------------------------------------- |
-| Average Attendance %             | Big Number | District, Block, Cluster, School, Date Range |
-| School-wise Rank in Attendance % | Table      | District, Block, Cluster, Date Range         |
+| Indicator                              | Chart Type | Applicable Filters                           |
+| -------------------------------------- | ---------- | -------------------------------------------- |
+| Average % Teachers Present             | Big Number | District, Block, Cluster, School, Date Range |
+| School-wise Rank in % Teachers Present | Table      | District, Block, Cluster, Date Range         |
 
 ### 3. Review Meetings
 
