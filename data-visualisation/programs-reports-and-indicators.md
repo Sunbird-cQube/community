@@ -243,7 +243,7 @@ NISHTHA is a capacity building programme for "Improving Quality of School Educat
 
 ### **5. DIKSHA:**
 
-The Digital Infrastructure for Knowledge Sharing is an initiative of the National Council of Educational Research and Training (Ministry of Education, Govt. of India). This platform enables implementation of two key programs- Nishtha and Energized Textbooks. Following reports are available in this program:
+The Digital Infrastructure for Knowledge Sharing is an initiative of the National Council of Educational Research and Training (Ministry of Education, Govt. of India). This platform enables implementation of two key programs- NISHTHA and Energized Textbooks. Following reports are available in this program:
 
 1. ETB Coverage Status
 2. Content Coverage on QR
