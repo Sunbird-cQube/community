@@ -20,7 +20,7 @@ There are a total of 9 programs available in cQube v5.0:
 
 This program entails indicators to monitor compliance and performance of student attendance. Following are the reports within this program.
 
-* **Student Attendance Compliance:** This report shows the compliance of student attendance being marked in the schools. A school is counted as attendance-compliant when attendance of more than 50% of the students in the school is marked on a particular date. This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
+* **Schools Reporting Student Attendance:** This report shows the % of schools that report attendance within the selected time duration for more than 50% enrolled students on average. This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
 
 For a State Officer:
 
@@ -61,13 +61,13 @@ For a School Principal:
 | Grade-wise Attendance Compliance % (1 to 12) | Table      | District, Block, Cluster, School, Date Range |
 | School-wise Rank in Attendance Compliance %  | Table      | District, Block, Cluster, Date Range         |
 
-* **Student Attendance Summary:** This report shows the summary of students being present in the schools (out of the ones being marked). This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
+* **Average Students Present:** This report shows the summary of students being present in the schools (out of the ones being marked). This report will have the Date Range filter. Other Filters like District, Block, Cluster, School will be picked up from RBAC. Following indicators will be available for specific roles as part of this report:
 
 For a State Officer:
 
 | Indicator                                                                     | Chart Type | Applicable Filters |
 | ----------------------------------------------------------------------------- | ---------- | ------------------ |
-| Average Attendance %                                                          | Big Number | Date Range         |
+| Average % Students Present                                                    | Big Number | Date Range         |
 | District-wise Attendance %                                                    | Table      | Date Range         |
 | Gender-wise Attendance % (Male, Female, Other)                                | Bar Chart  | Date Range         |
 | Grade-wise Attendance % (Primary, Upper Primary, Secondary, Senior Secondary) | Bar Chart  | Date Range         |
