@@ -251,6 +251,8 @@ If CSV is being ingested, the file name should be -> _grade-dimension.data.csv_
 | 3 | grade\_diksha | string    | Grades as per the DIKSHA program by GoI    | NA         |
 | 4 | grade\_state  | string    | Grade as per what is followed in the state | NA         |
 
+**Note:** Since the grade data for NAS & DIKSHA is being shared for the state in a fixed format centrally, the state will need to manually map grade\_state with grade\_nas & grade\_diksha and update data only for grade\_state from the following upload file.
+
 Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### Gender Dimension:
