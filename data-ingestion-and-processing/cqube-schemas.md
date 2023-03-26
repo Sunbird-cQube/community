@@ -222,7 +222,7 @@ If CSV is being ingested, the file name should be -> _school-dimension.data.csv_
 | 11 | latitude           | string    | Latitude of the school                              | NA         |
 | 12 | longitude          | string    | Longitude of the school                             | NA         |
 
-Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1q7waS\_pUsmFkwioeto4YcBN3oy-UVMdv5oEZpDnwDU8/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1G\_in031-haS4kO2GNFbzaq-c7Dhv6CXuVSXA6nEILG4/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### School Category Dimension:
 
@@ -236,7 +236,7 @@ If CSV is being ingested, the file name should be -> _schoolcategory-dimension.d
 | 2 | schoolcategory\_name | string    | Name of the school category                                 | NA         |
 | 3 | grades               | string    | Array of grades available in the respective school category | NA         |
 
-Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1PFPLZbNfDiY7eZX\_7IljNBbUGiyeBJS2kZx4VyREW0Y/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/17vbEPwLMEHgKhkgJBwCAkGM0xyC4p74ALPAxpefbxWo/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### Grade Dimension:
 
@@ -253,7 +253,7 @@ If CSV is being ingested, the file name should be -> _grade-dimension.data.csv_
 
 **Note:** Since the grade data for NAS & DIKSHA is being shared for the state in a fixed format centrally, the state will need to manually map grade\_state with grade\_nas & grade\_diksha and update data only for grade\_state from the following upload file.
 
-Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1N3v-rNXVau6YUl5wRI-QLXwM723EVIC7W9EnNgdX6bQ/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1hMhOM7a3OY3MnRJrF\_KKQ5ipVjZDmhZhmXH\_Ufgl9NM/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### Gender Dimension:
 
@@ -266,4 +266,4 @@ If CSV is being ingested, the file name should be -> _gender-dimension.data.csv_
 | 1 | gender\_id  | string    | Unique ID of the gender | NA         |
 | 2 | gender      | string    | Name of the gender      | NA         |
 
-Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1mjxP6oeBbpdWvB-L4hjdMDk9WMZQ2QeANREkcpxN-jI/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1\_lbfGtafwJnA2MJO3A272NhJ-bGLtiPWype5GZRdHPI/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
