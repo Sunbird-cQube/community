@@ -130,8 +130,8 @@ There are 8 dimensions for which the data needs to be ingested by the cQube adop
 4. [Cluster Dimension](cqube-schemas.md#cluster-dimension)
 5. [School Dimension](cqube-schemas.md#school-dimension)
 6. [School Category Dimension](cqube-schemas.md#school-category-dimension)
-7. Grade Dimension
-8. Gender Dimension
+7. [Grade Dimension](cqube-schemas.md#grade-dimension)
+8. [Gender Dimension](cqube-schemas.md#gender-dimension)
 
 ### State Dimension:
 
@@ -146,7 +146,7 @@ If CSV is being ingested, the file name should be -> _state-dimension.data.csv_
 | 3 | latitude    | string    | Latitude of the state  | NA         |
 | 4 | longitude   | string    | Longitude of the state | NA         |
 
-Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/19TKSpDMO7IyLR5T0YWGrVla5Bc0yO0W9GzYU\_PzJDDg/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1Z1mK\_W\_Z9WOdCjA8my7N6F\_uJlHrmftQ18tQvhgcag4/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### District Dimension:
 
@@ -163,7 +163,7 @@ If CSV is being ingested, the file name should be -> _district-dimension.data.cs
 | 5 | latitude       | string    | Latitude of the district  | NA         |
 | 6 | longitude      | string    | Longitude of the district | NA         |
 
-Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1KcpgS-yagkyjzN4ZTh6GZGUY8qBpnRHZheERW9KhAxg/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1L2Nrj0hUNmMxRpr04GEZ8nJRmR9Pbyxu\_ECS9dyvJh0/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### Block Dimension:
 
@@ -180,7 +180,7 @@ If CSV is being ingested, the file name should be -> _block-dimension.data.csv_
 | 5 | latitude       | string    | Latitude of the block     | NA         |
 | 6 | longitude      | string    | Longitude of the block    | NA         |
 
-Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1Z33WQlVc6F1OCe2VE8zAFNk8Thp5qD4BVM9sM0Nd0zU/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1R2kS0gjsREK57s7DlVl2ylNDZY9TzcWv\_H\_lHDgbkcQ/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### Cluster Dimension:
 
@@ -199,7 +199,7 @@ If CSV is being ingested, the file name should be -> _cluster-dimension.data.csv
 | 7 | latitude       | string    | Latitude of the cluster   | NA         |
 | 8 | longitude      | string    | Longitude of the cluster  | NA         |
 
-Here is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. Here is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1sI1WXQOYVIxvuwfvqIzFpOwXoY\_Js9w5Dn9rN1zkej0/edit?usp=share\_link) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/13LpdBhP2P-VsgEilOMs5enRYei2lII17FUlW7SwYjBc/edit?usp=share\_link) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### School Dimension:
 
