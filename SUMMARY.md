@@ -3,6 +3,12 @@
 * [Product Overview](README.md)
 * [Architecture](architecture.md)
 
+## 💻 Specifications
+
+* [Events / Facts](specifications/events-facts.md)
+* [Dimensions](specifications/dimensions.md)
+* [Datasets](specifications/datasets.md)
+
 ## 👩💻 Installation & Upgradation
 
 * [Getting Started](installation-and-upgradation/getting-started.md)
@@ -23,6 +29,13 @@
 
 * [Programs, Reports & Indicators](data-visualisation/programs-reports-and-indicators.md)
 * [UI Customisations](data-visualisation/ui-customisations.md)
+
+## 🔐 Configurations
+
+* [Connecting cQube Datasets to External Visualisation Tools](configurations/connecting-cqube-datasets-to-external-visualisation-tools.md)
+* [Adding a New Program](configurations/adding-a-new-program.md)
+* [Adding a New Report](configurations/adding-a-new-report.md)
+* [Adding a New Indicator](configurations/adding-a-new-indicator.md)
 
 ## ⏱ Standard Operating Procedure
 

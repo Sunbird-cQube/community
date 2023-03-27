@@ -1,7 +1,7 @@
 ---
 description: >-
   Lists down the steps to ingest data (events, dimensions & datasets) into cQube
-  v5.0 for state as well as national programs
+  V 5.0 for state as well as national programs
 ---
 
 # Step-wise Ingestion Process

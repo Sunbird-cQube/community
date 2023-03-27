@@ -1,5 +1,5 @@
 ---
-description: Describes how the status of data ingestion in cQube v5.0 can be monitored
+description: Describes how the status of data ingestion in cQube V 5.0 can be monitored
 ---
 
 # Monitoring status of ingestion

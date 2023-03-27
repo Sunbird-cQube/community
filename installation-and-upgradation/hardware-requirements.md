@@ -1,5 +1,5 @@
 ---
-description: List of hardware requirements as pre-requisites for cQube v5.0
+description: List of hardware requirements as pre-requisites for cQube V 5.0
 ---
 
 # Hardware Requirements

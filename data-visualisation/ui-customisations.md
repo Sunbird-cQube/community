@@ -1,7 +1,7 @@
 ---
 description: >-
-  Describes how customisations on the dashboard (UI) layer of cQube v5.0 can be
-  made
+  Describes how customisations on the dashboard (UI) layer of cQube Ed v5.0 can
+  be made
 ---
 
 # UI Customisations

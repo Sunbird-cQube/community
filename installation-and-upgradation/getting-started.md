@@ -1,5 +1,5 @@
 ---
-description: 'Shows you a list of things to help you get started with cQube v5.0:'
+description: 'Shows you a list of things to help you get started with cQube V 5.0:'
 ---
 
 # Getting Started

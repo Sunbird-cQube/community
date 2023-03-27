@@ -1,5 +1,7 @@
 ---
-description: Details out the indicators in each report and program available in cQube v5.0
+description: >-
+  Details out the indicators in each report and program available in cQube Ed V
+  5.0
 ---
 
 # Programs, Reports & Indicators

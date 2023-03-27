@@ -1,6 +1,6 @@
 ---
 description: >-
-  Describes how the processing of ingested data in cQube v5.0 can be scheduled
+  Describes how the processing of ingested data in cQube V 5.0 can be scheduled
   at any particular time
 ---
 

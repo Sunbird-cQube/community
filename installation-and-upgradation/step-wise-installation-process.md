@@ -1,5 +1,5 @@
 ---
-description: Lists the steps to install cQube v5.0
+description: Lists the steps to install cQube V 5.0
 ---
 
 # Step-wise Installation Process

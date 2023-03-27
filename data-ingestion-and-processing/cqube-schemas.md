@@ -1,7 +1,7 @@
 ---
 description: >-
   Details out the schemas of events and dimensions for all programs in which
-  cQube v5.0 ingests data
+  cQube Ed V 5.0 ingests data
 ---
 
 # cQube Schemas
