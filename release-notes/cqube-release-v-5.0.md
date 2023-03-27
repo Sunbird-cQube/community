@@ -23,7 +23,7 @@ As part of cQube V 5.0, a cQube adopter can install V 5.0 or upgrade from V 4.1 
 1. A deployer can install V 5.0 or upgrade from V 4.1 - Beta (VSK Starter Pack) to V 5.0 seamlessly within 30 minutes - [Installation Details](../installation-and-upgradation/step-wise-installation-process.md) | [Upgradation Details](../installation-and-upgradation/step-wise-upgradation-process.md)
 2. A deployer is able to ingest state data for 9 out-of-the-box programs in cQube schema via APIs through adapters at a set frequency - [Available Programs](../data-visualisation/programs-reports-and-indicators.md) | [cQube Schema](../data-ingestion-and-processing/cqube-schemas.md) | [Adapter Creation](../data-ingestion-and-processing/step-wise-adapter-creation-process.md) | [Ingestion Details](../data-ingestion-and-processing/step-wise-ingestion-process.md)
 3. A deployer can monitor ingestion by viewing the number of rows ingested and rectifying any errors - [Monitoring Ingestion](../data-ingestion-and-processing/monitoring-status-of-ingestion.md) | [Rectifying Errors](../data-ingestion-and-processing/error-monitoring-post-ingestion.md)
-4. A deployer is able to schedule the processing of ingested data within cQube - [Processing Scheduler](../data-ingestion-and-processing/scheduling-the-processing-of-ingested-data.md)
+4. A deployer is able to schedule the processing of ingested data within cQube - [Installation Details](../installation-and-upgradation/step-wise-installation-process.md)
 5. A deployer can add a new program / report / indicator in cQube by configuring ingestion, processing and visualisation
 6. A deployer / admin can connect the cQube datasets to any external visualisation tool (eg: Metabase, Tableau etc.)
 7. A deployer can modify the UI of the cQube dashboards through configurations - [UI Customisations](../data-visualisation/ui-customisations.md)
@@ -54,7 +54,7 @@ Some features have been deprecated from the previous release (V 4.1 - beta) but 
 2. **Admin Console:** A UI-based admin console will not be available in cQube V 5.0 but most of the functionalities of the admin console have been enabled via APIs as explained below:
    1. Monitoring of ingestion and processing: The deployer can see the number of ingested rows in cQube V 5.0 along with the errors in the ingested file using the file status API as explained [here](../data-ingestion-and-processing/monitoring-status-of-ingestion.md).
    2. Managing retention and deletion of ingested data: This feature will be available in V 5.0.2, planned to be released at the end of April'23.
-   3. Scheduling the processing of ingested data: This can be done using the schedule API in V 5.0 as explained [here](../data-ingestion-and-processing/scheduling-the-processing-of-ingested-data.md).
+   3. Scheduling the processing of ingested data: This can be done using the schedule API in V 5.0 as explained [here](broken-reference).
 
 ## Available Documentations for V 5.0
 

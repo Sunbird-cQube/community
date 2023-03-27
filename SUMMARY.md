@@ -23,7 +23,6 @@
 * [Step-wise Ingestion Process](data-ingestion-and-processing/step-wise-ingestion-process.md)
 * [Monitoring status of ingestion](data-ingestion-and-processing/monitoring-status-of-ingestion.md)
 * [Error monitoring post ingestion](data-ingestion-and-processing/error-monitoring-post-ingestion.md)
-* [Scheduling the processing of ingested data](data-ingestion-and-processing/scheduling-the-processing-of-ingested-data.md)
 
 ## 📊 Data Visualisation
 
