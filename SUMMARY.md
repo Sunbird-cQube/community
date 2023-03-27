@@ -1,50 +1,79 @@
 # Table of contents
 
-* [Sunbird cQube Overview](README.md)
+* [Product Overview](README.md)
+* [Architecture](architecture.md)
 
-## LEARN
+## 👩💻 Installation & Upgradation
 
-* [cQube Product Description](learn/cqube-features.md)
+* [Getting Started](installation-and-upgradation/getting-started.md)
+* [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
+* [Step-wise Installation Process](installation-and-upgradation/step-wise-installation-process.md)
+* [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
+
+## 🔃 Data Ingestion & Processing
+
+* [cQube Schemas](data-ingestion-and-processing/cqube-schemas.md)
+* [Step-wise Adapter Creation Process](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
+* [Step-wise Ingestion Process](data-ingestion-and-processing/step-wise-ingestion-process.md)
+* [Monitoring status of ingestion](data-ingestion-and-processing/monitoring-status-of-ingestion.md)
+* [Error monitoring post ingestion](data-ingestion-and-processing/error-monitoring-post-ingestion.md)
+* [Scheduling the processing of ingested data](data-ingestion-and-processing/scheduling-the-processing-of-ingested-data.md)
+
+## 📊 Data Visualisation
+
+* [Programs, Reports & Indicators](data-visualisation/programs-reports-and-indicators.md)
+* [UI Customisations](data-visualisation/ui-customisations.md)
+
+## ⏱ Standard Operating Procedure
+
+* [Reporting a Bug](standard-operating-procedure/reporting-a-bug.md)
+* [Requesting for Support](standard-operating-procedure/requesting-for-support.md)
+* [Suggesting Enhancements](standard-operating-procedure/suggesting-enhancements.md)
+
+## 📂 cQube V 4.1 - Beta
+
+* [Sunbird cQube Overview](cqube-v-4.1-beta/readme.md)
+* [cQube Product Description](cqube-v-4.1-beta/cqube-features.md)
 * [Listen to Experts (Youtube)](https://www.youtube.com/watch?v=kbeFmTsWlAI)
-
-## USE
-
-* [Software Requirements](use/software-requirements.md)
-* [Acronyms](use/acronyms.md)
-* [cQube Software Architecture](use/cqube-software-architecture.md)
-* [AWS - Network Architecture](use/network-architecture-diagram/README.md)
-  * [Hardware requirements](use/network-architecture-diagram/hardware-requirements.md)
-  * [Data Storage Locations](use/network-architecture-diagram/data-storage-locations.md)
-* [Security Implementations](use/security-requirements.md)
-* [Prerequisites for Installation process](use/prerequisites-for-installation-process.md)
-* [New Use-Case Creation](use/use-case.md)
-* [cQube Setup & configuration](use/cqube-installation.md)
-* [Base Installation steps](use/base-installation-steps.md)
-* [Base Upgradation steps](use/base-upgradation-steps.md)
-* [Workflow Installation steps](use/workflow-installation-steps.md)
-* [Workflow Upgradation steps](use/workflow-upgradation-steps.md)
-* [Laptop/Desktop Installation](use/laptop-desktop-demo-installation/README.md)
-  * [Base Installation](use/laptop-desktop-demo-installation/base\_installation.md)
-  * [Workflow Installation](use/laptop-desktop-demo-installation/workflow\_installation.md)
-  * [Mock Data Processing](use/laptop-desktop-demo-installation/mock-data-processing.md)
-* [Workflow process](use/workflow-process.md)
-* [Emission Process](use/emission-process-1.md)
-* [cQube ER Diagrams](use/cqube-er-diagrams.md)
-* [Data Validation after Ingestion](use/data-validation-after-ingestion.md)
-* [User Authentication Process](use/authentication\_process.md)
-* [Admin Login Process](use/admin-login-process.md)
-* [Admin Features](use/admin-features.md)
-* [cQube Datasource Configuration](use/datasource\_configuration.md)
-* [cQube data replay process](use/cqube-data-replay-process.md)
-* [S3 Partitioning](use/design-principles.md)
-* [Ad-hoc analysis](use/ad-hoc-analyst.md)
-* [Reports](use/reports.md)
-* [Troubleshooting Issues](use/troubleshooting-issues/README.md)
-  * [Data Processing-NIFI Issues](use/troubleshooting-issues/data-processing-nifi-issues.md)
-  * [Data Processing-PostgreSQL Issues](use/troubleshooting-issues/data-processing-postgresql-issues.md)
-  * [Data Emission Issues](use/troubleshooting-issues/data-emission-issues.md)
-  * [Angular & Node Issues](use/troubleshooting-issues/angular-and-node-issues.md)
-* [FAQs](use/faqs.md)
+* [Software Requirements](cqube-v-4.1-beta/software-requirements.md)
+* [Acronyms](cqube-v-4.1-beta/acronyms.md)
+* [cQube Software Architecture](cqube-v-4.1-beta/cqube-software-architecture.md)
+* [AWS - Network Architecture](cqube-v-4.1-beta/network-architecture-diagram/README.md)
+  * [Hardware requirements](cqube-v-4.1-beta/network-architecture-diagram/hardware-requirements.md)
+  * [Data Storage Locations](cqube-v-4.1-beta/network-architecture-diagram/data-storage-locations.md)
+* [Security Implementations](cqube-v-4.1-beta/security-requirements.md)
+* [Prerequisites for Installation process](cqube-v-4.1-beta/prerequisites-for-installation-process.md)
+* [New Use-Case Creation](cqube-v-4.1-beta/use-case.md)
+* [cQube Setup & configuration](cqube-v-4.1-beta/cqube-installation.md)
+* [Base Installation steps](cqube-v-4.1-beta/base-installation-steps.md)
+* [Base Upgradation steps](cqube-v-4.1-beta/base-upgradation-steps.md)
+* [Workflow Installation steps](cqube-v-4.1-beta/workflow-installation-steps.md)
+* [Workflow Upgradation steps](cqube-v-4.1-beta/workflow-upgradation-steps.md)
+* [Laptop/Desktop Installation](cqube-v-4.1-beta/laptop-desktop-demo-installation/README.md)
+  * [Base Installation](cqube-v-4.1-beta/laptop-desktop-demo-installation/base\_installation.md)
+  * [Workflow Installation](cqube-v-4.1-beta/laptop-desktop-demo-installation/workflow\_installation.md)
+  * [Mock Data Processing](cqube-v-4.1-beta/laptop-desktop-demo-installation/mock-data-processing.md)
+* [Ad-hoc analysis](cqube-v-4.1-beta/ad-hoc-analyst.md)
+* [Workflow process](cqube-v-4.1-beta/workflow-process.md)
+* [Emission Process](cqube-v-4.1-beta/emission-process-1.md)
+* [cQube ER Diagrams](cqube-v-4.1-beta/cqube-er-diagrams.md)
+* [Data Validation after Ingestion](cqube-v-4.1-beta/data-validation-after-ingestion.md)
+* [User Authentication Process](cqube-v-4.1-beta/authentication\_process.md)
+* [Admin Login Process](cqube-v-4.1-beta/admin-login-process.md)
+* [Admin Features](cqube-v-4.1-beta/admin-features.md)
+* [cQube Datasource Configuration](cqube-v-4.1-beta/datasource\_configuration.md)
+* [cQube data replay process](cqube-v-4.1-beta/cqube-data-replay-process.md)
+* [S3 Partitioning](cqube-v-4.1-beta/design-principles.md)
+* [Reports](cqube-v-4.1-beta/reports.md)
+* [Troubleshooting Issues](cqube-v-4.1-beta/troubleshooting-issues/README.md)
+  * [Data Processing-NIFI Issues](cqube-v-4.1-beta/troubleshooting-issues/data-processing-nifi-issues.md)
+  * [Data Processing-PostgreSQL Issues](cqube-v-4.1-beta/troubleshooting-issues/data-processing-postgresql-issues.md)
+  * [Data Emission Issues](cqube-v-4.1-beta/troubleshooting-issues/data-emission-issues.md)
+  * [Angular & Node Issues](cqube-v-4.1-beta/troubleshooting-issues/angular-and-node-issues.md)
+* [FAQs](cqube-v-4.1-beta/faqs.md)
+* [Discuss](https://github.com/Sunbird-cQube/community/discussions)
+* [Report](https://github.com/Sunbird-cQube/community/issues)
+* [Source Code](https://github.com/Sunbird-cQube)
 
 ## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
 
@@ -75,41 +104,3 @@
 * [cQube - Release Notes V 1.2 and V 1.2.1](release-notes/cqube-release-notes-v1.2-and-v1.2.1.md)
 * [cQube - Release Notes V 1.1](release-notes/cqube-release-notes-v1.1.md)
 * [cQube - Release Notes V 1.0](release-notes/cqubeversion-1.0.md)
-
-## ENGAGE
-
-* [Source Code](https://github.com/Sunbird-cQube)
-* [Discuss](https://github.com/Sunbird-cQube/community/discussions)
-* [Report](https://github.com/Sunbird-cQube/community/issues)
-
-***
-
-* [Product Overview](product-overview.md)
-* [Architecture](architecture.md)
-
-## 👩💻 Installation & Upgradation
-
-* [Getting Started](installation-and-upgradation/getting-started.md)
-* [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
-* [Step-wise Installation Process](installation-and-upgradation/step-wise-installation-process.md)
-* [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
-
-## 🔃 Data Ingestion & Processing
-
-* [cQube Schemas](data-ingestion-and-processing/cqube-schemas.md)
-* [Step-wise Adapter Creation Process](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
-* [Step-wise Ingestion Process](data-ingestion-and-processing/step-wise-ingestion-process.md)
-* [Monitoring status of ingestion](data-ingestion-and-processing/monitoring-status-of-ingestion.md)
-* [Error monitoring post ingestion](data-ingestion-and-processing/error-monitoring-post-ingestion.md)
-* [Scheduling the processing of ingested data](data-ingestion-and-processing/scheduling-the-processing-of-ingested-data.md)
-
-## 📊 Data Visualisation
-
-* [Programs, Reports & Indicators](data-visualisation/programs-reports-and-indicators.md)
-* [UI Customisations](data-visualisation/ui-customisations.md)
-
-## ⏱ Standard Operating Procedure
-
-* [Reporting a Bug](standard-operating-procedure/reporting-a-bug.md)
-* [Requesting for Support](standard-operating-procedure/requesting-for-support.md)
-* [Suggesting Enhancements](standard-operating-procedure/suggesting-enhancements.md)

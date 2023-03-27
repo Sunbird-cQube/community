@@ -36,7 +36,7 @@ As part of cQube V 5.0, a cQube adopter can install V 5.0 or upgrade from V 4.1 
 
 ## Backward Compatibility
 
-cQube users on VSK Starter Pack (V 4.1 Beta) with 6 out-of-the-box programs like NAS, UDISE, PGI, DIKSHA, NISHTHA and PM-POSHAN can upgrade to V 5.0 within 30 minutes using [these](../installation-and-upgradation/step-wise-upgradation-process.md) steps. The hardware and software requirements for [V 5.0](../installation-and-upgradation/hardware-requirements.md) are same (actually - lesser) as [V 4.1 Beta](../use/network-architecture-diagram/hardware-requirements.md).
+cQube users on VSK Starter Pack (V 4.1 Beta) with 6 out-of-the-box programs like NAS, UDISE, PGI, DIKSHA, NISHTHA and PM-POSHAN can upgrade to V 5.0 within 30 minutes using [these](../installation-and-upgradation/step-wise-upgradation-process.md) steps. The hardware and software requirements for [V 5.0](../installation-and-upgradation/hardware-requirements.md) are same (actually - lesser) as [V 4.1 Beta](../cqube-v-4.1-beta/network-architecture-diagram/hardware-requirements.md).
 
 For the users who upgrade to cQube V 5.0, their existing data for the 6 programs in the VSK Starter Pack will automatically become compliant to V 5.0 and they will be able to see the same programs with state data in V 5.0.
 
