@@ -67,10 +67,10 @@ If CSV is being ingested, the file name should be -> _teachersattendance-event.d
 | 4  | cluster\_id                  | string    | Unique ID of the cluster as per the dimension table                    | NA                                |
 | 5  | school\_id                   | string    | Unique ID of the school as per the dimension table                     | NA                                |
 | 6  | schoolcategory\_id           | string    | Category\_id which the school ID belongs to as per the dimension table | NA                                |
-| 7  | grade\_state                 | integer   | Grade for which the data is being entered                              | Restricted to values from 1 to 12 |
-| 8  | total\_teachers              | integer   | Total number of teachers                                               | NA                                |
-| 9  | teachers\_attendance\_marked | integer   | Total number of teachers whose attendance was marked                   | NA                                |
-| 10 | teachers\_marked\_present    | integer   | Total number of teachers who were present                              | NA                                |
+| 7  | grade\_state                 | string    | Grade for which the data is being entered                              | Restricted to values from 1 to 12 |
+| 8  | total\_teachers              | string    | Total number of teachers                                               | NA                                |
+| 9  | teachers\_attendance\_marked | string    | Total number of teachers whose attendance was marked                   | NA                                |
+| 10 | teachers\_marked\_present    | string    | Total number of teachers who were present                              | NA                                |
 
 [Here](https://docs.google.com/spreadsheets/d/1LrEnftK8Z2ecDajN0qNIdd3gz1TjeMrdPTzxM35F5jw/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1DjG3N11fi3pLN43Qj9t1L6loNDM0LHpBlfFQKK3Wb7w/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
