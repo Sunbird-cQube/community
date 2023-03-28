@@ -32,19 +32,19 @@ Following schema will be required to enable the student attendance program:
 
 If CSV is being ingested, the file name should be -> _studentsattendance-event.data.csv_
 
-| #  | Column Name                  | Data Type | Description                                                            | Validation                            |
-| -- | ---------------------------- | --------- | ---------------------------------------------------------------------- | ------------------------------------- |
-| 1  | date                         | string    | Date when the data was recorded                                        | YYYY-MM-DD format to be used          |
-| 2  | district\_id                 | string    | Unique ID of the district as per the dimension table                   | NA                                    |
-| 3  | block\_id                    | string    | Unique ID of the block as per the dimension table                      | NA                                    |
-| 4  | cluster\_id                  | string    | Unique ID of the cluster as per the dimension table                    | NA                                    |
-| 5  | school\_id                   | string    | Unique ID of the school as per the dimension table                     | NA                                    |
-| 6  | grade\_state                 | string    | Grade for which the data is being entered                              | Restricted to values from 1 to 12     |
-| 7  | schoolcategory\_id           | string    | Category\_id which the school ID belongs to as per the dimension table | NA                                    |
-| 8  | gender                       | string    | Gender for which data is being entered                                 | Accepted Values - Male, Female, Other |
-| 9  | total\_students              | string    | Total number of students                                               | NA                                    |
-| 10 | students\_attendance\_marked | string    | Total number of students whose attendance was marked                   | NA                                    |
-| 11 | students\_marked\_present    | string    | Total number of students who were present in the class                 | NA                                    |
+| #  | Column Name                  | Data Type | Description                                                            | Validation                   |
+| -- | ---------------------------- | --------- | ---------------------------------------------------------------------- | ---------------------------- |
+| 1  | date                         | string    | Date when the data was recorded                                        | YYYY-MM-DD format to be used |
+| 2  | district\_id                 | string    | Unique ID of the district as per the dimension table                   | NA                           |
+| 3  | block\_id                    | string    | Unique ID of the block as per the dimension table                      | NA                           |
+| 4  | cluster\_id                  | string    | Unique ID of the cluster as per the dimension table                    | NA                           |
+| 5  | school\_id                   | string    | Unique ID of the school as per the dimension table                     | NA                           |
+| 6  | grade\_state                 | string    | Grade for which the data is being entered                              | NA                           |
+| 7  | schoolcategory\_id           | string    | Category\_id which the school ID belongs to as per the dimension table | NA                           |
+| 8  | gender                       | string    | Gender for which data is being entered                                 | NA                           |
+| 9  | total\_students              | string    | Total number of students                                               | NA                           |
+| 10 | students\_attendance\_marked | string    | Total number of students whose attendance was marked                   | NA                           |
+| 11 | students\_marked\_present    | string    | Total number of students who were present in the class                 | NA                           |
 
 [Here](https://docs.google.com/spreadsheets/d/1whs4Oi0ZmUeTgS3e02qjbq7RrzrlotahJI4Vo9wnna0/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1o7E0LPTOMVBYe7oTbGY4j\_Ogx2MI6vSsoM-S3WUDRe4/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
@@ -59,18 +59,18 @@ Following schema will be required to enable the teacher attendance program:
 
 If CSV is being ingested, the file name should be -> _teachersattendance-event.data.csv_
 
-| #  | Column Name                  | Data Type | Description                                                            | Validation                        |
-| -- | ---------------------------- | --------- | ---------------------------------------------------------------------- | --------------------------------- |
-| 1  | date                         | string    | Date when the data was recorded                                        | YYYY-MM-DD format to be used      |
-| 2  | district\_id                 | string    | Unique ID of the district as per the dimension table                   | NA                                |
-| 3  | block\_id                    | string    | Unique ID of the block as per the dimension table                      | NA                                |
-| 4  | cluster\_id                  | string    | Unique ID of the cluster as per the dimension table                    | NA                                |
-| 5  | school\_id                   | string    | Unique ID of the school as per the dimension table                     | NA                                |
-| 6  | schoolcategory\_id           | string    | Category\_id which the school ID belongs to as per the dimension table | NA                                |
-| 7  | grade\_state                 | string    | Grade for which the data is being entered                              | Restricted to values from 1 to 12 |
-| 8  | total\_teachers              | string    | Total number of teachers                                               | NA                                |
-| 9  | teachers\_attendance\_marked | string    | Total number of teachers whose attendance was marked                   | NA                                |
-| 10 | teachers\_marked\_present    | string    | Total number of teachers who were present                              | NA                                |
+| #  | Column Name                  | Data Type | Description                                                            | Validation                   |
+| -- | ---------------------------- | --------- | ---------------------------------------------------------------------- | ---------------------------- |
+| 1  | date                         | string    | Date when the data was recorded                                        | YYYY-MM-DD format to be used |
+| 2  | district\_id                 | string    | Unique ID of the district as per the dimension table                   | NA                           |
+| 3  | block\_id                    | string    | Unique ID of the block as per the dimension table                      | NA                           |
+| 4  | cluster\_id                  | string    | Unique ID of the cluster as per the dimension table                    | NA                           |
+| 5  | school\_id                   | string    | Unique ID of the school as per the dimension table                     | NA                           |
+| 6  | schoolcategory\_id           | string    | Category\_id which the school ID belongs to as per the dimension table | NA                           |
+| 7  | grade\_state                 | string    | Grade for which the data is being entered                              | NA                           |
+| 8  | total\_teachers              | string    | Total number of teachers                                               | NA                           |
+| 9  | teachers\_attendance\_marked | string    | Total number of teachers whose attendance was marked                   | NA                           |
+| 10 | teachers\_marked\_present    | string    | Total number of teachers who were present                              | NA                           |
 
 [Here](https://docs.google.com/spreadsheets/d/1LrEnftK8Z2ecDajN0qNIdd3gz1TjeMrdPTzxM35F5jw/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1DjG3N11fi3pLN43Qj9t1L6loNDM0LHpBlfFQKK3Wb7w/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
