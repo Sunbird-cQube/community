@@ -2,7 +2,7 @@
 
 ## Emission flow diagram
 
-![](<../.gitbook/assets/image (1) (1) (2).png>)
+![](<../.gitbook/assets/image (1) (1) (2) (1).png>)
 
 ## Uploading data to S3 Emission bucket:
 

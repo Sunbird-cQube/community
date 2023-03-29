@@ -22,7 +22,7 @@ A new issue should be created in the GitHub Community of cQube **only** if any s
 
 2. Click on 'New Issue'. Then select 'Get Started' in front of 'Bug report'.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (3).png" alt=""><figcaption></figcaption></figure>
 
 3. Detail out the bug that you are facing with a title, description, steps to reproduce, expected behaviour, relevant screenshots and desktop / mobile configurations.
 

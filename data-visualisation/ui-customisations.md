@@ -28,7 +28,7 @@ The user needs to upload the image into the specified directory: dashboard-ms > 
 
 3. **dashboard\_header2\_title :** This key is used to change the state name in the title of the cQube dashboard. It is depicted in the image below:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p>dashboard_header2_title</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>dashboard_header2_title</p></figcaption></figure>
 
 4. **dashboard\_header2\_image1 :** This key is used to change the first image next to the title of the cQube dashboard. It is depicted in the image below:
 

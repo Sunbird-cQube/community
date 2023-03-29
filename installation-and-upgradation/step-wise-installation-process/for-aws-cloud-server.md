@@ -96,7 +96,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * s3\_secret\_key
 * s3 bucket name
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 7:** Optional\_variables - Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for **yes** to enter their credentials otherwise can opt for **no** when the question pops up
 
@@ -111,15 +111,15 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * read\_only\_db\_user (Enter the read only postgres database username)&#x20;
 * read\_only\_db\_password (Enter the read onlypostgres password)
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 9:** Once the config file is generated, A preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing **yes.** If option **no** is selected then the install.sh moves to the next section.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 10:** A preview of the program\_selector.yml file is displayed followed by a question where the user gets an option to enable or disable the programs on choosing **yes.** If option **no** is selected then the install.sh moves to the next section.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 11:** Once the installation is completed, You will be prompted with the following messages and required reference urls.
 
@@ -241,7 +241,7 @@ Note: If the repository is already cloned then the script will pull the updated 
 * Kong-ms
 * Nginx-ms
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 2. **compose.yml -** A docker compose ansible script gets triggered where it will up all the containers to running state.
 

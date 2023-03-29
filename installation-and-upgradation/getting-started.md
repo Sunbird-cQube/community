@@ -38,7 +38,7 @@ If the cQube adopter needs to add a new program, report or indicator, then they 
 
 ## Supported Servers & Clouds
 
-1. AWS - The steps to deploy cQube v5.0 on AWS have been mentioned [here](step-wise-installation-process/).
+1. AWS - The steps to deploy cQube v5.0 on AWS have been mentioned [here](step-wise-installation-process.md).
 2. Azure - The steps to deploy cQube v5.0 on Azure have been mentioned here.
 3. On premise (State Data Centre, Local) - The steps to deploy cQube v5.0 on 'On premise' (State Data Centre, Local) have been mentioned here.
 

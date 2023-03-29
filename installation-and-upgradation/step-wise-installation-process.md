@@ -8,7 +8,7 @@ description: Lists the steps to install cQube V 5.0
 
 #### **Configurations -**
 
-Post creating the EC2 instance as per the defined hardware requirements [here](../hardware-requirements.md), make the following configurations:
+Post creating the EC2 instance as per the defined hardware requirements [here](hardware-requirements.md), make the following configurations:
 
 Security Group Configuration:
 
@@ -69,13 +69,13 @@ For windows:
 
 `git clone` [`https://github.com/Sunbird-cQube/cqube-devops.git`](https://github.com/Sunbird-cQube/cqube-devops.git)
 
-<figure><img src="../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 3:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch
 
 `cd cqube-devops/ && git checkout dev`
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 4:** Give the following permissions to the install.sh file
 
@@ -85,7 +85,7 @@ For windows:
 
 `sudo ./install.sh`
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Install.sh file contains a shell script where it will run shell scripts and ansible-playbook to setup cQube.
 
@@ -98,7 +98,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * s3 archived bucket name
 * s3 error bucket name
 
-<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 7:** Optional\_variables - Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for **yes** to enter their credentials otherwise can opt for **no** when the question pops up
 
@@ -106,11 +106,11 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * db\_name ( Enter the postgres database name )
 * db\_password ( Enter the postgres password )
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 8:** Once the config file is generated, A preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing **yes.** If option **no** is selected then the install.sh moves to the next section.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 9:** Once the installation is completed, You will be prompted with the following messages and required reference urls.
 
@@ -118,7 +118,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 cQube ingestion api can be accessible using \<domain\_name>
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Appendix** <a href="#appendix" id="appendix"></a>
 
@@ -131,7 +131,7 @@ The following steps define the cQube setup and workflow completion processes in 
 
 The cQube network setup process is described in the block diagram below:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 ![](blob:https://project-sunbird.atlassian.net/a67e7674-99fa-40e6-aaa8-9e4e8dbe54b0#media-blob-url=true\&id=aee85b7f-ff92-4609-9d93-24c052486a11\&collection=contentId-3280666668\&contextId=3280666668\&height=523\&width=737\&alt=)
 
@@ -197,7 +197,7 @@ This script clones the following repositories in the micro-services directory an
 * `git clone` [`https://github.com/Sunbird-cQube/ingestion-ms`](https://github.com/Sunbird-cQube/spec-ms)``
 * `git clone` [`https://github.com/Sunbird-cQube/generator-ms.git`](https://github.com/Sunbird-cQube/ingestion-ms.git)``
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Note: If the repository is already cloned then the script will pull the updated code.
 
@@ -213,7 +213,7 @@ Note: If the repository is already cloned then the script will pull the updated 
 * Kong-ms
 * Nginx-ms
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **compose.yml -** A docker compose ansible script gets triggered where it will up all the containers to running state.
 
@@ -226,10 +226,10 @@ Once the installation is completed, You will be prompted with the following mess
 
 **cQube Installed Successfully**
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can check the containers running status by using following command
 
 `sudo docker ps`
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
