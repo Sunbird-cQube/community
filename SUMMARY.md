@@ -13,7 +13,9 @@
 
 * [Getting Started](installation-and-upgradation/getting-started.md)
 * [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
-* [Step-wise Installation Process](installation-and-upgradation/step-wise-installation-process.md)
+* [Step-wise Installation Process](installation-and-upgradation/step-wise-installation-process/README.md)
+  * [For AWS Cloud Server](installation-and-upgradation/step-wise-installation-process/for-aws-cloud-server.md)
+  * [For On-Premise Server](installation-and-upgradation/step-wise-installation-process/for-on-premise-server.md)
 * [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
 
 ## 🔃 Data Ingestion & Processing
