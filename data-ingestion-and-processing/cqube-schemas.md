@@ -39,7 +39,7 @@ If CSV is being ingested, the file name should be -> _studentsattendance-event.d
 | 3  | block\_id                    | string    | Unique ID of the block as per the dimension table                      | NA                           |
 | 4  | cluster\_id                  | string    | Unique ID of the cluster as per the dimension table                    | NA                           |
 | 5  | school\_id                   | string    | Unique ID of the school as per the dimension table                     | NA                           |
-| 6  | grade\_state                 | string    | Grade for which the data is being entered                              | NA                           |
+| 6  | grade                        | string    | Grade for which the data is being entered                              | NA                           |
 | 7  | schoolcategory\_id           | string    | Category\_id which the school ID belongs to as per the dimension table | NA                           |
 | 8  | gender                       | string    | Gender for which data is being entered                                 | NA                           |
 | 9  | total\_students              | string    | Total number of students                                               | NA                           |
@@ -67,7 +67,7 @@ If CSV is being ingested, the file name should be -> _teachersattendance-event.d
 | 4  | cluster\_id                  | string    | Unique ID of the cluster as per the dimension table                    | NA                           |
 | 5  | school\_id                   | string    | Unique ID of the school as per the dimension table                     | NA                           |
 | 6  | schoolcategory\_id           | string    | Category\_id which the school ID belongs to as per the dimension table | NA                           |
-| 7  | grade\_state                 | string    | Grade for which the data is being entered                              | NA                           |
+| 7  | grade                        | string    | Grade for which the data is being entered                              | NA                           |
 | 8  | total\_teachers              | string    | Total number of teachers                                               | NA                           |
 | 9  | teachers\_attendance\_marked | string    | Total number of teachers whose attendance was marked                   | NA                           |
 | 10 | teachers\_marked\_present    | string    | Total number of teachers who were present                              | NA                           |
@@ -244,14 +244,12 @@ This is the data for grades present in schools in the state (Eg: 1, 2, 3, 4, 5 o
 
 If CSV is being ingested, the file name should be -> _grade-dimension.data.csv_
 
-| # | Column Name   | Data Type | Description                                | Validation |
-| - | ------------- | --------- | ------------------------------------------ | ---------- |
-| 1 | grade\_id     | string    | Unique ID of the grade                     | NA         |
-| 2 | grade\_nas    | string    | Grades as per the NAS program by GoI       | NA         |
-| 3 | grade\_diksha | string    | Grades as per the DIKSHA program by GoI    | NA         |
-| 4 | grade\_state  | string    | Grade as per what is followed in the state | NA         |
+| # | Column Name | Data Type | Description                                | Validation |
+| - | ----------- | --------- | ------------------------------------------ | ---------- |
+| 1 | grade\_id   | string    | Unique ID of the grade                     | NA         |
+| 4 | grade       | string    | Grade as per what is followed in the state | NA         |
 
-**Note:** Since the grade data for NAS & DIKSHA is being shared for the state in a fixed format centrally, the state will need to manually map grade\_state with grade\_nas & grade\_diksha and update data only for grade\_state from the following upload file.
+**Note:** The grade column will consist of the master values from the state data, DIKSHA Data and NAS Data.
 
 [Here](https://docs.google.com/spreadsheets/d/1N3v-rNXVau6YUl5wRI-QLXwM723EVIC7W9EnNgdX6bQ/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1hMhOM7a3OY3MnRJrF\_KKQ5ipVjZDmhZhmXH\_Ufgl9NM/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
