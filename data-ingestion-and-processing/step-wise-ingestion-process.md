@@ -14,7 +14,7 @@ Data ingestion can be done using APIs. Please use postman as a tool to run these
 
 ### **Setting up Postman** <a href="#setting-up-postman" id="setting-up-postman"></a>
 
-* [Download](https://www.postman.com/downloads/) the postman application **** and import the collection.
+* [Download](https://www.postman.com/downloads/) the postman application and import the collection.
 * Select the import option in postman to import the collection. Please refer to the screenshot.
 
 <figure><img src="../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>

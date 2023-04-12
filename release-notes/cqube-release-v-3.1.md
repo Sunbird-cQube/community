@@ -11,7 +11,7 @@ The main objective of this cQube release version 3.1,  is to generate new css th
 **2. Scope**
 
 cQube product release features and issues are described in this version 3.1. This document contains a short description of the new css themes applied in cQube, the description of the use case folder structures and the implementation of different map applications in cQube.\
-****
+
 
 **3. Summary of the Product Features** &#x20;
 
@@ -31,9 +31,9 @@ This document contains information on the following new features and enhancement
 **4. Description of the Product Features**
 
 **1.** UI changes in cQube \
-****
 
-&#x20;**** [**CQB-1195**](https://project-sunbird.atlassian.net/browse/CQB-1195)**,** [**CQB-1196**](https://project-sunbird.atlassian.net/browse/CQB-1196)**,** [**CQB-1200**](https://project-sunbird.atlassian.net/browse/CQB-1200)**,** [**CQB-1201**](https://project-sunbird.atlassian.net/browse/CQB-1201)**,** [**CQB-1202**](https://project-sunbird.atlassian.net/browse/CQB-1202)
+
+&#x20;[**CQB-1195**](https://project-sunbird.atlassian.net/browse/CQB-1195)**,** [**CQB-1196**](https://project-sunbird.atlassian.net/browse/CQB-1196)**,** [**CQB-1200**](https://project-sunbird.atlassian.net/browse/CQB-1200)**,** [**CQB-1201**](https://project-sunbird.atlassian.net/browse/CQB-1201)**,** [**CQB-1202**](https://project-sunbird.atlassian.net/browse/CQB-1202)
 
 | **Sl No.** | **Feature** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                          | **Roles Impacted**    |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
@@ -41,7 +41,7 @@ This document contains information on the following new features and enhancement
 
 2\. Changes in the map application used for map based reports&#x20;
 
-[**CQB-1198**](https://project-sunbird.atlassian.net/browse/CQB-1198)**,** [**CQB-1210**](https://project-sunbird.atlassian.net/browse/CQB-1210) ****&#x20;
+[**CQB-1198**](https://project-sunbird.atlassian.net/browse/CQB-1198)**,** [**CQB-1210**](https://project-sunbird.atlassian.net/browse/CQB-1210)&#x20;
 
 | **Sl No.** | **Feature**                    | **Description**                                                                                                                                        | **Roles Impacted**     |
 | ---------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- |

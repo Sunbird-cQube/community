@@ -217,11 +217,11 @@ Once the config file is generated, a preview of the config file is displayed fol
 
 This script clones the following repositories in the micro-services directory and checks out to the required release branch:
 
-* `git clone` [`https://github.com/Sunbird-cQube/spec-ms`](https://github.com/Sunbird-cQube/spec-ms)``
-* `git clone` [`https://github.com/Sunbird-cQube/ingestion-ms`](https://github.com/Sunbird-cQube/spec-ms)``
-* `git clone` [`https://github.com/Sunbird-cQube/generator-ms.git`](https://github.com/Sunbird-cQube/ingestion-ms.git)``
-* `git clone` [`https://github.com/Sunbird-cQube/generator-ms.git`](https://github.com/Sunbird-cQube/ingestion-ms.git)``
-* `git clone` [`https://github.com/Sunbird-cQube/query-builder.git`](https://github.com/Sunbird-cQube/dashboard-ms.git) ``&#x20;
+* `git clone` [`https://github.com/Sunbird-cQube/spec-ms`](https://github.com/Sunbird-cQube/spec-ms)
+* `git clone` [`https://github.com/Sunbird-cQube/ingestion-ms`](https://github.com/Sunbird-cQube/spec-ms)
+* `git clone` [`https://github.com/Sunbird-cQube/generator-ms.git`](https://github.com/Sunbird-cQube/ingestion-ms.git)
+* `git clone` [`https://github.com/Sunbird-cQube/generator-ms.git`](https://github.com/Sunbird-cQube/ingestion-ms.git)
+* `git clone` [`https://github.com/Sunbird-cQube/query-builder.git`](https://github.com/Sunbird-cQube/dashboard-ms.git)&#x20;
 
 <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 

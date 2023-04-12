@@ -26,12 +26,18 @@
 * [Monitoring status of ingestion](data-ingestion-and-processing/monitoring-status-of-ingestion.md)
 * [Error monitoring post ingestion](data-ingestion-and-processing/error-monitoring-post-ingestion.md)
 
+## 🔐 User Authentication
+
+* [Configuring Keycloak](user-authentication/configuring-keycloak.md)
+* [Adding Users](user-authentication/adding-users.md)
+* [UI Customisations](user-authentication/ui-customisations.md)
+
 ## 📊 Data Visualisation
 
 * [Programs, Reports & Indicators](data-visualisation/programs-reports-and-indicators.md)
 * [UI Customisations](data-visualisation/ui-customisations.md)
 
-## 🔐 Configurations
+## ⚙ Configurations
 
 * [Connecting cQube Datasets to External Visualisation Tools](configurations/connecting-cqube-datasets-to-external-visualisation-tools.md)
 * [Adding a New Program](configurations/adding-a-new-program.md)
@@ -91,6 +97,7 @@
 
 ## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
 
+* [cQube - Release V 5.0.1](release-notes/cqube-release-v-5.0.1.md)
 * [cQube - Release V 5.0](release-notes/cqube-release-v-5.0.md)
 * [cQube - Release V 4.1-beta](release-notes/cqube-release-notes-v4.1-beta.md)
 * [cQube - Release V 4.0-beta](release-notes/cqube-release-notes-v4.0-beta.md)

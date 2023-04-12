@@ -26,7 +26,7 @@ Following steps need to be followed to access the error file:
 
 **Step-2:** Inside the bucket / container, there will be multiple folders for different processing stages. In order to access the ingestion error files, select the _ingestion\_error_ folder.&#x20;
 
-**Step-3:** The **** _ingestion\_error_ folder will contain folders for each program, the name of the folder will be same as the \<program\_name>.
+**Step-3:** The _ingestion\_error_ folder will contain folders for each program, the name of the folder will be same as the \<program\_name>.
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Minio Storage (On-premise)</p></figcaption></figure>
 

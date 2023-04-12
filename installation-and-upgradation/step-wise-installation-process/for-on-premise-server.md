@@ -58,9 +58,9 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * s3\_secret\_key
 * s3 bucket name
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 6:** Optional\_variables - Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for **yes** to enter their credentials otherwise can opt for **no** when the question pops up
 
@@ -170,11 +170,11 @@ Once the config file is generated, a preview of the config file is displayed fol
 
 This script clones the following repositories in the micro-services directory and checks out to the required release branch:
 
-* `git clone` [`https://github.com/Sunbird-cQube/spec-ms`](https://github.com/Sunbird-cQube/spec-ms)``
-* `git clone` [`https://github.com/Sunbird-cQube/ingestion-ms`](https://github.com/Sunbird-cQube/spec-ms)``
-* `git clone` [`https://github.com/Sunbird-cQube/generator-ms.git`](https://github.com/Sunbird-cQube/ingestion-ms.git)``
-* `git clone` [`https://github.com/Sunbird-cQube/generator-ms.git`](https://github.com/Sunbird-cQube/ingestion-ms.git)``
-* `git clone` [`https://github.com/Sunbird-cQube/query-builder.git`](https://github.com/Sunbird-cQube/dashboard-ms.git) ``&#x20;
+* `git clone` [`https://github.com/Sunbird-cQube/spec-ms`](https://github.com/Sunbird-cQube/spec-ms)
+* `git clone` [`https://github.com/Sunbird-cQube/ingestion-ms`](https://github.com/Sunbird-cQube/spec-ms)
+* `git clone` [`https://github.com/Sunbird-cQube/generator-ms.git`](https://github.com/Sunbird-cQube/ingestion-ms.git)
+* `git clone` [`https://github.com/Sunbird-cQube/generator-ms.git`](https://github.com/Sunbird-cQube/ingestion-ms.git)
+* `git clone` [`https://github.com/Sunbird-cQube/query-builder.git`](https://github.com/Sunbird-cQube/dashboard-ms.git)&#x20;
 
 <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 

@@ -10,7 +10,7 @@ cQube ERD
 
 ![](<../.gitbook/assets/image (2) (1) (1).png>)
 
-****
+
 
 **cQube UDISE ERD:**
 
