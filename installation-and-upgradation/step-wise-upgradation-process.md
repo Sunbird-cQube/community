@@ -76,11 +76,11 @@ Steps for each one of these servers have been explained below:
 
 <figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
-**Step - 4:** Give the following permissions to the install.sh file
+**Step - 4:** Give the following permissions to the upgrade.sh file
 
 `sudo chmod u+x upgrade.sh`
 
-**Step - 5:** Install cqube with non root user with sudo privileges
+**Step - 5:** Upgrade cqube with non root user with sudo privileges
 
 `sudo ./upgrade.sh`
 
