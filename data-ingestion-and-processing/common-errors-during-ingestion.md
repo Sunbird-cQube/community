@@ -6,6 +6,12 @@ description: Describes the common errors to be considered during data ingestion 
 
 The state tech team, while ingesting data for both state and national programs, should make sure that the following errors are rectified and taken care of in the data being ingested into cQube.
 
+1. [Global Master of States and UTs](common-errors-during-ingestion.md#global-master-of-states-and-uts)
+2. [Single Master of Districts, Blocks, Clusters and Schools within a state to be referenced](common-errors-during-ingestion.md#single-master-of-districts-blocks-clusters-and-schools-within-a-state-to-be-referenced)
+3. [Individual values for grade, subject and medium instead of arrays](common-errors-during-ingestion.md#individual-values-for-grade-subject-and-medium-instead-of-arrays)
+4. [Change in column name in _diksha\_nishtha\_percentage-enrollment-certification.zip_ for NISHTHA program](common-errors-during-ingestion.md#change-in-column-name-in-diksha\_nishtha\_percentage-enrollment-certification.zip-for-nishtha-program)
+5. [No quotes - single (') or double (") should be present in the data being ingested](common-errors-during-ingestion.md#no-quotes-single-or-double-should-be-present-in-the-data-being-ingested)
+
 ### **Global Master of States and UTs:**
 
 * A state master is specified in cQube. These state codes should be referenced while ingesting data within cQube for state and district dimensions and for respective event tables.

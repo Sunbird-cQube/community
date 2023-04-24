@@ -12,6 +12,8 @@ This focusses on ingestion of programs like student attendance, teacher attendan
 
 Data ingestion can be done using APIs. Please use postman as a tool to run these APIs. If you have already set up postman on your system, you can directly read the document from [here](step-wise-ingestion-process.md#step-wise-ingestion-process).
 
+**Note:** There could be some common errors in the files which could lead to unsuccessful data ingestion into cQube. Look at these errors [here](common-errors-during-ingestion.md) and resolve them before ingesting data into cQube.
+
 ### **Setting up Postman** <a href="#setting-up-postman" id="setting-up-postman"></a>
 
 * [Download](https://www.postman.com/downloads/) the postman application and import the collection.
@@ -108,7 +110,9 @@ After successful execution of the event / dimension / dataset API, we get the re
 
 This focusses on ingestion of programs like UDISE, PGI, NISHTHA, DIKSHA, NAS, PM-POSHAN.
 
-The already existing files with the states will be automatically ingested into cQube v5.0. In case any new files needs to be ingested for the programs mentioned above, the following process needs to be followed:
+**Note:** There could be some common errors in the files which could lead to unsuccessful data ingestion into cQube. Look at these errors [here](common-errors-during-ingestion.md) and resolve them before ingesting data into cQube.
+
+The already existing files will need to be ingested into cQube via the following process:
 
 This API accepts the data in a zip file format and adds it to the emission folder in the respective cloud storage / SDC.
 
