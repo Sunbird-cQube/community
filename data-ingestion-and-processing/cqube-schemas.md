@@ -134,6 +134,8 @@ There are 8 dimensions for which the data needs to be ingested by the cQube adop
 6. [School Category Dimension](cqube-schemas.md#school-category-dimension)
 7. [Grade Dimension](cqube-schemas.md#grade-dimension)
 8. [Gender Dimension](cqube-schemas.md#gender-dimension)
+9. Subject Dimension
+10. Medium Dimension
 
 ### State Dimension:
 
@@ -267,3 +269,33 @@ If CSV is being ingested, the file name should be -> _gender-dimension.data.csv_
 | 2 | gender      | string    | Name of the gender      | NA         |
 
 [Here](https://docs.google.com/spreadsheets/d/1mjxP6oeBbpdWvB-L4hjdMDk9WMZQ2QeANREkcpxN-jI/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1\_lbfGtafwJnA2MJO3A272NhJ-bGLtiPWype5GZRdHPI/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
+### Subject Dimension:
+
+This is the data for subjects being taught in the state (Eg: Mathematics, Science, English etc).
+
+If CSV is being ingested, the file name should be -> _subject-dimension.data.csv_
+
+| # | Column Name | Data Type | Description                                | Validation |
+| - | ----------- | --------- | ------------------------------------------ | ---------- |
+| 1 | subject\_id | string    | Unique ID of the subject                   | NA         |
+| 4 | subject     | string    | Subject as per what is taught in the state | NA         |
+
+**Note:** The subject column will consist of the master values from the DIKSHA Data and NAS Data.
+
+[Here](https://docs.google.com/spreadsheets/d/1N3v-rNXVau6YUl5wRI-QLXwM723EVIC7W9EnNgdX6bQ/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1hMhOM7a3OY3MnRJrF\_KKQ5ipVjZDmhZhmXH\_Ufgl9NM/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+
+### Medium Dimension:
+
+This is the data for mediums being taught in the state (Eg: English, Hindi etc).
+
+If CSV is being ingested, the file name should be -> _medium-dimension.data.csv_
+
+| # | Column Name | Data Type | Description                               | Validation |
+| - | ----------- | --------- | ----------------------------------------- | ---------- |
+| 1 | medium\_id  | string    | Unique ID of the medium                   | NA         |
+| 4 | medium      | string    | Medium as per what is taught in the state | NA         |
+
+**Note:** The medium column will consist of the master values from the DIKSHA Data.
+
+[Here](https://docs.google.com/spreadsheets/d/1N3v-rNXVau6YUl5wRI-QLXwM723EVIC7W9EnNgdX6bQ/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1hMhOM7a3OY3MnRJrF\_KKQ5ipVjZDmhZhmXH\_Ufgl9NM/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
