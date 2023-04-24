@@ -134,8 +134,8 @@ There are 8 dimensions for which the data needs to be ingested by the cQube adop
 6. [School Category Dimension](cqube-schemas.md#school-category-dimension)
 7. [Grade Dimension](cqube-schemas.md#grade-dimension)
 8. [Gender Dimension](cqube-schemas.md#gender-dimension)
-9. Subject Dimension
-10. Medium Dimension
+9. [Subject Dimension](cqube-schemas.md#subject-dimension)
+10. [Medium Dimension](cqube-schemas.md#medium-dimension)
 
 ### State Dimension:
 
