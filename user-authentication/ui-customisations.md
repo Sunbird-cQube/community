@@ -20,7 +20,7 @@ There are certain keys specified under 'loginObj' for respective configuration t
 
 1. **title :** This key is used to change the title in the login page of the application.
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 2. **imageURL :** This key is used to change the side image of the application as shown below. The size of the image should be 780px \* 600px. It is depicted in the image below:
 

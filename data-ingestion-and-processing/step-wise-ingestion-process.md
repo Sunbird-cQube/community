@@ -88,7 +88,7 @@ This API will be used to write events into the CSV file and upload it in to the 
 
 Provide the valid input details for the parameters as shown below. The request body should conform to the schema stored in the database for the particular event name.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
@@ -96,7 +96,7 @@ Provide the valid input details for the parameters as shown below. The request b
 
 **Step 3:** Click on the send button for the request and if the request is successful the user should see a response message. Please refer to the screenshot.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Ingestion of Events</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 

@@ -22,7 +22,7 @@ Following steps need to be followed to access the error file:
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Azure Storage</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>AWS Storage</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>AWS Storage</p></figcaption></figure>
 
 **Step-2:** Inside the bucket / container, there will be multiple folders for different processing stages. In order to access the ingestion error files, select the _ingestion\_error_ folder.&#x20;
 

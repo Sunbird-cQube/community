@@ -27,7 +27,7 @@ A new discussion should be created in the GitHub Discussion Forum of cQube **onl
 
 4. Attach relevant label(s) to the support being requested.
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 5. Click on 'Start Discussion'
 

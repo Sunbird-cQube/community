@@ -9,7 +9,7 @@
 * [Dimensions](specifications/dimensions.md)
 * [Datasets](specifications/datasets.md)
 
-## 👩💻 Installation & Upgradation
+## 👩💻 👩💻 Installation & Upgradation
 
 * [Getting Started](installation-and-upgradation/getting-started.md)
 * [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
@@ -23,6 +23,7 @@
 * [cQube Schemas](data-ingestion-and-processing/cqube-schemas.md)
 * [Step-wise Adapter Creation Process](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
 * [Step-wise Ingestion Process](data-ingestion-and-processing/step-wise-ingestion-process.md)
+* [Common errors during ingestion](data-ingestion-and-processing/common-errors-during-ingestion.md)
 * [Monitoring status of ingestion](data-ingestion-and-processing/monitoring-status-of-ingestion.md)
 * [Error monitoring post ingestion](data-ingestion-and-processing/error-monitoring-post-ingestion.md)
 

@@ -16,7 +16,7 @@ Following are the steps to configure Keycloak post installing cQube V 5.0:
 
 **Step 3 :** Navigate to the Clients Tab of the **cQube** Realm and select the client (**cqube 5.0**) created during installation.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4 :** Fill the valid Redirect URIs with the domain of the application followed by ‘/\*’
 

@@ -127,7 +127,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 cQube ingestion api can be accessed using \<domain\_name>
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## **Appendix** <a href="#appendix" id="appendix"></a>
 
@@ -254,7 +254,7 @@ Once the installation is completed, You will be prompted with the following mess
 
 **cQube Installed Successfully**
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can check the containers running status by using following command
 

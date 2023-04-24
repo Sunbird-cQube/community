@@ -91,7 +91,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 cQube ingestion api can be accessed using \<domain\_name>
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## **Appendix**![](blob:https://project-sunbird.atlassian.net/a67e7674-99fa-40e6-aaa8-9e4e8dbe54b0#media-blob-url=true\&id=aee85b7f-ff92-4609-9d93-24c052486a11\&collection=contentId-3280666668\&contextId=3280666668\&height=523\&width=737\&alt=) <a href="#appendix" id="appendix"></a>
 
@@ -207,7 +207,7 @@ Once the installation is completed, You will be prompted with the following mess
 
 **cQube Installed Successfully**
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can check the containers running status by using following command
 
