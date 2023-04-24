@@ -283,7 +283,7 @@ If CSV is being ingested, the file name should be -> _subject-dimension.data.csv
 
 **Note:** The subject column will consist of the master values from the DIKSHA Data and NAS Data.
 
-[Here](https://docs.google.com/spreadsheets/d/1N3v-rNXVau6YUl5wRI-QLXwM723EVIC7W9EnNgdX6bQ/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1hMhOM7a3OY3MnRJrF\_KKQ5ipVjZDmhZhmXH\_Ufgl9NM/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/14Q4w8pWDXCZTsAT6JI2kpi0Nl1OkUgtHo3Goa0SsEQg/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1jnhs9hoicj6dFQGAkllvUkVkgPy\_t\_s6xkmR0H2ga6o/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
 
 ### Medium Dimension:
 
@@ -298,4 +298,4 @@ If CSV is being ingested, the file name should be -> _medium-dimension.data.csv_
 
 **Note:** The medium column will consist of the master values from the DIKSHA Data.
 
-[Here](https://docs.google.com/spreadsheets/d/1N3v-rNXVau6YUl5wRI-QLXwM723EVIC7W9EnNgdX6bQ/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1hMhOM7a3OY3MnRJrF\_KKQ5ipVjZDmhZhmXH\_Ufgl9NM/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
+[Here](https://docs.google.com/spreadsheets/d/1GQXmCzahrqoRO0ZZ5\_Hagmf6SvbbatCp4a5RtluTHJU/edit#gid=0) is the upload template for this schema. You can use this template to fill the state data and upload it into cQube. [Here](https://docs.google.com/spreadsheets/d/1rR7OWLizCWmjuB49zu6qeSSZbRn3ej9LVd9fCH8E3Cs/edit#gid=0) is the sample template for this schema to see the kind of data and template in which cQube will accept data.
