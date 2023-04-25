@@ -100,6 +100,7 @@
 
 ## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
 
+* [cQube - Release V 5.0.2](release-notes/cqube-release-v-5.0.2.md)
 * [cQube - Release V 5.0.1](release-notes/cqube-release-v-5.0.1.md)
 * [cQube - Release V 5.0](release-notes/cqube-release-v-5.0.md)
 * [cQube - Release V 4.1-beta](release-notes/cqube-release-notes-v4.1-beta.md)
