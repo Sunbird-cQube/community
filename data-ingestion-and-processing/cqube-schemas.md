@@ -21,7 +21,7 @@ There are 3 state programs available in cQube v5.0 for which the event schema ne
 
 The schemas for national programs (UDISE, PGI, PM POSHAN, NAS, DIKSHA, NISHTHA) can be accessed [here](https://drive.google.com/drive/folders/1z7OVnzUuo17EI4mIokF97rrftbxpL02k?usp=sharing).&#x20;
 
-**Note:** There could be some common errors in the files which could lead to unsuccessful data ingestion into cQube. Look at these errors [here](common-errors-during-ingestion.md) and resolve them before ingesting data into cQube.
+**Note:** There could be some common errors in the files which could lead to unsuccessful data ingestion into cQube. Look at these errors [here](common-errors-during-ingestion/) and resolve them before ingesting data into cQube.
 
 ### Student Attendance:
 
