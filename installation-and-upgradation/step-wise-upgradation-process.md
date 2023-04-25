@@ -74,7 +74,7 @@ Steps for each one of these servers have been explained below:
 
 `cd cqube-devops/ && git checkout dev`
 
-<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 4:** Give the following permissions to the upgrade.sh file
 
@@ -105,7 +105,7 @@ upgrade.sh file contains a shell script where it will run shell scripts and ansi
 
 ![](../.gitbook/assets/5.png)
 
-![](../.gitbook/assets/6.png)
+![](<../.gitbook/assets/6 (1).png>)
 
 * Storage\_type (Enter the storage\_type as Azure, If User opting for Azure you will be prompted with the following Azure credentials to enter and it will create an azure container , if azure container exists it will prompt to enter a unique azure container name. And it will be generated in the upgradation\_config.yml.)
 * azure\_connection\_string
@@ -120,7 +120,7 @@ upgrade.sh file contains a shell script where it will run shell scripts and ansi
 * db\_name ( Enter the postgres database name )
 * db\_password ( Enter the postgres password )
 
-![](../.gitbook/assets/8.png)
+![](<../.gitbook/assets/8 (1).png>)
 
 **Step - 8:** Optional\_variables- Read Only Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for **yes** to enter their credentials otherwise can opt for **no** when the question pops up
 
@@ -138,17 +138,17 @@ upgrade.sh file contains a shell script where it will run shell scripts and ansi
 
 **Step - 10:** Once the upgradation\_config file is generated, A preview of the upgradation\_config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing **yes. I**f option **no** is selected then the upgrade.sh moves to the next section.
 
-![](../.gitbook/assets/11.png)
+![](<../.gitbook/assets/11 (1).png>)
 
 **Step - 11:** A preview of the program\_selector.yml file is displayed followed by a question where the user gets an option to enable or disable the programs on choosing **yes. I**f option **no** is selected then the upgrade.sh moves to the next section.
 
-![](../.gitbook/assets/12.png)
+![](<../.gitbook/assets/12 (1).png>)
 
 **Step - 12:** Once the Upgradation is completed, You will be prompted with the following messages and required reference urls.
 
 **cQube Upgraded Successfully!**
 
-<figure><img src="../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/13 (1).png" alt=""><figcaption></figcaption></figure>
 
 cQube ingestion api can be accessible using \<domain\_name>
 
@@ -273,7 +273,7 @@ This script clones the following repositories in the microservices directory and
 * git clone [https://github.com/Sunbird-cQube/dashboard-ms.git](https://github.com/Sunbird-cQube/dashboard-ms.git)
 * git clone [https://github.com/Sunbird-cQube/query-builder.git](https://github.com/Sunbird-cQube/dashboard-ms.git)
 
-![](../.gitbook/assets/15.png)
+![](<../.gitbook/assets/15 (1).png>)
 
 Note: If the repository is already cloned then the script will pull the updated code.
 

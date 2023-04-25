@@ -16,6 +16,7 @@
 * [Step-wise Installation Process](installation-and-upgradation/step-wise-installation-process.md)
   * [For AWS Cloud Server](installation-and-upgradation/step-wise-installation-process/for-aws-cloud-server.md)
   * [For On-Premise Server](installation-and-upgradation/step-wise-installation-process/for-on-premise-server.md)
+  * [For Oracle Server](installation-and-upgradation/step-wise-installation-process/for-oracle-server.md)
 * [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
 
 ## 🔃 Data Ingestion & Processing
