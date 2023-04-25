@@ -11,7 +11,7 @@ The state tech team, while ingesting data for both state and national programs, 
 3. [Individual values for grade, subject and medium instead of arrays](common-errors-during-ingestion.md#individual-values-for-grade-subject-and-medium-instead-of-arrays)
 4. [Change in column name in _diksha\_nishtha\_percentage-enrollment-certification.zip_ for NISHTHA program](common-errors-during-ingestion.md#change-in-column-name-in-diksha\_nishtha\_percentage-enrollment-certification.zip-for-nishtha-program)
 5. [No quotes - single (') or double (") should be present in the data being ingested](common-errors-during-ingestion.md#no-quotes-single-or-double-should-be-present-in-the-data-being-ingested)
-6. Numerical values (1, 0) instead of string (Yes, No)
+6. [Numerical values (1, 0) instead of string (Yes, No)](common-errors-during-ingestion.md#numerical-values-1-0-instead-of-string-yes-no)
 
 ### **Global Master of States and UTs:**
 
