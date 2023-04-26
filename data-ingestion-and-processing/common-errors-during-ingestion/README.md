@@ -12,6 +12,7 @@ The state tech team, while ingesting data for both state and national programs, 
 4. [Change in column name in _diksha\_nishtha\_percentage-enrollment-certification.zip_ for NISHTHA program](./#change-in-column-name-in-diksha\_nishtha\_percentage-enrollment-certification.zip-for-nishtha-program)
 5. [No quotes - single (') or double (") should be present in the data being ingested](./#no-quotes-single-or-double-should-be-present-in-the-data-being-ingested)
 6. [Numerical values (1, 0) instead of string (Yes, No)](./#numerical-values-1-0-instead-of-string-yes-no)
+7. [No commas in large numerical values (>1000)](./#no-commas-in-large-numerical-values-greater-than-1000)
 
 ### **Global Master of States and UTs:**
 
