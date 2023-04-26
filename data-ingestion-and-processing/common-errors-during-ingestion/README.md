@@ -87,3 +87,7 @@ The script to automatically convert array into individual values is mentioned [h
   * udise\_program-started.zip
   * nas\_program-started.zip
   * diksha\_nishtha\_program-started.zip
+
+### No commas in large numerical values (>1000)
+
+Large numerical values in the CSVs should not have commas in between. For example, 1000 is an acceptable value but 1,000 is not acceptable in cQube.
