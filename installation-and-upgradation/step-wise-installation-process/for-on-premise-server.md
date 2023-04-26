@@ -33,7 +33,7 @@ Enter storage\_type as local. Then, install.sh will automatically get installed 
 
 **Step - 2:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch
 
-`cd cqube-devops/ && git checkout dev`
+`cd cqube-devops/ && git checkout release-5.0`
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -51,12 +51,24 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 **Step - 5:** User Input Variables - These are the variables which need to be entered by the user using the hint provided:
 
-* state\_name (Enter the required state code by referring to the state list provided)
-* api\_end\_point (Enter the url in which cQube to be configured)
-* storage\_type (Enter the storage\_type as local, Minio will install and configure the username, password and create the Minio bucket. It will be generated in the config.yml)
-* s3\_access\_key
-* s3\_secret\_key
-* s3 bucket name
+* state\_name ( Enter the required state code by referring to the state list provided )
+* api\_end\_point ( Enter the url in which cqube to be configured )
+* Storage\_type : Local
+* Mode\_of\_installation:Public
+* Cron syntax to run adapter scheduling (EX: if want to run the adapter at 11AM )
+
+0 0 11 \* \* ?
+
+* Cron syntax to run nifi plug in (EX: if want to run the nifi plug in at 11:30 AM)
+
+0 30 11 \* \* ?
+
+* Cron syntax to run nifi processing file (EX: if want to run the nifi plug in at 11:30 AM)
+
+0 30 11 \* \* ?
+
+\
+
 
 <figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -77,7 +89,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 <figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
-**Step - 8:** Once the config file is generated, A preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing **yes.** If option **no** is selected then the install.sh moves to the next section.
+**Step - 8:** Once the config file is generated, a preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing **yes.** If option **no** is selected then the install.sh moves to the next section.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
