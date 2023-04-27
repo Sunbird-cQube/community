@@ -4,7 +4,7 @@
 
 | Project | Release Date | Release Version |
 | ------- | ------------ | --------------- |
-| cQube   | 26 Apr 2023  | V 5.0.2         |
+| cQube   | 27 Apr 2023  | V 5.0.2         |
 
 ## Overview
 
