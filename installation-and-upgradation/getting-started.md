@@ -16,7 +16,7 @@ Following technical skills are required to install and manage cQube v5.0:
 2. **TypeScript / Python / NiFi**: Either of these skills are required to create the adapters to be able to ingest state data into cQube as per cQube schemas. These are the links that can help you learn Typescript - [Link 1](https://www.youtube.com/watch?v=ahCwqrYpIuM) | [Link 2](https://www.youtube.com/watch?v=d56mG7DezGs). These are the links that can help you learn Python - [Link 1](https://www.youtube.com/watch?v=kqtD5dpn9C8) | [Link 2](https://www.youtube.com/watch?v=\_uQrJ0TkZlc). Here is a reference to help you learn NiFi - [Link](https://www.youtube.com/watch?v=fblkgr1PJ0o). Python & Apache NiFi will also be used if the cQube adopter wants to add a new program, report or indicator.
 3. **Postman**: This is required to access the cQube APIs to be able to ingest state data into cQube. These are the links that can help you learn Postman - [Link](https://www.youtube.com/watch?v=VywxIQ2ZXw4).
 4. **Nest.js:** This is required if the cQube adopter wants to add a new program, report or indicator. Here is a reference to help you learn Nest.js - [Link](https://www.youtube.com/watch?v=GHTA143\_b-s).
-5. **SQL:** This is required if the cQube adopter wants to add a new program, report or indicator. These are a few links to help you lean SQL - [Link 1](https://www.youtube.com/watch?v=p3qvj9hO\_Bo) | [Link 2](https://www.youtube.com/watch?v=7S\_tz1z\_5bA).
+5. **SQL:** This is required if the cQube adopter wants to add a new program, report or indicator. These are a few links to help you learn SQL - [Link 1](https://www.youtube.com/watch?v=p3qvj9hO\_Bo) | [Link 2](https://www.youtube.com/watch?v=7S\_tz1z\_5bA).
 
 ## Team Composition
 
