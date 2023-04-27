@@ -8,11 +8,11 @@ Following are the steps to configure Keycloak post installing cQube V 5.0:
 
 **Step 1 :** In a browser, open \<domain>/auth and go to Administration Console.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 :** Enter the keycloak admin username and password that is set as part of the cQube installation.
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 :** Navigate to the Clients Tab of the **cQube** Realm and select the client (**cqube 5.0**) created during installation.
 

@@ -14,7 +14,7 @@ description: Explains the process to add a new program into cQube Ed
 
 b. Dimension Grammar: The dimension grammar defines the specification in which the dimensions will be expressed. It includes information such as name, type and key information.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 **3. Automatic Dataset Grammar Generation:**
 
