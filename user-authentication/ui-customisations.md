@@ -16,7 +16,7 @@ All of these configurations will be done in the UI configuration file, which can
 
 There are certain keys specified under 'loginObj' for respective configuration to be changed as mentioned below. If there is a need to change any of these configurations, the users need to go to specified location directory (in **ui\_config.json**) as shown below and make the changes:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 1. **title :** This key is used to change the title in the login page of the application.
 

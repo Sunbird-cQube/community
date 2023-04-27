@@ -15,7 +15,7 @@ There are 2 ways to add users to cQube V 5.0 via Keycloak:
 
 **Step 2 :** Click on the add User button.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 :** Enter the Username for the user being created and save.
 
@@ -31,7 +31,7 @@ There are 2 ways to add users to cQube V 5.0 via Keycloak:
 
 **Step 1 :** Navigate to 'Import' tab in the 'Manage' section.
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 :** Click on 'Select file' and upload the .json file containing information of users to be added. (.json file should be in the format as shown below)
 
