@@ -1,5 +1,5 @@
 ---
-description: 'Note: The steps are used for adding a new report to an existing program'
+description: 'Note: These steps are for adding a new report to an existing program'
 ---
 
 # Adding a New Report
