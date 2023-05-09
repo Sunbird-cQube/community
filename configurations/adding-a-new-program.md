@@ -4,31 +4,54 @@ description: Explains the process to add a new program into cQube Ed
 
 # Adding a New Program
 
-1. **Schema Definition**
-   1. Event Schema: The event schema defines the structure of the events to be ingested into the system. It includes information such as the event name, its attributes (e.g. event timestamp, user ID, etc.), and data types.
-   2. Dimension Schema: The dimension schema defines the dimensions, or attributes, that will be used to group and filter events. It includes information such as the dimension name, its attributes (e.g. dimension value, category, etc.), and data types.
-2. **Grammar Ingestion**
-   1. Event Grammar: The event grammar defines the specification in which the events will be expressed. It includes information such as name, datatype, if its primary key, dimension or metric, ref table if dimension, format etc.
+**Introduction:** This guide will help you add a new program in cQube by following the steps outlined below. Ensure that you have the latest version of cQube installed to access all the latest features and functionalities.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+1. **Install or Update cQube:** Before you start adding a new program, make sure you have the most recent version of cQube installed. If you need assistance with the installation or upgrading process, refer to the following guides:
 
-b. Dimension Grammar: The dimension grammar defines the specification in which the dimensions will be expressed. It includes information such as name, type and key information.
+* [Installation Guide](https://cqube.sunbird.org/installation-and-upgradation/step-wise-installation-process): Provides step-by-step instructions for installing cQube.
+* [Upgradation Guide](https://cqube.sunbird.org/installation-and-upgradation/step-wise-upgradation-process): Offers detailed steps for upgrading your cQube installation to the latest version.
 
-<figure><img src="../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
+2. **Create Event and Dimension Schema:** Design the event and dimension schema for your program. This schema defines the structure and relationships between different data elements, such as event attributes and dimensions.
 
-**3. Automatic Dataset Grammar Generation:**
+* Event Schema: The event schema defines the structure of the events to be ingested into the system. It includes information such as the event name, its attributes (e.g., event timestamp, user ID, etc.), and data types.
+* Dimension Schema: The dimension schema defines the dimensions, or attributes, that will be used to group and filter events. It includes information such as the dimension name, its attributes (e.g., dimension value, category, etc.), and data types.
 
-Based on the configuration, the system will automatically generate data set grammars. The configurations can include whitelisting or blacklisting of dimensions to consider and additional combinations to consider.
+3. **Create a Config.json:** Config.json provides directives to the processing engine on how to process the grammar and data files, where they are stored, etc.
 
-**4. Data Ingestion:**
+* Place the Config.json in the /ingest/ folder.
+*   Define the following settings in the Config.json file:
 
-Once the schema and grammar are defined and the data set grammar is generated, events from APIs or CSV files can be ingested into the system. The following steps will occur during ingestion:
+    * globals: Global settings for the cQube processing engine.
+    * dimensions: Includes the file format, location, and namespace for dimensions.
+    * programs: Program-specific settings like namespace, description, input location, output location, and dimensions to be considered.
 
-* Schema level validation of the incoming events.
-* If new dimensions are found, they will be added to the Dimension Master.
-* Based on the combinations of dimensions and metrics in datasets, upsert operations will occur, and datasets will be updated.
-* All datasets will be updated with aggregates.
+    <img src="../.gitbook/assets/image (2).png" alt="" data-size="original">
 
-**5. Visualizations:**
+4. **Place Event and Dimension Grammar Files:** Once you've generated Event & Dimension grammar files based on the Event & Dimension Schema, place these files in the appropriate folders within the cQube directory structure.
 
-Datasets can be used to fetch data and perform calculations before utilizing it for visualizations. Based on the indicator and chart type combinations, different visualizations will be generated, and they can be arranged in a dashboard
+* Dimension Grammar: Place the dimension grammar file as \<xyz>-dimension.grammar.csv in the /processing-ms/impl/c-qube/ingest/dimensions/ folder, or as specified in the Config.json settings
+
+![](<../.gitbook/assets/image (7).png>)
+
+![](<../.gitbook/assets/image (4).png>)
+
+* Event Grammar: Create a new program folder in the /processing-ms/impl/c-qube/ingest/programs/ directory. Place the event grammar file as \<xyz>-event.grammar.csv in the new program folder, or as specified in the Config.json settings
+
+![](<../.gitbook/assets/image (3).png>)
+
+![](<../.gitbook/assets/image (6).png>)
+
+5. **Ingest Event and Dimension Schema:** Import the event and dimension schema into the cQube platform, as specified in step 3.
+
+* Through API Method: Use the Event Spec API (spec/event) to import the schema.
+
+![](<../.gitbook/assets/image (5).png>)
+
+* Through YARN CLI: Use the YARN CLI INGEST command to ingest Event and Dimension Spec and Dimension Data based on the configuration in Config.json.
+
+6. **Data Ingestion:** Ingest data into the cQube platform using one of the following methods:
+
+* [Uploading through CSV](https://cqube.sunbird.org/data-ingestion-and-processing/step-wise-ingestion-process#by-converting-data-into-a-csv-and-then-pushing-it-through-the-api): Upload data by providing a CSV file containing the necessary information. For detailed instructions, refer to the Uploading through CSV Guide.
+* [Connecting to Database](https://cqube.sunbird.org/data-ingestion-and-processing/step-wise-ingestion-process#by-directly-connecting-the-database-and-then-pushing-the-data-through-api): Connect directly to a database to ingest data. For more information on how to establish this connection, consult the Connecting to Database Guide.
+
+7. **Add Event Data Regularly:** To keep your program up-to-date, continuously add new event data to the platform. Determine an appropriate frequency for updating the data, such as daily, weekly, or monthly. Ensure that the new data is compatible with the existing event

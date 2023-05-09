@@ -18,7 +18,7 @@ A new discussion should be created in the GitHub Discussion Forum of cQube **onl
 
 1. Go to the Q\&A tab of cQube Discussion Forum on Github - [https://github.com/Sunbird-cQube/community/discussions/categories/q-a?discussions\_q=is%3A](https://github.com/Sunbird-cQube/community/discussions/categories/q-a?discussions\_q=is%3A)
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 2. Start a new discussion.
 3. Detail out the support that you need with a title and description. You can add any images for context on the request.

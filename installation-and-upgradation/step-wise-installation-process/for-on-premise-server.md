@@ -91,7 +91,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 **Step - 8:** Once the config file is generated, a preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing **yes.** If option **no** is selected then the install.sh moves to the next section.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step - 9:** A preview of the program\_selector.yml file is displayed followed by a question where the user gets an option to enable or disable the programs on choosing **yes.** If option **no** is selected then the install.sh moves to the next section.
 
@@ -206,7 +206,7 @@ Note: If the repository is already cloned then the script will pull the updated 
 * Kong-ms
 * Nginx-ms
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 2. **compose.yml -** A docker compose ansible script gets triggered where it will up all the containers to running state.
 

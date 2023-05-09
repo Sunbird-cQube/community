@@ -102,7 +102,7 @@ Provide the valid input details for the parameters as shown below. The request b
 
 <figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>Ingestion of Dimensions</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Ingestion of Datasets</p></figcaption></figure>
 
 After successful execution of the event / dimension / dataset API, we get the response and the data sent in the request body will be written to the CSV file. Any errors will be written to a CSV file and valid data will be written to a separate CSV file.
 

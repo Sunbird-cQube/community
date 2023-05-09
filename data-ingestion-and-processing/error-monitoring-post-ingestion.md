@@ -40,7 +40,7 @@ Following steps need to be followed to access the error file:
 
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Azure Storage</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>AWS Storage</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (4).png" alt=""><figcaption><p>AWS Storage</p></figcaption></figure>
 
 **Step - 5:** The user can access this folder to see the error files and download the same to view it in the format of CSV.
 
@@ -48,4 +48,4 @@ Following steps need to be followed to access the error file:
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Azure Storage</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>AWS Storage</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>AWS Storage</p></figcaption></figure>
