@@ -18,40 +18,70 @@ description: Explains the process to add a new program into cQube Ed
 
 3. **Create a Config.json:** Config.json provides directives to the processing engine on how to process the grammar and data files, where they are stored, etc.
 
-* Place the Config.json in the /ingest/ folder.
+* Place the Config.json in the /ingest/<state_code> folder.
 *   Define the following settings in the Config.json file:
 
     * globals: Global settings for the cQube processing engine.
     * dimensions: Includes the file format, location, and namespace for dimensions.
     * programs: Program-specific settings like namespace, description, input location, output location, and dimensions to be considered.
 
-    <img src="../.gitbook/assets/image (2).png" alt="" data-size="original">
+    <img src="../.gitbook/assets/image5.png" alt="" data-size="original">
 
-4. **Place Event and Dimension Grammar Files:** Once you've generated Event & Dimension grammar files based on the Event & Dimension Schema, place these files in the appropriate folders within the cQube directory structure.
+4. **Upload the Event and Dimension Grammar Files:** Convert the Event and Dimension Grammar to JSON format as given in the below example
+Example: if there is a event with two columns
+    school_id and school_name 
 
-* Dimension Grammar: Place the dimension grammar file as \<xyz>-dimension.grammar.csv in the /processing-ms/impl/c-qube/ingest/dimensions/ folder, or as specified in the Config.json settings
+		Below would be the JSON object
 
-![](<../.gitbook/assets/image (7).png>)
+		{
+    			"program": "school-attendance",
+    			"input": {
+        			"type": "object",
+        			"properties": {
+           				 "school_id": {
+              			 		 "type": "string",
+              			 		 "shouldNotNull": true
+            					},
+           				 "school_name": {
+                					"type": "string",
+               					 "shouldNotNull": true
+            				}
+}
 
-![](<../.gitbook/assets/image (4).png>)
+* Dimension Grammar: Use the /spec/dimension API to upload the dimension grammar
 
-* Event Grammar: Create a new program folder in the /processing-ms/impl/c-qube/ingest/programs/ directory. Place the event grammar file as \<xyz>-event.grammar.csv in the new program folder, or as specified in the Config.json settings
+* Place the dimension grammar file as \<xyz>-dimension.grammar.csv in the /processing-ms/impl/c-qube/ingest/<state_code>/dimensions/ folder, or as specified in the Config.json settings
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image1.png>)
 
-![](<../.gitbook/assets/image (6).png>)
+Contents of the district-dimension.grammar.csv
 
-5. **Ingest Event and Dimension Schema:** Import the event and dimension schema into the cQube platform, as specified in step 3.
+![](<../.gitbook/assets/image2.png>)
 
-* Through API Method: Use the Event Spec API (spec/event) to import the schema.
+* Event Grammar can be ingested in 2 ways: 
+   i. Though API Method
+Event spec API: spec/event
+   
+   ii.Through YARN CLI
+YARN CLI INGEST
 
-![](<../.gitbook/assets/image (5).png>)
+   This command is used to ingest Event and Dimension Spec and Dimension Data based on the configuration we have
+   
+* Create a new program folder in the /processing-ms/impl/c-qube/ingest/<state_code>/   programs/ directory. 
 
-* Through YARN CLI: Use the YARN CLI INGEST command to ingest Event and Dimension Spec and Dimension Data based on the configuration in Config.json.
+* Place the event grammar file as <xyz>-event.grammar.csv in processing-ms/impl/c-qube/ingest/<state_code>/programs/<new-program> folder as seen below (example for diksha program)
+This would be based on default config.json or else it should be as per config.json
 
-6. **Data Ingestion:** Ingest data into the cQube platform using one of the following methods:
+
+![](<../.gitbook/assets/image4.png>)
+   
+Contents of the district-event.grammar.csv
+
+![](<../.gitbook/assets/image3.png>)
+
+5. **Data Ingestion:** Ingest data into the cQube platform using one of the following methods:
 
 * [Uploading through CSV](https://cqube.sunbird.org/data-ingestion-and-processing/step-wise-ingestion-process#by-converting-data-into-a-csv-and-then-pushing-it-through-the-api): Upload data by providing a CSV file containing the necessary information. For detailed instructions, refer to the Uploading through CSV Guide.
 * [Connecting to Database](https://cqube.sunbird.org/data-ingestion-and-processing/step-wise-ingestion-process#by-directly-connecting-the-database-and-then-pushing-the-data-through-api): Connect directly to a database to ingest data. For more information on how to establish this connection, consult the Connecting to Database Guide.
 
-7. **Add Event Data Regularly:** To keep your program up-to-date, continuously add new event data to the platform. Determine an appropriate frequency for updating the data, such as daily, weekly, or monthly. Ensure that the new data is compatible with the existing event
+6. **Add Event Data Regularly:** To keep your program up-to-date, continuously add new event data to the platform. Determine an appropriate frequency for updating the data, such as daily, weekly, or monthly. Ensure that the new data is compatible with the existing event
