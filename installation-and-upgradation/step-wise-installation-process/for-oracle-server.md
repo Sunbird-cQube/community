@@ -4,132 +4,62 @@ description: Explains the steps to install cQube V 5.0 on Oracle Server
 
 # For Oracle Server
 
-The document covers the following:
+### Instance Setup in Oracle Cloud:
 
-1. [Setting up Oracle for cQube](for-oracle-server.md#oracle-setup-for-cqube)
-2. [Instructions to fill oracle config variables while doing installation](for-oracle-server.md#instructions-to-fill-oracle-config-variables-while-doing-installation)
+* Create an instance with Ubuntu 22.04 image, 2 core OCPU, and 16GB RAM.
 
-## **Oracle setup for cQube**
+![](https://lh3.googleusercontent.com/9bPutFaTGKbDw4Hn2xdymuuS-t\_Q3tuNOzM6jkaGMzRhqgx0psYMj6ZqDHlTEXymOQHJPNw-9QMpEHVJwnehlvbGIhJSoeTH8kJY1mmTwT52gKXnyQBIdShQHmw47rsJDVg4lv3uwo1t-2dknS0uRfs)
 
-### **Creating the Instance in Oracle Cloud:**
+* Download the private key file associated with the instance.
 
-1. Login to the oracle cloud account using the credentials
-2. Click on the left side menu button and then click on compute
+![](https://lh5.googleusercontent.com/t2sQfNTbtezsnI1mhEEbpEMQye2Er5d2FBaD64EYH8w\_NBB4KZprrvEzI5CsZVq5\_S7WkGmFznYwMVnevEvdkAgRcszVO2kEu2JDK\_aJEuHJBgyRfdAexWSdvzlaL7djVoFSFfgMLR3JbkRxCSrfAtg)
 
-![](../../.gitbook/assets/0.png)
+### &#x20;Create a Storage Bucket:
 
-3. Click on instances and then click on create instance
-4. Provide the instance name and modify the **image and shape** by clicking on edit button
+* Go to the Oracle Cloud console and create a bucket with default configurations.
 
-![](../../.gitbook/assets/1.png)
+![](https://lh4.googleusercontent.com/B-XFN\_NB60bZI3U6D9puczncmNKidZEWVzZGjCHFp5ryq8j1E3NIxLWmybkn9tMhpo2SZwT5vZZsvUYeqraqIcDNzrLo6Cm48QRtL8jjCWdSeNsoW\_CWCF6gP\_pY0KtRW6bJ9RnSohmp2FjVh4KqiMQ)
 
-5. Change image to ubuntu 22.04
+### Generate Config File in Oracle Cloud:
 
-![](<../../.gitbook/assets/2 (1).png>)
+* Login to the Oracle Cloud account and navigate to the profile section
 
-6. Change shape to 2 core OCPU and 16GB RAM
+![](https://lh6.googleusercontent.com/\_pRtRhCAzpprkOkcciwXQ9AT3fwH4s7wqp6s45utKYrjrBazu1kEgthKwtCrP7pKhQS1IKlJSYL8v7Ba-lWhIlmHNG1MurAGltHAUxFCODyIwI4c6V-QKXoawY6A4NXZy1b\_gCM6oFVyabopfeuB04k).
 
-![](<../../.gitbook/assets/3 (1).png>)
+* Generate a new key pair in the API keys section and download the private key file.
 
-7. Create the default subnet
+![](https://lh6.googleusercontent.com/qg9LPF3qH60-NIr9USUbS1OSk8IYKKuOo61V9arHJFxOoVnr8WwBH6WfKuw-OPg7l6-MGdnWeGpAC2kmxVYgbBNJoHHOTF\_YMCUclgDU5y7k9VS57ZnxUK4jzjkTKJCeo8gQyRwp3B-g9uyY7cpyQ1k)
 
-![](../../.gitbook/assets/4.png)
+* Copy the content of the configuration file for future use.
 
-8. Download the private key file
+![](https://lh3.googleusercontent.com/q4Js\_Fzgorn7B8GGKyjSrn-8y9B9pRiPiUXwCcxm-Ic7WmaSatC6C0HTPCRo140FZRZu2-cjEc2HnU4wZi3ZyCQa9lQqU\_kmeXYeatfZw2LImadau8C27A-2\_fX9A\_uGiFusoQass8HFM1OZSf9JRQk)
 
-![](<../../.gitbook/assets/5 (1).png>)
+### Upload the API Key File to the cQube Server:
 
-9. Select the boot volume to 100GB
+* Connect to the cQube server using SSH
+*   Copy the Oracle API private key file to the server using the command:
 
-![](../../.gitbook/assets/6.png)
+    scp -i \<pem\_file\_of\_server> \<private\_key\_of\_oracle\_api> ubuntu@\<ip>:\~/
+* Switch to the root user: sudo su
+*   Move the private key file to the .oci directory:
 
-10. Click on create the instance
+    mkdir /root/.oci && cd /root/.oci&#x20;
 
-![](../../.gitbook/assets/7.png)
+    mv /home/\<system\_user\_name>/\<private\_key\_of\_oracle\_api>&#x20;
+*   Verify the presence of the file in the current directory:
 
-### **Creating Storage bucket:**
+    ls -ltr
+* Exit from the root user and continue with the cQube installation
+* Instructions to fill the Oracle config variables during installation
+  * Copy the config file to the desired location (/root/.oci/config).
+  * Open the config file and replace the following placeholders with actual values from the API key config file:
+  * User OCID
+  * Tenancy OCID
+  * Region (by index or name)
+  * Decide whether to generate a new API Signing RSA key pair.
+  * If declining, provide the path to an existing key.
+  * Specify the location for the API Signing private key file (/root/.oci/\<private\_key\_of\_oracle\_api>).
 
-1. Click on side main menu button and select storage and then buckets
 
-![](../../.gitbook/assets/8.png)
-
-2. Create a bucket with all the default configurations. ( Fill name of bucket )
-
-![](<../../.gitbook/assets/9 (1).png>)
-
-3. Please refer to the below pic to get the created bucket name and name-space. ( Need to provide while generating config file in cqube)
-
-![](<../../.gitbook/assets/10 (1).png>)
-
-### **Generating config file in oracle cloud:**
-
-Required this config file to communicate between the storage and the application
-
-1. Login to the oracle cloud account using the credentials
-2. Navigate to profile
-
-![](../../.gitbook/assets/11.png)
-
-3. Navigate to API keys from the left side menu
-
-![](../../.gitbook/assets/12.png)
-
-4. Generate a new key pair using add key option
-
-![](../../.gitbook/assets/13.png)
-
-5. Download the private key and click on Add
-
-![](../../.gitbook/assets/14.png)
-
-6. Copy the content of configuration file, keep it pasted in some notepad for further use and close the popup
-
-![](../../.gitbook/assets/15.png)
-
-### **Uploading the api key file to the cqube server:**
 
 \
-1\. Connect to the cqube server
-
-2\. Copy the oracle API private key from local machine to server using following command
-
-`scp -i <pem_file_of_server> <private_key_of_oracle_api> ubuntu@<ip>:~/`
-
-3\. Enter into root user
-
-`sudo su`
-
-4\. Change the directory to root
-
-`cd /root`
-
-5**.** Create a directory using the following command
-
-`mkdir .oci && cd .oci`
-
-6**.** Copy private key from home directory to root directory
-
-`mv /home/<system_user_name>/<private_key_of_oracle_api> .`
-
-7\. Make sure if the file is present in the current directory
-
-`ls -ltr`
-
-7\. Exit from the root user and continue for cqube installation
-
-`exit`
-
-8\. Refer this doc for cqube installation
-
-[cQube Deployment Document](https://docs.google.com/document/d/1ODP13lUjO4OYV-rkFhPs-XMG0aehsfiWcCekkAN3Bfs/edit#heading=h.oqy188kfbwi5)
-
-### **Instructions to fill oracle config variables while doing installation**
-
-This config file needs to be filled when installing the cqube. Please refer to the config file which is copied while creating the API keys in Oracle:
-
-1. Enter a location for your config \[/root/.oci/config]: /root/.oci/config
-2. Enter a user OCID: \<Enter the user OCID from api key config file>
-3. Enter a tenancy OCID: \<Enter the tenancy OCID from api key config file>
-4. Enter a region by index or name: \<Enter the region from api key config file>
-5. Do you want to generate a new API Signing RSA key pair? (If you decline you will be asked to supply the path to an existing key.) \[Y/n] : \<Click n>
-6. Enter the location of your API Signing private key file: /root/.oci/\<private\_key\_of\_oracle\_api>

@@ -33,6 +33,7 @@ One server is required with the following configurations:
 Other Requirements:
 
 * Create a domain name
+* Configure CNAME or A record of AWS ec2 / Azure VM / Oracle VM to the domain name
 * Create a SSL certificate for the domain name
 
 _\*For existing users of cQube v4.1, Ubuntu 18.04 is also supported for upgrade to cQube v5.0._
