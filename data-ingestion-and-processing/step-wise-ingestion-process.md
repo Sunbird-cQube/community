@@ -23,10 +23,11 @@ Data ingestion can be done using APIs. Please use postman as a tool to run these
 
 ## Step-wise Ingestion Process:
 
-The data can be ingested into cQube in two ways:
+The data can be ingested into cQube in three ways:
 
 1. [By converting data into a CSV and then pushing it through the API](step-wise-ingestion-process.md#by-converting-data-into-a-csv-and-then-pushing-it-through-the-api)
 2. [By directly connecting the database and then pushing the data through API ](step-wise-ingestion-process.md#by-directly-connecting-the-database-and-then-pushing-the-data-through-api)
+3. [By using CLI command instead of APIs mainly for SDC](step-wise-ingestion-process.#by-using-cli-command-instead-of-apis-mainly-for-sdc)
 
 ### **By converting data into a CSV and then pushing it through the API**
 
@@ -106,6 +107,49 @@ Provide the valid input details for the parameters as shown below. The request b
 
 After successful execution of the event / dimension / dataset API, we get the response and the data sent in the request body will be written to the CSV file. Any errors will be written to a CSV file and valid data will be written to a separate CSV file.
 
+### **By using CLI command instead of APIs mainly for SDC**
+
+**Ingestion of Dimensions**
+
+1. Data Prep and Data Upload into server:
+
+For the ingestion of dimension, we have to make sure, we have grammar and data files present in the below directory inside the server.
+
+/ingest/<state_code>/dimensions
+
+
+2. Commands to upload the dimensions:
+
+Run the below command from the /ingest/ folder to upload the dimensions in the database.
+
+yarn cli ingest
+
+Note: When you ingest dimensions everything gets deleted and reingested. So to update the dimensions data, you should reupload the full dimensions data file and run the command (yarn cli ingest) to ingest dimensions.
+
+**Ingestion of Programs data**
+
+1. Data Prep and Data Upload into server:	
+
+For the ingestion of events data, we have to make sure, we have grammar and data files present in the below directory respective to each program inside the server.
+
+/ingest/<state_code>/programs
+
+2. Commands to upload the events data:
+
+Run the below command from the /ingest/ folder to upload the events data for all the programs in the database.
+
+yarn cli ingest-data
+
+3. Run the below command from the /ingest/ folder to upload the events data for a specific program in the database. Make sure you are passing the right code in the filter option in the below command.
+
+Below command can be used to upload the data for teachers attendance program. Here in the filter we are passing sch_att.
+
+yarn cli ingest-data --filter='sch_att'
+
+For PM Poshan, use the filter value pm_poshan
+
+Note: Whenever you run the above commands, it will append data in the system, it won’t update the existing data so make sure we don’t upload the same data again.
+
 ## National Programs:
 
 This focusses on ingestion of programs like UDISE, PGI, NISHTHA, DIKSHA, NAS, PM-POSHAN.
@@ -133,4 +177,18 @@ HTTP Method: POST
 The zip file will be extracted and will be read by the adapters and then moved into the input folders.
 
 <figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+
+## Things to take care of while ingesting Data / Debugging:
+
+The date format should be correct. The accepted date format is DD/MM/YY
+
+Make sure the data that you are trying to upload in the system, pass all the foreign key constraint. 
+
+Do the necessary changes in the script related to file name and folder name.
+
+Don’t try to re-upload the same data. It will append the new data not update. So one data file should be uploaded once.
+
+When you are uploading the data into the system, make sure we keep the connection alive with the server by having the focus on the terminal. If the connection will break with the server it will stop the data ingestion. Or you can use the screen option on the server for seamless data ingestion.
+
+If you have large data files and you want to break those data files for each month then you can use this script to break data files. Do the necessary changes in the script related to file name and folder name.
 
