@@ -6,57 +6,56 @@ description: Lists the steps to upgrade from cQube V 4.1 - Beta to cQube V 5.0
 
 Upgradation is currently available on 3 types of servers:
 
-1. [AWS](step-wise-upgradation-process.md#upgradation-process-for-aws)
-2. [Azure](step-wise-upgradation-process.md#upgradation-process-for-azure)
-3. [On-Premise (Local)](step-wise-upgradation-process.md#upgradation-process-for-local)
+1. AWS
+2. Azure
+3. On-Premise (Local)
 
 Steps for each one of these servers have been explained below:
 
-### **Upgradation process for AWS**
+### Step 1:
 
-**Step - 1:** Connect to the cqube AWS ec2 instance
+**AWS**
 
-* **For linux and macOS:**
-  * Download the .pem file which is generated while creating the EC2 instance
-  * Open the terminal and navigate to the folder where .pem file has been downloaded
-  * Then give the read permission to the .pem file using following command
+Connect to the cQube AWS EC2 Instance
 
-`sudo chmod 400 <aws.pem>`
+For Linux and macOS:
 
-* Use the following command to connect to the instance
+1. Download the .pem file generated during EC2 instance creation.
+2. Open the terminal and navigate to the folder where the .pem file is downloaded.
+3. Provide read permission to the .pem file: sudo chmod 400 \<aws.pem>
 
-`ssh -i <path_to_the_pem_file> <user_name>@<public_ip_of_the_instance>`
+Connect to the instance using the following command:
 
-* **For windows:**
-  * Download the .pem file which is generated while creating the EC2 instance
-  * Use puttygen to connect to the instance.
-  * Refer following link to use puttyGen for connecting.
-    * [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
+4. ssh -i \<path\_to\_the\_pem\_file> \<user\_name>@\<public\_ip\_of\_the\_instance>
 
-### **Upgradation process for AZURE**
+For Windows:
 
-**Step - 1:** Connect to the cqube Azure VM instance
+1. Download the .pem file generated during EC2 instance creation.
+2. Use Puttygen to connect to the instance. Refer to this link for instructions:[ PuttyGen Instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
 
-* **For linux and macOS:**
-  * Download the .pem file which is generated while creating the azure VM instance
-  * Open the terminal and navigate to the folder where .pem file has been downloaded
-  * Then give the read permission to the .pem file using following command
+**Azure**
 
-**sudo chmod 400 \<aws.pem>**
+Connect to the cQube Azure VM Instance
 
-* Use the following command to connect to the instance
+For Linux and macOS:
 
-`ssh -i <path_to_the_pem_file> <user_name>@<public_ip_of_the_instance>`
+1. Download the .pem file generated during Azure VM instance creation.
+2. Open the terminal and navigate to the folder where the .pem file is downloaded.
+3. Provide read permission to the .pem file: sudo chmod 400 \<aws.pem>
 
-* **For windows:**
-  * Download the .pem file which is generated while creating the azure VM instance
-  * Use puttygen to connect to the instance.
-  * Refer following link to use puttyGen for connecting.
-    * [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
+Connect to the instance using the following command:
 
-### **Upgradation process for LOCAL**
+4. ssh -i \<path\_to\_the\_pem\_file> \<user\_name>@\<public\_ip\_of\_the\_instance>
 
-**Prerequisites to install cQube on local machine**
+For Windows:
+
+1. Download the .pem file generated during Azure VM instance creation.
+2. Use Puttygen to connect to the instance. Refer to this link for instructions:[ PuttyGen Instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
+
+\
+**Local/SDC**
+
+Prerequisites for cQube on Local Machine:
 
 * Ubuntu 22.04 (supported)
 * 16 GB of System RAM (minimum requirement)
@@ -64,101 +63,56 @@ Steps for each one of these servers have been explained below:
 * Domain name (with SSL)
 * 250 GB Storage
 
-**Step - 2:** Clone the cqube-devops repository using following command
+### &#x20;**Step 2:**&#x20;
 
-`git clone` [`https://github.com/Sunbird-cQube/cqube-devops.git`](https://github.com/Sunbird-cQube/cqube-devops.git)
+Clone the cqube-devops Repository
 
-<figure><img src="../.gitbook/assets/0 (1).png" alt=""><figcaption></figcaption></figure>
+Clone the cqube-devops repository using the following command:
 
-**Step - 3:** Navigate to the directory where cqube is cloned or downloaded and checkout to the desired branch
+\
+git clone [https://github.com/Sunbird-cQube/cqube-devops.git](https://github.com/Sunbird-cQube/cqube-devops.git)
+
+### &#x20;Step 3:&#x20;
+
+Navigate to the Cloned Directory
+
+Navigate to the directory where cQube is cloned or downloaded and checkout the desired branch:
 
 `cd cqube-devops/ && git checkout dev`
 
-<figure><img src="../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+### Step 4:
 
-**Step - 4:** Give the following permissions to the upgrade.sh file
+Give Execute Permissions to the Upgrade.sh File
 
+Give execute permissions to the upgrade.sh file:\
 `sudo chmod u+x upgrade.sh`
 
-**Step - 5:** Upgrade cqube with non root user with sudo privileges
+### &#x20;Step 5:&#x20;
+
+Upgrade cQube with Non-root User and Sudo Privileges
+
+Upgrade cQube using the following command:
 
 `sudo ./upgrade.sh`
 
-<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
-upgrade.sh file contains a shell script where it will run shell scripts and ansible-playbook to setup the cqube
 
-**Step - 6:** User Input Variables - These are the variables which need to be entered by the user by following the Hint provided
+### Step 6:
 
-<figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+&#x20;Follow the prompts and enter the necessary input variables based on the server setup.
 
-* state\_name ( Enter the required state code by referring to the state list provided )
-* api\_end\_point ( Enter the url in which cqube to be configured )
-* Storage\_type (Enter the storage\_type as aws or local or azure. If User opting for aws You will be prompted with the following AWS s3 credentials to enter and it will create the s3 bucket. If s3\_bucket already exists it will prompt you to enter a unique s3 bucket name. And it will be generated in the upgradation\_config.yml.)
-* s3\_access\_key
-* s3\_secret\_key
-* s3 bucket name
+&#x20;Follow the screenshots provided in the installation guide for reference.
 
-<figure><img src="../.gitbook/assets/4.jpeg" alt=""><figcaption></figcaption></figure>
+\
 
-* Storage\_type (Enter the storage\_type as local, minio will install and configure the minio username and minio password and create the minio bucket And it will be generated in the upgradation\_config.yml.)
 
-![](../.gitbook/assets/5.png)
+_Note: The upgradation process may have slight variations depending on the specific environment and configurations. Ensure that you have the required credentials, keys, and access rights before proceeding with the upgrade._
 
-![](<../.gitbook/assets/6 (1).png>)
+_Once the upgrade is completed, you will receive a confirmation message stating that cQube has been upgraded successfully. You can access the cQube ingestion API using the provided \<domain\_name>._
 
-* Storage\_type (Enter the storage\_type as Azure, If User opting for Azure you will be prompted with the following Azure credentials to enter and it will create an azure container , if azure container exists it will prompt to enter a unique azure container name. And it will be generated in the upgradation\_config.yml.)
-* azure\_connection\_string
-* azure\_account\_name
-* azure\_account\_key
 
-<figure><img src="../.gitbook/assets/7.jpeg" alt=""><figcaption></figcaption></figure>
 
-**Step - 7:** Optional\_variables- Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for **yes** to enter their credentials otherwise can opt for **no** when the question pops up
-
-* db\_user\_name ( Enter the postgres database username )
-* db\_name ( Enter the postgres database name )
-* db\_password ( Enter the postgres password )
-
-![](<../.gitbook/assets/8 (1).png>)
-
-**Step - 8:** Optional\_variables- Read Only Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for **yes** to enter their credentials otherwise can opt for **no** when the question pops up
-
-* read\_only\_db\_user ( Enter the read only postgres database username )
-* read\_only\_db\_password ( Enter the read only postgres password )
-
-![](../.gitbook/assets/9.png)
-
-**Step - 9:** Keycloak\_variables- Keycloak credentials with Keycloak admin user name and keycloak admin password.
-
-* Keyclaok\_adm\_name (Enter the keycloak admin name eg: admin)
-* Keyclaok\_adm\_password (enter the keycloak admin password eg: Admin@123)
-
-![](../.gitbook/assets/10.png)
-
-**Step - 10:** Once the upgradation\_config file is generated, A preview of the upgradation\_config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing **yes. I**f option **no** is selected then the upgrade.sh moves to the next section.
-
-![](<../.gitbook/assets/11 (1).png>)
-
-**Step - 11:** A preview of the program\_selector.yml file is displayed followed by a question where the user gets an option to enable or disable the programs on choosing **yes. I**f option **no** is selected then the upgrade.sh moves to the next section.
-
-![](<../.gitbook/assets/12 (1).png>)
-
-**Step - 12:** Once the Upgradation is completed, You will be prompted with the following messages and required reference urls.
-
-**cQube Upgraded Successfully!**
-
-<figure><img src="../.gitbook/assets/13 (1).png" alt=""><figcaption></figcaption></figure>
-
-cQube ingestion api can be accessible using \<domain\_name>
-
-Ingestion Usage Documentation :[ https://project-sunbird.atlassian.net/l/cp/PPn7AfAW](https://project-sunbird.atlassian.net/l/cp/PPn7AfAW)
-
-Schema Documentation :[ https://project-sunbird.atlassian.net/l/cp/xpVi7HbS](https://project-sunbird.atlassian.net/l/cp/xpVi7HbS)
-
-UI Usage Documentation :[ https://project-sunbird.atlassian.net/l/cp/mv7JvLXd](https://project-sunbird.atlassian.net/l/cp/mv7JvLXd)
-
-### **Appendix** <a href="#_pykafqulodso" id="_pykafqulodso"></a>
+### **Appendix**
 
 ### **AWS - Network Architecture** <a href="#_n8oyt4k2rosv" id="_n8oyt4k2rosv"></a>
 

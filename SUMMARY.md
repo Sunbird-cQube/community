@@ -14,6 +14,7 @@
 * [Getting Started](installation-and-upgradation/getting-started.md)
 * [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
 * [Step-wise Installation Process](installation-and-upgradation/step-wise-installation-process.md)
+  * [Common Steps](installation-and-upgradation/step-wise-installation-process/common-steps.md)
   * [For AWS Cloud Server](installation-and-upgradation/step-wise-installation-process/for-aws-cloud-server.md)
   * [For On-Premise Server](installation-and-upgradation/step-wise-installation-process/for-on-premise-server.md)
   * [For Oracle Server](installation-and-upgradation/step-wise-installation-process/for-oracle-server.md)
