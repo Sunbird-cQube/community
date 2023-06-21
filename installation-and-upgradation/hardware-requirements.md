@@ -25,7 +25,7 @@ _\*For existing users of cQube v4.1, Ubuntu 18.04 is also supported for upgrade 
 
 One server is required with the following configurations:
 
-* Ubuntu 20.04 to 22.04 (supported)\*&#x20;
+* Ubuntu 20.04 to 22.04 (supported)\* \[[Link to install Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)]
 * 16 GB of System RAM (minimum requirement)
 * 4 core CPU (minimum requirement)
 * 250GB HDD
