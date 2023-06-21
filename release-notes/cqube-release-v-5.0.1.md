@@ -2,9 +2,7 @@
 
 **Document Release Version**
 
-| Project | Release Date | Release Version |
-| ------- | ------------ | --------------- |
-| cQube   | 10 Apr 2023  | V 5.0.1         |
+<table><thead><tr><th width="527.3333333333333">Project</th><th>Release Date</th><th>Release Version</th></tr></thead><tbody><tr><td>cQube</td><td>10 Apr 2023</td><td>V 5.0.1</td></tr></tbody></table>
 
 ## Overview
 

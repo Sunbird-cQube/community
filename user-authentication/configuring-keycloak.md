@@ -26,4 +26,4 @@ Following are the steps to configure Keycloak post installing cQube V 5.0:
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-✅ You have successfully configured Keycloak for user authentication!
+&#x20;You have successfully configured Keycloak for user authentication! ✅

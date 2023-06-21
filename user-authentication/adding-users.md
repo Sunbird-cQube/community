@@ -25,7 +25,7 @@ There are 2 ways to add users to cQube V 5.0 via Keycloak:
 
 <figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
-✅ The required user has been added successfully!
+The required user has been added successfully! ✅&#x20;
 
 ## Steps to add bulk users <a href="#adding-bulk-users-to-the-key-cloak-realm" id="adding-bulk-users-to-the-key-cloak-realm"></a>
 
@@ -45,6 +45,6 @@ There are 2 ways to add users to cQube V 5.0 via Keycloak:
 
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-✅ The bulk users have been added successfully and will be able to login to the application using respective credentials!
+The bulk users have been added successfully and will be able to login to the application using respective credentials! ✅&#x20;
 
 \

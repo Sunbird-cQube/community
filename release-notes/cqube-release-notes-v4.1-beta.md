@@ -2,9 +2,7 @@
 
 #### Document Release Version
 
-| Project | Release Date | Release Version |
-| ------- | ------------ | --------------- |
-| cQube   | 12 Nov 2022  | V 4.1-beta      |
+<table><thead><tr><th width="223.66666666666663">Project</th><th>Release Date</th><th>Release Version</th></tr></thead><tbody><tr><td>cQube</td><td>12 Nov 2022</td><td>V 4.1-beta</td></tr></tbody></table>
 
 ## Overview
 

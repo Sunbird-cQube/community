@@ -1,45 +1,63 @@
 ---
 description: >-
-  Lists the steps to create an adapter / ETL Pipeline to ingest data from
-  adopter's data sources into cQube V 5.0
+  Once you have the csv files ready for ingestion, the following steps will help
+  you ingest the data into the database. Please follow the below steps carefully
 ---
 
 # Step-wise Adapter Creation Process
 
 ## Overview
 
-cQube adapter is an ETL (Extract, Transform and Load) pipeline with processes used to move data from the adopter database to multiple CSVs after making the required transformations. A cQube adapter is needed because cQube expects data in a [specific format](cqube-schemas.md) and the output CSVs of the adapter can be ingested directly into cQube to get the programs, reports and indicators.
+CQube adapter is an ETL (Extract, Transform and Load) pipeline with processes used to move data from the adapter database to multiple CSVs after making the required transformations. A cQube adapter is needed because cQube expects data in a specific format and the output CSVs of the adapter can be ingested directly into cQube to get the programs, reports and indicators.
 
 ## Architecture
 
-<figure><img src="https://lh4.googleusercontent.com/QQhyZRpBJX9YIt15HpCu4E9cOVTng5PzM18vdw8PwKGLrXU70_ZAVctDh8xkp3_jhtrgTvo3_Trrg-rNILgTeyvzKAQQMc8viVtUZ6CqI_0tZkhPXx0gmTty9krNcdhzuYoRPnO6dt4QtSStp7DAD4Q" alt=""><figcaption><p>Flow of data from Adopter / State DB into CSV Files as per cQube Schema via adapter </p></figcaption></figure>
+<figure><img src="https://lh5.googleusercontent.com/7lUtUon-OfvE1AoXiffA82O6_yrR3pJDV1pevzw0zBdNv_w51WrkGHC3Q7faCVqiSchCZQbTsLITWqKQQq1STvfbjPEXBleQ2S0x-pgdJbSmu-FHBPy3Qm-ac14Zknn8gnI-DF7YgbWNx9vuju-rOHw" alt=""><figcaption></figcaption></figure>
 
 \
-Working of an Adapter
----------------------
+Working of an Adapter  \[Currently working for National Programs]
+-----------------------------------------------------------------
 
-1. The adapter makes a connection with the state / source database.
-2. It then fetches the data from the database tables&#x20;
-3. It performs the transformation to generate the Dimension and Event (Fact) CSV files. The desired format and output columns list in the dimension and event file for each program can be found [here](cqube-schemas.md).
-4. Output dimension CSV files will be stored inside AWS S3 Bucket / Minio / Azure in the _input-bucket/dimensions/\<dimension\_name>.data.csv_ format.&#x20;
+1. The adapter makes a connection with the  state data source (ex: azure container/aws s3 bucket/oracle file system /minio bucket).Read the zipped data file from the emission folder emission/\<date>/\<file\_name>.csv.
+2. It then reads the raw data files from the datasource.It performs the transformation to generate the Dimension and Event (Fact) CSV files. The desired format and output columns list in the dimension and event file for each program can be found here.
+3. &#x20;Select the required column from the report(zip file).&#x20;
+4. Split the files according to the number of metrics in report
+5. Output Event CSV files will be stored inside AWS S3 Bucket / Minio / Azure in the input-bucket process\_input/program/\<date>/\<event\_name>-event.data.csv. process\_input/program/\<date>/\<event\_name>-dimension.data.csv Format.&#x20;
+6. NiFi will run This adapter ETL pipeline will run at a specific frequency so that the output CSV data can be refreshed and the latest data will be ingested into the system.  &#x20;
+7. Output Event CSV files will be stored inside AWS S3 Bucket / Minio / Azure in the _input-bucket/combined\_input/\<program\_name>//\<event\_name>.data.csv_ format.
 
-<figure><img src="https://lh3.googleusercontent.com/aae7jd5xWMBT83moufXDxEH_moGJbPi3X-TFXTcwny1JUxHmqEzMzI4UHSo8gESyvh1qLVJA3OjoXE7bNy09rUA9pRjO_YN-pTANYmzC9fveL2X-1NrFjklOp1Pq91PL4n2Li0e_6SEGArCZMtbsThs" alt=""><figcaption><p>Dimension Files in Minio</p></figcaption></figure>
+Example for illustration:&#x20;
 
-5. Output Event CSV files will be stored inside AWS S3 Bucket / Minio / Azure in the _input-bucket/combined\_input/\<program\_name>//\<event\_name>.data.csv_ format.
+1. **Initial file**
 
-<figure><img src="https://lh4.googleusercontent.com/uL5fT5jogr8fpmD-MBEs-ew5N_-iH2sOtatfVoyoA06YVnKlsIthNvd73NZpUjmLRzL4yDK59b7XzyKLJ4QdwmAI_SZt6e64aC38q50GxWzX4U05_vT9eEUJR92v5OUIxm_l7rVKKQyML8NjG3HxNS0" alt=""><figcaption><p>Event Files in Minio</p></figcaption></figure>
+<table data-header-hidden data-full-width="true"><thead><tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>date</td><td>district_id</td><td>block_id</td><td>cluster_id</td><td>school_id</td><td>schoolcategory_name</td><td>grade</td><td>gender</td><td>KPI-1</td><td>KPI-2</td><td>KPI-3</td></tr><tr><td><br></td><td><br></td><td><br></td><td><br></td><td><br></td><td><br></td><td><br></td><td><br></td><td><br></td><td><br></td><td><br></td></tr></tbody></table>
 
-6. This adapter ETL pipeline will run at a specific frequency so that the output CSV data can be refreshed and the latest data will be ingested into the system. To schedule your adapter, you can use Apache Airflow. Learn how to use Apache Airflow [here](https://airflow.apache.org/docs/apache-airflow/stable/start.html).
+2. **Final files**
 
-## Technology
+| date | district\_id | block\_id | cluster\_id | school\_id | schoolcategory\_name | grade | gender | KPI-1 |
+| ---- | ------------ | --------- | ----------- | ---------- | -------------------- | ----- | ------ | ----- |
+|      |              |           |             |            |                      |       |        |       |
 
-cQube adopter can use any system, programming language or ETL tool to develop the cQube adapter.&#x20;
+| date        | district\_id | block\_id   | cluster\_id | school\_id  | schoolcategory\_name | grade       | gender      | KPI-2       |
+| ----------- | ------------ | ----------- | ----------- | ----------- | -------------------- | ----------- | ----------- | ----------- |
+| <p><br></p> | <p><br></p>  | <p><br></p> | <p><br></p> | <p><br></p> | <p><br></p>          | <p><br></p> | <p><br></p> | <p><br></p> |
+
+| date        | district\_id | block\_id   | cluster\_id | school\_id  | schoolcategory\_name | grade       | gender      | KPI-3       |
+| ----------- | ------------ | ----------- | ----------- | ----------- | -------------------- | ----------- | ----------- | ----------- |
+| <p><br></p> | <p><br></p>  | <p><br></p> | <p><br></p> | <p><br></p> | <p><br></p>          | <p><br></p> | <p><br></p> | <p><br></p> |
+
+##
+
+## Technology Details
+
+cQube adapter can use any system, programming language or ETL tool to develop the cQube adapter.&#x20;
 
 For example:
 
-1. Python scripts can be used to extract data from the source / state database, transform it and finally export the CSV files inside the AWS S3 bucket or cloud storage which is being used. Apache Airflow can be used to scheduling the python scripts.
-2. Or, Apache NiFi can be used to create the end-to-end ETL Pipeline.
-
-The only requirement is that the adapter-generated CSV files should have the same column names and the data format as mentioned [here](cqube-schemas.md).
+* Python scripts can be used to extract data from the source / state database, transform it and finally export the CSV files inside the AWS S3 bucket or cloud storage which is being used. Apache Airflow can be used to scheduling the python scripts.
+* Or, Apache NiFi can be used to create the end-to-end ETL Pipeline.
+* The only requirement is that the adapter-generated CSV files should have the same column names and the data format as per schema\
+  \
+  Refer this [link](https://docs.google.com/document/d/1F9ho\_1y3sWDCzynPAzLScYT18VmuS4K-1dNOWs1z6rE/edit#heading=h.y16u3gcmp1l8) for detailed explanation
 
 \

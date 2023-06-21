@@ -1,5 +1,5 @@
 ---
-description: Details out the revised technical architecture of cQube
+description: Details out the technical architecture of cQube
 ---
 
 # Architecture
@@ -14,9 +14,9 @@ The architecture of cQube has been revised to enable flexibility in configuratio
 
 The terminologies used in the architecture can be found [here](https://project-sunbird.atlassian.net/wiki/spaces/CQUB/pages/3258024044/cQube+Design+Document+Nov+2022#1.-Terminologies).
 
-The design principles of cQube, according to the architecture, can be found [here](https://project-sunbird.atlassian.net/wiki/spaces/CQUB/pages/3258024044/cQube+Design+Document+Nov+2022#3.-Design-Considerations).
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 High-level architecture design is detailed out [here](https://project-sunbird.atlassian.net/wiki/spaces/CQUB/pages/3258024044/cQube+Design+Document+Nov+2022).
 

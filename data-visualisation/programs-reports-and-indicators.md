@@ -33,11 +33,7 @@ For a State Officer:
 
 For a District Officer:
 
-| Indicator                                                    | Chart Type | Applicable Filters   |
-| ------------------------------------------------------------ | ---------- | -------------------- |
-| Average % Schools Reporting Student Attendance               | Big Number | District, Date Range |
-| Block-wise % Schools Reporting Student Attendance            | Table      | District, Date Range |
-| District-wise Rank in % Schools Reporting Student Attendance | Table      | Date Range           |
+<table><thead><tr><th>Indicator</th><th width="133.66666666666666">Chart Type</th><th>Applicable Filters</th></tr></thead><tbody><tr><td>Average % Schools Reporting Student Attendance</td><td>Big Number</td><td>District, Date Range</td></tr><tr><td>Block-wise % Schools Reporting Student Attendance</td><td>Table</td><td>District, Date Range</td></tr><tr><td>District-wise Rank in % Schools Reporting Student Attendance</td><td>Table</td><td>Date Range</td></tr></tbody></table>
 
 For a Block Officer:
 
@@ -67,12 +63,7 @@ For a School Principal:
 
 For a State Officer:
 
-| Indicator                        | Chart Type | Applicable Filters |
-| -------------------------------- | ---------- | ------------------ |
-| Average % Students Present       | Big Number | Date Range         |
-| District-wise % Students Present | Table      | Date Range         |
-| Gender-wise % Students Present   | Bar Chart  | Date Range         |
-| Grade-wise % Students Present    | Bar Chart  | Date Range         |
+<table><thead><tr><th width="252.66666666666666">Indicator</th><th>Chart Type</th><th>Applicable Filters</th></tr></thead><tbody><tr><td>Average % Students Present</td><td>Big Number</td><td>Date Range</td></tr><tr><td>District-wise % Students Present</td><td>Table</td><td>Date Range</td></tr><tr><td>Gender-wise % Students Present</td><td>Bar Chart</td><td>Date Range</td></tr><tr><td>Grade-wise % Students Present</td><td>Bar Chart</td><td>Date Range</td></tr></tbody></table>
 
 For a District Officer:
 
@@ -136,11 +127,7 @@ For a State Officer:
 
 For a District Officer:
 
-| Indicator                                             | Chart Type | Applicable Filters   |
-| ----------------------------------------------------- | ---------- | -------------------- |
-| Average % Teachers Reporting Attendance               | Big Number | District, Date Range |
-| Block-wise % Teachers Reporting Attendance            | Table      | District, Date Range |
-| District-wise Rank in % Teachers Reporting Attendance | Table      | Date Range           |
+<table><thead><tr><th width="303.66666666666663">Indicator</th><th>Chart Type</th><th>Applicable Filters</th></tr></thead><tbody><tr><td>Average % Teachers Reporting Attendance</td><td>Big Number</td><td>District, Date Range</td></tr><tr><td>Block-wise % Teachers Reporting Attendance</td><td>Table</td><td>District, Date Range</td></tr><tr><td>District-wise Rank in % Teachers Reporting Attendance</td><td>Table</td><td>Date Range</td></tr></tbody></table>
 
 For a Block Officer:
 

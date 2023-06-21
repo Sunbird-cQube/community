@@ -1,34 +1,39 @@
 # Table of contents
 
 * [Product Overview](README.md)
-* [Architecture](architecture.md)
-
-## 💻 Specifications
-
-* [Events / Facts](specifications/events-facts.md)
-* [Dimensions](specifications/dimensions.md)
-* [Datasets](specifications/datasets.md)
 
 ## 👩💻 Installation & Upgradation
 
 * [Getting Started](installation-and-upgradation/getting-started.md)
 * [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
 * [Step-wise Installation Process](installation-and-upgradation/step-wise-installation-process.md)
-  * [Common Steps](installation-and-upgradation/step-wise-installation-process/common-steps.md)
   * [For AWS Cloud Server](installation-and-upgradation/step-wise-installation-process/for-aws-cloud-server.md)
   * [For On-Premise Server](installation-and-upgradation/step-wise-installation-process/for-on-premise-server.md)
   * [For Oracle Server](installation-and-upgradation/step-wise-installation-process/for-oracle-server.md)
+* [Next Common Steps](installation-and-upgradation/next-common-steps.md)
 * [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
+
+## 💻 Technical Overview
+
+* [Architecture](technical-overview/architecture.md)
+* [Design Principles](technical-overview/design-principles.md)
+* [Key Components](technical-overview/key-components.md)
+
+## 💻 Steps before Ingestion
+
+* [Define Dimensions Schema](steps-before-ingestion/dimensions.md)
+* [Define Events / Facts Schema](steps-before-ingestion/events-facts.md)
+* [Example of cQube Dimension & Event Schema](steps-before-ingestion/example-of-cqube-dimension-and-event-schema.md)
+* [Datasets](steps-before-ingestion/datasets.md)
 
 ## 🔃 Data Ingestion & Processing
 
-* [cQube Schemas](data-ingestion-and-processing/cqube-schemas.md)
 * [Step-wise Adapter Creation Process](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
-* [Step-wise Ingestion Process](data-ingestion-and-processing/step-wise-ingestion-process.md)
-* [Common errors during ingestion](data-ingestion-and-processing/common-errors-during-ingestion/README.md)
-  * [Script to convert array into individual values](data-ingestion-and-processing/common-errors-during-ingestion/script-to-convert-array-into-individual-values.md)
-* [Monitoring status of ingestion](data-ingestion-and-processing/monitoring-status-of-ingestion.md)
-* [Error monitoring post ingestion](data-ingestion-and-processing/error-monitoring-post-ingestion.md)
+* [High Level Understanding of Data Ingestion](data-ingestion-and-processing/high-level-understanding-of-data-ingestion.md)
+* [Step-wise Ingestion Process \[National Programs\]](data-ingestion-and-processing/step-wise-ingestion-process-national-programs/README.md)
+  * [Error monitoring](data-ingestion-and-processing/step-wise-ingestion-process-national-programs/error-monitoring.md)
+* [Step-wise Ingestion Process \[State Programs\]](data-ingestion-and-processing/step-wise-ingestion-process-state-programs/README.md)
+  * [Error Monitoring](data-ingestion-and-processing/step-wise-ingestion-process-state-programs/error-monitoring.md)
 
 ## 🔐 User Authentication
 
