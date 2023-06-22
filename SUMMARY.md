@@ -78,6 +78,14 @@
 * [Requesting for Support](standard-operating-procedure/requesting-for-support.md)
 * [Suggesting Enhancements](standard-operating-procedure/suggesting-enhancements.md)
 
+## ❓ Frequently Asked Questions
+
+* [Running List](frequently-asked-questions/reporting-a-bug.md)
+
+## 🧠 Key Terms & Concepts
+
+* [Definitions](key-terms-and-concepts/reporting-a-bug.md)
+
 ## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
 
 * [cQube - Release V 5.0.3](release-notes/cqube-release-v-5.0.3.md)

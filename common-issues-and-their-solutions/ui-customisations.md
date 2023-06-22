@@ -1,9 +1,3 @@
----
-description: >-
-  Describes how customisations on the login (UI) layer of cQube Ed v5.0 can be
-  made
----
-
 # Deployment & ingestion related issues & their solutions
 
 ## Deployment  Issues

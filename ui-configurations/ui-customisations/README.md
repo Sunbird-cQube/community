@@ -1,7 +1,5 @@
 ---
-description: >-
-  Describes how customisations on the login (UI) layer of cQube Ed v5.0 can be
-  made
+description: Describes how customisations on the login (UI) layer of cQube Ed can be made
 ---
 
 # UI Customisations
