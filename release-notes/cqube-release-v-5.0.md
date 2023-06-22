@@ -19,12 +19,12 @@ As part of cQube V 5.0, a cQube adopter can install V 5.0 or upgrade from V 4.1 
 ## Release Features
 
 1. A deployer can install V 5.0 or upgrade from V 4.1 - Beta (VSK Starter Pack) to V 5.0 seamlessly within 30 minutes - [Installation Details](../installation-and-upgradation/step-wise-installation-process.md) | [Upgradation Details](../installation-and-upgradation/step-wise-upgradation-process.md)
-2. A deployer is able to ingest state data for 9 out-of-the-box programs in cQube schema via APIs through adapters at a set frequency - [Available Programs](../data-visualisation/programs-reports-and-indicators.md) | [cQube Schema](broken-reference) | [Adapter Creation](../data-ingestion-and-processing/step-wise-adapter-creation-process.md) | [Ingestion Details](broken-reference)
+2. A deployer is able to ingest state data for 9 out-of-the-box programs in cQube schema via APIs through adapters at a set frequency - [Available Programs](../dashboard-visualizations-and-reports/programs-reports-and-indicators/) | [cQube Schema](broken-reference) | [Adapter Creation](../data-ingestion-and-processing/step-wise-adapter-creation-process.md) | [Ingestion Details](broken-reference)
 3. A deployer can monitor ingestion by viewing the number of rows ingested and rectifying any errors - [Monitoring Ingestion](broken-reference) | [Rectifying Errors](broken-reference)
 4. A deployer is able to schedule the processing of ingested data within cQube - [Installation Details](../installation-and-upgradation/step-wise-installation-process.md)
 5. A deployer can add a new program / report / indicator in cQube by configuring ingestion, processing and visualisation
 6. A deployer / admin can connect the cQube datasets to any external visualisation tool (eg: Metabase, Tableau etc.)
-7. A deployer can modify the UI of the cQube dashboards through configurations - [UI Customisations](../data-visualisation/ui-customisations.md)
+7. A deployer can modify the UI of the cQube dashboards through configurations - [UI Customisations](broken-reference)
 8. A user can select the role (State Officer, District Officer, Block Officer, Cluster Officer, School Principal, Class Teacher) & jurisdiction (District, Block, Cluster, School, Class) for which they want to view data / charts on the cQube dashboard for all out-of-the-box programs
 9. A user can apply relevant filters to data available for all programs
 10. A user can see a summary dashboard with important data points from all programs
@@ -61,8 +61,8 @@ Some features have been deprecated from the previous release (V 4.1 - beta) but 
 3. [cQube Schemas](broken-reference)
 4. [Step-wise Adapter Creation Process](../data-ingestion-and-processing/step-wise-adapter-creation-process.md)
 5. [Step-wise Ingestion Process](broken-reference)
-6. [Available programs, reports and indicators](../data-visualisation/programs-reports-and-indicators.md)
-7. [UI Customisations](../data-visualisation/ui-customisations.md)
+6. [Available programs, reports and indicators](../dashboard-visualizations-and-reports/programs-reports-and-indicators/)
+7. [UI Customisations](broken-reference)
 
 ## Known Issues
 

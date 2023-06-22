@@ -39,12 +39,21 @@
 
 * [Configuring Keycloak](user-authentication/configuring-keycloak.md)
 * [Adding Users](user-authentication/adding-users.md)
-* [UI Customisations](user-authentication/ui-customisations.md)
 
-## 📊 Data Visualisation
+## 📊 Dashboard, Visualizations and Reports
 
-* [Programs, Reports & Indicators](data-visualisation/programs-reports-and-indicators.md)
-* [UI Customisations](data-visualisation/ui-customisations.md)
+* [High level view of how visualizations work](dashboard-visualizations-and-reports/high-level-view-of-how-visualizations-work.md)
+* [Programs, Reports & Indicators](dashboard-visualizations-and-reports/programs-reports-and-indicators/README.md)
+  * [Teacher Attendance](dashboard-visualizations-and-reports/programs-reports-and-indicators/teacher-attendance.md)
+  * [Student Attendance](dashboard-visualizations-and-reports/programs-reports-and-indicators/student-attendance.md)
+  * [PM POSHAN](dashboard-visualizations-and-reports/programs-reports-and-indicators/pm-poshan.md)
+  * [PGI](dashboard-visualizations-and-reports/programs-reports-and-indicators/pgi.md)
+  * [UDISE+](dashboard-visualizations-and-reports/programs-reports-and-indicators/udise+.md)
+  * [NAS](dashboard-visualizations-and-reports/programs-reports-and-indicators/nas.md)
+  * [DIKSHA](dashboard-visualizations-and-reports/programs-reports-and-indicators/diksha.md)
+  * [Review Meetings](dashboard-visualizations-and-reports/programs-reports-and-indicators/review-meetings.md)
+  * [NISHTHA](dashboard-visualizations-and-reports/programs-reports-and-indicators/nishtha.md)
+* [UI Customisations](dashboard-visualizations-and-reports/ui-customisations.md)
 
 ## ⚙ Configurations
 

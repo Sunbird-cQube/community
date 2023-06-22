@@ -8,15 +8,15 @@ description: >-
 
 There are a total of 9 programs available in cQube v5.0:
 
-1. [Student Attendance](programs-reports-and-indicators.md#1.-student-attendance)
-2. [Teacher Attendance](programs-reports-and-indicators.md#2.-teacher-attendance)
-3. [Review Meetings](programs-reports-and-indicators.md#3.-review-meetings)
-4. [NISHTHA](programs-reports-and-indicators.md#4.-nishtha)
-5. [DIKSHA](programs-reports-and-indicators.md#5.-diksha)
-6. [PM POSHAN](programs-reports-and-indicators.md#6.-pm-poshan)
-7. [NAS](programs-reports-and-indicators.md#7.-nas)
-8. [UDISE](programs-reports-and-indicators.md#8.-udise)
-9. [PGI](programs-reports-and-indicators.md#9.-pgi)
+1. [Student Attendance](./#1.-student-attendance)
+2. [Teacher Attendance](./#2.-teacher-attendance)
+3. [Review Meetings](./#3.-review-meetings)
+4. [NISHTHA](./#4.-nishtha)
+5. [DIKSHA](./#5.-diksha)
+6. [PM POSHAN](./#6.-pm-poshan)
+7. [NAS](./#7.-nas)
+8. [UDISE](./#8.-udise)
+9. [PGI](./#9.-pgi)
 
 ### 1. Student Attendance
 
@@ -26,10 +26,7 @@ This program entails indicators to monitor compliance and performance of student
 
 For a State Officer:
 
-| Indicator                                            | Chart Type | Applicable Filters |
-| ---------------------------------------------------- | ---------- | ------------------ |
-| Average % Schools Reporting Student Attendance       | Big Number | Date Range         |
-| District-wise % Schools Reporting Student Attendance | Table      | Date Range         |
+<table data-full-width="true"><thead><tr><th>Indicator</th><th>Chart Type</th><th>Applicable Filters</th></tr></thead><tbody><tr><td>Average % Schools Reporting Student Attendance</td><td>Big Number</td><td>Date Range</td></tr><tr><td>District-wise % Schools Reporting Student Attendance</td><td>Table</td><td>Date Range</td></tr></tbody></table>
 
 For a District Officer:
 
