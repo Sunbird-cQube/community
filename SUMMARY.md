@@ -53,14 +53,16 @@
   * [DIKSHA](dashboard-visualizations-and-reports/programs-reports-and-indicators/diksha.md)
   * [Review Meetings](dashboard-visualizations-and-reports/programs-reports-and-indicators/review-meetings.md)
   * [NISHTHA](dashboard-visualizations-and-reports/programs-reports-and-indicators/nishtha.md)
-* [UI Customisations](dashboard-visualizations-and-reports/ui-customisations.md)
 
-## ⚙ Configurations
+## ⚙ UI Configurations
 
-* [Connecting cQube Datasets to External Visualisation Tools](configurations/connecting-cqube-datasets-to-external-visualisation-tools.md)
-* [Adding a New Program](configurations/adding-a-new-program.md)
-* [Adding a New Report](configurations/adding-a-new-report.md)
-* [Adding a New Indicator](configurations/adding-a-new-indicator.md)
+* [UI Customisations](ui-configurations/ui-customisations/README.md)
+  * [Changing Dashboard Logos and Headers](ui-configurations/ui-customisations/changing-dashboard-logos-and-headers.md)
+  * [Changing Program Name, Icon and Side Menu Sequence](ui-configurations/ui-customisations/changing-program-name-icon-and-side-menu-sequence.md)
+* [Connecting cQube Datasets to External Visualisation Tools](ui-configurations/connecting-cqube-datasets-to-external-visualisation-tools.md)
+* [Adding a New Program](ui-configurations/adding-a-new-program.md)
+* [Adding a New Report](ui-configurations/adding-a-new-report.md)
+* [Adding a New Indicator](ui-configurations/adding-a-new-indicator.md)
 
 ## ⏱ Standard Operating Procedure
 
