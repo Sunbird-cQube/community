@@ -19,7 +19,7 @@
 * [Design Principles](technical-overview/design-principles.md)
 * [Key Components](technical-overview/key-components.md)
 
-## 💻 Steps before Ingestion
+## 📄 Steps before Ingestion
 
 * [Define Dimensions Schema](steps-before-ingestion/dimensions.md)
 * [Define Events / Facts Schema](steps-before-ingestion/events-facts.md)
@@ -63,12 +63,53 @@
 * [Adding a New Program](ui-configurations/adding-a-new-program.md)
 * [Adding a New Report](ui-configurations/adding-a-new-report.md)
 * [Adding a New Indicator](ui-configurations/adding-a-new-indicator.md)
+* [Additional customizations](ui-configurations/additional-customizations/README.md)
+  * [Adding a new KPI](ui-configurations/additional-customizations/adding-a-new-kpi.md)
+  * [Table DrillDown Customization](ui-configurations/additional-customizations/table-drilldown-customization.md)
+  * [Adding a Map KPI into dashboard ms](ui-configurations/additional-customizations/adding-a-map-kpi-into-dashboard-ms.md)
+
+## 🆘 Common issues and their solutions
+
+* [Deployment & ingestion related issues & their solutions](common-issues-and-their-solutions/ui-customisations.md)
 
 ## ⏱ Standard Operating Procedure
 
 * [Reporting a Bug](standard-operating-procedure/reporting-a-bug.md)
 * [Requesting for Support](standard-operating-procedure/requesting-for-support.md)
 * [Suggesting Enhancements](standard-operating-procedure/suggesting-enhancements.md)
+
+## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
+
+* [cQube - Release V 5.0.3](release-notes/cqube-release-v-5.0.3.md)
+* [cQube - Release V 5.0.2](release-notes/cqube-release-v-5.0.2.md)
+* [cQube - Release V 5.0.1](release-notes/cqube-release-v-5.0.1.md)
+* [cQube - Release V 5.0](release-notes/cqube-release-v-5.0.md)
+* [cQube - Release V 4.1-beta](release-notes/cqube-release-notes-v4.1-beta.md)
+* [cQube - Release V 4.0-beta](release-notes/cqube-release-notes-v4.0-beta.md)
+* [cQube - Release V 4.0-alpha](release-notes/cqube-release-notes-v4.0-alpha.md)
+* [cQube - Release V 3.7](release-notes/cqube-release-notes-v-3.7.md)
+* [cQube - Release V 3.6](release-notes/cqube-release-notes-v-3.6.md)
+* [cQube - Release V 3.5](release-notes/cqube-release-notes-v-3.5.md)
+* [cQube - Release V 3.4](release-notes/cqube-release-notes-v-3.4.md)
+* [cQube - Release V 3.3](release-notes/cqube-release-v-3.3.md)
+* [cQube - Release V 3.2](release-notes/cqube-release-notes-v-3.2.md)
+* [cQube - Release V 3.1](release-notes/cqube-release-v-3.1.md)
+* [cQube - Release V 3](release-notes/cqube-release-v-3.md)
+* [cQube - Release V 2](release-notes/cqube-release-v-2.md)
+* [cQube - Release V 1.13 and V 1.13.1](release-notes/cqube-release-v-1.13-and-v-1.13.1.md)
+* [cQube - Release V 1.12 and V 1.12.1](release-notes/cqube-release-v-1.12-and-v-1.12.1.md)
+* [cQube - Release V 1.11](release-notes/cqube-release-v-1.11.md)
+* [cQube - Release V 10 and V 10.1](release-notes/cqube-release-v-10-and-v-10.1.md)
+* [cQube - Release V 1.9](release-notes/cqube-release-v-1.9.md)
+* [cQube - Release V 1.8 and V 1.8.1](release-notes/cqube-release-v-1.8-and-v-1.8.1.md)
+* [cQube - Release Notes V 1.7](release-notes/cqube-release-notes-v-1.7.md)
+* [cQube - Release Notes V 1.6 and V 1.6.1](release-notes/cqube-release-notes-v-1.6.md)
+* [cQube - Release Notes V 1.5](release-notes/cqube-release-notes-v-1.5.md)
+* [cQube - Release Notes V 1.4](release-notes/cqube-release-notes-v-1.4.md)
+* [cQube - Release Notes V 1.3](release-notes/cqube-release-v1.3.md)
+* [cQube - Release Notes V 1.2 and V 1.2.1](release-notes/cqube-release-notes-v1.2-and-v1.2.1.md)
+* [cQube - Release Notes V 1.1](release-notes/cqube-release-notes-v1.1.md)
+* [cQube - Release Notes V 1.0](release-notes/cqubeversion-1.0.md)
 
 ## 📂 cQube V 4.1 - Beta
 
@@ -114,35 +155,3 @@
 * [Discuss](https://github.com/Sunbird-cQube/community/discussions)
 * [Report](https://github.com/Sunbird-cQube/community/issues)
 * [Source Code](https://github.com/Sunbird-cQube)
-
-## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
-
-* [cQube - Release V 5.0.2](release-notes/cqube-release-v-5.0.2.md)
-* [cQube - Release V 5.0.1](release-notes/cqube-release-v-5.0.1.md)
-* [cQube - Release V 5.0](release-notes/cqube-release-v-5.0.md)
-* [cQube - Release V 4.1-beta](release-notes/cqube-release-notes-v4.1-beta.md)
-* [cQube - Release V 4.0-beta](release-notes/cqube-release-notes-v4.0-beta.md)
-* [cQube - Release V 4.0-alpha](release-notes/cqube-release-notes-v4.0-alpha.md)
-* [cQube - Release V 3.7](release-notes/cqube-release-notes-v-3.7.md)
-* [cQube - Release V 3.6](release-notes/cqube-release-notes-v-3.6.md)
-* [cQube - Release V 3.5](release-notes/cqube-release-notes-v-3.5.md)
-* [cQube - Release V 3.4](release-notes/cqube-release-notes-v-3.4.md)
-* [cQube - Release V 3.3](release-notes/cqube-release-v-3.3.md)
-* [cQube - Release V 3.2](release-notes/cqube-release-notes-v-3.2.md)
-* [cQube - Release V 3.1](release-notes/cqube-release-v-3.1.md)
-* [cQube - Release V 3](release-notes/cqube-release-v-3.md)
-* [cQube - Release V 2](release-notes/cqube-release-v-2.md)
-* [cQube - Release V 1.13 and V 1.13.1](release-notes/cqube-release-v-1.13-and-v-1.13.1.md)
-* [cQube - Release V 1.12 and V 1.12.1](release-notes/cqube-release-v-1.12-and-v-1.12.1.md)
-* [cQube - Release V 1.11](release-notes/cqube-release-v-1.11.md)
-* [cQube - Release V 10 and V 10.1](release-notes/cqube-release-v-10-and-v-10.1.md)
-* [cQube - Release V 1.9](release-notes/cqube-release-v-1.9.md)
-* [cQube - Release V 1.8 and V 1.8.1](release-notes/cqube-release-v-1.8-and-v-1.8.1.md)
-* [cQube - Release Notes V 1.7](release-notes/cqube-release-notes-v-1.7.md)
-* [cQube - Release Notes V 1.6 and V 1.6.1](release-notes/cqube-release-notes-v-1.6.md)
-* [cQube - Release Notes V 1.5](release-notes/cqube-release-notes-v-1.5.md)
-* [cQube - Release Notes V 1.4](release-notes/cqube-release-notes-v-1.4.md)
-* [cQube - Release Notes V 1.3](release-notes/cqube-release-v1.3.md)
-* [cQube - Release Notes V 1.2 and V 1.2.1](release-notes/cqube-release-notes-v1.2-and-v1.2.1.md)
-* [cQube - Release Notes V 1.1](release-notes/cqube-release-notes-v1.1.md)
-* [cQube - Release Notes V 1.0](release-notes/cqubeversion-1.0.md)

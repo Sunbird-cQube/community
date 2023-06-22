@@ -7,7 +7,7 @@ description: 'Note: These steps are for adding a new report to an existing progr
 1. Navigate to the respective program in the client-side code base where the report has to be added.
 2. Inside the "pages" folder, create an Angular component named after the report using the following CLI command: `ng g c <report-name>`
 
-<img src="../.gitbook/assets/image (34).png" alt="" data-size="original">
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 3. Once the component is created, it will contain four files - `ts`, `spec-ts`, `html`, and `css`.
 4. Fill the TypeScript and HTML files with the reference of other programs. You may need to have knowledge about Angular and how functions have been designed.
