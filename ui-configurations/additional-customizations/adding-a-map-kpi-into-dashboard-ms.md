@@ -5,11 +5,9 @@ A shared map component using leaflet is available in the below path
 `src/app/shared/components/maps/leaflet-map`\
 
 
-* Create a new report component and add the above shared component in the html files with any (additional elements if needed)
+* Create a new report component and add the above shared component in the html files with any additional elements if needed
 
 \
-
-
 For reference follow the below file:
 
 src/app/views/teacher-attendance/pages/teacher-attendance-summary/reports/teacher-attendance-map/teacher-attendance-map.component.html
