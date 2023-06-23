@@ -2,7 +2,7 @@
 description: Localhost Deployment Document
 ---
 
-# End to end installation on local
+# End to End Installation on Local
 
 ## Prerequisites
 

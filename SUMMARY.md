@@ -11,7 +11,7 @@
   * [For On-Premise Server](installation-and-upgradation/step-wise-installation-process/for-on-premise-server.md)
   * [For Oracle Server](installation-and-upgradation/step-wise-installation-process/for-oracle-server.md)
 * [Next Common Steps](installation-and-upgradation/next-common-steps.md)
-* [End to end installation on local](installation-and-upgradation/end-to-end-installation-on-local.md)
+* [End to End Installation on Local](installation-and-upgradation/end-to-end-installation-on-local.md)
 * [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
 
 ## 💻 Technical Overview
