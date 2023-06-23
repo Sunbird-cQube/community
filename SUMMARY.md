@@ -29,7 +29,7 @@
 
 ## 🔃 Data Ingestion & Processing
 
-* [Step-wise Adapter Creation Process](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
+* [Adapter Details](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
 * [High Level Understanding of Data Ingestion](data-ingestion-and-processing/high-level-understanding-of-data-ingestion.md)
 * [Step-wise Ingestion Process \[National Programs\]](data-ingestion-and-processing/step-wise-ingestion-process-national-programs/README.md)
   * [Error monitoring](data-ingestion-and-processing/step-wise-ingestion-process-national-programs/error-monitoring.md)
