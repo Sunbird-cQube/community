@@ -14,6 +14,11 @@
 * [End to End Installation on Local](installation-and-upgradation/end-to-end-installation-on-local.md)
 * [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
 
+## 🔐 User Authentication
+
+* [Configuring Keycloak](user-authentication/configuring-keycloak.md)
+* [Adding Users](user-authentication/adding-users.md)
+
 ## 💻 Technical Overview
 
 * [Architecture](technical-overview/architecture.md)
@@ -35,11 +40,6 @@
   * [Error monitoring](data-ingestion-and-processing/step-wise-ingestion-process-national-programs/error-monitoring.md)
 * [Step-wise Ingestion Process \[State Programs\]](data-ingestion-and-processing/step-wise-ingestion-process-state-programs/README.md)
   * [Error Monitoring](data-ingestion-and-processing/step-wise-ingestion-process-state-programs/error-monitoring.md)
-
-## 🔐 User Authentication
-
-* [Configuring Keycloak](user-authentication/configuring-keycloak.md)
-* [Adding Users](user-authentication/adding-users.md)
 
 ## 📊 Dashboard, Visualizations and Reports
 

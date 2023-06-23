@@ -1,10 +1,4 @@
----
-description: >-
-  Once you have the csv files ready for ingestion, the following steps will help
-  you ingest the data into the database. Please follow the below steps carefully
----
-
-# Step-wise Adapter Creation Process
+# Adapter Details
 
 ## Overview
 
