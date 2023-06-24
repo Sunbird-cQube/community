@@ -12,6 +12,11 @@ description: Localhost Deployment Document
 * 16 GB of System RAM (minimum requirement)
 * 250GB HDD
 
+### Softwares to be installed:
+
+* Git - Can be installed using the command sudo apt-get install git
+* Postman - Can be installed using ubuntu software center
+
 ### Checking pre existing ports:
 
 Make sure the following ports are not running. If running please stop the service or kill the port
