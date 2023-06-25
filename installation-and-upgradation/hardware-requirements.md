@@ -21,7 +21,6 @@ Other Requirements:
 
 _\*For existing users of cQube v4.1, Ubuntu 18.04 is also supported for upgrade to cQube v5.0._
 
-
 To download the NIFI in Windows [[link](https://archive.apache.org/dist/nifi/1.12.1/nifi-1.12.1-bin.zip)]
 
 ### For On-Premise (State Data Centre, Local):
