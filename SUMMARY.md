@@ -2,7 +2,7 @@
 
 * [Product Overview](README.md)
 
-## 👩💻 Installation & Upgradation
+## 👩💻 👩💻 Installation & Upgradation
 
 * [Getting Started](installation-and-upgradation/getting-started.md)
 * [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)

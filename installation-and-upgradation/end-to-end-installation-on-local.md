@@ -46,7 +46,7 @@ Step2: Clone the repository using the following command\
 
 <figure><img src="https://lh4.googleusercontent.com/uHSD-RoZoVOF9A_v163j2uV8Ace_jc9SgkxZz-sXs8lRIUAxSjDaYAQbjeeVRhV3ZSAz5q6r6cag0CGBsvoSXGX4ziS-wppuTfPV0qWs5IVBDdmtUyo07yL4yRlZq8XL61bUEqHnjTQbW0rxoLDLlIA" alt=""><figcaption></figcaption></figure>
 
-Step - 3: Navigate to the directory where cqube is cloned or downloaded and checkout to the latest branch ( currently it is release-v5.0.3 )
+Step - 3: Navigate to the directory where cqube is cloned or downloaded and checkout to the latest branch **( currently it is release-v5.0.3, please check the latest branch before yo run the command)**
 
 cd cqube-devops/ && git checkout release-v5.0.3
 

@@ -31,9 +31,9 @@ Enter storage\_type as local. Then, install.sh will automatically get installed 
 
 <figure><img src="../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-**Step - 2:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch
+**Step - 2:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch **( currently it is release-v5.0.3, please check the latest branch before yo run the command)**
 
-`cd cqube-devops/ && git checkout release-5.0`
+cd cqube-devops/ && git checkout release-v5.0.3
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
