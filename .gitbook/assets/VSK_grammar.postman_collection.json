@@ -1,0 +1,477 @@
+{
+	"info": {
+		"_postman_id": "87a55b7c-2286-4c3f-ab29-6dffd70a98b4",
+		"name": "VSK_grammar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "diksha_etb_learning-session",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"diksha_etb_learning-session\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"board\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"subject\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"content_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"mime_type\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"total_no_of_plays(App and Portal)\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_play_time(App and Portal)\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"grade\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"medium\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"category\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"board\",\n            \"subject\",\n            \"content_name\",\n            \"mime_type\",\n            \"total_no_of_plays(App and Portal)\",\n            \"total_play_time(App and Portal)\",\n            \"grade\",\n            \"medium\",\n            \"category\",\n            \"state_name\",\n            \"state_code\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "diksha_etb_plays-per-capita",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"diksha_etb_plays-per-capita\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"plays_per_capita\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"state_name\",\n            \"plays_per_capita\",\n            \"state_code\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "diksha_nishtha_consumption-by-course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"diksha_nishtha_consumption-by-course\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"published_by\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"user_state\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"course_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"program\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"enrollments\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"completion\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"certification\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            }\n        },\n        \"required\": [\n            \"published_by\",\n            \"user_state\",\n            \"course_name\",\n            \"program\",\n            \"enrollments\",\n            \"completion\",\n            \"certification\",\n            \"state_name\",\n            \"state_code\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "diksha_nishtha_consumption-by-district",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"diksha_nishtha_consumption-by-district\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"program\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n             \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"total_enrollments\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_completion\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_certifications\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"certification%\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            }\n        },\n        \"required\": [\n            \"program\",\n            \"district_name\",\n            \"state_name\",\n            \"total_enrollments\",\n            \"total_completion\",\n            \"total_certifications\",\n            \"certification%\",\n            \"state_code\",\n            \"district_code\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "diksha_nishtha_percentage-enrollment-certification",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"diksha_nishtha_percentage-enrollment-certification\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"program\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"total_enrolments\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_completions\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_certificates_issued\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_courses\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"doe\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"local_body\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"%_target_achieved_enrolment\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"%_target_achieved_ertificates\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"%_target_remaining_enrolment\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"%_target_remaining_certificates\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_expected_enrolment\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_expected_certification\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"program\",\n            \"state_name\",\n            \"state_code\",\n            \"latitude\",\n            \"longitude\",\n            \"total_enrolments\",\n            \"total_completions\",\n            \"total_certificates_issued\",\n            \"total_courses\",\n            \"doe\",\n            \"local_body\",\n            \"%_target_achieved_enrolment\",\n            \"%_target_achieved_certificates\",\n            \"%_target_remaining_enrolment\",\n            \"%_target_remaining_certificates\",\n            \"total_expected_enrolment\",\n            \"total_expected_certification\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "diksha_nishtha_program-started",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"diksha_nishtha_program-started\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"program\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"started\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            }\n        },\n        \"required\": [\n            \"program\",\n            \"state_name\",\n            \"started\",\n            \"state_code\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "diksha_nishtha_tot-courses-medium",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"diksha_nishtha_tot-courses-medium\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"program_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"total_courses\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_medium\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"state_ode\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            }\n        },\n        \"required\": [\n            \"program_name\",\n            \"state_name\",\n            \"total_courses\",\n            \"total_medium\",\n            \"state_code\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "nas_all-dashboard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"nas_all-dashboard\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"number_of_schools\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"number_of_teachers\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"students_surveyed\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"learning_outcome_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"performance\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"subject\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"grade\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"learning_outcome\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"state_name\",\n            \"district_name\",\n            \"state_code\",\n            \"district_code\",\n            \"number_of_schools\",\n            \"number_of_teachers\",\n            \"students_surveyed\",\n            \"learning_outcome_code\",\n            \"performance\",\n            \"subject\",\n            \"grade\",\n            \"learning_outcome\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "nas_program-started",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"nas_program-started\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"started\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            }\n        },\n        \"required\": [\n            \"state_name\",\n            \"started\",\n            \"state_code\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pgi_all-dashboard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"pgi_all-dashboard\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n             \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"outcome\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"effective_classroom_transaction\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"infrastructure_facilities_studententitlements\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"school_safety_and_child_protection\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"digital_learning\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"governance_processes\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"grand_total\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"state_name\",\n            \"district_name\",\n            \"state_code\",\n            \"district_code\",\n            \"latitude\",\n            \"longitude\",\n            \"outcome\",\n            \"effective_classroom_transaction\",\n            \"infrastructure_facilities_studententitlements\",\n            \"school_safety_and_child_protection\",\n            \"digital_learning\",\n            \"governance_processes\",\n            \"grand_total\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pm-poshan_access-across-india",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"pm-poshan_access-across-india\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n               \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"enrolled\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"meal_served\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"total_schools\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"state_name\",\n            \"district_name\",\n            \"state_code\",\n            \"district_code\",\n            \"latitude\",\n            \"longitude\",\n            \"enrolled\",\n            \"total_schools\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "udise-all-dashboard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"udise-all-dashboard\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"state_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"district_code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"number_of_teachers\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"number_of_schools\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"number_of_tudents\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"ptr\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"tot_schools_having_toilet\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"tot_schools_having_drinkingwater\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"tot_schools_having_electricity\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"tot_schools_having_library\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"tot_govt_n_govtaided_schools_recieved_textbook\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"Total Enrollment CWSN\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"tot_schools_having_ramp\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"% schools having toilet\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"%_schools_having_drinking_water\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"%_schools_having_electricity\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"%_schools_having_library\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"%_govt_aided_schools_received_textbook\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"%_schools_with_ramp\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"state_name\",\n            \"district_name\",\n            \"state_code\",\n            \"district_code\",\n            \"latitude\",\n            \"longitude\",\n            \"number_of_teachers\",\n            \"number_of_schools\",\n            \"number_of_students\",\n            \"ptr\",\n            \"tot_schools_having_toilet\",\n            \"tot_schools_having_drinkingwater\",\n            \"tot_schools_having_electricity\",\n            \"tot_schools_having_library\",\n            \"tot_govt_n_govtaided_schools_recieved_textbook\",\n            \"total_enrollment_cwsn\",\n            \"tot_schools_having_ramp\",\n            \"%_schools_having_toilet\",\n            \"%_schools_having_drinking_water\",\n            \"%_schools_having_electricity\",\n            \"%_schools_having_library\",\n            \"%_govt_aided_schools_received_textbook\",\n            \"%_schools_with_ramp\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "udise_program-started",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"udise_program-started\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"started\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"State Code\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"Latitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            },\n            \"Longitude\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": false\n            }\n        },\n        \"required\": [\n            \"state_name\",\n            \"started\",\n            \"state_code\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vsk_diksha_etb_coverage-status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"vsk_diksha_etb_coverage-status\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"textbook_id\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"medium\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"grade\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"subject\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"linked_qr_count\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"resource_count\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"textbook_id\",\n            \"medium\",\n            \"grade\",\n            \"subject\",\n            \"linked_qr_count\",\n            \"resource_count\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vsk_diksha_etb_qr-coverage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"vsk_diksha_etb_qr-coverage\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"textbook_id\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"textbook_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"medium\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"grade\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"subject\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"day_of_created_on\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"qr_coverage\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"qr_codes_linked_to_content\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            },\n            \"total_qr_codes\": {\n                \"type\": \"number\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"textbook_id\",\n            \"textbook_name\",\n            \"medium\",\n            \"grade\",\n            \"subject\",\n            \"day_of_created_on\",\n            \"qr_coverage\",\n            \"qr_codes_linked_to_content\",\n            \"total_qr_codes\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "totalteachers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"totalteachers\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"date\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"district_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"block_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"cluster_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"school_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n           \n            \"total_teachers\": {\n                \"type\": \"number\",\n                \"shouldNotNull\": true\n            }\n        },\n        \"required\": [\n            \"date\",\n            \"district_id\",\n            \"block_id\",\n            \"cluster_id\",\n            \"school_id\",\n            \"total_teachers\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "teacherspresent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"teacherspresent\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"date\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"district_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"block_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"cluster_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"school_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"teachers_marked_present\": {\n                \"type\": \"number\",\n                \"shouldNotNull\": true\n            }\n        },\n        \"required\": [\n            \"date\",\n            \"district_id\",\n            \"block_id\",\n            \"cluster_id\",\n            \"school_id\",\n            \"teachers_marked_present\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "teachersmarked",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"teachersmarked\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"date\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"district_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"block_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"cluster_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"school_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"teachers_marked\": {\n                \"type\": \"number\",\n                \"shouldNotNull\": true\n            }\n        },\n        \"required\": [\n            \"date\",\n            \"district_id\",\n            \"block_id\",\n            \"cluster_id\",\n            \"school_id\",\n            \"teachers_marked\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/event",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

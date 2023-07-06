@@ -1,0 +1,347 @@
+{
+	"info": {
+		"_postman_id": "01b51bf1-2d82-4e1c-ada9-13ff2f75d588",
+		"name": "dimension_schema",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "grade-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"grade\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"grade_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"grade\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            }\n        },\n        \"required\":[\n            \"grade_id\",\n            \"grade\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "medium-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"medium\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"medium_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"medium\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            }\n        },\n        \"required\":[\n            \"medium_id\",\n            \"medium\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "state-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"state\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"state_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"state_name\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"latitude\":{\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            },\n            \"longitude\":{\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            }\n        },\n        \"required\":[\n            \"state_id\",\n            \"state_name\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "school-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"school\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"school_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"udise_code\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"school_name\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"schoolcategory_id\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": false\n            },\n             \"schoolmanagement_id\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": false\n            },\n            \"school_statecategory_id\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": false\n            },\n            \"cluster_id\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"cluster_name\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"block_id\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"block_name\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"district_id\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"district_name\":{\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"latitude\":{\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            },\n            \"longitude\":{\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            }\n        },\n        \"required\":[\n            \"school_id\",\n            \"udise_code\",\n            \"school_name\",\n            \"cluster_id\",\n            \"cluster_name\",\n            \"block_id\",\n            \"block_name\",\n            \"district_id\",\n            \"district_name\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subject-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"subject\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"subject_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"subject\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            }\n        },\n        \"required\":[\n            \"subject_id\",\n            \"subject\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "exam-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"exam\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"exam_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"academicyear_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n             \"exam_event\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            }\n        },\n        \"required\":[\n            \"exam_id\",\n            \"academicyear_id\",\n            \"exam_event\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "district-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"district\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"district_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"district_name\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n             \"state_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n             \"state_name\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n             \"latitude\": {\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            },\n             \"longitude\": {\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            }\n        },\n        \"required\":[\n            \"district_id\",\n            \"district_name\",\n            \"state_id\",\n            \"state_name\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cluster-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"cluster\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"cluster_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"cluster_name\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"block_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"block_name\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"district_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"district_name\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            }\n        },\n        \"required\": [\n            \"cluster_id\",\n            \"cluster_name\",\n            \"block_id\",\n            \"block_name\",\n            \"district_id\",\n            \"district_name\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "block-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"block\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"block_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"block_name\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"district_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true,\n                \"unique\": true\n            },\n            \"district_name\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"latitude\": {\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            },\n            \"longitude\": {\n                \"type\": \"number\",\n                \"shouldNotNull\": false\n            }\n        },\n        \"required\": [\n            \"block_id\",\n            \"block_name\",\n            \"district_id\",\n            \"district_name\",\n            \"latitude\",\n            \"longitude\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "academicyear-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"academicyear\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"academicyear_id\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            },\n            \"academicyear\": {\n                \"type\": \"string\",\n                \"shouldNotNull\": true\n            }\n        },\n        \"required\": [\n            \"academicyear_id\",\n            \"academicyear\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "schoolcategory-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"schoolcategory\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"schoolcategory_id\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"schoolcategory_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n             \"grades\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            }      \n        },\n        \"required\": [\n            \"schoolcategory_id\",\n            \"schoolcategory_name\"\n           \n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "statecategory-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"statecategory\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"school_statecategory_id\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"school_statecategory_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            }   \n        },\n        \"required\": [\n            \"school_statecategory_id\",\n            \"school_statecategory_name\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "schoolmanagement-dimension",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"program\": \"schoolmanagement\",\n    \"input\": {\n        \"type\": \"object\",\n        \"properties\": {\n            \"schoolmanagement_id\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            },\n            \"schoolmanagement_name\": {\n                \"type\": \"string\",\n                \"shouldnotnull\": true\n            }\n        },\n        \"required\": [\n            \"schoolmanagement_id\",\n            \"schoolmanagement_name\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/dimension",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dimension"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

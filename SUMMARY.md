@@ -36,6 +36,7 @@
 
 * [Adapter Details](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
 * [High Level Understanding of Data Ingestion](data-ingestion-and-processing/high-level-understanding-of-data-ingestion.md)
+* [Postman collections](data-ingestion-and-processing/postman-collections.md)
 * [Step-wise Ingestion Process \[National Programs\]](data-ingestion-and-processing/step-wise-ingestion-process-national-programs/README.md)
   * [Error monitoring](data-ingestion-and-processing/step-wise-ingestion-process-national-programs/error-monitoring.md)
 * [Step-wise Ingestion Process \[State Programs\]](data-ingestion-and-processing/step-wise-ingestion-process-state-programs/README.md)

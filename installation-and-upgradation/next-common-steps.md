@@ -13,7 +13,7 @@ Clone the cqube-devops repository:
 * Navigate to the cloned directory: cd cqube-devops/
 * Checkout the desired branch:
 
-Run the command: `git checkout release-v5.0.3` \[please check the latest version and run the command with it]
+Run the command: `git checkout release-v5.0.3` **\[please check the latest version and run the command with it]**
 
 ![](https://lh4.googleusercontent.com/QJfqsmwiztfPvDedycMEqK2jwZKxqJUa3y\_nXJei3ncV3HI0zjmWM3HGF7J72rJdJwTe5XIWBUgqlL63n91FGNfKSpKKc9s\_mgOkmAi7e57BTNoB2eyvuvvGWPiWS5QDYwzcYUVjPjLX57Zi2Yr-pH8)
 

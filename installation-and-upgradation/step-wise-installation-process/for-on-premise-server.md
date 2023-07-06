@@ -31,7 +31,7 @@ Enter storage\_type as local. Then, install.sh will automatically get installed 
 
 <figure><img src="../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-**Step - 2:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch **( currently it is release-v5.0.3, please check the latest branch before yo run the command)**
+**Step - 2:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch **(currently the release is v5.0.3, please check the latest branch before you run the command)**
 
 cd cqube-devops/ && git checkout release-v5.0.3
 
@@ -55,19 +55,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * api\_end\_point ( Enter the url in which cqube to be configured )
 * Storage\_type : Local
 * Mode\_of\_installation:Public
-* Cron syntax to run adapter scheduling (EX: if want to run the adapter at 11AM )
 
-0 0 11 \* \* ?
-
-* Cron syntax to run nifi plug in (EX: if want to run the nifi plug in at 11:30 AM)
-
-0 30 11 \* \* ?
-
-* Cron syntax to run nifi processing file (EX: if want to run the nifi plug in at 11:30 AM)
-
-0 30 11 \* \* ?
-
-\
 
 
 <figure><img src="../../.gitbook/assets/image (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
