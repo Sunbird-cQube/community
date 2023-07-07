@@ -78,7 +78,7 @@ Navigate to the Cloned Directory
 
 Navigate to the directory where cQube is cloned or downloaded and checkout the desired branch:
 
-`cd cqube-devops/ && git checkout dev`
+`cd cqube-devops/ && git checkout <branch_name>`
 
 ### Step 4:
 

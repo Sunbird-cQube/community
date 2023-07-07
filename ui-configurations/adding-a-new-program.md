@@ -113,4 +113,37 @@ This process may involve uploading the CSV file or connecting to the database di
 
 **Add event data on a regular frequency:** To keep your program up-to-date, continuously add new event data to the platform. Determine an appropriate frequency for updating the data, such as daily, weekly, or monthly.w Ensure that the new data is compatible with the existing event and dimension schema.
 
+### UI Program Addition
+
+* Create a new module manually or using cli common ng g m \<module-name> in the below folder in the angular code base: src/app/views
+* Add the folders config and pages, where config holds a configuration file for the reports in this program and pages contains the code of all the tabs/reports.
+* Add the routing to the program component in the app-routing module using lazy-loading
+
+<figure><img src="https://lh5.googleusercontent.com/5jp9HOEX24O3pU1qomvK1K-TUm5Tje1cqODomTY9kxwSqgK5paqkyLTaJeVt96H2tqjoMwsu_IPk6LdzgtYuhXJdXiIO2Lp0PbEm_Gx4tQ8_35LdxOL2zcQ5to94LBl9miclCtpV98IU-coMYD4giPw" alt=""><figcaption></figcaption></figure>
+
+* Add the configuration of this program to the main\_matric.csv present in the root folder of query builder.( To add this program to side nav and summary statistics) as shown below.
+
+<figure><img src="https://lh5.googleusercontent.com/C5MX471pQ3wkaeUMxk2b6m-DESKg5eR6DZ98TebG70dJKwe6i6y7GbtP2UWU0xrLRjL62S0iHJQLsDhSadRENe-hxakPhapeLSEcgB88O0r9qOb0Lit2X6hNHrvcD59yZWn7dXw-QWhdlKm6k13b8L4" alt=""><figcaption></figcaption></figure>
+
+* Next add the programId filled in the above file to another file Program Selector in the query Builder root folder itself. The Program Selector file takes input from the ansible during installation to update which programs to be visible in the dashboard. If a new program is added after installation manually fill the programId and set the status true for that program to be visible in the dashboard.
+
+<figure><img src="https://lh3.googleusercontent.com/ZmR3QT4W0BoD2xFvnxxFrBuoP2HlAoyyekf3i7HeG6ixAXUanwUnAA7v3joZvNvX0D2VtAgJqLDS9wZEh1E0dwejin8E83YSCFPhzaPhZpl9A390ABQWlkuAI3kIKMmldBnDdjdao4y2B2sObX6VeA4" alt=""><figcaption></figcaption></figure>
+
+* Configuration file of the newly added program should be added to the below file:
+
+src/app/core/config/configMapping.ts
+
+
+
+All the configuration files are mapped at a place for easy access , This object will be used to map each row in  main\_metric with program wise configuration files with the respective programIds.
+
+<figure><img src="https://lh5.googleusercontent.com/hzRqczmIjAsrQz6MpSGPmnh6hIVO5_Iq8Hut922WAqTZgh495fPLdnozAsUUynvcZWly-PWhZtL_mFR3560MNxJVCCgtomPa6U0-9x2qTFOAgdqy02cJxra_LIoyGzaGNh9oQQpZR1Shi2QW--_jqSk" alt=""><figcaption></figcaption></figure>
+
+
+
+Later one can add the desired KPI to the above program created following the below steps
+
+\
+
+
 \
