@@ -4,15 +4,18 @@
 
 ## 👩💻 👩💻 Installation & Upgradation
 
-* [Getting Started](installation-and-upgradation/getting-started.md)
+* [Getting Started - Suggested Team Structure](installation-and-upgradation/getting-started.md)
 * [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
 * [Checking pre existing ports](installation-and-upgradation/checking-pre-existing-ports.md)
-* [Step-wise Installation Process](installation-and-upgradation/step-wise-installation-process.md)
-  * [For AWS Cloud Server](installation-and-upgradation/step-wise-installation-process/for-aws-cloud-server.md)
-  * [For On-Premise Server](installation-and-upgradation/step-wise-installation-process/for-on-premise-server.md)
-  * [For Oracle Server](installation-and-upgradation/step-wise-installation-process/for-oracle-server.md)
-* [Next Common Steps](installation-and-upgradation/next-common-steps.md)
-* [End to End Installation on Local](installation-and-upgradation/end-to-end-installation-on-local.md)
+* [Steps to setup instance: Server-wise](installation-and-upgradation/step-wise-installation-process.md)
+  * [Oracle Cloud Instance Setup](installation-and-upgradation/step-wise-installation-process/oracle-cloud-instance-setup.md)
+  * [AWS Instance Setup](installation-and-upgradation/step-wise-installation-process/aws-instance-setup.md)
+  * [SDC Instance setup](installation-and-upgradation/step-wise-installation-process/sdc-instance-setup.md)
+* [Next Steps for installation](installation-and-upgradation/next-common-steps/README.md)
+  * [Common steps](installation-and-upgradation/next-common-steps/common-steps.md)
+  * [AWS Steps](installation-and-upgradation/next-common-steps/aws-steps.md)
+  * [SDC Steps](installation-and-upgradation/next-common-steps/sdc-steps.md)
+* [End to End Installation on Local Setup](installation-and-upgradation/end-to-end-installation-on-local.md)
 * [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
 * [Microservices details](installation-and-upgradation/microservices-details.md)
 
@@ -27,19 +30,20 @@
 * [Design Principles](technical-overview/design-principles.md)
 * [Key Components](technical-overview/key-components.md)
 
-## 📄 Steps before Ingestion
+## 📄 Steps to Prepare Data
 
-* [Define Dimensions Schema](steps-before-ingestion/dimensions.md)
-* [Define Events / Facts Schema](steps-before-ingestion/events-facts.md)
-* [Example of cQube Dimension & Event Schema](steps-before-ingestion/example-of-cqube-dimension-and-event-schema.md)
-* [Datasets](steps-before-ingestion/datasets.md)
+* [Important Note](steps-to-prepare-data/important-note.md)
+* [Define Dimension Schema](steps-to-prepare-data/define-dimension-schema.md)
+* [Define Events / Facts Schema](steps-to-prepare-data/events-facts.md)
+* [Example of cQube Dimension & Event Schema](steps-to-prepare-data/example-of-cqube-dimension-and-event-schema/README.md)
+  * [Link to all cQube schemas](steps-to-prepare-data/example-of-cqube-dimension-and-event-schema/link-to-all-cqube-schemas.md)
 
 ## 🔃 Data Ingestion & Processing
 
 * [Adapter Details](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
 * [High Level Understanding of Data Ingestion](data-ingestion-and-processing/high-level-understanding-of-data-ingestion.md)
-* [Postman collection files](data-ingestion-and-processing/postman-collection-files/README.md)
-  * [Setting up postman](data-ingestion-and-processing/postman-collection-files/setting-up-postman.md)
+* [Setting up Postman](data-ingestion-and-processing/setting-up-postman/README.md)
+  * [Postman collection files](data-ingestion-and-processing/setting-up-postman/postman-collection-files.md)
 * [Adding a grammar  for a program to validate data during csv upload](data-ingestion-and-processing/adding-a-grammar-for-a-program-to-validate-data-during-csv-upload.md)
 * [Steps to upload the csv data file for new programs using ingestion API](data-ingestion-and-processing/steps-to-upload-the-csv-data-file-for-new-programs-using-ingestion-api.md)
 * [Step-wise Ingestion Process \[National Programs\]](data-ingestion-and-processing/step-wise-ingestion-process-national-programs/README.md)

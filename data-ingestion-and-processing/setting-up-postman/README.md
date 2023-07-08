@@ -1,4 +1,4 @@
-# Setting up postman
+# Setting up Postman
 
 * [Download](https://www.postman.com/downloads/) the postman application and import the collection.
 * Select the import option in postman to import the collection. Please refer to the screenshot.

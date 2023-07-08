@@ -49,7 +49,7 @@ There are several challenges that government program owners face while leveragin
 * Limitation on hiring expert technical staff (architects, engineers) to smartly leverage a combination of available products together for end-to-end monitoring
 * Constraints related to budgets lead to limitations on building extensive digital infrastructure capabilities
 
-#### Solution
+### Solution
 
 cQube Ed is a pre-packaged solution for education with 120+ pre-defined actionable
 
@@ -70,7 +70,7 @@ cQube Ed is based on the following design principles:
 
 ### cQube Ed Roadmap
 
-The cQube Ed Roadmap till June'23 has been published below. You can access it from [this](https://docs.google.com/spreadsheets/d/1e8b\_kLCfD0Oce9Jek4nrpBFQRk-IJOKgYy5GOnFs8Ho/edit#gid=1589485385) link as well.
+The cQube Ed Roadmap till June'23 has been published below. You can access it from [this](https://docs.google.com/spreadsheets/d/1e8b\_kLCfD0Oce9Jek4nrpBFQRk-IJOKgYy5GOnFs8Ho/edit#gid=1589485385) link as well. Updated roadmap coming soon...
 
 {% embed url="https://docs.google.com/spreadsheets/d/1e8b_kLCfD0Oce9Jek4nrpBFQRk-IJOKgYy5GOnFs8Ho/edit#gid=1589485385" %}
 

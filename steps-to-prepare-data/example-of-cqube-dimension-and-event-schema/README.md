@@ -80,8 +80,4 @@ Following schema will be required to enable the teacher attendance program:
 
 E.g. In teacher attendance event file, we will have 3 tables: one for total\_teachers, one for teachers\_attendance\_marked & one for teachers\_marked\_present
 
-
-
-Please check [here](https://docs.google.com/spreadsheets/u/0/d/10yWmivrqtxdRLiJpX\_ytzxbvoGG0WNWEI-7RLV8zelM/edit) for all the schema.
-
 \

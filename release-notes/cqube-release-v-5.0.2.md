@@ -17,7 +17,7 @@ Data ingestion can also be successfully completed when the data is ingested with
 
 ## Release Features
 
-1. A deployer is able to install cQube on Oracle - [Steps for Installation](../installation-and-upgradation/step-wise-installation-process/for-oracle-server.md)
+1. A deployer is able to install cQube on Oracle - [Steps for Installation](broken-reference)
 2. A deployer is able to ingest data successfully post data correction - [Common errors in ingestion](broken-reference)
 
 ## Upcoming Release Features
