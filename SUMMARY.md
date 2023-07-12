@@ -94,6 +94,10 @@
 
 * [Running List](frequently-asked-questions/reporting-a-bug.md)
 
+## 🧑🏫 Recording of trainings
+
+* [Link to the training videos](recording-of-trainings/reporting-a-bug.md)
+
 ## 🧠 Key Terms & Concepts
 
 * [Definitions](key-terms-and-concepts/reporting-a-bug.md)
