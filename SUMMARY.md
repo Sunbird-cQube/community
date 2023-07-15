@@ -80,6 +80,21 @@
   * [Adding a Map KPI into dashboard ms](ui-configurations/additional-customizations/adding-a-map-kpi-into-dashboard-ms.md)
   * [Configure default date range across app/specific report](ui-configurations/additional-customizations/configure-default-date-range-across-app-specific-report.md)
 
+## 🔎 QA testing
+
+* [Testing approaches & activities](qa-testing/ui-customisations.md)
+* [Manual & Automated testing](qa-testing/manual-and-automated-testing.md)
+* [Functional Testing](qa-testing/functional-testing/README.md)
+  * [Smoke Testing](qa-testing/functional-testing/smoke-testing.md)
+  * [Functional tests](qa-testing/functional-testing/functional-tests.md)
+  * [Regression Testing](qa-testing/functional-testing/regression-testing.md)
+  * [System Testing](qa-testing/functional-testing/system-testing.md)
+* [Test for One-Step Installation](qa-testing/test-for-one-step-installation.md)
+* [Test for Ingestion](qa-testing/test-for-ingestion.md)
+* [Test for nifi processing](qa-testing/test-for-nifi-processing.md)
+* [Test for UI Application](qa-testing/test-for-ui-application.md)
+* [Test for KPIs](qa-testing/test-for-kpis.md)
+
 ## 🆘 Common issues and their solutions
 
 * [Deployment & ingestion related issues & their solutions](common-issues-and-their-solutions/ui-customisations.md)
