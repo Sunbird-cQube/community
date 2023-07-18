@@ -40,7 +40,10 @@
 
 ## 🔃 Data Ingestion & Processing
 
-* [Adapter Details](data-ingestion-and-processing/step-wise-adapter-creation-process.md)
+* [Adapter Details](data-ingestion-and-processing/step-wise-adapter-creation-process/README.md)
+  * [Architecture](data-ingestion-and-processing/step-wise-adapter-creation-process/architecture.md)
+  * [Technology Used](data-ingestion-and-processing/step-wise-adapter-creation-process/technology-used.md)
+  * [Working of an Adapter](data-ingestion-and-processing/step-wise-adapter-creation-process/working-of-an-adapter.md)
 * [High Level Understanding of Data Ingestion](data-ingestion-and-processing/high-level-understanding-of-data-ingestion.md)
 * [Setting up Postman](data-ingestion-and-processing/setting-up-postman/README.md)
   * [Postman collection files](data-ingestion-and-processing/setting-up-postman/postman-collection-files.md)

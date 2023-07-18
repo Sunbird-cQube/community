@@ -19,7 +19,7 @@ As part of cQube V 5.0, a cQube adopter can install V 5.0 or upgrade from V 4.1 
 ## Release Features
 
 1. A deployer can install V 5.0 or upgrade from V 4.1 - Beta (VSK Starter Pack) to V 5.0 seamlessly within 30 minutes - [Installation Details](../installation-and-upgradation/step-wise-installation-process.md) | [Upgradation Details](../installation-and-upgradation/step-wise-upgradation-process.md)
-2. A deployer is able to ingest state data for 9 out-of-the-box programs in cQube schema via APIs through adapters at a set frequency - [Available Programs](../dashboard-visualizations-and-reports/programs-reports-and-indicators/) | [cQube Schema](broken-reference) | [Adapter Creation](../data-ingestion-and-processing/step-wise-adapter-creation-process.md) | [Ingestion Details](broken-reference)
+2. A deployer is able to ingest state data for 9 out-of-the-box programs in cQube schema via APIs through adapters at a set frequency - [Available Programs](../dashboard-visualizations-and-reports/programs-reports-and-indicators/) | [cQube Schema](broken-reference) | [Adapter Creation](../data-ingestion-and-processing/step-wise-adapter-creation-process/) | [Ingestion Details](broken-reference)
 3. A deployer can monitor ingestion by viewing the number of rows ingested and rectifying any errors - [Monitoring Ingestion](broken-reference) | [Rectifying Errors](broken-reference)
 4. A deployer is able to schedule the processing of ingested data within cQube - [Installation Details](../installation-and-upgradation/step-wise-installation-process.md)
 5. A deployer can add a new program / report / indicator in cQube by configuring ingestion, processing and visualisation
@@ -59,7 +59,7 @@ Some features have been deprecated from the previous release (V 4.1 - beta) but 
 1. [Getting Started](../installation-and-upgradation/getting-started.md)
 2. [Step-wise Installation Process](../installation-and-upgradation/step-wise-installation-process.md)
 3. [cQube Schemas](broken-reference)
-4. [Step-wise Adapter Creation Process](../data-ingestion-and-processing/step-wise-adapter-creation-process.md)
+4. [Step-wise Adapter Creation Process](../data-ingestion-and-processing/step-wise-adapter-creation-process/)
 5. [Step-wise Ingestion Process](broken-reference)
 6. [Available programs, reports and indicators](../dashboard-visualizations-and-reports/programs-reports-and-indicators/)
 7. [UI Customisations](broken-reference)
