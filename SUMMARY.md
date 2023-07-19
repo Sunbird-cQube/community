@@ -88,11 +88,12 @@
 * [Adding a New Program](ui-configurations/adding-a-new-program.md)
 * [Adding a New Report](ui-configurations/adding-a-new-report.md)
 * [Adding a New Indicator](ui-configurations/adding-a-new-indicator.md)
-* [Additional customizations](ui-configurations/additional-customizations/README.md)
+* [Adding a Scatter Plot KPI into dashboard ms](ui-configurations/additional-customizations/README.md)
   * [Adding a new KPI](ui-configurations/additional-customizations/adding-a-new-kpi.md)
   * [Table DrillDown Customization](ui-configurations/additional-customizations/table-drilldown-customization.md)
   * [Adding a Map KPI into dashboard ms](ui-configurations/additional-customizations/adding-a-map-kpi-into-dashboard-ms.md)
   * [Configure default date range across app/specific report](ui-configurations/additional-customizations/configure-default-date-range-across-app-specific-report.md)
+  * [Page 1](ui-configurations/additional-customizations/page-1.md)
 
 ## 🔎 QA testing
 
