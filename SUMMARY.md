@@ -81,19 +81,18 @@
 
 ## ⚙ UI Configurations
 
-* [UI Customisations](ui-configurations/ui-customisations/README.md)
-  * [Changing Dashboard Logos and Headers](ui-configurations/ui-customisations/changing-dashboard-logos-and-headers.md)
-  * [Changing Program Name, Icon and Side Menu Sequence](ui-configurations/ui-customisations/changing-program-name-icon-and-side-menu-sequence.md)
 * [Connecting cQube Datasets to External Visualisation Tools](ui-configurations/connecting-cqube-datasets-to-external-visualisation-tools.md)
 * [Adding a New Program](ui-configurations/adding-a-new-program.md)
 * [Adding a New Report](ui-configurations/adding-a-new-report.md)
 * [Adding a New Indicator](ui-configurations/adding-a-new-indicator.md)
-* [Adding a Scatter Plot KPI into dashboard ms](ui-configurations/additional-customizations/README.md)
-  * [Adding a new KPI](ui-configurations/additional-customizations/adding-a-new-kpi.md)
-  * [Table DrillDown Customization](ui-configurations/additional-customizations/table-drilldown-customization.md)
-  * [Adding a Map KPI into dashboard ms](ui-configurations/additional-customizations/adding-a-map-kpi-into-dashboard-ms.md)
-  * [Configure default date range across app/specific report](ui-configurations/additional-customizations/configure-default-date-range-across-app-specific-report.md)
-  * [Page 1](ui-configurations/additional-customizations/page-1.md)
+* [UI Customisations](ui-configurations/ui-customisations/README.md)
+  * [Changing Dashboard Logos and Headers](ui-configurations/ui-customisations/changing-dashboard-logos-and-headers.md)
+  * [Changing Program Name, Icon and Side Menu Sequence](ui-configurations/ui-customisations/changing-program-name-icon-and-side-menu-sequence.md)
+  * [Adding a new KPI](ui-configurations/ui-customisations/adding-a-new-kpi.md)
+  * [Adding a Map KPI into dashboard ms](ui-configurations/ui-customisations/adding-a-map-kpi-into-dashboard-ms.md)
+  * [Table DrillDown Customization](ui-configurations/ui-customisations/table-drilldown-customization.md)
+  * [Adding a Scatter Plot KPI into dashboard ms](ui-configurations/ui-customisations/additional-customizations.md)
+  * [Configure default date range across app/specific report](ui-configurations/ui-customisations/configure-default-date-range-across-app-specific-report.md)
 
 ## 🔎 QA testing
 
