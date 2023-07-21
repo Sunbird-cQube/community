@@ -32,7 +32,7 @@ Build the request body with reference to YAML file. The request body for the abo
 
 Click on the send button for request and if the request is successful the user should see a response message. Please refer to the below screenshot.
 
-<figure><img src="https://lh5.googleusercontent.com/fjd77j4JHY7FZdfxaykm--xMuXVo-00PScN00h8EDNLG-RvBFM-aJiUTq3_rEHoRQbss3odO5VMG0RBlIrP3KS0iS7ZqQnffKiODHyYecVjypMpqa-E_mhP0sMzspWjj1xqGgDTyqSLbjHrK3maKWgY" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh3.googleusercontent.com/r62qXfcINgzPCDMasadG90znjEUKOdUzBTdSsKy8li6fcls1U854Zml8-R-0oQhk2ilGQGZtokNiqhACjRN3i5kz3vRqfFtRJgo8-PLwI1HL9_EvatgoDJ9Tmddl3AjpLdkeMVx77jVRkwP-7Wfi72s" alt=""><figcaption></figcaption></figure>
 
 Once the API response is successful then the schema is stored in the spec.”EventGrammar” table.
 

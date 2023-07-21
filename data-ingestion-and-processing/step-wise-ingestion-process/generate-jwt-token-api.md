@@ -4,7 +4,7 @@
 
 Create a postman request & add details.
 
-**API Endpoint:** \<domain\_name>-/api/ingestion/generatejwt
+**API Endpoint:** \<domain\_name>/api/ingestion/generatejwt
 
 **HTTP Method:** GET
 
