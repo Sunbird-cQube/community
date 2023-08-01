@@ -35,7 +35,3 @@ Run the command: `sudo ./install.sh`
 &#x20;                      &#x20;
 
 <figure><img src="https://lh6.googleusercontent.com/tSw3ul85kGXrwmEw7QBbE7TGMW3iwy5Pal0Sv0ApG0_Br0cAFj_294zAXnnrXrBFR3oaBeoPpwaHzWG1C3GEyfDh1hyqFtu_7b1e6hs4fLrVme_vlSosqSaI-p5KIdKf9pv2m0MVj4IwxkkljA9PydI" alt=""><figcaption></figcaption></figure>
-
-&#x20;
-
-* Following screenshots shows the config files which are generated for the respective infrastructure&#x20;
