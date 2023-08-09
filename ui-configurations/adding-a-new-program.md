@@ -71,7 +71,7 @@ Below would be the JSON object
 
 
 * Dimension grammar : Use the /spec/dimension API to upload the dimension grammar
-* Place the dimension grammar file as \<xyz>-dimension.grammar.csv in processing-ms/impl/c-qube/ingest/\<state\_code>/dimensions/ folder as seen below or as per the config.json settings
+* Place the dimension grammar file as <xyz>-dimension.grammar.csv in processing-ms/impl/c-qube/ingest/VSK or NVSK/dimensions/ folder as seen below or as per the config.json settings
 
 <figure><img src="https://lh3.googleusercontent.com/kY4bfdcuNteynNJrD_NsHvdcg8pnobTwhfLB9I_gJkeA9dHrbyrh_P6HtRGT_mF6bVYKyNUFSZ7-gLJ7NYJuH4t0wxJ0LhjDjMTqMdVzU0cv2klQflcQL--llS8Zxu3lgX91Nr9tuS0KW90CpE-PIqI" alt=""><figcaption></figcaption></figure>
 
