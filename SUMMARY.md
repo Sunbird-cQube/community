@@ -2,7 +2,7 @@
 
 * [Product Overview](README.md)
 
-## 👩💻 👩💻 Installation & Upgradation
+## 👩💻 👩💻 👩💻 Installation & Upgradation
 
 * [Getting Started - Suggested Team Structure](installation-and-upgradation/getting-started.md)
 * [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
@@ -128,7 +128,7 @@
 
 * [Running List](frequently-asked-questions/reporting-a-bug.md)
 
-## 🧑🏫 Recording of trainings
+## 🧑🏫 🧑🏫 Recording of trainings
 
 * [Link to the training videos](recording-of-trainings/reporting-a-bug.md)
 
