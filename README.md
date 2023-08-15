@@ -70,8 +70,4 @@ cQube Ed is based on the following design principles:
 
 ### cQube Ed Roadmap
 
-The cQube Ed Roadmap till June'23 has been published below. You can access it from [this](https://docs.google.com/spreadsheets/d/1e8b\_kLCfD0Oce9Jek4nrpBFQRk-IJOKgYy5GOnFs8Ho/edit#gid=1589485385) link as well. Updated roadmap coming soon...
-
-{% embed url="https://docs.google.com/spreadsheets/d/1e8b_kLCfD0Oce9Jek4nrpBFQRk-IJOKgYy5GOnFs8Ho/edit#gid=1589485385" %}
-
-\
+The cQube Ed Roadmap till June'23 has been published below. You can access it from [this](https://docs.google.com/spreadsheets/d/1e8b\_kLCfD0Oce9Jek4nrpBFQRk-IJOKgYy5GOnFs8Ho/edit#gid=1589485385) link as well. Updated roadmap coming soon...\
