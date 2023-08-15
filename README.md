@@ -68,6 +68,4 @@ cQube Ed is based on the following design principles:
 2. **Education-specific:** A pre-packaged solution of cQube for education, _cQube Ed_, comes with a set of predefined actionable indicators and insights which are specific to education. For eg: the metrics could be related to attendance, enrolment, assessments etc. The schema for data ingestion will also be defined for edu-specific indicators.
 3. **Based in Indian Context:** cQube is based in the Indian context, implying that the jurisdictions and hierarchies will be defined accordingly. For eg: The hierarchy for cQube Ed will be as follows - State > District > Block > Cluster > School > Class.
 
-### cQube Ed Roadmap
-
-The cQube Ed Roadmap till June'23 has been published below. You can access it from [this](https://docs.google.com/spreadsheets/d/1e8b\_kLCfD0Oce9Jek4nrpBFQRk-IJOKgYy5GOnFs8Ho/edit#gid=1589485385) link as well. Updated roadmap coming soon...\
+### cQube Roadmap - Coming soon... 
