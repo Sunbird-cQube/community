@@ -4,7 +4,7 @@ description: Explains the process to add a new program into cQube Ed
 
 # Adding a New Program
 
-### Create event and dimension Grammar files:&#x20;
+### Create event and dimension Grammar files:
 
 Design the event and dimension grammar files for your program. This grammar defines the structure and relationships between different data elements, such as event attributes and dimensions.
 
@@ -13,7 +13,7 @@ Design the event and dimension grammar files for your program. This grammar defi
 
 ### Create a Config.json
 
-Config.json provides directive to processing engine on how to process the grammar and data files, where they are stored, etc. it should be placed in /ingest/\<state code>/&#x20;
+Config.json provides directive to processing engine on how to process the grammar and data files, where they are stored, etc. it should be placed in /ingest/\<state code>/
 
 globals : global settings
 
@@ -32,11 +32,10 @@ Only programs mentioned under config.json will be considered for ingestion.
 
 Example: if there is a event with two columns
 
-&#x20;   school\_id and school\_name&#x20;
+school\_id and school\_name
 
 Below would be the JSON object
 
-\
 
 
 {
@@ -49,29 +48,30 @@ Below would be the JSON object
 
 &#x20;        "properties": {
 
-&#x20;           "school\_id": {
+&#x20;                        "school\_id": {
 
-&#x20;              "type": "string",
+&#x20;                                                 "type": "string",
 
-&#x20;              "shouldNotNull": true
+&#x20;                                                 "shouldNotNull": true
 
 &#x20;            },
 
 &#x20;           "school\_name": {
 
-&#x20;                "type": "string",
+&#x20;                                                   "type": "string",
 
-&#x20;               "shouldNotNull": true
+&#x20;                                                   "shouldNotNull": true
 
 &#x20;            }
 
 }
 
-}\
+}
+
 
 
 * Dimension grammar : Use the /spec/dimension API to upload the dimension grammar
-* Place the dimension grammar file as <xyz>-dimension.grammar.csv in processing-ms/impl/c-qube/ingest/VSK or NVSK/dimensions/ folder as seen below or as per the config.json settings
+* Place the dimension grammar file as -dimension.grammar.csv in processing-ms/impl/c-qube/ingest/VSK or NVSK/dimensions/ folder as seen below or as per the config.json settings
 
 <figure><img src="https://lh3.googleusercontent.com/kY4bfdcuNteynNJrD_NsHvdcg8pnobTwhfLB9I_gJkeA9dHrbyrh_P6HtRGT_mF6bVYKyNUFSZ7-gLJ7NYJuH4t0wxJ0LhjDjMTqMdVzU0cv2klQflcQL--llS8Zxu3lgX91Nr9tuS0KW90CpE-PIqI" alt=""><figcaption></figcaption></figure>
 
@@ -79,7 +79,7 @@ Below would be the JSON object
 
 <figure><img src="https://lh5.googleusercontent.com/aMDK7TGW7ONHajVCISgCURej1h_VirtHq_N_R232ViM-0AKANXGQZ3AmnVAsxp-9BsA9zCN0psm-u1B7Cf1RaWqiASH5txS_Hsh2ZksTO1exiSyGncUYdLQaNhjv-ZWVx5yFsay5gZeMP_it52Sd5Pg" alt=""><figcaption></figcaption></figure>
 
-* Event schema can be ingested in 2 ways: &#x20;
+* Event schema can be ingested in 2 ways:
   * Though API Method
 
 **Event spec API: spec/event**
@@ -92,8 +92,7 @@ YARN CLI INGEST
 
 This command is used to ingest Event and Dimension Spec and Dimension Data based on the configuration we have
 
-* Create a \<new-program> folder in processing-ms/impl/c-qube/ingest/\<state\_code>/programs\
-
+* Create a \<new-program> folder in processing-ms/impl/c-qube/ingest/\<state\_code>/programs\\
 * Place the event grammar file as \<xyz>-event.grammar.csv in processing-ms/impl/c-qube/ingest/\<state\_code>/programs/\<new-program> folder as seen below (example for diksha program)
 
 This would be based on default config.json or else it should be as per config.json
@@ -104,12 +103,12 @@ Contents of the district-dimension.grammar.csv
 
 <figure><img src="https://lh4.googleusercontent.com/74XJs0gO8v9HCRYFtj6UYcFqDzXKzk-h-HVnPKh5lMUdE69I6XUtpR7xkQUdM9w39dnwY6pQmwltmUJh_CZxXh0EZeWiZ56ecYHBCvh29embc2s0T8uR0TVXU-XMT28R3z-J3j6QpxyjPBkYtVD3TVg" alt=""><figcaption></figcaption></figure>
 
-### Data Ingestion:&#x20;
+### Data Ingestion:
 
 This process may involve uploading the CSV file or connecting to the database directly. Following links will provide more details on the process.
 
-* [Uploading through CSV](broken-reference)
-* [Connecting to Database](broken-reference)
+* [Uploading through CSV](broken-reference/)
+* [Connecting to Database](broken-reference/)
 
 **Add event data on a regular frequency:** To keep your program up-to-date, continuously add new event data to the platform. Determine an appropriate frequency for updating the data, such as daily, weekly, or monthly.w Ensure that the new data is compatible with the existing event and dimension schema.
 
@@ -133,17 +132,12 @@ This process may involve uploading the CSV file or connecting to the database di
 
 src/app/core/config/configMapping.ts
 
-
-
-All the configuration files are mapped at a place for easy access , This object will be used to map each row in  main\_metric with program wise configuration files with the respective programIds.
+All the configuration files are mapped at a place for easy access , This object will be used to map each row in main\_metric with program wise configuration files with the respective programIds.
 
 <figure><img src="https://lh5.googleusercontent.com/hzRqczmIjAsrQz6MpSGPmnh6hIVO5_Iq8Hut922WAqTZgh495fPLdnozAsUUynvcZWly-PWhZtL_mFR3560MNxJVCCgtomPa6U0-9x2qTFOAgdqy02cJxra_LIoyGzaGNh9oQQpZR1Shi2QW--_jqSk" alt=""><figcaption></figcaption></figure>
 
-
-
 Later one can add the desired KPI to the above program created following the below steps
 
-\
+\\
 
-
-\
+\\
