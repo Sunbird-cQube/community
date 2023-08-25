@@ -13,7 +13,7 @@ Design the event and dimension grammar files for your program. This grammar defi
 
 ### Create a Config.json
 
-Config.json provides directive to processing engine on how to process the grammar and data files, where they are stored, etc. it should be placed in /ingest/\<state code>/
+Config.json provides directive to processing engine on how to process the grammar and data files, where they are stored, etc. it should be placed in /ingest/\<VSK or NVSK>/
 
 globals : global settings
 
@@ -46,7 +46,7 @@ Below would be the JSON object
 
 &#x20;        "type": "object",
 
-&#x20;        "properties": {
+&#x20;         "properties": {
 
 &#x20;                        "school\_id": {
 
