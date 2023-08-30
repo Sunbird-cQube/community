@@ -114,6 +114,11 @@
 * [Test for UI Application](qa-testing/test-for-ui-application.md)
 * [Test for KPIs](qa-testing/test-for-kpis.md)
 
+***
+
+* [🔭 TELEMETRY](telemetry.md)
+* [Integration Steps for Telemetry](integration-steps-for-telemetry.md)
+
 ## 🆘 Common issues and their solutions
 
 * [Deployment & ingestion related issues & their solutions](common-issues-and-their-solutions/ui-customisations.md)
