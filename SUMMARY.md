@@ -4,7 +4,7 @@
   * [cQube vision](readme/cqube-vision.md)
   * [Business case](readme/business-case.md)
   * [cQube ed](readme/cqube-ed.md)
-  * [Design Principles](readme/design-principles.md)
+  * [Design principles](readme/design-principles.md)
 
 ## 👩💻 👩💻 👩💻 Installation & Upgradation
 
