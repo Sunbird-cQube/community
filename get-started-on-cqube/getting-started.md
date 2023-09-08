@@ -2,7 +2,7 @@
 description: 'Shows you a list of things to help you get started with cQube V 5.0:'
 ---
 
-# Getting Started - Suggested Team Structure
+# Suggested Team Structure
 
 cQube v5.0, the latest version of cQube, enables monitoring of 9 out-of-the-box state and national education programs for performance improvement. All of these programs will be tailored to the user role and jurisdiction. Any new program can also be added by the state for monitoring purposes.
 
@@ -29,6 +29,6 @@ The detailed skill sets required for each phase of the setting up process are me
 
 ## Supported Servers & Clouds
 
-1. AWS - The steps to deploy cQube v5.0 on AWS have been mentioned [here](step-wise-installation-process.md)
-2. On premise (State Data Centre, Local) - The steps to deploy cQube v5.0 on 'On premise' (State Data Centre, Local) have been mentioned [here](step-wise-installation-process.md)
-3. OCI - The steps to deploy are mentioned [here](step-wise-installation-process.md)
+1. AWS - The steps to deploy cQube v5.0 on AWS have been mentioned [here](step-wise-installation-process/)
+2. On premise (State Data Centre, Local) - The steps to deploy cQube v5.0 on 'On premise' (State Data Centre, Local) have been mentioned [here](step-wise-installation-process/)
+3. OCI - The steps to deploy are mentioned [here](step-wise-installation-process/)

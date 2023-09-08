@@ -6,22 +6,22 @@
   * [cQube ed](readme/cqube-ed.md)
   * [Design principles](readme/design-principles.md)
 
-## 👩💻 👩💻 👩💻 Installation & Upgradation
+## 👩💻 Get started on cQube
 
-* [Getting Started - Suggested Team Structure](installation-and-upgradation/getting-started.md)
-* [Hardware Requirements](installation-and-upgradation/hardware-requirements.md)
-* [Checking pre existing ports](installation-and-upgradation/checking-pre-existing-ports.md)
-* [Steps to setup instance: Server-wise](installation-and-upgradation/step-wise-installation-process.md)
-  * [Oracle Cloud Instance Setup](installation-and-upgradation/step-wise-installation-process/oracle-cloud-instance-setup.md)
-  * [AWS Instance Setup](installation-and-upgradation/step-wise-installation-process/aws-instance-setup.md)
-  * [SDC Instance setup](installation-and-upgradation/step-wise-installation-process/sdc-instance-setup.md)
-* [Next Steps for installation](installation-and-upgradation/next-common-steps/README.md)
-  * [Common steps](installation-and-upgradation/next-common-steps/common-steps.md)
-  * [AWS Steps](installation-and-upgradation/next-common-steps/aws-steps.md)
-  * [SDC Steps](installation-and-upgradation/next-common-steps/sdc-steps.md)
-* [End to End Installation on Local Setup](installation-and-upgradation/end-to-end-installation-on-local.md)
-* [Step-wise Upgradation Process](installation-and-upgradation/step-wise-upgradation-process.md)
-* [Microservices details](installation-and-upgradation/microservices-details.md)
+* [Suggested Team Structure](get-started-on-cqube/getting-started.md)
+* [Hardware Requirements](get-started-on-cqube/hardware-requirements.md)
+* [Checking pre existing ports](get-started-on-cqube/checking-pre-existing-ports.md)
+* [Steps to setup instance: Server-wise](get-started-on-cqube/step-wise-installation-process/README.md)
+  * [Oracle Cloud Instance Setup](get-started-on-cqube/step-wise-installation-process/oracle-cloud-instance-setup.md)
+  * [AWS Instance Setup](get-started-on-cqube/step-wise-installation-process/aws-instance-setup.md)
+  * [SDC Instance setup](get-started-on-cqube/step-wise-installation-process/sdc-instance-setup.md)
+* [Next Steps for installation](get-started-on-cqube/next-common-steps/README.md)
+  * [Common steps](get-started-on-cqube/next-common-steps/common-steps.md)
+  * [AWS Steps](get-started-on-cqube/next-common-steps/aws-steps.md)
+  * [SDC Steps](get-started-on-cqube/next-common-steps/sdc-steps.md)
+* [End to End Installation on Local Setup](get-started-on-cqube/end-to-end-installation-on-local.md)
+* [Step-wise Upgradation Process](get-started-on-cqube/step-wise-upgradation-process.md)
+* [Microservices details](get-started-on-cqube/microservices-details.md)
 
 ## 🔐 User Authentication
 
