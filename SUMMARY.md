@@ -20,8 +20,8 @@
   * [AWS Steps](get-started-on-cqube/next-common-steps/aws-steps.md)
   * [SDC Steps](get-started-on-cqube/next-common-steps/sdc-steps.md)
 * [End to End Installation on Local Setup](get-started-on-cqube/end-to-end-installation-on-local.md)
-* [Step-wise Upgradation Process](get-started-on-cqube/step-wise-upgradation-process.md)
 * [Microservices details](get-started-on-cqube/microservices-details.md)
+* [Step-wise Upgradation Process](get-started-on-cqube/step-wise-upgradation-process.md)
 
 ## 🔐 User Authentication
 
