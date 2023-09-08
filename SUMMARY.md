@@ -6,6 +6,12 @@
   * [cQube ed](readme/cqube-ed.md)
   * [Design principles](readme/design-principles.md)
 
+## 💻 Technical Overview
+
+* [Architecture](technical-overview/architecture.md)
+* [Design Principles](technical-overview/design-principles.md)
+* [Key Components](technical-overview/key-components.md)
+
 ## 👩💻 Get started on cQube
 
 * [Suggested Team Structure](get-started-on-cqube/getting-started.md)
@@ -23,17 +29,6 @@
 * [Microservices details](get-started-on-cqube/microservices-details.md)
 * [Step-wise Upgradation Process](get-started-on-cqube/step-wise-upgradation-process.md)
 
-## 🔐 User Authentication
-
-* [Configuring Keycloak](user-authentication/configuring-keycloak.md)
-* [Adding Users](user-authentication/adding-users.md)
-
-## 💻 Technical Overview
-
-* [Architecture](technical-overview/architecture.md)
-* [Design Principles](technical-overview/design-principles.md)
-* [Key Components](technical-overview/key-components.md)
-
 ## 📄 Steps to Prepare Data
 
 * [Important Note](steps-to-prepare-data/important-note.md)
@@ -41,6 +36,11 @@
 * [Define Events / Facts Schema](steps-to-prepare-data/events-facts.md)
 * [Example of cQube Dimension & Event Schema](steps-to-prepare-data/example-of-cqube-dimension-and-event-schema/README.md)
   * [Link to all cQube schemas](steps-to-prepare-data/example-of-cqube-dimension-and-event-schema/link-to-all-cqube-schemas.md)
+
+## 🔐 User Authentication
+
+* [Configuring Keycloak](user-authentication/configuring-keycloak.md)
+* [Adding Users](user-authentication/adding-users.md)
 
 ## 🔃 Data Ingestion & Processing
 
