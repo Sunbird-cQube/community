@@ -147,6 +147,7 @@
 
 ## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
 
+* [cQube - Release V 5.0.5](release-notes/cqube-release-v-5.0.5.md)
 * [cQube - Release V 5.0.3](release-notes/cqube-release-v-5.0.3.md)
 * [cQube - Release V 5.0.2](release-notes/cqube-release-v-5.0.2.md)
 * [cQube - Release V 5.0.1](release-notes/cqube-release-v-5.0.1.md)
