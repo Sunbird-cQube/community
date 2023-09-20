@@ -145,6 +145,10 @@
 
 * [Definitions](key-terms-and-concepts/reporting-a-bug.md)
 
+## 🖼 Roadmap
+
+* [cQube roadmap](roadmap/reporting-a-bug.md)
+
 ## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
 
 * [cQube - Release V 5.0.5](release-notes/cqube-release-v-5.0.5.md)
