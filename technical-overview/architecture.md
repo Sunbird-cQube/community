@@ -18,6 +18,6 @@ The terminologies used in the architecture can be found [here](https://project-s
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-High-level architecture design is detailed out [here](https://project-sunbird.atlassian.net/wiki/spaces/CQUB/pages/3258024044/cQube+Design+Document+Nov+2022).
+High-level architecture design can be found [here](https://project-sunbird.atlassian.net/wiki/spaces/CQUB/pages/3258024044/cQube+Design+Document+Nov+2022).
 
-Low-level architecture design is detailed out [here](https://project-sunbird.atlassian.net/wiki/spaces/CQUB/pages/3266740614/cQube+LLD+-+v12Dec2022).
+Low-level architecture design can be found [here](https://project-sunbird.atlassian.net/wiki/spaces/CQUB/pages/3266740614/cQube+LLD+-+v12Dec2022).
