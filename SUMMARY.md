@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Learn about cQube](README.md)
-  * [cQube vision](readme/cqube-vision.md)
   * [Business case](readme/business-case.md)
   * [cQube ed](readme/cqube-ed.md)
   * [Design principles](readme/design-principles.md)
