@@ -18,10 +18,10 @@ As part of cQube V 5.0, a cQube adopter can install V 5.0 or upgrade from V 4.1 
 
 ## Release Features
 
-1. A deployer can install V 5.0 or upgrade from V 4.1 - Beta (VSK Starter Pack) to V 5.0 seamlessly within 30 minutes - [Installation Details](../get-started-on-cqube/step-wise-installation-process/) | [Upgradation Details](../get-started-on-cqube/step-wise-upgradation-process.md)
-2. A deployer is able to ingest state data for 9 out-of-the-box programs in cQube schema via APIs through adapters at a set frequency - [Available Programs](../dashboard-visualizations-and-reports/programs-reports-and-indicators/) | [cQube Schema](broken-reference) | [Adapter Creation](../data-ingestion-and-processing/step-wise-adapter-creation-process/) | [Ingestion Details](broken-reference)
+1. A deployer can install V 5.0 or upgrade from V 4.1 - Beta (VSK Starter Pack) to V 5.0 seamlessly within 30 minutes - [Installation Details](broken-reference) | [Upgradation Details](broken-reference)
+2. A deployer is able to ingest state data for 9 out-of-the-box programs in cQube schema via APIs through adapters at a set frequency - [Available Programs](broken-reference) | [cQube Schema](broken-reference) | [Adapter Creation](broken-reference) | [Ingestion Details](broken-reference)
 3. A deployer can monitor ingestion by viewing the number of rows ingested and rectifying any errors - [Monitoring Ingestion](broken-reference) | [Rectifying Errors](broken-reference)
-4. A deployer is able to schedule the processing of ingested data within cQube - [Installation Details](../get-started-on-cqube/step-wise-installation-process/)
+4. A deployer is able to schedule the processing of ingested data within cQube - [Installation Details](broken-reference)
 5. A deployer can add a new program / report / indicator in cQube by configuring ingestion, processing and visualisation
 6. A deployer / admin can connect the cQube datasets to any external visualisation tool (eg: Metabase, Tableau etc.)
 7. A deployer can modify the UI of the cQube dashboards through configurations - [UI Customisations](broken-reference)
@@ -34,7 +34,7 @@ As part of cQube V 5.0, a cQube adopter can install V 5.0 or upgrade from V 4.1 
 
 ## Backward Compatibility
 
-cQube users on VSK Starter Pack (V 4.1 Beta) with 6 out-of-the-box programs like NAS, UDISE, PGI, DIKSHA, NISHTHA and PM-POSHAN can upgrade to V 5.0 within 30 minutes using [these](../get-started-on-cqube/step-wise-upgradation-process.md) steps. The hardware and software requirements for [V 5.0](../get-started-on-cqube/hardware-requirements.md) are same (actually - lesser) as [V 4.1 Beta](../cqube-v-4.1-beta/network-architecture-diagram/hardware-requirements.md).
+cQube users on VSK Starter Pack (V 4.1 Beta) with 6 out-of-the-box programs like NAS, UDISE, PGI, DIKSHA, NISHTHA and PM-POSHAN can upgrade to V 5.0 within 30 minutes using [these](broken-reference) steps. The hardware and software requirements for [V 5.0](../get-started-on-cqube/hardware-requirements.md) are same (actually - lesser) as [V 4.1 Beta](../cqube-v-4.1-beta/network-architecture-diagram/hardware-requirements.md).
 
 For the users who upgrade to cQube V 5.0, their existing data for the 6 programs in the VSK Starter Pack will automatically become compliant to V 5.0 and they will be able to see the same programs with state data in V 5.0.
 
@@ -57,11 +57,11 @@ Some features have been deprecated from the previous release (V 4.1 - beta) but 
 ## Available Documentations for V 5.0
 
 1. [Getting Started](../get-started-on-cqube/getting-started.md)
-2. [Step-wise Installation Process](../get-started-on-cqube/step-wise-installation-process/)
+2. [Step-wise Installation Process](broken-reference)
 3. [cQube Schemas](broken-reference)
-4. [Step-wise Adapter Creation Process](../data-ingestion-and-processing/step-wise-adapter-creation-process/)
+4. [Step-wise Adapter Creation Process](broken-reference)
 5. [Step-wise Ingestion Process](broken-reference)
-6. [Available programs, reports and indicators](../dashboard-visualizations-and-reports/programs-reports-and-indicators/)
+6. [Available programs, reports and indicators](broken-reference)
 7. [UI Customisations](broken-reference)
 
 ## Known Issues

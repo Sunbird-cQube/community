@@ -16,9 +16,9 @@ cQube users will have to use a username and password to be able to access cQube 
 
 ## Release Features
 
-1. A deployer is able to configure Keycloak to set up user authentication - [Steps for Configuration](../user-authentication/configuring-keycloak.md)
-2. A deployer is able to add individual or bulk users via Keycloak - [Process to add users](../user-authentication/adding-users.md)
-3. A deployer can make customisations in the UI of the login page available on cQube - [UI Customisations](../ui-configurations/ui-customisations/)
+1. A deployer is able to configure Keycloak to set up user authentication - [Steps for Configuration](broken-reference)
+2. A deployer is able to add individual or bulk users via Keycloak - [Process to add users](broken-reference)
+3. A deployer can make customisations in the UI of the login page available on cQube - [UI Customisations](broken-reference)
 
 ## Upcoming Release Features
 

@@ -1,101 +1,76 @@
 # Table of contents
 
-* [Learn about cQube](README.md)
-  * [Business case](readme/business-case.md)
-  * [cQube ed](readme/cqube-ed.md)
-  * [Design principles](readme/design-principles.md)
+## 📖 KNOW ABOUT CQUBE
 
-## 💻 Technical Overview
+* [What is cQube & what does it solve](README.md)
+  * [Business case](know-about-cqube/architecture/business-case.md)
+  * [cQube ed](know-about-cqube/architecture/cqube-ed.md)
+  * [Design Principles](know-about-cqube/architecture/design-principles.md)
+* [cQube adoptions](know-about-cqube/cqube-adoptions.md)
+* [Discuss more about cQube](know-about-cqube/discuss-more-about-cqube.md)
 
-* [Architecture](technical-overview/architecture.md)
-* [Design Principles](technical-overview/design-principles.md)
-* [Key Components](technical-overview/key-components.md)
+## 👍 TRY CQUBE
+
+* [cQube on Gitpod](try-cqube/architecture.md)
+
+## 🌅 WHAT IS NEXT IN CQUBE
+
+* [cQube Roadmap](what-is-next-in-cqube/architecture.md)
+
+## 💻 TECHANICAL OVERVIEW
+
+* [Architecture](techanical-overview/architecture.md)
+* [Design Principles](techanical-overview/design-principles.md)
+* [Key Components](techanical-overview/key-components.md)
+* [Details of microservices](techanical-overview/details-of-microservices.md)
 
 ## 👩💻 Get started on cQube
 
 * [Suggested Team Structure](get-started-on-cqube/getting-started.md)
 * [Hardware Requirements](get-started-on-cqube/hardware-requirements.md)
+* [Prerequisites Checklist](get-started-on-cqube/prerequisites-checklist.md)
 * [Checking pre existing ports](get-started-on-cqube/checking-pre-existing-ports.md)
-* [Steps to setup instance: Server-wise](get-started-on-cqube/step-wise-installation-process/README.md)
-  * [Oracle Cloud Instance Setup](get-started-on-cqube/step-wise-installation-process/oracle-cloud-instance-setup.md)
-  * [AWS Instance Setup](get-started-on-cqube/step-wise-installation-process/aws-instance-setup.md)
-  * [SDC Instance setup](get-started-on-cqube/step-wise-installation-process/sdc-instance-setup.md)
-* [Next Steps for installation](get-started-on-cqube/next-common-steps/README.md)
-  * [Common steps](get-started-on-cqube/next-common-steps/common-steps.md)
-  * [AWS Steps](get-started-on-cqube/next-common-steps/aws-steps.md)
-  * [SDC Steps](get-started-on-cqube/next-common-steps/sdc-steps.md)
-* [End to End Installation on Local Setup](get-started-on-cqube/end-to-end-installation-on-local.md)
-* [Microservices details](get-started-on-cqube/microservices-details.md)
-* [Step-wise Upgradation Process](get-started-on-cqube/step-wise-upgradation-process.md)
 
-## 📄 Steps to Prepare Data
+## 🛃 USE CQUBE
 
-* [Important Note](steps-to-prepare-data/important-note.md)
-* [Define Dimension Schema](steps-to-prepare-data/define-dimension-schema.md)
-* [Define Events / Facts Schema](steps-to-prepare-data/events-facts.md)
-* [Example of cQube Dimension & Event Schema](steps-to-prepare-data/example-of-cqube-dimension-and-event-schema/README.md)
-  * [Link to all cQube schemas](steps-to-prepare-data/example-of-cqube-dimension-and-event-schema/link-to-all-cqube-schemas.md)
+* [How can I install cQube?](use-cqube/getting-started/README.md)
+  * [High level understanding of deployment](use-cqube/getting-started/high-level-understanding-of-deployment.md)
+  * [AWS Instance Setup](use-cqube/getting-started/aws-instance-setup.md)
+  * [SDC Instance Setup](use-cqube/getting-started/sdc-instance-setup.md)
+* [How to prepare the data](use-cqube/getting-started-1/README.md)
+  * [How to prepare dimension files](use-cqube/getting-started-1/how-to-prepare-dimension-files.md)
+  * [How to Prepare Event Files](use-cqube/getting-started-1/how-to-prepare-event-files.md)
+  * [Examples of dimension & event files](use-cqube/getting-started-1/examples-of-dimension-and-event-files.md)
+  * [All cQube schemas used for VSK](use-cqube/getting-started-1/all-cqube-schemas-used-for-vsk.md)
+* [Ingesting the data](use-cqube/ingesting-the-data/README.md)
+  * [High-level understanding of ingestion](use-cqube/ingesting-the-data/high-level-understanding-of-ingestion.md)
+  * [Adapter Details](use-cqube/ingesting-the-data/adapter-details.md)
+  * [Postman Details](use-cqube/ingesting-the-data/postman-details.md)
+  * [API Details](use-cqube/ingesting-the-data/api-details.md)
+  * [Steps to ingest schema](use-cqube/ingesting-the-data/steps-to-ingest-schema.md)
+  * [Steps to Ingest data for a programs](use-cqube/ingesting-the-data/steps-to-ingest-data-for-a-programs.md)
+  * [Error during ingestion](use-cqube/ingesting-the-data/error-during-ingestion.md)
+* [Processing of data](use-cqube/processing-of-data/README.md)
+  * [Nifi data](use-cqube/processing-of-data/nifi-data.md)
+  * [API Details for Nifi-Rest](use-cqube/processing-of-data/api-details-for-nifi-rest.md)
+* [Visualizing the data](use-cqube/visualizing-the-data/README.md)
+  * [High level understanding of how visualizations work in cQube](use-cqube/visualizing-the-data/high-level-understanding-of-how-visualizations-work-in-cqube.md)
+  * [Programs and reports out-of-the-box](use-cqube/visualizing-the-data/programs-and-reports-out-of-the-box.md)
+* [Additional Features](use-cqube/additional-features/README.md)
+  * [Public/Private dashboards](use-cqube/additional-features/public-private-dashboards.md)
+  * [Role based access control](use-cqube/additional-features/role-based-access-control.md)
+  * [Saving geographical preferences](use-cqube/additional-features/saving-geographical-preferences.md)
+  * [Admin Panel](use-cqube/additional-features/admin-panel.md)
+  * [Data Debugger](use-cqube/additional-features/data-debugger.md)
+  * [Schema creator](use-cqube/additional-features/schema-creator.md)
+* [Adding Users](use-cqube/adding-users/README.md)
+  * [Adding  an individual user](use-cqube/adding-users/adding-an-individual-user.md)
+  * [Adding bulk users](use-cqube/adding-users/adding-bulk-users.md)
 
-## 🔐 User Authentication
+## 🖥 MONITOR cQUBE
 
-* [Configuring Keycloak](user-authentication/configuring-keycloak.md)
-* [Adding Users](user-authentication/adding-users.md)
-
-## 🔃 Data Ingestion & Processing
-
-* [Adapter Details](data-ingestion-and-processing/step-wise-adapter-creation-process/README.md)
-  * [Architecture](data-ingestion-and-processing/step-wise-adapter-creation-process/architecture.md)
-  * [Technology Used](data-ingestion-and-processing/step-wise-adapter-creation-process/technology-used.md)
-  * [Working of an Adapter](data-ingestion-and-processing/step-wise-adapter-creation-process/working-of-an-adapter.md)
-* [High Level Understanding of Data Ingestion](data-ingestion-and-processing/high-level-understanding-of-data-ingestion.md)
-* [Setting up Postman](data-ingestion-and-processing/setting-up-postman/README.md)
-  * [Postman collection files](data-ingestion-and-processing/setting-up-postman/postman-collection-files.md)
-* [Steps to add schemas for a program & for dimensions](data-ingestion-and-processing/steps-to-add-schemas-for-a-program-and-for-dimensions.md)
-* [Step-wise Ingestion Process](data-ingestion-and-processing/step-wise-ingestion-process/README.md)
-  * [Generate JWT token API](data-ingestion-and-processing/step-wise-ingestion-process/generate-jwt-token-api.md)
-  * [Upload the csv data file for new programs using ingestion API](data-ingestion-and-processing/step-wise-ingestion-process/upload-the-csv-data-file-for-new-programs-using-ingestion-api.md)
-* [National Programs API](data-ingestion-and-processing/national-programs-api/README.md)
-  * [GET File status API](data-ingestion-and-processing/national-programs-api/get-file-status-api.md)
-  * [Schedule API](data-ingestion-and-processing/national-programs-api/schedule-api.md)
-  * [Error Monitoring](data-ingestion-and-processing/national-programs-api/error-monitoring.md)
-  * [Data Ingestion using CLI Command](data-ingestion-and-processing/national-programs-api/data-ingestion-using-cli-command/README.md)
-    * [Ingestion of Dimensions](data-ingestion-and-processing/national-programs-api/data-ingestion-using-cli-command/ingestion-of-dimensions.md)
-    * [Ingestion of Program Data](data-ingestion-and-processing/national-programs-api/data-ingestion-using-cli-command/ingestion-of-program-data.md)
-    * [Delete the data in the database](data-ingestion-and-processing/national-programs-api/data-ingestion-using-cli-command/delete-the-data-in-the-database.md)
-* [Common Error During Data Ingestion](data-ingestion-and-processing/common-error-during-data-ingestion.md)
-* [NiFi](data-ingestion-and-processing/nifi.md)
-* [Error Monitoring](data-ingestion-and-processing/error-monitoring.md)
-* [Step-wise Ingestion Process \[State Programs\]](data-ingestion-and-processing/step-wise-ingestion-process-state-programs/README.md)
-  * [Error Monitoring](data-ingestion-and-processing/step-wise-ingestion-process-state-programs/error-monitoring.md)
-
-## 📊 Dashboard, Visualizations and Reports
-
-* [High level view of how visualizations work](dashboard-visualizations-and-reports/high-level-view-of-how-visualizations-work.md)
-* [Programs, Reports & Indicators](dashboard-visualizations-and-reports/programs-reports-and-indicators/README.md)
-  * [Teacher Attendance](dashboard-visualizations-and-reports/programs-reports-and-indicators/teacher-attendance.md)
-  * [Student Attendance](dashboard-visualizations-and-reports/programs-reports-and-indicators/student-attendance.md)
-  * [PM POSHAN](dashboard-visualizations-and-reports/programs-reports-and-indicators/pm-poshan.md)
-  * [PGI](dashboard-visualizations-and-reports/programs-reports-and-indicators/pgi.md)
-  * [UDISE+](dashboard-visualizations-and-reports/programs-reports-and-indicators/udise+.md)
-  * [NAS](dashboard-visualizations-and-reports/programs-reports-and-indicators/nas.md)
-  * [DIKSHA](dashboard-visualizations-and-reports/programs-reports-and-indicators/diksha.md)
-  * [Review Meetings](dashboard-visualizations-and-reports/programs-reports-and-indicators/review-meetings.md)
-  * [NISHTHA](dashboard-visualizations-and-reports/programs-reports-and-indicators/nishtha.md)
-
-## ⚙ UI Configurations
-
-* [Connecting cQube Datasets to External Visualisation Tools](ui-configurations/connecting-cqube-datasets-to-external-visualisation-tools.md)
-* [Adding a New Program](ui-configurations/adding-a-new-program.md)
-* [Adding a New Report](ui-configurations/adding-a-new-report.md)
-* [Adding a New Indicator](ui-configurations/adding-a-new-indicator.md)
-* [UI Customisations](ui-configurations/ui-customisations/README.md)
-  * [Changing Dashboard Logos and Headers](ui-configurations/ui-customisations/changing-dashboard-logos-and-headers.md)
-  * [Changing Program Name, Icon and Side Menu Sequence](ui-configurations/ui-customisations/changing-program-name-icon-and-side-menu-sequence.md)
-  * [Adding a new KPI](ui-configurations/ui-customisations/adding-a-new-kpi.md)
-  * [Adding a Map KPI into dashboard ms](ui-configurations/ui-customisations/adding-a-map-kpi-into-dashboard-ms.md)
-  * [Table DrillDown Customization](ui-configurations/ui-customisations/table-drilldown-customization.md)
-  * [Adding a Scatter Plot KPI into dashboard ms](ui-configurations/ui-customisations/additional-customizations.md)
-  * [Configure default date range across app/specific report](ui-configurations/ui-customisations/configure-default-date-range-across-app-specific-report.md)
+* [Infra health monitoring](monitor-cqube/getting-started.md)
+* [Usage monitoring](monitor-cqube/usage-monitoring.md)
 
 ## 🔎 QA testing
 
@@ -117,10 +92,23 @@
 * [Test for UI Application](qa-testing/test-for-ui-application.md)
 * [Test for KPIs](qa-testing/test-for-kpis.md)
 
-***
+## ☀ ENHANCE/CUSTOMIZE CQUBE
 
-* [🔭 TELEMETRY](telemetry.md)
-* [Integration Steps for Telemetry](integration-steps-for-telemetry.md)
+* [Available customizations](enhance-customize-cqube/manual-and-automated-testing/README.md)
+  * [Changing Dashboard Logos and Headers](enhance-customize-cqube/manual-and-automated-testing/changing-dashboard-logos-and-headers.md)
+  * [Changing Program Name, Icon and Side Menu Sequence](enhance-customize-cqube/manual-and-automated-testing/changing-program-name-icon-and-side-menu-sequence.md)
+  * [Adding a new KPI](enhance-customize-cqube/manual-and-automated-testing/adding-a-new-kpi.md)
+  * [Adding a Map KPI into dashboard ms](enhance-customize-cqube/manual-and-automated-testing/adding-a-map-kpi-into-dashboard-ms.md)
+  * [Table Drill Down Customization](enhance-customize-cqube/manual-and-automated-testing/table-drill-down-customization.md)
+  * [Adding a Scatter Plot KPI into dashboard ms](enhance-customize-cqube/manual-and-automated-testing/adding-a-scatter-plot-kpi-into-dashboard-ms.md)
+  * [Configure default date range across app/specific report](enhance-customize-cqube/manual-and-automated-testing/configure-default-date-range-across-app-specific-report.md)
+* [How to add a New Indicator](enhance-customize-cqube/functional-testing.md)
+* [How to add a new report in an existing program](enhance-customize-cqube/test-for-one-step-installation.md)
+* [How to add a  new program (end to end)](enhance-customize-cqube/test-for-ingestion.md)
+
+## 🈴 UPGRADING TO LATEST VERSION
+
+* [How can I upgrade cQube to the latest release](upgrading-to-latest-version/ui-customisations.md)
 
 ## 🆘 Common issues and their solutions
 
@@ -129,8 +117,9 @@
 ## ⏱ Standard Operating Procedure
 
 * [Reporting a Bug](standard-operating-procedure/reporting-a-bug.md)
-* [Requesting for Support](standard-operating-procedure/requesting-for-support.md)
+* [Protocol for issue reporting & resolution](standard-operating-procedure/requesting-for-support.md)
 * [Suggesting Enhancements](standard-operating-procedure/suggesting-enhancements.md)
+* [Raising a PR](standard-operating-procedure/raising-a-pr.md)
 
 ## ❓ Frequently Asked Questions
 
@@ -143,10 +132,6 @@
 ## 🧠 Key Terms & Concepts
 
 * [Definitions](key-terms-and-concepts/reporting-a-bug.md)
-
-## 🖼 Roadmap
-
-* [cQube roadmap](roadmap/reporting-a-bug.md)
 
 ## 🚀 cQube Release Notes <a href="#release-notes" id="release-notes"></a>
 
