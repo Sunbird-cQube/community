@@ -48,7 +48,7 @@
   * [Postman Details](use-cqube/ingesting-the-data/postman-details.md)
   * [Steps to ingest schema](use-cqube/ingesting-the-data/steps-to-ingest-schema.md)
   * [Steps to Ingest data for a programs](use-cqube/ingesting-the-data/steps-to-ingest-data-for-a-programs.md)
-  * [National Programs API to upload starter Pack Data files](use-cqube/ingesting-the-data/national-programs-api-to-upload-starter-pack-data-files.md)
+  * [National Programs API to upload starter Pack Data files](use-cqube/ingesting-the-data/api-details.md)
   * [Error during ingestion](use-cqube/ingesting-the-data/error-during-ingestion.md)
 * [Processing of data](use-cqube/processing-of-data/README.md)
   * [Data Processing using CLI command](use-cqube/processing-of-data/data-processing-using-cli-command.md)
@@ -93,7 +93,12 @@
 * [Test for UI Application](qa-testing/test-for-ui-application.md)
 * [Test for KPIs](qa-testing/test-for-kpis.md)
 
-## ☀ ENHANCE/CUSTOMIZE CQUBE
+## ☀ DEPLOYMENT PROCESS
+
+* [AWS Deployment](deployment-process/aws-deployment.md)
+* [SDC Deployment](deployment-process/sdc-deployment.md)
+
+## ☀  ENHANCE/CUSTOMIZE CQUBE
 
 * [Available customizations](enhance-customize-cqube/manual-and-automated-testing/README.md)
   * [Changing Dashboard Logos and Headers](enhance-customize-cqube/manual-and-automated-testing/changing-dashboard-logos-and-headers.md)
