@@ -8,7 +8,7 @@ Features of the admin console include the following:
 2. Data debugger
 3. Schema creator
 
-It is accessible for an admin user only through a separate URL.
+It is accessible for an admin user only through a separate URL( Ex: https://\<domain name>/admin).
 
 
 
