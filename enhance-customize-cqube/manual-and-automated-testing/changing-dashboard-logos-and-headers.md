@@ -6,11 +6,11 @@ All of these configurations will be done in the UI configuration file, which can
 
 There are certain keys specified for each configuration to be changed as mentioned below. If there is a need to change any of these configurations, the users need to go to specified location directory (in ui\_config.json) as shown below and make the changes:
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh4.googleusercontent.com/xdRUItkSTTvKU1fwvnFZBW8S2owj97FNOf4TFAmKziHMyTgGPlPWfRzTt5SyT7sEQ61M4NWkyf5OqTAZaH80i1dyaUXp-yF2VXGt6unT2is1Ic60e9XHaOlTorWN_AUZnx39E_rEf_D4zJUcQzW7p6A" alt=""><figcaption></figcaption></figure>
 
 &#x20;**dashboard\_header1\_title** : This key is used to change the title of the cQube dashboard page mentioned at the top. It is depicted in the image below:
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh3.googleusercontent.com/ZtGMBVCu7VQd1sCWWWKEJxYET86DPp6IHrIR4fX_axCHpa2LgKD9MqSOJX07BD4HHLL9I6dNdR-72oAumB8Xki0tbPOy-HIRUdTUHl0kPuNTL0Yr4E2dDywq9TBlFS8Img0BXZjjtpfg7V7g9Cs79V0" alt=""><figcaption></figcaption></figure>
 
 **dashboard\_header1\_image** : This key is used to change the image of the cQube dashboard page present at the top. The size of the image should be 32px \* 32px. It is depicted in the image below:
 
