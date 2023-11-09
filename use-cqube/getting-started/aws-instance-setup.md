@@ -10,10 +10,9 @@ An AWS Identity and Access Management (IAM) user is an entity that is created in
 
 **Note :** You can ignore the above step if you are opting for localhost installation (single desktop).
 
-\
 
 
-**Step 2 :** If you are opting to pull the data from the NVSK instance, then make sure to upload the dimension files. If you do not want to pull the data, then you can ignore this step. (Applicable if you chose access type VSK.)
+**Step 2 :** If you are opting to pull the data from the NVSK instance, then make sure to upload the dimension files. If you do not want to pull the data, then you can ignore this step. (Applicable if you choose access type VSK.)
 
 <figure><img src="https://lh3.googleusercontent.com/GV-As4AUxZq8G6MfXmvfNm26ZTErdu8jwsiDysmXzf37PMYlWPasqM4_tE2UPX_PzRO4sll84Fr6w7JUXxDiR5CSFOIQBKM29xXNkvx5LkZYBHf65Uqx5rjnnZkE4MYZHjZn7Whq491woOdIW2GMxR4" alt=""><figcaption></figcaption></figure>
 
@@ -25,9 +24,9 @@ An AWS Identity and Access Management (IAM) user is an entity that is created in
 
 **Step 4:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch
 
-&#x20;                       cd cqube-devops/&#x20;
+&#x20;                      **cd cqube-devops/**&#x20;
 
-&#x20;                      git checkout release-v5.0.5
+&#x20;                           **git checkout release-v5.0.5**
 
 <figure><img src="https://lh5.googleusercontent.com/E_OgyUFO8XlcHce_ewm--W_fs3kEi8pACeSncu30SlO09NG7G3yrfU8LiGjMieVCHsQAUuRDxtrPlrXXyocoJ4hwNBYKYX3U1Zwr994d6znC2rOt6neOX3VicuFB16R21NKSG7s2iBQBloiYTqF4MWo" alt=""><figcaption></figcaption></figure>
 
@@ -47,17 +46,17 @@ If you are opting to pull data from an NVSK instance, then make sure to copy the
 
 Once all the primary steps of uploading SSL certificates and dimensions are done, we can check prerequisites using the script.
 
-Navigate back to cqube-devops directory
+**Navigate back to cqube-devops directory**
 
 **Step 6**: Give the following permissions to the pre\_requisites.sh file
 
-&#x20;                 sudo chmod u+x shell\_scripts/pre\_requisites.sh
+&#x20;                **sudo chmod u+x shell\_scripts/pre\_requisites.sh**
 
 **Step 7:** Run the pre\_requisites script with non root user with sudo privileges
 
-&#x20;                  sudo ./shell\_scripts/pre\_requisites.sh
+&#x20;                  **sudo ./shell\_scripts/pre\_requisites.sh**
 
-![](https://lh6.googleusercontent.com/UZrSv7qjKeHyKyH9c3q6qB-LhvQ\_FhlV2um3kzPLwsRYF\_-UHbSRdqHtJHNf77BWIYad5nI2pDiv2-\_96aGv6EjXDHFkUWW-dy7y4BVCcTnPO\_k6bm\_XqBCdRNOpMGoVSICk7t5TTbNleobiPsPqDTQ)
+<figure><img src="https://lh6.googleusercontent.com/UZrSv7qjKeHyKyH9c3q6qB-LhvQ_FhlV2um3kzPLwsRYF_-UHbSRdqHtJHNf77BWIYad5nI2pDiv2-_96aGv6EjXDHFkUWW-dy7y4BVCcTnPO_k6bm_XqBCdRNOpMGoVSICk7t5TTbNleobiPsPqDTQ" alt=""><figcaption></figcaption></figure>
 
 **Step 8 :** When steps 6 and 7 are done, you will see the feedback from status checks.
 
@@ -97,7 +96,7 @@ Navigate back to cqube-devops directory
 
 &#x20;                     **sudo ./install.sh**
 
-![](https://lh3.googleusercontent.com/vooad-dKteZvHc2BAzhdpUKpbtQPVwhSkwsM44nkMQo8eb13orfphwl1NCQ87lG1ojxKjBclOlLQA9qjQUHhBFMyEYRGK96XdGnkniIvbz6SticcwZAM7M\_f1wfHZ7luA7C0OYKn3zCQdFWwNdHF6P8)
+<figure><img src="https://lh3.googleusercontent.com/vooad-dKteZvHc2BAzhdpUKpbtQPVwhSkwsM44nkMQo8eb13orfphwl1NCQ87lG1ojxKjBclOlLQA9qjQUHhBFMyEYRGK96XdGnkniIvbz6SticcwZAM7M_f1wfHZ7luA7C0OYKn3zCQdFWwNdHF6P8" alt=""><figcaption></figcaption></figure>
 
 Install.sh file contains a shell script where it will run shell scripts and ansible-playbook to setup the cQube
 
@@ -107,9 +106,9 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 &#x20;           a) VSK: To set up VSK for a state
 
-&#x20;            b) NVSK: To setup a cube for the nation
+&#x20;            b) NVSK: To setup a cQube for the nation
 
-&#x20;            c) Others: To set up Cqube for other purposes.
+&#x20;            c) Others: To set up cQube for other purposes.
 
 * state\_name: Enter the required state code by referring to the state list provided (this variable needs to be filled if you are opting for access\_type as VSK; otherwise, it will get filled as NA by default).
 * loginpage\_status: Enter true if you want to enable the login screen for the CQUBE instance. Otherwise, enter false.
@@ -120,7 +119,7 @@ Once all the above variables are filled, you get prompted with a preview of the 
 
 <figure><img src="https://lh5.googleusercontent.com/pryTY65YLkTnovHGmfeSD-R7kI9iJ1i_HR-nsOlhNXbT0JGYB8jmcn4Xj-kyddvK0jj3xBV0Ydie8HVkzzuyGgxAxOI2g8MRzgRRBTwrDeHod45HSW_HpYGsurANuYOkrJ56gbJjRI4Uvn-oTgYtMqU" alt=""><figcaption></figcaption></figure>
 
-**Step 6**:Generation of a generic config file: refer to the hints provided and enter the config file accordingly.
+**Step 6**: Generation of a generic config file: refer to the hints provided and enter the config file accordingly.
 
 * mode\_of\_installation: Enter public as you have opted for setting up cqube in AWS. (Possible values are public and localhost.)
 * storage\_type: Enter storage type as AWS. (Possible values are aws, azure, oracle, and local.)
@@ -152,10 +151,7 @@ Once all the above variables are filled, you get prompted with a preview of the 
 
 <figure><img src="https://lh6.googleusercontent.com/0FhGW3sUZR1vXIx9wjz5bCislTL6J8nHe0q9v8oVeLFXs_ppZEwmAo7ABlwyCI7mcsOCMvZnjJQNsfIH4C8Y_psT-ZGuCM904kQT4U16vBIwQjkTRP9QdLQ-Mc-ERXmozrcZA_573dkCQPOLSUQw7W4" alt=""><figcaption></figcaption></figure>
 
-\
-
-
-**Step 8:** Generation of storage config file: Refer to the hints provided and enter the config file accordingly.
+**Step 8:** Generation of storage config file: Refer to the hints provided below and enter the config file accordingly.
 
 * aws\_access\_key: Enter the aws s3 access key to access the s3 bucket.
 * aws\_secret\_key: Enter the aws s3 secret key to access the s3 bucket.
