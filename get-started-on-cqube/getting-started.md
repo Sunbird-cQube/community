@@ -29,6 +29,6 @@ The detailed skill sets required for each phase of the setting up process are me
 
 ## Supported Servers & Clouds
 
-1. AWS - The steps to deploy cQube v5.0 on AWS have been mentioned [here](broken-reference)
-2. On premise (State Data Centre, Local) - The steps to deploy cQube v5.0 on 'On premise' (State Data Centre, Local) have been mentioned [here](broken-reference)
+1. AWS - The steps to deploy cQube v5.0 on AWS have been mentioned [here](../deployment-process/aws-deployment.md)
+2. On premise (State Data Centre, Local) - The steps to deploy cQube v5.0 on 'On premise' (State Data Centre, Local) have been mentioned [here](../deployment-process/sdc-deployment.md)
 
