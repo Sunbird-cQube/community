@@ -28,7 +28,7 @@ git clone [https://github.com/Sunbird-cQube/cqube-devops.git](https://github.com
 
 &#x20;                               cd cqube-devops/&#x20;
 
-&#x20;                                git checkout release-v5.0.5
+&#x20;                                git checkout release-v5.0.5(latest release branch)
 
 <figure><img src="https://lh5.googleusercontent.com/SNlt2aYh61rk83eTmD-4P2vuSPP_vq-JbgZ9kBmBFRJzbzBFL_XPsE2IdRxICbu90oiWPDvI5lIHYG5un3TH3a5zgFTx0QC6gZd3eHNNU01kxGBEkYDmO0GsRu742Do6DEW58KX4355SO4Nrk0NytpM" alt=""><figcaption></figcaption></figure>
 
