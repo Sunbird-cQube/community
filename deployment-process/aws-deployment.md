@@ -14,19 +14,19 @@
 
 **Step 1:** Use the following command to connect to the AWS instance
 
-&#x20; ssh -i \<path\_to\_the\_pem\_file> \<user\_name>@\<public\_ip\_of\_the\_instance>
+&#x20;                         ssh -i \<path\_to\_the\_pem\_file> \<user\_name>@\<public\_ip\_of\_the\_instance>
 
 Ex: ssh -i poc\_key.pem -o ServerAliveInterval=60 ubuntu@13.200.12.31&#x20;
 
 **Step 2**: Clone the cqube-devops repository using following command
 
-git clone [https://github.com/Sunbird-cQube/cqube-devops.git](https://github.com/Sunbird-cQube/cqube-devops.git)  &#x20;
+&#x20;                            git clone [https://github.com/Sunbird-cQube/cqube-devops.git](https://github.com/Sunbird-cQube/cqube-devops.git)  &#x20;
 
 <figure><img src="https://lh4.googleusercontent.com/24la-c3z7usSWqXH9eQmv5wTynOWYuUoC35pobDgLzBk2-T08oQdygbOnbKPzsas_9WwUGoo4pIAjjR-BYdt7Kanf4FQek-3PYf5fSUX7UqHZc7LOEbuv9q8HM0ciNDbb1SH2abWQI7VJ0N3jBA-f88" alt=""><figcaption></figcaption></figure>
 
 **Step 3:** Navigate to the directory where cqube is cloned or downloaded and checkout to the desired branch(Release Branch)
 
-&#x20;                               cd cqube-devops/&#x20;
+&#x20;                                cd cqube-devops/&#x20;
 
 &#x20;                                git checkout release-v5.0.5(latest release branch)
 
@@ -155,14 +155,10 @@ Run the both schema at a time (click on 3 dots and select Run collection)
 <figure><img src="https://lh3.googleusercontent.com/t7UzLlOJB46BHaHGpxV05JCaS0tIhO7-C2Aa-keofL3LmPrAEmrUZlc_C-uxhliABcMaBciMhp7VQj2BuW5aRn5CgCDvjdWEa455S9y2eMYzgrH6n6QAoHCHI-pldfLIWLrivfNnIxuvjdGygXXZSI0" alt=""><figcaption></figcaption></figure>
 
 * Actually we need to ingest only three programs (pgi,diksha,nishatha)data  through API. The other three programs automatically pull the data from the NVSK server.
-* For that we need to upload (PGI, DIKSHA, NISHATH) three programs schema and ingest the raw files to the aws emission bucket.
-* Then we can schedule the below mentioned processor groups one by one by using schedule API as shown in the below screenshot.
-
-1. Data\_moving\_aws
-2. ingest\_all\_data
-3. nishtha\_aws&#x20;
-4. diksha\_aws&#x20;
-5. pgi\_aws
+* For that we need to upload (PGI, DIKSHA, NISHTHA) three programs schema and ingest the raw files to the aws emission bucket.
+* Then we can schedule the below mentioned processor groups one by one by using schedule API as shown in the below screenshot
+  * &#x20;Run\_adapters
+  * data\_moving\_aws
 
 <figure><img src="https://lh6.googleusercontent.com/uHALny30ZKfTJi_lSLXHPhB0WHiZkxBTQWx5mwz3n4QuUePcq2nb0DjBHrEOMJgq-K4sTaBcKL3frbk1Fa9Sddc-j5TjfKZx0Z34Mr0_iHxOCobvaAZnuuuZPoyCwGUtvnCyoF0BhNJBgrSInj9rcBU" alt=""><figcaption></figcaption></figure>
 

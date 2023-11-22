@@ -95,6 +95,7 @@
 
 ## ☀ DEPLOYMENT PROCESS
 
+* [State List](deployment-process/state-list.md)
 * [AWS Deployment](deployment-process/aws-deployment.md)
 * [SDC Deployment](deployment-process/sdc-deployment.md)
 
