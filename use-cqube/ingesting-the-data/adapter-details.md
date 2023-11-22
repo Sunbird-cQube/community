@@ -32,7 +32,7 @@ Example for illustration:&#x20;
 
 ## Architecture
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/qA-zynQlsoN_H1GLNISWUcQpcsT4EPgzVSHeklQ34a9J5QXbGJj2ROntJo_SEiMCDrO72tzjr0gUKeWu-zMe6pQ_npkH2kOFNgtzNtZwLZy1oxChy2adbaef4gdvgWlr6tf2Q3hlDD4O7mNkTByNWUE" alt=""><figcaption></figcaption></figure>
 
 ## Technology Used
 
