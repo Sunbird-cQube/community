@@ -16,7 +16,7 @@ Ex: ssh -i poc\_key.pem -o ServerAliveInterval=60 ubuntu@13.200.12.31&#x20;
 
 &#x20;                  **cd cqube-devops/**&#x20;
 
-&#x20;                  **git checkout release-v5.0.5**
+&#x20;                  **git checkout release-v5.0.5(latest release branch)**
 
 <figure><img src="https://lh4.googleusercontent.com/qGnkWolEPHARu8cx0EFfpfyErug71YUFL6BzcboIVFdeKbZcrnnGtPJX3K4bRWTOJ9z3_LqR7LG5UWaVd3FkBcAuQA4Op8v_SW7DhsKL3Mk06TrIHX3zR0hRfgUTOKqUtSag5H01zkoK7kTIRMJ-ZPo" alt=""><figcaption></figcaption></figure>
 
