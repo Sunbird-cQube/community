@@ -8,13 +8,13 @@ cQube ERD
 
 **cQube Periodic Exam ERD:**
 
-![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 
 
 **cQube UDISE ERD:**
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (2).png>)
 
 
 

@@ -14,13 +14,13 @@
 
 **Step 1:** Use the following command to connect to the AWS instance
 
-&#x20;                         ssh -i \<path\_to\_the\_pem\_file> \<user\_name>@\<public\_ip\_of\_the\_instance>
+&#x20;              ssh -i \<path\_to\_the\_pem\_file> \<user\_name>@\<public\_ip\_of\_the\_instance>
 
-Ex: ssh -i poc\_key.pem -o ServerAliveInterval=60 ubuntu@13.200.12.31&#x20;
+&#x20;             **Ex: ssh -i poc\_key.pem -o ServerAliveInterval=60 ubuntu@13.200.12.31**&#x20;
 
 **Step 2**: Clone the cqube-devops repository using following command
 
-&#x20;                            git clone [https://github.com/Sunbird-cQube/cqube-devops.git](https://github.com/Sunbird-cQube/cqube-devops.git)  &#x20;
+&#x20;               git clone [https://github.com/Sunbird-cQube/cqube-devops.git](https://github.com/Sunbird-cQube/cqube-devops.git)  &#x20;
 
 <figure><img src="https://lh4.googleusercontent.com/24la-c3z7usSWqXH9eQmv5wTynOWYuUoC35pobDgLzBk2-T08oQdygbOnbKPzsas_9WwUGoo4pIAjjR-BYdt7Kanf4FQek-3PYf5fSUX7UqHZc7LOEbuv9q8HM0ciNDbb1SH2abWQI7VJ0N3jBA-f88" alt=""><figcaption></figcaption></figure>
 
@@ -36,11 +36,19 @@ Ex: ssh -i poc\_key.pem -o ServerAliveInterval=60 ubuntu@13.200.12.31&#x20;
 
 &#x20;                       Path: cqube-devops/ansible/ssl\_certificates
 
+**Command for moving ssl keys:**
+
+&#x20;                       cp certificate.crt  private.key /home/ubuntu/cqube-devops/ansible/ssl\_certificates
+
 <figure><img src="https://lh5.googleusercontent.com/JEAnluvA_6GJZu4RdQAm8_hC5kpmXauxfzaqzErltZTc-igVIlhtOFqsSdEsfY_gYR_9aJ9d_Nj3pq1d3p-GGUvvgQQtS8TCG11o1zorFz1f9Nuf4YZyAtMTkVFeRYCytwv0U6uiz1GgrFgvLple-8U" alt=""><figcaption></figcaption></figure>
 
 **Step 5:** After copying the ssl keys similarly, we can move the VSK dimension to (state,district,grade,subject,medium) below the mentioned path, as shown in the screenshot below.
 
-&#x20;                         Path: cqube-devops/ansible/dimension\_files.
+**Command for moving dimensions:**
+
+&#x20;                      cp state-dimension.data.csv grade-dimension.data.csv subject-dimension.data.csv etc../home/ubuntu/cqube-devops/ansible.dimension\_files
+
+&#x20;                      Path: cqube-devops/ansible/dimension\_files.
 
 <figure><img src="https://lh5.googleusercontent.com/DhCvqRvrO-7MVBgzcH3sueBGZ6g1Du-af-w-TXQBjcyNNYyllvIr4qBKmV-3DwwZr2CJGNDWsY4LoWmEbeG1PSpUZY_4Wa_XYtpoljiqdGQ7Gy0mEJP_onYlQlg2ZIGyH47EAesWXYDCiPGeV5L1G5o" alt=""><figcaption></figcaption></figure>
 
@@ -50,7 +58,7 @@ Ex: ssh -i poc\_key.pem -o ServerAliveInterval=60 ubuntu@13.200.12.31&#x20;
 
 **Step 7:** Install cqube with non root user with sudo privileges
 
-&#x20;                           sudo ./install.sh
+&#x20;                       sudo ./install.sh
 
 <figure><img src="https://lh4.googleusercontent.com/6Ceax5QyiqtNR0guJamDCA_CNpvX587dUQOzgyPKry5dkmVRt3ByNY3O44fPUyesD6Pes0WwtaScw0eYT8-X9jBD3KLtkW82DRAhu8MtKTO8jnhbfBsDjZkv6-qHqOJj6Ut-bS_Fr8W5wL914ogJgLk" alt=""><figcaption></figcaption></figure>
 
@@ -68,9 +76,9 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 * Mode of installation: Public
 * Storage\_type : aws
-* API\_Endpoint(Enter the domain name ex: cqube-demo-cert.tibilprojects.com)
-* Please enter the name of cert file( ex:certificate.crt)
-* Please enter the name of key file (ex: private.key)
+* API\_Endpoint(Enter the domain name :  (ex: cqube-demo-cert.tibilprojects.com)
+* Please enter the name of cert file: ( ex:certificate.crt)
+* Please enter the name of key file:  (ex: private.key)
 
 **Step 7:** Once you enter the above user input it will create one config file.please preview the config file and confirm if everything is correct.if it is correct type “no” and proceed and else type “yes” then correct it.
 
@@ -107,7 +115,7 @@ cQube ingestion api can be accessible using \<domain\_name>
 * After installation check the docker containers are up or not
 * Sudo docker ps -a
 
-<figure><img src="https://lh3.googleusercontent.com/_K2qoUkSAe7loyBwiBzwT8S15-eoB0uhI3UwpXdEPU-iUKbwkktaQbFqB0QMr53gEyPq2yTT1JTQbr3P3A-M-dghPskJY-mLA31Des7NAWYIbFGHHZpFJfeYF6feZCs4x5jgpoluu7HI5pgfIPrrgh4" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/xE38bQFwin4f7fznyjUjUQCUQ550m0fjEnWdRhLTmxwrbtraCfdEGZWS6w63rx7kHuMvQ_wF2vvcO0g0d_HDpPwpvEUZ4u7-iDt-s7pIBGGvSulTIMT7Et5j5sohOrc1pa_JOipYu8i7Wbrv7Mq5SpU" alt=""><figcaption></figcaption></figure>
 
 **Ingestion Flow:**
 
@@ -125,24 +133,19 @@ cQube ingestion api can be accessible using \<domain\_name>
 
 [https://drive.google.com/drive/u/0/folders/12Wn7UIHgUhq6U3GzlRN-zdrJMnj1hrPO](https://drive.google.com/drive/u/0/folders/12Wn7UIHgUhq6U3GzlRN-zdrJMnj1hrPO)
 
-
-
 * After installations first need to create the jwt token in postman as shown below screenshot.
 
-API\_Endpoint: [http://vsk.ap.gov.in/api/ingestion/generatejwt](http://vsk.ap.gov.in/api/ingestion/generatejwt)
+API\_Endpoint: [https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt](https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt)
+
+<figure><img src="https://lh7-us.googleusercontent.com/vJtPWO34t8f2HAmlYyNpe2kg1_Nnsk4a_uyMV-LFoENJav8r9SddvO2o5KCVOOdG-9aoAgtzSYy2XUrTnfOQLF6k1Byv81hdXP7VbtXNRBST6FIGl94voh_zTKGrn2xmZ4R3eqwxWCZV_4VU9PNNC7Y" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="https://lh3.googleusercontent.com/mCLYTu9lOl9zJr8NIBhtrSacIIjuY8z8iEMvV396otWtTsh70Xf3fjUV0_YOFsC492bSIeXEK4xYZqVqyrHyR84f5fQ8QE4xkcwoXiyBjgybv6YQJOcAYSnxnUjVXAbvPgw9C6Qzq2ZJg_RqzYjIv1Q" alt=""><figcaption></figcaption></figure>
+* After creating the JWT token then upload the vsk\_schema and dimension schema as shown below screenshot
 
-* After creating the JWT token then upload the vsk\_chema and dimension schema as shown below screenshot
+&#x20;API Endpoint:[ ](https://cqube-ssl-test.tibilprojects.com/api/ingestion/national\_programs)[htpps://cqube-ssl-test.tibilprojects.com/api/spec/event](https://cqube-apr27-demo.tibilprojects.com/api/spec/event)
 
-&#x20;API Endpoint: [https://cqube-apr27-demo.tibilprojects.com/api/spec/event](https://cqube-apr27-demo.tibilprojects.com/api/spec/event)
-
-<figure><img src="https://lh6.googleusercontent.com/4YKh6WFGmb-q6hdgtSqiJNMUfkZgpRRU8JWL-gQWI-LKomYZSzlJj-Hk1JNQiaUMAJxvvTK2KUEyG0HMEfX-zaBA7sk6UjxC_xtZFt91IT4tgRfaO_IrTD6CmezdCIGTVdkw-oP44BIDGodZQsH1dvU" alt=""><figcaption></figcaption></figure>
-
-\
-
+<figure><img src="https://lh7-us.googleusercontent.com/qpNEnirkXm7J3tSf9unLHFynC1Cj6ebmqxkjqG5wgG_EyZiE3DbAkMhncRCfamZNcfllxPRgSuiSxNe6KqmkT8wSqy5tdFNXQ8DmdB5LXmAxfKDAOL5yiuik-YEUsHcskiEokviRHvSfN5-wljOHCWw" alt=""><figcaption></figcaption></figure>
 
 Run the both schema at a time (click on 3 dots and select Run collection)
 
@@ -150,22 +153,42 @@ Run the both schema at a time (click on 3 dots and select Run collection)
 * Go to authorization and select Bearer token, then paste the token&#x20;
 * Then I need to upload the VSK data(NCERT) as shown in the below screenshot.
 
-&#x20;           API Endpoint: [https://ap.vsk.gov.in/api/ingestion/national\_programs](https://ap.vsk.gov.in/api/ingestion/national\_programs)
+&#x20;           API Endpoint:[ ](https://cqube-ssl-test.tibilprojects.com/api/ingestion/national\_programs)[https://cqube-ssl-test.tibilprojects.com/api/ingestion/national\_programs\
+](https://cqube-ssl-test.tibilprojects.com/api/ingestion/national\_programs)
 
-<figure><img src="https://lh3.googleusercontent.com/t7UzLlOJB46BHaHGpxV05JCaS0tIhO7-C2Aa-keofL3LmPrAEmrUZlc_C-uxhliABcMaBciMhp7VQj2BuW5aRn5CgCDvjdWEa455S9y2eMYzgrH6n6QAoHCHI-pldfLIWLrivfNnIxuvjdGygXXZSI0" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/yi4ruRGMYzZmwQl3uuHuaR1vDYyoNHTOel2CeYCVAZv0QxD6NJfx-yPQC-FxVFiQ_AO4lPrZBC3CcTzDtsWCjNfISDtyqyebEYhGhveoJlHywqkIOmAdDurYSuVZHH4XZAFFW6WGDLRuhjzb96GrlEE" alt=""><figcaption></figcaption></figure>
 
-* Actually we need to ingest only three programs (pgi,diksha,nishatha)data  through API. The other three programs automatically pull the data from the NVSK server.
-* For that we need to upload (PGI, DIKSHA, NISHTHA) three programs schema and ingest the raw files to the aws emission bucket.
+* We need to ingest only three programs (pgi,diksha,nishtha)data through API. The other three programs automatically pull the data from the NVSK server.
+* For above point we need to upload (PGI, DIKSHA, NISHTHA) three programs schema and ingest the raw files to the aws emission bucket.
 * Then we can schedule the below mentioned processor groups one by one by using schedule API as shown in the below screenshot
   * &#x20;Run\_adapters
   * data\_moving\_aws
 
-<figure><img src="https://lh6.googleusercontent.com/uHALny30ZKfTJi_lSLXHPhB0WHiZkxBTQWx5mwz3n4QuUePcq2nb0DjBHrEOMJgq-K4sTaBcKL3frbk1Fa9Sddc-j5TjfKZx0Z34Mr0_iHxOCobvaAZnuuuZPoyCwGUtvnCyoF0BhNJBgrSInj9rcBU" alt=""><figcaption></figcaption></figure>
-
 \
 
 
-<figure><img src="https://lh4.googleusercontent.com/wPFNtU4fme2lm0GAb-Jf1CiENr8y7vE2aAmkQsVH3_jKKKU7dEHjIhYu-Z4FLgeVFbS3N70vJ07a36bfWHBp6BC6swvpAT_fkObMOB2KGknV7B43CpC_MZZvK83E2FqRq9giqQ34g74eX1KS0z7k7jw" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/zapTPsHQg6EefoQCqQXBlq_60teMoNJUUVxic0Eid-e0ZyDkiwCEybVxuYxkfGzLcHryQUn_ym-j4luaFtClIt2ltyM-WZg3JHbZYxawTH8IZe5wGFQzbRvhuxoKgfpXG_A_y7cPorHtcMTNw7f_qX8" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+*   After the schedule, the programs should one by one by using schedule API as mentioned in the below screenshot.
+
+    Bbody:
+
+    {
+
+    &#x20;   "processor\_group\_name": "ingest\_data",
+
+    &#x20;   "scheduled\_at": "0 31 14 \* \* ?",
+
+    &#x20;   "program\_name": "nishtha"
+
+    }
+
+<figure><img src="https://lh7-us.googleusercontent.com/Ypr5SVcSJ3AuGVFhCvt_gGT98ocMPawzN8BqbG7VUJ2eamsy4lyTNPJscBz8zIv_fJYB7UpfWEUMxgDpbQRbyosTfT1nyluht3bgkhQ1Zdw0gzAz74-hATVpBIChPVLrGRRzORaVPOri8hXxvooyWhA" alt=""><figcaption></figcaption></figure>
+
+\
+
 
 * Check the visualization in the UI dashboard. As shown in the below screenshot.
 

@@ -14,4 +14,4 @@ description: 'Note: These steps are for adding a new indicator to an existing pr
 
 6. Based on the chart type, you can also provide options in the same configurations, such as titles, color of the columns, legend of the map report, etc.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
