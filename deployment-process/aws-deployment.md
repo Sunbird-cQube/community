@@ -68,7 +68,7 @@
 * Do you want to pull the data from the NVSK server?(Enter true or false)
 * Please enter the end point to pull the data (Ex: cqube-demo-nvsk.tibilprojects.com)
 
-**Step 6:** User Input Variables - These are the variables which need to be entered by the user by following the Hint provided
+**Step 8:** User Input Variables - These are the variables which need to be entered by the user by following the Hint provided
 
 Install.sh file contains a shell script where it will run shell scripts and ansible-playbook to setup the cQube
 
@@ -80,7 +80,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * Please enter the name of cert file: ( ex:certificate.crt)
 * Please enter the name of key file:  (ex: private.key)
 
-**Step 7:** Once you enter the above user input it will create one config file.please preview the config file and confirm if everything is correct.if it is correct type “no” and proceed and else type “yes” then correct it.
+**Step 9:** Once you enter the above user input it will create one config file.please preview the config file and confirm if everything is correct.if it is correct type “no” and proceed and else type “yes” then correct it.
 
 <figure><img src="https://lh3.googleusercontent.com/Obgxo291qAm0nXG3UZUKvM7mdiVyGhuzZJwydnHcewD3lzv8AiZB3AF7Y-KYPJgRIlefjIMmDJmfmZwAixUwRNX1mSk8VQuhCsZgSjvga8hQfrGrewlXRr9edhMBb5ql_jDrZV15dqSNtwQX2mDVgrY" alt=""><figcaption></figcaption></figure>
 
@@ -92,19 +92,19 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * keycloak\_adm\_name( Enter the keycloak admin name)
 * &#x20;keycloak\_adm\_password( Enter the keycloak password)
 
-**Step 8:** Optional\_variables- Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for ‘yes’ to enter their credentials otherwise can opt for ‘no’ when the question pops up
+**Step 10:** Optional\_variables- Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for ‘yes’ to enter their credentials otherwise can opt for ‘no’ when the question pops up
 
 <figure><img src="https://lh5.googleusercontent.com/F0AOBp-ue8AvmbIbAfP7957Soc--_5PUwF5Rshc_oeYTj5pgEcV5oseX4TMnqRjK5WSUfQbNzmDqDH3Je_HMS3w3PTOnliPkIYneVVaGAGe-RT4o8K3JArXKvsWW4pZWHSty_jlcNliI0K3uEvfx8xQ" alt=""><figcaption></figcaption></figure>
 
-**Step 9:** Once the config file is generated, A preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing yes. If option no is selected then the install.sh moves to the next section.
+**Step 11:** Once the config file is generated, A preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing yes. If option no is selected then the install.sh moves to the next section.
 
 <figure><img src="https://lh4.googleusercontent.com/Yz1NMCBiU-JR9s8Z3y0A84mcP7HYU32QsK9ZSX_ZHD_zQgGkbzmScWGAWGMFFmrKfPKTn-f43WJ5q3q_5pPqnjQQ3wQPOuify-C_8NAporlQWPeNP9QhINC_lGW8btb_l_f2BbQzhpqfusRjuDf7IGs" alt=""><figcaption></figcaption></figure>
 
-**Step 10:** A preview of the program\_selector.yml file is displayed followed by a question where the user gets an option to enable or disable the programs on choosing ‘yes’. If option ‘no’ is selected then the install.sh moves to the next section.
+**Step 12:** A preview of the program\_selector.yml file is displayed followed by a question where the user gets an option to enable or disable the programs on choosing ‘yes’. If option ‘no’ is selected then the install.sh moves to the next section.
 
 <figure><img src="https://lh4.googleusercontent.com/L8Wl3Hnptsqa0kYfp4ZqeHxmpQIo29FsQlJbI7P3kXBBLjMamUN2H0iEm3vA6Z538kPC7fqhrKngqc471QWrGZTOfC6jIW1zKKdtifnlOZRAeeAs5N9K-ESI8x7E-wB5b62dCEOjGEBQ7_na6JFTF5M" alt=""><figcaption></figcaption></figure>
 
-**Step 11:** Once the installation is completed, You will be prompted with the following messages and required reference urls.
+**Step 13:** Once the installation is completed, You will be prompted with the following messages and required reference urls.
 
 **cQube Installed Successfully**
 
