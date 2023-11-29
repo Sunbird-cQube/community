@@ -15,6 +15,6 @@ description: 'Note: These steps are for adding a new report to an existing progr
 6. Under the same program name, there will be a config folder that contains a configuration file for the entire program (a JSON file).
 7. If any filters are required for the specific report, add an object under the "filter" key in the above configuration file which specifies the filter and its values required for the report. You may need Angular knowledge to fill the object with the appropriate structure.
 
-![](<../.gitbook/assets/image (35).png>)
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 \
