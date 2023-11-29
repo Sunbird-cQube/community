@@ -41,7 +41,7 @@ Here are some additional tips for using a schema generator:
 
 Following  screenshot of the schema generator.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/R6NULK18Gu7HLMjUDGqW3XRRWeCQa80WACcnLXSTMIJgzFFMoJuRSHUAmNDK3WrO1AUQdny6kRvbgq6TV2OXitWI9iXgqUyZOJvhLOPUGfgYZ3dxt770Wtadn-puewihWu8tOSiiT6hnx0_Ccn40Fhc" alt=""><figcaption></figcaption></figure>
 
 Following is the sample data for the ETB coverage status data of the DIKSHA program.
 
