@@ -58,7 +58,7 @@ Step 5: Navigate to the Role-Mapping, under Realm-roles select private\_user and
 
 Step 1 : Navigate to 'Import' tab in the 'Manage' section.
 
-![](https://lh5.googleusercontent.com/JnzuT\_4qD3rnHXoehyc1yq7QA0txxC-81ph\_6cW88TkaqzRdr0UOhinM87FYSqXOBUIoY-SqBYx2q5D\_PtqmYJPJJSuMZhMTPlnbyVnre1PZdftA17011MS0qKRF6qp4mF3QgZohk2PDvsGCQlfbjSU)
+<figure><img src="https://lh5.googleusercontent.com/JnzuT_4qD3rnHXoehyc1yq7QA0txxC-81ph_6cW88TkaqzRdr0UOhinM87FYSqXOBUIoY-SqBYx2q5D_PtqmYJPJJSuMZhMTPlnbyVnre1PZdftA17011MS0qKRF6qp4mF3QgZohk2PDvsGCQlfbjSU" alt=""><figcaption></figcaption></figure>
 
 Step 2 : Click on 'Select file' and upload the .json file containing information of users to be added. (.json file should be in the format as shown below)
 
