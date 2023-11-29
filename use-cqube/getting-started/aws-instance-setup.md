@@ -18,21 +18,21 @@ An AWS Identity and Access Management (IAM) user is an entity that is created in
 
 **Step 3:** Clone the cqube-devops repository using following command
 
-&#x20;                  git clone [https://github.com/Sunbird-cQube/cqube-devops.git](https://github.com/Sunbird-cQube/cqube-devops.git)    &#x20;
+&#x20;                **git clone** [**https://github.com/Sunbird-cQube/cqube-devops.git**](https://github.com/Sunbird-cQube/cqube-devops.git)    &#x20;
 
 <figure><img src="https://lh5.googleusercontent.com/UjoUhbupTuK24BEdYb_SXBRsE-rLCtD5f7uk9dg33z-REsD-teRvFTK--lV-UVnM_YtHhnFqEljUAhfC2fH2Htx6u213g_mcnV6X0HcXm_UapobOFOwwgOPj1BLDfAO_ugB0JGd3n1vxGfkjvpIwgmc" alt=""><figcaption></figcaption></figure>
 
 **Step 4:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch
 
-&#x20;                       cd cqube-devops/&#x20;
+&#x20;                       **cd cqube-devops/**&#x20;
 
-&#x20;                        git checkout release-v5.0.5(latest release branch)
+&#x20;                        **git checkout release-v5.0.5(latest release branch)**
 
 <figure><img src="https://lh5.googleusercontent.com/E_OgyUFO8XlcHce_ewm--W_fs3kEi8pACeSncu30SlO09NG7G3yrfU8LiGjMieVCHsQAUuRDxtrPlrXXyocoJ4hwNBYKYX3U1Zwr994d6znC2rOt6neOX3VicuFB16R21NKSG7s2iBQBloiYTqF4MWo" alt=""><figcaption></figcaption></figure>
 
 **Step 5:** Navigate to the directory cqube-devops/ansible/ssl\_certificates.
 
-&#x20;                     Copy the certificate and private key inside this cqube-                   devops/ansible/ssl\_certificates folder.
+&#x20;                     **Copy the certificate and private key inside this cqube-                   devops/ansible/ssl\_certificates folder.**
 
 <figure><img src="https://lh4.googleusercontent.com/Wr-sri7bGZATnpBooUYO6vDQJdLZQh8pi3mDhhm9lQzAkacsn_FLBwAa1_8oiVG0BRq81msG3QsBRa79l_KL7BN-Vs8S-JgKItFAcTN4H7_V9rdieto5B4AQPXdtqdtInbZ212f7uyNS_7TBQYUo5Ss" alt=""><figcaption></figcaption></figure>
 
@@ -50,11 +50,11 @@ Once all the primary steps of uploading SSL certificates and dimensions are done
 
 **Step 6**: Give the following permissions to the pre\_requisites.sh file
 
-&#x20;                **sudo chmod u+x shell\_scripts/pre\_requisites.sh**
+&#x20;          **sudo chmod u+x shell\_scripts/pre\_requisites.sh**
 
 **Step 7:** Run the pre\_requisites script with non root user with sudo privileges
 
-&#x20;                  **sudo ./shell\_scripts/pre\_requisites.sh**
+&#x20;                 **sudo ./shell\_scripts/pre\_requisites.sh**
 
 <figure><img src="https://lh6.googleusercontent.com/UZrSv7qjKeHyKyH9c3q6qB-LhvQ_FhlV2um3kzPLwsRYF_-UHbSRdqHtJHNf77BWIYad5nI2pDiv2-_96aGv6EjXDHFkUWW-dy7y4BVCcTnPO_k6bm_XqBCdRNOpMGoVSICk7t5TTbNleobiPsPqDTQ" alt=""><figcaption></figcaption></figure>
 
