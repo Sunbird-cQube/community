@@ -24,9 +24,9 @@ An AWS Identity and Access Management (IAM) user is an entity that is created in
 
 **Step 4:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch
 
-&#x20;                      **cd cqube-devops/**&#x20;
+&#x20;                       cd cqube-devops/&#x20;
 
-&#x20;                           **git checkout release-v5.0.5(latest release branch)**
+&#x20;                        git checkout release-v5.0.5(latest release branch)
 
 <figure><img src="https://lh5.googleusercontent.com/E_OgyUFO8XlcHce_ewm--W_fs3kEi8pACeSncu30SlO09NG7G3yrfU8LiGjMieVCHsQAUuRDxtrPlrXXyocoJ4hwNBYKYX3U1Zwr994d6znC2rOt6neOX3VicuFB16R21NKSG7s2iBQBloiYTqF4MWo" alt=""><figcaption></figcaption></figure>
 
