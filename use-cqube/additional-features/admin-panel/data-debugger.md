@@ -4,11 +4,15 @@ It analyzes the data and reports the user about the errored records in the raw d
 
 Data Debugger analyzes the fed data and reports and identifies the errors in them, if any, in an event or dimension files.&#x20;
 
-Following  screenshot for the  data debugger.
+**How it works:**
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+To validate the raw data of either dimension or an event, first:
 
-Steps to validate the Raw Data file:&#x20;
+1. Upload the grammar file for the dimension or event that you want to validate.
+2. Validate the grammar file.
+3. Validate the raw data against the uploaded grammar file.
+
+**Steps to validate the Raw Data file:**&#x20;
 
 (Please note - The raw data file should be in CSV format.)
 
@@ -28,11 +32,11 @@ The grammar file is a CSV file that defines the structure of the data that you w
 
 Following  screenshot of validate grammar of data debugger
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/-qQAT3yNfPPKiFvBEzcKg3xXw3sQzbRWtPX4Sqvfopg_5Pa3qkepy_7lk1lphRWZ2uTPhKus8ahBJTgX7Tz70ho1-7wj6ig5sk5UXBTEsSGKBMu9cykfIiF0Mba6qBx58QtQAbme4vliglcRFjxls9Q" alt=""><figcaption></figcaption></figure>
 
 Following is the sample grammar file block dimension:
 
-![](https://lh4.googleusercontent.com/E7XutNio5PHiOX1SsgOdA-6hM3kOMMjGN-8CzepJPcDtlS1N8HVB0vVsb86uCtcbFm\_8MCngRAXi88P\_0obkuNJ47UASe8wpJF5jA3jVrjqKyeXhxUgIkORPhRCq3Dvs2VyZq2FR\_plfzY4ijmUmD3U)
+<figure><img src="https://lh4.googleusercontent.com/E7XutNio5PHiOX1SsgOdA-6hM3kOMMjGN-8CzepJPcDtlS1N8HVB0vVsb86uCtcbFm_8MCngRAXi88P_0obkuNJ47UASe8wpJF5jA3jVrjqKyeXhxUgIkORPhRCq3Dvs2VyZq2FR_plfzY4ijmUmD3U" alt=""><figcaption></figcaption></figure>
 
 **Note**: Include primary key if it is a dimension grammar file.
 
