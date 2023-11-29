@@ -4,11 +4,11 @@
 
 &#x20;     **ssh -i \<path\_to\_the\_pem\_file> \<user\_name>@\<public\_ip\_of\_the\_instance>**
 
-Ex: ssh -i poc\_key.pem -o ServerAliveInterval=60 ubuntu@13.200.12.31&#x20;
+&#x20;      **Ex: ssh -i poc\_key.pem -o ServerAliveInterval=60 ubuntu@13.200.12.31**&#x20;
 
 **Step 2:** Clone the cqube-devops repository using following command
 
-&#x20;          git clone [https://github.com/Sunbird-cQube/cqube-devops.git](https://github.com/Sunbird-cQube/cqube-devops.git)    &#x20;
+&#x20;        **git clone** [**https://github.com/Sunbird-cQube/cqube-devops.git**](https://github.com/Sunbird-cQube/cqube-devops.git)    &#x20;
 
 <figure><img src="https://lh4.googleusercontent.com/LVrcmhInvNGnFXBZ2ZRHWZMqBGRqCX9DKsXteWhbRmV6X6EPDDo7TDOnwyDKjgahfIVWnnqsrXZ31AXnc5HOpDgcZEKdaBQN64bli_8wbM4xHZxmICUKdKIsXIkfqYGiXvE70Ryxtvnv0sttt0KbQnQ" alt=""><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@ Ex: ssh -i poc\_key.pem -o ServerAliveInterval=60 ubuntu@13.200.12.31&#x20;
 
 &#x20;                  **cd cqube-devops/**&#x20;
 
-&#x20;                  **git checkout release-v5.0.5(latest release branch)**
+&#x20;                    **git checkout release-v5.0.5(latest release branch)**
 
 <figure><img src="https://lh4.googleusercontent.com/qGnkWolEPHARu8cx0EFfpfyErug71YUFL6BzcboIVFdeKbZcrnnGtPJX3K4bRWTOJ9z3_LqR7LG5UWaVd3FkBcAuQA4Op8v_SW7DhsKL3Mk06TrIHX3zR0hRfgUTOKqUtSag5H01zkoK7kTIRMJ-ZPo" alt=""><figcaption></figcaption></figure>
 
@@ -49,15 +49,15 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 ![](https://lh5.googleusercontent.com/PQSTfzWT0BPjtTe72EuCIiDxpO10S6XPn7Mv66t30yyuerrjWb4B9oUMtojPUjyeAwakZgOxQLpnY0VkHJN4i1g7BOWjYBh3C5EZXafu16YSZtbdUnTfh4mbdpCna0JuWBpbVPJUUU\_Y\_dtL6Bf6xUY)
 
-**Step 9:** Once the config file is generated, A preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing yes. If option no is selected then the install.sh moves to the next section.
+**Step 8:** Once the config file is generated, A preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing yes. If option no is selected then the install.sh moves to the next section.
 
 <figure><img src="https://lh4.googleusercontent.com/xIyf4G-HwzWAB0L9y-sFwH1s7jfXnoQB9G0oSRbVjlUNvzLh2QdlKY9W6dgeKcRocoL4koqk1nLBEwU7OGQV4ui1mpK6_l-9xDtk85UuL6Md6cRmiogUjfeJW02FF5abNuKvUwYqSLydl7uVeFXgXa0" alt=""><figcaption></figcaption></figure>
 
-**Step 10:**  A preview of the program\_selector.yml file is displayed followed by a question where the user gets an option to enable or disable the programs on choosing yes. If option no is selected then the install.sh moves to the next section.
+**Step 9:**  A preview of the program\_selector.yml file is displayed followed by a question where the user gets an option to enable or disable the programs on choosing yes. If option no is selected then the install.sh moves to the next section.
 
 <figure><img src="https://lh5.googleusercontent.com/84BynE9o-c4gHYwC5w_2GjkzCI1KxO1IrgVCK5cz_x6px4cweNM5kpFvGk9NC2Hca1lXUh9lmiedor9d8uCs6Np9VDAIPhOcU6bet29Cd6aCjh_jNNU7P9_aAOcAUcHV8Ua9rmrcwSuGF065hW6Ei2U" alt=""><figcaption></figcaption></figure>
 
-**Step 11:** Once the installation is completed, You will be prompted with the following messages and required reference urls.
+**Step 10:** Once the installation is completed, You will be prompted with the following messages and required reference urls.
 
 &#x20;              **cQube Installed Successfully**
 
