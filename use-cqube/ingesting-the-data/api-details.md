@@ -94,6 +94,26 @@ Click on the send button for the request and if the request is successful the us
 
 The schedule api helps to run the processor group in Nifi at a scheduled time. The schedule time can be updated by changing the cron expression for scheduled\_at property in the request body.
 
+**Processor Group state Change API:**
+
+This API helps to change the state of a processor group in Nifi. It will provide the functionality to start the processor group or stop the processor group.
+
+**Step 1:** Create  a specified request in postman  and add the details.
+
+<figure><img src="https://lh7-us.googleusercontent.com/DUbTnb-ysYYg0xEfdQ9PUfOjlgHQtqOUBWfPYeP2V0vvIZCDZiSBKLOzVAsCMXNCHqa1U4A1hQNERHuRFuLeTMsOg9YgsR6w7TjbBRNQ9GdXVdluF5sZ0azvaPdl8OOEQkENCQHXZxtjd5doubzt8hg" alt=""><figcaption></figcaption></figure>
+
+**Step 2:** Step 2: Build the request body with reference to YAML file. The request body for the above api is attached in Link for yaml:[ <img src="https://lh7-us.googleusercontent.com/qMa3emhWmrFwRvUTkiQ2q6CTtXbsK8PIdipItYpsUr3HhNR-_V6qiNWE0GQVt-cd48WOMBVEkeIc2XS0nCO4evRngYks1dhVYwi2bvNlAT9EtDmrzzMr0Q6lzbrG_ErLLGnrFSthZpYXrf0NgJ4d6B4" alt="" data-size="line">spec-ms/spec.yaml at dev · Sunbird-cQube/spec-ms](https://github.com/Sunbird-cQube/spec-ms/blob/dev/spec.yaml)   . Provide the valid input details for the Parameters shown below.\
+
+
+<figure><img src="https://lh7-us.googleusercontent.com/4muG8rfsdrBueNhcp8CUeBf-4JHyIO7-K-_dY7un7aqgkv4v-DplFXNt9OvPWEBwYelLjXM_A4ezqnOKDnuQScav6OtjYZWN6HdZxtt0t7v34NAFh1P3rldBLZA34YNL17uUyapT1xAtl-2Y5A3OzCI" alt=""><figcaption></figcaption></figure>
+
+&#x20;**Step 3:** Click on the send button for the request and if the request is successful the user should see a response message.&#x20;
+
+<figure><img src="https://lh7-us.googleusercontent.com/8jDYjaK9n0OCK9DSbiObVMael4Yjg53hopfSQan9mdPDDgDuVhrA3RH9x2ixFCqJwVaI5F7igNXBDWZ79xRL4CbYJVcICtFSJgPZTlXnLUmBKUjzaEkoE-9YL6Rk3BFjGHCKsBEu9wa02rwcPWm3KRY" alt=""><figcaption></figcaption></figure>
+
+\
+
+
 **Error Monitoring :** &#x20;
 
 The error file will store all the error records during the ingestion process and will be uploaded to the appropriate cloud storage. The user can login to the respective cloud storage and download the file to take a look at the error records present in the csv. The below mentioned steps will specify on how to access the error file.
