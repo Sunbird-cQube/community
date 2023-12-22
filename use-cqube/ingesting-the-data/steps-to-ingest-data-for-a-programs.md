@@ -45,7 +45,7 @@ HTTP Method: POST
 
 <figure><img src="https://lh5.googleusercontent.com/MaPHj49DDiYoBuI0G5glMvm4ucxnr8jY9xMAKEHf4pt1V_r0D-F5fz659CbHMTkXrxSKzbEA-EeDKa1pEfaBKGVvYuF4NdxP_LYp6-PW-9aRkqvEvFebTQDwfXvitxflOv2Ne_wyTRzWImH0cKEZQtg" alt=""><figcaption></figcaption></figure>
 
-This API will import the dimension csv and upload it into the combined\_input folder in the cloud if there are no errors.&#x20;
+This API will import the dimension csv and upload it into the process\_input folder in the cloud if there are no errors.&#x20;
 
 **Step 2:** Build the request body with reference to YAML file. The request body for the above API is attached here for yaml:[ ](https://github.com/Sunbird-cQube/spec-ms/blob/march-release/spec.yaml)[https://github.com/Sunbird-cQube/spec-ms/blob/dev/spec.yaml](https://github.com/Sunbird-cQube/spec-ms/blob/dev/spec.yaml) Provide valid input details for the parameters shown below.
 

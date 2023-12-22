@@ -21,7 +21,7 @@ This API accepts the data in a zip file format and adds it to the emission folde
 
 Open the specified request & add the details
 
-**API Endpoint:** \<domain\_name>/ingestion/file-status
+**API Endpoint:** \<domain\_name>/ingestion/national\_programs
 
 **HTTP Method:** GET&#x20;
 
