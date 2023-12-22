@@ -46,6 +46,8 @@
 
 **Command for moving dimensions:**
 
+**(Note: This Step 5  is applicable for pulling the data from NVSK )**
+
 &#x20;                      cp state-dimension.data.csv grade-dimension.data.csv subject-dimension.data.csv etc../home/ubuntu/cqube-devops/ansible.dimension\_files
 
 &#x20;                      Path: cqube-devops/ansible/dimension\_files.
