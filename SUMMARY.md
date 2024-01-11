@@ -30,6 +30,7 @@
 * [Hardware Requirements](get-started-on-cqube/hardware-requirements.md)
 * [Prerequisites Checklist](get-started-on-cqube/prerequisites-checklist.md)
 * [Checking pre existing ports](get-started-on-cqube/checking-pre-existing-ports.md)
+* [Instance Creation](get-started-on-cqube/instance-creation.md)
 
 ## 🛃 USE CQUBE
 
