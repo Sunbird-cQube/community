@@ -1,4 +1,4 @@
-# AWS Instance Setup
+# AWS Installation
 
 IAM user and Role creation for S3 connectivity (AWS)
 
@@ -12,17 +12,13 @@ An AWS Identity and Access Management (IAM) user is an entity that is created in
 
 
 
-**Step 2 :** If you are opting to pull the data from the NVSK instance, then make sure to upload the dimension files. If you do not want to pull the data, then you can ignore this step. (Applicable if you choose access type VSK.)
-
-<figure><img src="https://lh3.googleusercontent.com/GV-As4AUxZq8G6MfXmvfNm26ZTErdu8jwsiDysmXzf37PMYlWPasqM4_tE2UPX_PzRO4sll84Fr6w7JUXxDiR5CSFOIQBKM29xXNkvx5LkZYBHf65Uqx5rjnnZkE4MYZHjZn7Whq491woOdIW2GMxR4" alt=""><figcaption></figcaption></figure>
-
-**Step 3:** Clone the cqube-devops repository using following command
+**Step 2:** Clone the cqube-devops repository using following command
 
 &#x20;                **git clone** [**https://github.com/Sunbird-cQube/cqube-devops.git**](https://github.com/Sunbird-cQube/cqube-devops.git)    &#x20;
 
 <figure><img src="https://lh5.googleusercontent.com/UjoUhbupTuK24BEdYb_SXBRsE-rLCtD5f7uk9dg33z-REsD-teRvFTK--lV-UVnM_YtHhnFqEljUAhfC2fH2Htx6u213g_mcnV6X0HcXm_UapobOFOwwgOPj1BLDfAO_ugB0JGd3n1vxGfkjvpIwgmc" alt=""><figcaption></figcaption></figure>
 
-**Step 4:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch
+**Step 3:** Navigate to the directory where cQube is cloned or downloaded and checkout to the desired branch
 
 &#x20;                       **cd cqube-devops/**&#x20;
 
@@ -30,13 +26,15 @@ An AWS Identity and Access Management (IAM) user is an entity that is created in
 
 <figure><img src="https://lh5.googleusercontent.com/E_OgyUFO8XlcHce_ewm--W_fs3kEi8pACeSncu30SlO09NG7G3yrfU8LiGjMieVCHsQAUuRDxtrPlrXXyocoJ4hwNBYKYX3U1Zwr994d6znC2rOt6neOX3VicuFB16R21NKSG7s2iBQBloiYTqF4MWo" alt=""><figcaption></figcaption></figure>
 
-**Step 5:** Navigate to the directory cqube-devops/ansible/ssl\_certificates.
+**Step 4:** Navigate to the directory cqube-devops/ansible/ssl\_certificates.
 
 &#x20;                     **Copy the certificate and private key inside this cqube-                   devops/ansible/ssl\_certificates folder.**
 
 <figure><img src="https://lh4.googleusercontent.com/Wr-sri7bGZATnpBooUYO6vDQJdLZQh8pi3mDhhm9lQzAkacsn_FLBwAa1_8oiVG0BRq81msG3QsBRa79l_KL7BN-Vs8S-JgKItFAcTN4H7_V9rdieto5B4AQPXdtqdtInbZ212f7uyNS_7TBQYUo5Ss" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://lh3.googleusercontent.com/EVMpEfmKC-N3SyOIP-F0-HkJaoo2an1hA-8Nq-UKguuR5C19k-dwqz8WdFE3YwGVjvDI6WvhZmS25O0vE1XxLjTiIJheMVL3LhXePgLmalVQWViV6Nfp6tdT85-33K3NzIV0sQngPp1-GDLgqV19044" alt=""><figcaption></figcaption></figure>
+
+**Step 5 :** If you are opting to pull the data from the NVSK instance, then make sure to upload the dimension files. If you do not want to pull the data, then you can ignore this step. (Applicable if you choose access type VSK).
 
 If you are opting to pull data from an NVSK instance, then make sure to copy the dimension files inside cqube-devops/ansible/dimension\_files
 
@@ -60,7 +58,7 @@ Once all the primary steps of uploading SSL certificates and dimensions are done
 
 **Step 8 :** When steps 6 and 7 are done, you will see the feedback from status checks.
 
-**Step 9 :** Go through the feedback provided, and if you find any issues in red resolve them by following the hints provided. If everything is good then proceed with cqube deployment.
+**Step 9:** Go through the feedback provided, and if you find any issues in red resolve them by following the hints provided. If everything is good then proceed with cqube deployment.
 
 #### Deployment Process
 
