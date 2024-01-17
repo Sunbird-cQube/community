@@ -154,7 +154,7 @@ Once all the above variables are filled, you get prompted with a preview of the 
 
 * Azure Container String: Enter the container string&#x20;
 * azure\_account\_key: Enter the azure account key to access the bucket.
-* aws\_account-name: Enter the azure account name to access the bucket.
+* azure\_account-name: Enter the azure account name to access the bucket.
 * azure blob container name : Enter unique azure blob container name.
 
 **Step 9:**  A preview of the program\_selector.yml file is displayed, followed by a question where the user gets an option to enable or disable the programs by choosing 'yes'. If option 'no' is selected, then the install.sh moves to the next section.
