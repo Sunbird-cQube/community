@@ -171,12 +171,11 @@ Once all the above variables are filled, you get prompted with a preview of the 
 
 **Step 10:** Once all the configuration files are generated, the script moves further to clone the cQube microservice repositories and deploy cQube
 
-**Step 11:** If you selected data\_pull\_status as true, then you will see the data pulling APIs where the data gets pulled from the NVSK instance and processed in the VSK cQube Once installation is done, we need to wait 20 minutes to visualize the data on the CQUBE dashboard.
+**Step 11:** If you selected data\_pull\_status as true, then you will see the data pulling APIs where the data gets pulled from the NVSK instance and processed in the VSK cQube Once installation is done, we need to wait 20 minutes to visualize the data on the cQube dashboard.
 
 **Step 12:** Once the installation is completed, you will be prompted with the following messages and required reference urls:
 
-\
-
+**(Note: The installation process is expected to take approximately 30-40 minutes.)**
 
 **cQube Installed Successfully**
 

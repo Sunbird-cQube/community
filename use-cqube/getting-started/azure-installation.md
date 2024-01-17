@@ -161,11 +161,27 @@ Once all the above variables are filled, you get prompted with a preview of the 
 
 1. &#x20;If access\_type is selected as VSK, the following programs will be displayed: by default, all programs are selected, and the programs are publicly visible.
 
-
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 **Note:** If you are willing to select the programs, type yes, select the programs you want, and enter public or private for each program to enable or disable the login screen for programs (follow the hints provided).
 
 2. If access\_type is selected as NVSK, the following programs will be displayed: By default, all programs are selected, and the programs are publicly visible.
+
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+
+**Note:** If you are willing to select the programs, type yes, select the programs you want, and enter public or private for each program to enable or disable the login screen for programs (follow the hints provided).
+
+**Step 10:** Once all the configuration files are generated, the script moves further to clone the cQube microservice repositories and deploy cQube
+
+**Step 11:** If you selected data\_pull\_status as true, then you will see the data pulling APIs where the data gets pulled from the NVSK instance and processed in the VSK cQube. Once installation is done, we need to wait 20 minutes to visualize the data on the cQube dashboard.
+
+**Step 12:** Once the installation is completed, you will be prompted with the following messages and required reference urls:
+
+**(Note: The installation process is expected to take approximately 30-40 minutes.)**
+
+**cQube Installed Successfully**
+
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 
 
