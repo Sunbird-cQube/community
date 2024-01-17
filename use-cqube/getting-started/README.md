@@ -4,7 +4,8 @@ Under this topic we will get some understanding about High level Understanding o
 
 How to set the instance:
 
-1. [Oracle Instance Setup](https://cqube.sunbird.org/use-cqube/getting-started/oracle-instance-setup)
-2. [AWS Instance Setup](https://cqube.sunbird.org/use-cqube/getting-started/aws-instance-setup)
-3. [SDC Instance Setup ](https://cqube.sunbird.org/use-cqube/getting-started/sdc-instance-setup)
+1. [Oracle  Installation ](https://cqube.sunbird.org/use-cqube/getting-started/oracle-instance-setup)
+2. [AWS Installation](https://cqube.sunbird.org/use-cqube/getting-started/aws-installation)
+3. [SDC Installation ](https://cqube.sunbird.org/use-cqube/getting-started/sdc-installation)
+4. [Azure Installation ](https://cqube.sunbird.org/use-cqube/getting-started/azure-installation)
 
