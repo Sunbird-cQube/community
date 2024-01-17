@@ -19,6 +19,36 @@ Other Requirements:
 * Configure cname of AWS ec2  to the domain name
 * Create a SSL certificate for the domain name.(which is applicable to configure with nginx )
 
+**For  Azure :**&#x20;
+
+Create an AzureEC2 instance with the following configurations:
+
+* Ubuntu  22.04 (supported)
+* 16 GB of System RAM (minimum requirement)
+* 4 core CPU for Azure and 2 OCPU for Oracle (minimum requirement)
+* 250GB HDD
+
+Other Requirements:
+
+* Create a domain name
+* Configure cname of Azure ec2  to the domain name
+* Create a SSL certificate for the domain name.(which is applicable to configure with nginx )
+
+**For  Oracle :**&#x20;
+
+Create an Oracle EC2 instance with the following configurations:
+
+* Ubuntu  22.04 (supported)
+* 16 GB of System RAM (minimum requirement)
+* 4 core CPU for  2 OCPU for Oracle (minimum requirement)
+* 250GB HDD
+
+Other Requirements:
+
+* Create a domain name
+* Configure cname of Oracle  ec2  to the domain name
+* Create a SSL certificate for the domain name.(which is applicable to configure with nginx )
+
 ### For On-Premise (State Data Centre, Local):
 
 One server is required with the following configurations:

@@ -49,7 +49,7 @@ Replace \<github\_username> with your actual github username
 
 <figure><img src="https://lh6.googleusercontent.com/JKg0nh85iepiglGJF4De4ESK7STn5_PsmNGZQgvI7Z-VhRIXM7Bwk3vxPf_0ZS_WgkBqHHfEhMbWRivfunp-6NTznzJ94ZBcgofbdf23TmsqapdTEG4nNK5Zmv2Ae2kBh1aFVbv9pl-qlxIFXRzhC3U" alt=""><figcaption></figcaption></figure>
 
-16. Follow the ingestion and processing steps to ingest the data. Once done you will be able to see the data in the dashboard.
+16. Follow the [ingestion and processing ](https://cqube.sunbird.org/use-cqube/ingesting-the-data)steps to ingest the data. Once done you will be able to see the data in the dashboard.
 
 <figure><img src="https://lh4.googleusercontent.com/0F75GP-aOCyolzj_584Nvymu6Dy6y8KfwOHN3S81p4n4vvFD5_RIbbM-24TUbq6iWpjkMwagj7ue48fWKfb2tWHVts1QiOrKbA6cgLSMEGRI3wt_kKkDiSqElWjEbTP9YZxRkhXP8uxXWTxsQ8gQmg8" alt=""><figcaption></figcaption></figure>
 
