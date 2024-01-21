@@ -31,6 +31,7 @@
 * [Prerequisites Checklist](get-started-on-cqube/prerequisites-checklist.md)
 * [Checking pre existing ports](get-started-on-cqube/checking-pre-existing-ports.md)
 * [Instance Creation](get-started-on-cqube/instance-creation.md)
+* [Copying SSL Certificate](get-started-on-cqube/copying-ssl-certificate.md)
 
 ## 🛃 USE CQUBE
 
