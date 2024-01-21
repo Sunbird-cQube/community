@@ -37,7 +37,7 @@
 
 * [How can I install cQube?](use-cqube/getting-started/README.md)
   * [High level understanding of deployment](use-cqube/getting-started/high-level-understanding-of-deployment.md)
-  * [Oracle Instance Setup](use-cqube/getting-started/oracle-instance-setup.md)
+  * [Oracle Installation](use-cqube/getting-started/oracle-installation.md)
   * [AWS Installation](use-cqube/getting-started/aws-installation.md)
   * [SDC Installation](use-cqube/getting-started/sdc-installation.md)
   * [Azure  Installation](use-cqube/getting-started/azure-installation.md)

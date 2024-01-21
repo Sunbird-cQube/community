@@ -104,7 +104,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 
 &#x20;           a) VSK: To set up VSK for a state
 
-&#x20;            b) NVSK: To setup a cQube for the nation
+&#x20;            b) NVSK: To establish a nationwide cQube deployment
 
 &#x20;            c) Others: To set up cQube for other purposes.
 
