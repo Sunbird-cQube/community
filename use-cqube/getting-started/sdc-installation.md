@@ -1,4 +1,4 @@
-# SDC Instance Setup
+# SDC Installation
 
 **Step 1:** Use the following command to connect to the On-premise instance
 
@@ -60,6 +60,8 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 **Step 10:** Once the installation is completed, You will be prompted with the following messages and required reference urls.
 
 &#x20;              **cQube Installed Successfully**
+
+**(Note: The installation process is expected to take approximately 30-40 minutes.)**
 
 cQube ingestion api can be accessible using \<domain\_name>
 
