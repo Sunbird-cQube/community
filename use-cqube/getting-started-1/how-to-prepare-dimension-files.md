@@ -1,3 +1,9 @@
+---
+description: >-
+  Dimensions are the columns that describe events. The dimensions are those
+  values which do not change frequently and remain constant. Example: State name
+---
+
 # How to prepare dimension files
 
 **CQube adopts the Dimension Specification as defined below**
