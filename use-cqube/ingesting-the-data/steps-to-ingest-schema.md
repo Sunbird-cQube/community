@@ -6,7 +6,7 @@ To see the API documentation please go to this link [https://editor.swagger.io/]
 
 The API endpoint specified in the below document is for public mode of installation.
 
-## Steps to add the schema for programs&#x20;
+## Steps to add the schema for events&#x20;
 
 ### &#x20;Step 1:&#x20;
 
