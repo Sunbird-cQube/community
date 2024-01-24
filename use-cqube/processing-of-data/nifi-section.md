@@ -1,4 +1,4 @@
-# Nifi data
+# Nifi section
 
 Here we have different processor groups to process the data(Nifi canvas).\
 1\. To run adapters.
@@ -6,6 +6,8 @@ Here we have different processor groups to process the data(Nifi canvas).\
 2\. To run all programs.
 
 3\. To run program wise.
+
+The Processor groups in nifican be scheduled using API called scheduled API&#x20;
 
 <figure><img src="https://lh7-us.googleusercontent.com/RTAA79E4m4LW4kNxJ-x9lqS7LHwui1rMc-m-w4Pjx4UwURcFH9xhzn0xW6H4_CJDE_eyxI-RZNJIYcVLeJzsCOiroK2PXlI8Cdpoq5sDKdW3j6V5KxXoARgNBTzwA72tYx6M4FIr4i1CzhtAkDLn6cw" alt=""><figcaption></figcaption></figure>
 

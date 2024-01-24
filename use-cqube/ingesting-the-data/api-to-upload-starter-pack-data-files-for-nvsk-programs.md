@@ -4,7 +4,7 @@ description: >-
   PM-POSHAN. The jwt token has to be passed in the API headers.
 ---
 
-# National Programs API to upload starter Pack Data files
+# API to upload starter pack data files for NVSK programs
 
 **Note:** There could be some common errors in the files which could lead to unsuccessful data ingestion into cQube. Look at these errors here and resolve them before ingesting data into cQube.
 
@@ -21,7 +21,7 @@ This API accepts the data in a zip file format and adds it to the emission folde
 
 Open the specified request & add the details
 
-**API Endpoint:** \<domain\_name>/ingestion/national\_programs
+**API Endpoint:** \<domain\_name>/api/ingestion/national\_programs
 
 **HTTP Method:** GET&#x20;
 

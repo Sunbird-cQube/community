@@ -1,4 +1,4 @@
-# Steps to Ingest data for a programs
+# Steps to ingest data files
 
 ### **Note:**&#x20;
 
@@ -28,7 +28,7 @@ The token generated using the above API is passed in Authorization headers in al
 
 <figure><img src="https://lh4.googleusercontent.com/Di1Qb5hSfcVRulri86DyeGRdWLBJDU4Q_wvbx7kNz9bRv0uhtEqb53ZGKtizVKqP1cLjpHrOMBxED-8GEr4SLUs-uCWngwU_YhQSQSS2sp0eHVOQrh0f4bsWgk88y1gjx3QRTYnJo1sjqnC_RSaxg3Q" alt=""><figcaption></figcaption></figure>
 
-## Upload the csv data file for new programs using ingestion API
+## Upload the .csv data file for state specific programs using ingestion API
 
 Events, Dimensions  can be uploaded  into respective cloud storage  via the ingestion APIs. The event upload is done for only state programs using this API.
 

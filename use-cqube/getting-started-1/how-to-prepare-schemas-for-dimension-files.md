@@ -4,11 +4,11 @@ description: >-
   values which do not change frequently and remain constant. Example: State name
 ---
 
-# How to prepare dimension files
+# How to prepare schemas for  dimension files
 
 **CQube adopts the Dimension Specification as defined below**
 
-<pre><code>"program": "school",
+<pre><code>"program": "school",//Name of the dimension
 <strong>  "input": {
 </strong>    "type": "object",
     "properties": {

@@ -2,7 +2,7 @@
 
 ## **Note:**&#x20;
 
-To see the API documentation please go to this link [https://editor.swagger.io/](https://editor.swagger.io/) and paste the contents of the github links provided below. The example data provided in the request body is for understanding purposes it is not the actual data.
+To see the API documentation please go to this link [https://editor.swagger.io/](https://editor.swagger.io/) and paste the contents of the github links provided below. The example data provided in the request body is for understanding purposes and  it is not the actual data.
 
 The API endpoint specified in the below document is for public mode of installation.
 
