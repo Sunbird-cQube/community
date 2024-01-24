@@ -55,7 +55,7 @@
     * [API to upload starter pack data files for NVSK programs](use-cqube/ingesting-the-data/api-to-upload-starter-pack-data-files-for-nvsk-programs.md)
     * [Get file status API](use-cqube/ingesting-the-data/steps-to-ingest-data-files/get-file-status-api.md)
     * [Scheduled API](use-cqube/ingesting-the-data/steps-to-ingest-data-files/scheduled-api.md)
-  * [Error during ingestion](use-cqube/ingesting-the-data/error-during-ingestion/README.md)
+  * [Error during ingestion](use-cqube/ingesting-the-data/error-during-ingestion.md)
     * [Error Monitoring](use-cqube/ingesting-the-data/error-during-ingestion/error-monitoring.md)
     * [Common during ingestion](use-cqube/ingesting-the-data/error-during-ingestion/common-during-ingestion.md)
 * [Adapter details](use-cqube/adapter-details.md)
