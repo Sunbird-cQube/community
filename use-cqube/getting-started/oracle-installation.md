@@ -217,7 +217,7 @@ Once all the above variables are filled, you get prompted with a preview of the 
 
     **Step 6:** Once the config file is generated, a preview of the config file is displayed, followed by a question where the user gets the option to re-enter the configuration values by choosing ‘yes’. If option ‘no’ is selected, then the install.sh moves to the next section.
 
-<figure><img src="https://lh7-us.googleusercontent.com/7gO7tUwMFfOE8rHvbRg2DPMeSMR-zrKpQkduQoXwDKl135mYI2HSGqO5XUTf8PL8YcxFI9kcJKTI1DLt4Ytu6vwj8mOS3M2Z1xQVw8eQZKYxdp0FjVANvGsNmI10gMvNg0slSJZ9WJ_ODa_TllqJdDs" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/qPp5Y-L2b-bkFSUVBWkODbMlOdlz2k0dhHjZ7EcqLccLqcnG0tuuJYrwLNbzZNA0pl03or2zGU5_opJuEAq8rdvtDdTBvQVXYcQgES8NZ0ZChNKs4kWy4AP04yjbzj1gHiDSQtiX24Br7CqtfJhRysA" alt=""><figcaption></figcaption></figure>
 
 * Enter a location for your config \[/home/basha/.oci/config]: /root/.oci/config (enter)
 * Enter a user OCID
