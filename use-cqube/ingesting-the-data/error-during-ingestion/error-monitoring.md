@@ -1,15 +1,11 @@
 # Error Monitoring
 
-The error file will store all the error records during the ingestion process and will be uploaded to the appropriate cloud storage. The user can login to the respective cloud storage and download the file to take a look at the error records present in the csv. The below mentioned steps will specify on how to access the error file.
+The error file captures all error records during the ingestion process and is uploaded to the relevant cloud storage. Users can log in to the respective cloud storage platform, navigate to the designated bucket created during installation, and follow these steps to access the error file:
 
-For VSK programs the error files are stored in the emission\_error folder and inside the folder there will be folders with \<date> as folder name. If there are any errors in the file which was uploaded in the present day then there will be a folder created with \<current\_date> which stores all the error files containing error data.
+1. For the new\_program API: a) Error files are stored in the "ingestion\_error" folder within the bucket. b) Within "ingestion\_error," there are folders for each program (named after the program\_name). Inside these program folders, there is a sub-folder with the current date as its name. c) Users can access the current date folder, review the error files within, and download them to examine CSV errors.
+2. For the national\_programs API: a) Error files are stored in the "emission\_error" folder within the bucket. b) Inside "emission\_error," a folder is created with today's date, containing the error files.
 
-For new programs  when data ingestion is done using ingestion API’s the error handling is done as follows:
-
-1. Login to respective cloud storage bucket/container.
-2. Inside the bucket there will be multiple folders for different processing stages and the ingestion error files  will be stored in ingestion\_error folder. This folder will in turn contain folders for each program(for new programs), the name of the folder will be same as the \<program\_name> specified while adding schema using spec API’s.
-3. The \<program\_name> folder will internally have a folder which will have current date as the folder name.
-4. The user can access the current date folder if its present and can see the error files present in it and download the error files to view the errors present in the csv.
+After identifying and rectifying errors, users should re-upload the entire file. Screenshots illustrating how to access error files in different storage types (Minio, Azure, and AWS) are provided below for reference.
 
 <figure><img src="https://lh6.googleusercontent.com/xmSXg-XIrqrKy16pJoQv18hCGHOGPub3MIxYBd3rbPrvbGK1Bi_O0-GhzRX10FxVOycU-oJofN5n27n8KOSsptuZ7CTl9FrBx1K_UqYpRWnVTZy3UWguff1LKl56lH5kHJXMaDghkal7Vgt5Jigj8DA" alt=""><figcaption></figcaption></figure>
 

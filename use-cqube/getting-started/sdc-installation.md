@@ -47,7 +47,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * db\_name ( Enter the postgres database name )
 * db\_password ( Enter the postgres password )
 
-![](https://lh5.googleusercontent.com/PQSTfzWT0BPjtTe72EuCIiDxpO10S6XPn7Mv66t30yyuerrjWb4B9oUMtojPUjyeAwakZgOxQLpnY0VkHJN4i1g7BOWjYBh3C5EZXafu16YSZtbdUnTfh4mbdpCna0JuWBpbVPJUUU\_Y\_dtL6Bf6xUY)
+<figure><img src="https://lh5.googleusercontent.com/PQSTfzWT0BPjtTe72EuCIiDxpO10S6XPn7Mv66t30yyuerrjWb4B9oUMtojPUjyeAwakZgOxQLpnY0VkHJN4i1g7BOWjYBh3C5EZXafu16YSZtbdUnTfh4mbdpCna0JuWBpbVPJUUU_Y_dtL6Bf6xUY" alt=""><figcaption></figcaption></figure>
 
 **Step 8:** Once the config file is generated, A preview of the config file is displayed followed by a question where the user gets an option to re enter the configuration values on choosing yes. If option no is selected then the install.sh moves to the next section.
 
