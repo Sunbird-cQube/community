@@ -2,7 +2,7 @@
 
 **Overview**
 
-Metric: A metric is a column in an event data file on which the aggregations are done to derive the insights.
+**Metric:** A metric is a column in an event data file on which the aggregations are done to derive the insights.
 
 CQube adapter is an ETL (Extract, Transform and Load) pipeline with processes used to move data from the adapter database to multiple CSVs after making the required transformations. A cQube adapter is needed because cQube expects data in a specific format and the output CSVs of the adapter can be ingested directly into cQube to get the programs, reports and indicators.
 
