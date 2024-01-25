@@ -1,5 +1,7 @@
 # Nifi section
 
+Comment start Nifi in cQube is used to create a data flow and automate the processing of data with the help of processor groups. These processor groups are responsible for accessing the data files from the cloud storage and moving it into the processing-ms codebase. Once the data files are moved the commands will be executed which will ingest the data into the database. Comment end &#x20;
+
 Here we have different processor groups to process the data(Nifi canvas).\
 1\. To run adapters.
 
