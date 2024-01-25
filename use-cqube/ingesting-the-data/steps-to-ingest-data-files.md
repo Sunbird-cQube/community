@@ -1,5 +1,15 @@
 # Steps to ingest data files
 
+**Difference between State Specific programs and National programs API**
+
+
+
+| State Specific Programs API                                                                                                                            | National Programs API                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| <ol><li>Accepts file in .csv format</li></ol>                                                                                                          | <ol><li>Accepts file in .zip format</li></ol>                                                                         |
+| <ol start="2"><li>It is mainly used when the state team  wants to onboard new programs apart from the starter pack.</li></ol>                          |  2. This API can be used for starter pack             programs of VSK and NVSK                                        |
+| <ol start="3"><li>The uploaded file will be present in the process_input folder in cloud storage given that there are no errors in the data.</li></ol> | 3. The uploaded file will be present in the emission folder in cloud storage given if there are no errors in the data |
+
 ### **Note:**&#x20;
 
 The ingestion API’s have prerequisites to work. Whenever any file is uploaded it should have the specified schema stored in the DB. This can be done by making use of spec API’s.
