@@ -82,7 +82,7 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * Please enter the name of cert file( ex:certificate.crt)
 * Please enter the name of key file (ex: private.key)
 
-<figure><img src="https://lh7-us.googleusercontent.com/z_3NKzbHSRrp2GdVO5MRDGLomUNUV2Y1P12M8_aQCB8ABBnqUbSNurdwcpVe2kZOl-XFwgo6UsO97uORl_3DuWg7j-l3odFh4nU-yvw598bfMgynKQ1j_l0UmK7M7UOUowR7odxWJV-GEPRJXhzXNTk" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
 **Step 10:** Optional\_variables- Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for ‘yes’ to enter their credentials otherwise can opt for ‘no’ when the question pops up
 
