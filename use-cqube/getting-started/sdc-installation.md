@@ -39,7 +39,9 @@ Install.sh file contains a shell script where it will run shell scripts and ansi
 * Storage\_type : Local
 * Mode\_of\_installation:Public
 
-<figure><img src="https://lh4.googleusercontent.com/d58hbAaNpvDKOPouLI5bvLkM-2ZrqiKBsHOT5tXqVWta_lcI45p4QJ0UkdTv416tGw9VBTqz1GoIFgXqe8W4QJ2UetHRmhwbD0NmJfhIuu02TwC7ek-4VFx_0-SKcn7xlgR7syoWuoAGKDPq90PhV7c" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/gnwQZz6PuxXxfl0x78YpgyLcpcfnqrDaiWdP0Xg0PH-FHvZQ8YSNJeFoFw6aen46d7bw6L4kZ7ScyDxac0izcwG85HTWB-sWpncqFYtiTnXTzwI4lOAD-Re3AQlgzgf_E2Dwe8QkU5fowLxYSF4zL6A" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://lh7-us.googleusercontent.com/X4cUgnfrkKYEr050YuD-gDpaa7F-XrtcRGdWR3aDoPTXs2UqWnsIaP6lLRCQ3dxz0-_KHwUb9wCYPf42Wlu3N908tHPxwYVLwjwsJRVA4HAaus3TW3wiWhLIAt5HSYkHH5Ngk9N3Zp5LP7WJCHeqNk4" alt=""><figcaption></figcaption></figure>
 
 **Step 7:** Optional\_variables- Database credentials contain default values. If the user wishes to enter their own credentials then the user should opt for yes to enter their credentials otherwise can opt for no when the question pops up
 
