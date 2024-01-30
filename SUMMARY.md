@@ -67,6 +67,18 @@
 * [Visualizing the data](use-cqube/visualizing-the-data/README.md)
   * [High level understanding of how visualizations work in cQube](use-cqube/visualizing-the-data/high-level-understanding-of-how-visualizations-work-in-cqube.md)
   * [Programs and reports out-of-the-box](use-cqube/visualizing-the-data/programs-and-reports-out-of-the-box.md)
+  * [Enhance /Customize cQube](use-cqube/visualizing-the-data/enhance-customize-cqube/README.md)
+    * [Available customizations](use-cqube/visualizing-the-data/enhance-customize-cqube/manual-and-automated-testing/README.md)
+      * [Changing Dashboard Logos and Headers](use-cqube/visualizing-the-data/enhance-customize-cqube/manual-and-automated-testing/changing-dashboard-logos-and-headers.md)
+      * [Changing Program Name, Icon and Side Menu Sequence](use-cqube/visualizing-the-data/enhance-customize-cqube/manual-and-automated-testing/changing-program-name-icon-and-side-menu-sequence.md)
+      * [Adding a new KPI](use-cqube/visualizing-the-data/enhance-customize-cqube/manual-and-automated-testing/adding-a-new-kpi.md)
+      * [Adding a Map KPI into dashboard ms](use-cqube/visualizing-the-data/enhance-customize-cqube/manual-and-automated-testing/adding-a-map-kpi-into-dashboard-ms.md)
+      * [Table Drill Down Customization](use-cqube/visualizing-the-data/enhance-customize-cqube/manual-and-automated-testing/table-drill-down-customization.md)
+      * [Adding a Scatter Plot KPI into dashboard ms](use-cqube/visualizing-the-data/enhance-customize-cqube/manual-and-automated-testing/adding-a-scatter-plot-kpi-into-dashboard-ms.md)
+      * [Configure default date range across app/specific report](use-cqube/visualizing-the-data/enhance-customize-cqube/manual-and-automated-testing/configure-default-date-range-across-app-specific-report.md)
+    * [How to add a New Indicator](use-cqube/visualizing-the-data/enhance-customize-cqube/functional-testing.md)
+    * [How to add a new report in an existing program](use-cqube/visualizing-the-data/enhance-customize-cqube/test-for-one-step-installation.md)
+    * [How to add a  new program (end to end)](use-cqube/visualizing-the-data/enhance-customize-cqube/test-for-ingestion.md)
 * [Additional Features](use-cqube/additional-features/README.md)
   * [Public/Private dashboards](use-cqube/additional-features/public-private-dashboards.md)
   * [Role based access control](use-cqube/additional-features/role-based-access-control.md)
@@ -111,20 +123,6 @@
 * [SDC Deployment](deployment-process/sdc-deployment.md)
 * [Processor Group Name](deployment-process/processor-group-name.md)
 * [Adapter Details During the Processing](deployment-process/adapter-details-during-the-processing.md)
-
-## ☀  ENHANCE/CUSTOMIZE CQUBE
-
-* [Available customizations](enhance-customize-cqube/manual-and-automated-testing/README.md)
-  * [Changing Dashboard Logos and Headers](enhance-customize-cqube/manual-and-automated-testing/changing-dashboard-logos-and-headers.md)
-  * [Changing Program Name, Icon and Side Menu Sequence](enhance-customize-cqube/manual-and-automated-testing/changing-program-name-icon-and-side-menu-sequence.md)
-  * [Adding a new KPI](enhance-customize-cqube/manual-and-automated-testing/adding-a-new-kpi.md)
-  * [Adding a Map KPI into dashboard ms](enhance-customize-cqube/manual-and-automated-testing/adding-a-map-kpi-into-dashboard-ms.md)
-  * [Table Drill Down Customization](enhance-customize-cqube/manual-and-automated-testing/table-drill-down-customization.md)
-  * [Adding a Scatter Plot KPI into dashboard ms](enhance-customize-cqube/manual-and-automated-testing/adding-a-scatter-plot-kpi-into-dashboard-ms.md)
-  * [Configure default date range across app/specific report](enhance-customize-cqube/manual-and-automated-testing/configure-default-date-range-across-app-specific-report.md)
-* [How to add a New Indicator](enhance-customize-cqube/functional-testing.md)
-* [How to add a new report in an existing program](enhance-customize-cqube/test-for-one-step-installation.md)
-* [How to add a  new program (end to end)](enhance-customize-cqube/test-for-ingestion.md)
 
 ## 🈴 UPGRADING TO LATEST VERSION
 

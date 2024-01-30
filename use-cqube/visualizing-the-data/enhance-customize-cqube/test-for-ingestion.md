@@ -107,8 +107,8 @@ Contents of the district-dimension.grammar.csv
 
 This process may involve uploading the CSV file or connecting to the database directly. Following links will provide more details on the process.
 
-* [Uploading through CSV](../ui-configurations/broken-reference/)
-* [Connecting to Database](../ui-configurations/broken-reference/)
+* [Uploading through CSV](../../../ui-configurations/broken-reference/)
+* [Connecting to Database](../../../ui-configurations/broken-reference/)
 
 **Add event data on a regular frequency:** To keep your program up-to-date, continuously add new event data to the platform. Determine an appropriate frequency for updating the data, such as daily, weekly, or monthly.w Ensure that the new data is compatible with the existing event and dimension schema.
 
