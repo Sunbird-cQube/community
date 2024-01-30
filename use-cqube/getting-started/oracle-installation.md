@@ -73,6 +73,8 @@ Copy the content of the configuration file for future use\
 
 * Specify the location for the API Signing private key file               (/root/.oci/\<private\_key\_of\_oracle\_api>).
 
+**(Note: Bucket should be created manually before installation process starts)**
+
 **Primary Steps:**
 
 **Step  1:** A SSL certificate must be uploaded if you are opting for the public mode of installation where you want to access cQube using a public API endpoint.&#x20;
