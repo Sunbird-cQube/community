@@ -43,4 +43,12 @@ This API helps to change the state of a processor group in Nifi. It will provide
 
 <figure><img src="https://lh7-us.googleusercontent.com/8jDYjaK9n0OCK9DSbiObVMael4Yjg53hopfSQan9mdPDDgDuVhrA3RH9x2ixFCqJwVaI5F7igNXBDWZ79xRL4CbYJVcICtFSJgPZTlXnLUmBKUjzaEkoE-9YL6Rk3BFjGHCKsBEu9wa02rwcPWm3KRY" alt=""><figcaption></figcaption></figure>
 
+In the above example as you can see the processor group onestep\_dataingestion\_aws is changed to running state.\
+Note:
+
+1\. This API is only used to change the state of a processor group. If you want to change the schedule time you will have to use the Schedule API.
+
+2\. It is suggested to stop the processor groups once the data is ingested for all the programs using the above API
+
+\
 \
