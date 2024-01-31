@@ -30,3 +30,11 @@ The Processor groups in nifi can be scheduled using API called [scheduled API ](
 In order to automate these processor groups we have written REST-APIs
 
 <figure><img src="https://lh7-us.googleusercontent.com/WLJMhDjsBMTveEgWHBrLVTNqb62DdiRsrxyh2K_TRdnxWVb29xnKDv5r2fnKkV3bfAa9ekyK4kR-vLIRtPQXpNOtxdDEer7prp24KTK3NKkt-vMYn8Tu0EiBPivT_tjnsV63iKYHhZQ_2YsOXd5VKsQ" alt=""><figcaption></figcaption></figure>
+
+\
+In order to automate these processor groups we have written REST-APIs. Please look into the below link to understand th Nifi codebase.
+
+\
+[Nifi-Rest-api’s code](https://github.com/Sunbird-cQube/generator-ms/blob/dev/static\_processor\_group/add\_nifi\_template.py)
+
+\

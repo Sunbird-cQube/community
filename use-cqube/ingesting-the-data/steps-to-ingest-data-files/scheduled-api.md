@@ -2,19 +2,15 @@
 
 This API helps to schedule the processor group at any particular time.
 
-### Step 1:&#x20;
+**Step 1:** Open the specified request & add the details
 
-Open the specified request & add the details
+API Endpoint: \<domain\_name>/api/spec/schedule
 
-**API Endpoint:** \<domain\_name>/api/spec/schedule
+HTTP Method: POST
 
-**HTTP Method:** POST
+<figure><img src="https://lh7-us.googleusercontent.com/ipFrpZJtvnhpGkeGWVaY4WOOTnLCWEbn7T2JMr3C2USEgA541-sMhnxZxkGW-L9ED9WbOqJZOxwgXC1g8Seo5_qorIMGq_a0jlUFHsyXijrJaNwDAkYIWoovmgPSj44EaOemDcNQH8X5TdezMYqfi1w" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh4.googleusercontent.com/NB-aZ4e20WfpPJlzzv9tuYarjLxYkCJ2bfimAFeiABrjSxYTc4TrRuLWslRhMsDbUpRcYqhvXH9o61IoFh2lqmgSw7jHwS2IwNZCemmt_TqrTOR0Rdh-b2UqTIq4mK0RJLxMkWFSq-Fp79lkBpjHYwQ" alt=""><figcaption></figcaption></figure>
-
-### Step 2:&#x20;
-
-Build the request body with reference to YAML file. The request body for the above api is attached in Link for yaml:[ <img src="https://lh6.googleusercontent.com/6iHBv7-J6xyy-5gQJP5LFct6CCSQtWwle7mfLmderwHe8v6_YMtGn_fu6PStM26dCx9TCW2Cqczakl5bTHifrH-LWpnUHrCyJbcIUcY6qKS2tvJqc4eOxtgSbk6-cw_i_XznwisTSBuwldWvQFP1WLU" alt="" data-size="line">spec-ms/spec.yaml at dev · Sunbird-cQube/spec-ms](https://github.com/Sunbird-cQube/spec-ms/blob/dev/spec.yaml)   . Provide the valid input details for the Parameters shown below.&#x20;
+&#x20;**Step 2:** Build the request body with reference to YAML file. The request body for the above api is attached in Link for yaml:[ <img src="https://lh6.googleusercontent.com/6iHBv7-J6xyy-5gQJP5LFct6CCSQtWwle7mfLmderwHe8v6_YMtGn_fu6PStM26dCx9TCW2Cqczakl5bTHifrH-LWpnUHrCyJbcIUcY6qKS2tvJqc4eOxtgSbk6-cw_i_XznwisTSBuwldWvQFP1WLU" alt="" data-size="line">spec-ms/spec.yaml at dev · Sunbird-cQube/spec-ms](https://github.com/Sunbird-cQube/spec-ms/blob/dev/spec.yaml)   . Provide the valid input details for the Parameters shown below.&#x20;
 
 <figure><img src="https://lh4.googleusercontent.com/jRI10tM1uT30UwtTaCoFaADJ_Ye_F5eASi_PU3nTA9OhJ1vT1Ct_ahXYLuCn8mmPUTdBxlp2QGQN6gvhto7G1SH_Et8RbOFD0fUGr10pYCyamczk5DGimoOO5todVMI0JB-hHnBhpWAqA5v6OtuG-NQ" alt=""><figcaption></figcaption></figure>
 

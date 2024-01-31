@@ -10,7 +10,7 @@ HTTP Method: GET&#x20;
 
 <figure><img src="https://lh6.googleusercontent.com/2mo-a6hRB01iXeJERI76ZtsT1Vw5SK1gT9BJ8P4oFp_a0ahdOJY0N6X-xyBizr6SUxsfF3XlkHYoGhy17GHhLzinHp-_oTCqTg0YQAgevh6noSBK15zhYyWhNgJCdjPDZ-ZOx6hFGMcoldE7drudMv4" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Send the query parameters with reference to the YAML file. The query parameters for the above api is attached in  Link for yaml:  [ spec-ms/spec.yaml at dev · Sunbird-cQube/spec-ms](https://github.com/Sunbird-cQube/spec-ms/blob/dev/spec.yaml)
+**Step 2:** Send the query parameters with reference to the YAML file. The query parameters for the above api is attached in  Link for yaml:  [ spec-ms/spec.yaml at dev · Sunbird-cQube/spec-ms](https://github.com/Sunbird-cQube/ingestion-ms/blob/dev/spec.yaml)
 
 Provide the valid input details for the parameters shown below.
 
