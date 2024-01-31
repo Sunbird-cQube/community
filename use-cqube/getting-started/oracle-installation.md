@@ -75,6 +75,28 @@ Copy the content of the configuration file for future use\
 
 **(Note: Bucket should be created manually before installation process starts)**
 
+**Oracle bucket policy creation steps:(Note : These policies are applicable for NVSK data pull)**
+
+**Step 1:** Initially, log in to the Oracle Cloud using the credentials, as illustrated in the screenshot below.
+
+<figure><img src="https://lh7-us.googleusercontent.com/pLOZPIB7B-_mrlY4hKyq_j5CPNET_mU4HB6lR2DzIxQaekGa7i3nYZqHPF4fPD4NWN5wa_Z6APzaObRo8O7afYaCYN-IvnpM5H4yLgmbLSgFjWZuagFP_7aJLX7iVKs70FXASALEZAS2S0NUnNvmGsA" alt=""><figcaption></figcaption></figure>
+
+**Step 2**: Following the guidance from the above screenshot, please type “policies” into the search bar, as depicted in the screenshot below.
+
+<figure><img src="https://lh7-us.googleusercontent.com/z-pPcXYBmSjwTtBoisq1fVBDkb4Ya1sIAC3D77bfP_kVoGtNLSX1uN60skrfHwJWfF3w-zwoWs7EFSC7UPs_eRc-KIaBbpgR-qE1pMFmSUQTJ0yp_YaIzkyFymAo9glMcKOGNEZTmPqBcMbDfjMXXGc" alt=""><figcaption></figcaption></figure>
+
+**Step 3:** Simply click on the policies option and proceed to create new policies, as shown in the screenshot below.
+
+<figure><img src="https://lh7-us.googleusercontent.com/r9wWCuwMUlLzlBEPW96QKEGD7owjweup28rCUzGRa37rpryx0Hrf8PVCZDz2Ehdnst5bI6-yNptx5tLpxdQuCJ2q6WxMMJRluH5PXal-KEqLrLBWZYMWuBVX95WqSpgjoT9WsDJwS8Lm2XAnYG7r56o" alt=""><figcaption></figcaption></figure>
+
+**Step 4**: We already have some existing policies. Please refer to the attached screenshot for more details.
+
+<figure><img src="https://lh7-us.googleusercontent.com/91MFvpfGfJ4VJnUTbkvFrWuSaIpNZfJY7525zxw1JyRlWOSkKiCzJhvEMmvIf-_Oa5FQxh1Z-jXc00A-Ck6NyvFaJbsyAAHHbo35bY1eDL3c8JkGfe_oLpy00qZYaDXFC3j2Yo-VSXX42w0oiP_h0wc" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://lh7-us.googleusercontent.com/Ma81_AZH3l2_W-U8mIwhex7ds9w9bIBDGAXR4uj8OJXZfDt6taemGHfKEKEIvmxNUvL8_f9EZmf-pXhSlUykt_BekLdovEguGt9qmlSNmn3iVg-kOheH_oMw7ix0NW_XuGZGf1ZJ1X8iYFQXVcbn1JM" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://lh7-us.googleusercontent.com/uZg7WiAdSNROf6EluWwqe6zF3Yt4dir__UVsIK_slXfp0BJ0a-D8mCRGw0SXOfHskd2AtS3VRa8c-yW-1PrYhhxqe2pR5MWoUpcOu17navDh7PMpiAJqsjbRjfIttl33BCzsVVL2ucCG5Dox5Iu1Q8g" alt=""><figcaption></figcaption></figure>
+
 **Primary Steps:**
 
 **Step  1:** A SSL certificate must be uploaded if you are opting for the public mode of installation where you want to access cQube using a public API endpoint.&#x20;
