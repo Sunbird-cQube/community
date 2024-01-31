@@ -75,7 +75,9 @@ Copy the content of the configuration file for future use\
 
 **(Note: Bucket should be created manually before installation process starts)**
 
-**Oracle bucket policy creation steps:(Note : These policies are applicable for NVSK data pull)**
+**Oracle bucket policy creation steps**
+
+**(Note : These policies are applicable for NVSK data pull)**
 
 **Step 1:** Initially, log in to the Oracle Cloud using the credentials, as illustrated in the screenshot below.
 
