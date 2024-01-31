@@ -14,7 +14,8 @@ CQube adapter is an ETL (Extract, Transform and Load) pipeline with processes us
 4. Split the files according to the number of metrics in report
 5. Output Event CSV files will be stored inside AWS S3 Bucket / Minio / Azure in the input-bucket process\_input/program/\<date>/\<event\_name>-event.data.csv. process\_input/program/\<date>/\<event\_name>-dimension.data.csv Format.&#x20;
 6. NiFi will run This adapter ETL pipeline will run at a specific frequency so that the output CSV data can be refreshed and the latest data will be ingested into the system.  &#x20;
-7. Output Event CSV files will be stored inside AWS S3 Bucket / Minio / Azure in the _input-bucket/combined\_input/\<program\_name>//\<event\_name>.data.csv_ format.
+
+
 
 Example for illustration:&#x20;
 
