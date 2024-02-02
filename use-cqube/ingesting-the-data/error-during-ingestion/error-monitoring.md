@@ -5,7 +5,7 @@ The error file captures all error records during the ingestion process and is up
 1. For the new\_program API: a) Error files are stored in the "ingestion\_error" folder within the bucket. b) Within "ingestion\_error," there are folders for each program (named after the program\_name). Inside these program folders, there is a sub-folder with the current date as its name. c) Users can access the current date folder, review the error files within, and download them to examine CSV errors.
 2. For the national\_programs API: a) Error files are stored in the "emission\_error" folder within the bucket. b) Inside "emission\_error," a folder is created with today's date, containing the error files.
 
-After identifying and rectifying errors, users should re-upload the entire file. Screenshots illustrating how to access error files in different storage types (Minio, Azure, and AWS) are provided below for reference.
+After identifying and rectifying errors, users should re-upload the entire file. Screenshots illustrating how to access error files are provided below for reference.
 
 <figure><img src="https://lh7-us.googleusercontent.com/QnTX6IoTuCGCcumCKqS0KuItQNSv2bQO3PbP9785jzP5oS62D6hTyXEGvK_nfoT7R22IAlKJ2fcm9QvhpuvmZ6fUubdZ8U4fq7gm-kX2qfkBSaOlT4O_jpvWR1gJQzJVpA4AvoXwlyadpvMhD0P-P0Q" alt=""><figcaption></figcaption></figure>
 
