@@ -1,4 +1,4 @@
-# Schema creator
+# Schema Generator
 
 Schema generator is a tool that can generate a schema for given set of data. This schema can then be used to validate the data and to generate code to work with the data.
 
@@ -49,9 +49,26 @@ Following is the sample data for the ETB coverage status data of the DIKSHA prog
 
 Once the user uploads the file, the extracted schema will be shown to the user in the format of the table. The following screenshot represents the sample screen.
 
-<figure><img src="https://lh4.googleusercontent.com/zJ0j0zvV11vtYWT14aDutF_f7Cc6B6TiNsBy0n7MZ39woiTt7mylUF-cQ_1ovJHmHqBiCrAp1EmWX37NtIecYHWy0xmIZ0-w-lje36J5d0D8HFdCZbsZaib2G0Sm-PeGqx7TaGUnyerI0okz4NTF2DI" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/inrPqECLI2vJFEXWPX_nX9-nwgIfFRoJdxA_wXbj-ZPBeDlh3DADHORKoR_HjJTVCoUsid29WOdFs34JC8pUne78-SP6gnTRLn0bNh6TYvZFR852QQsCC1DWHRAdmAV8G55BXdO_MM-8Kf8CDQ0Sd_0" alt=""><figcaption></figcaption></figure>
 
-The user needs to be able to enter a programme name and description and choose whether the dimension field should be treated as a dimension or a metric. The field type selection can be used to group or filter data or to calculate statistical measures. After selecting the required inputs, users can generate dimensions and events by clicking on the "Update" button above.
+
+
+The user needs to be able to enter a program name and description, and choose whether the field should be treated as a metric or not. The field types are also shown in the table for every field. Users can edit the name of the field if they want and those field names are editable in the table.
+
+Along with the above, users are also able to select dimensions as well. Here’s the screenshot of another part of the screen that contains adding Dimensions.
+
+Note: Automatically date time fields are considered as time dimensions.
+
+<figure><img src="https://lh7-us.googleusercontent.com/wQAkHh_-cmIhtbvs1i-UwBP6VgSmJJ3ckkBSEhnG3yf6CZCqPHMUYRWcu-eVTgYrRFFwKH1n8wVTnHCnu90Xkeg8s9OO7lPxqn4zAJNaCDFgGEwQNUjNWUm4SraVtp-UxVWH_MxBlfMaDqytb7FJ7o4" alt=""><figcaption></figcaption></figure>
+
+Users will be able to add Dimensions as shown in the above screenshot. By clicking on the “Add Dimension” button, users can add a new dimension for the event. After adding the dimension, the user needs to add at least one field from the event to the dimension. If the user adds more than one field to the dimension, then the user has to define at least one field as “Index”. Indexes are useful in removing the duplicates from the records while generating the dimension files.
+
+Note: If the user only selects one field for the dimension, then no need to define the Index field as the selected field would be considered as the Index for that dimension.
+
+After providing the required inputs, users can be able to generate dimensions and events by clicking on the above “Update” button.
+
+\
+
 
 2. After generating the dimension and event grammars for the provided file, the following screen will be displayed to the user.
 
@@ -65,6 +82,6 @@ The dimensions tab contains a drop-down menu that the user can use to select the
 
 The events tab contains a dropdown menu that the user can use to select the event they want to see.
 
-<figure><img src="https://lh4.googleusercontent.com/dbjuwo8HvcDYMymFdotMO3izaEn3lV45RFBCyHTXo9-n8EXF6LPMUw9AbF_cvP7ZFD0bdhYombS7jFcCWoKsPyzvWgjtOpt4YyCsD9JLjyRYHJbbhQcVy_umVpinpmBM5Ha-zQYvbfkkPyh3Vc2MM6o" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/Gq1MNe1uw0Myi0jM9SUhQoxQFIqKffkA9d-6tJ7CdwjvDu0Xcy_N8fdx2Z-qhw5VMMIDpwI30WaDpJRL6QJ4rmAKgY9L_SqbpQWkH2ojUwMlx__FIl-xOFs2OKA-YVIet12k0o18Tt_sszZ3hauFuJc" alt=""><figcaption></figcaption></figure>
 
 The user will be able to download all the generated files in zip format by using the “Download Ingest” button.

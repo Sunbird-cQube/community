@@ -86,7 +86,7 @@
   * [Saving geographical preferences](use-cqube/additional-features/saving-geographical-preferences.md)
   * [Admin Panel](use-cqube/additional-features/admin-panel/README.md)
     * [Data Debugger](use-cqube/additional-features/admin-panel/data-debugger.md)
-    * [Schema creator](use-cqube/additional-features/admin-panel/schema-creator.md)
+    * [Schema Generator](use-cqube/additional-features/admin-panel/schema-generator.md)
     * [System Monitoring](use-cqube/additional-features/admin-panel/system-monitoring.md)
 * [Adding Users](use-cqube/adding-users/README.md)
   * [Adding  an individual user](use-cqube/adding-users/adding-an-individual-user.md)

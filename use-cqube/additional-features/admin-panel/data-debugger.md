@@ -32,7 +32,7 @@ The grammar file is a CSV file that defines the structure of the data that you w
 
 Following  screenshot of validate grammar of data debugger
 
-<figure><img src="https://lh7-us.googleusercontent.com/-qQAT3yNfPPKiFvBEzcKg3xXw3sQzbRWtPX4Sqvfopg_5Pa3qkepy_7lk1lphRWZ2uTPhKus8ahBJTgX7Tz70ho1-7wj6ig5sk5UXBTEsSGKBMu9cykfIiF0Mba6qBx58QtQAbme4vliglcRFjxls9Q" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/-mkkkFxHJgnam06-Hf4xB1BTIPZX8JwXnVev-kyfbXOXUQP8zW7mfVs8C9wpoBURWmkS5RDgZm_vavsnQH6noi9pzlMrzU9QUcUpmAXQ_RG-u2obigDwboaaQtNyaQ0oH_mAbTLftzXgiZquyJRD-ZM" alt=""><figcaption></figcaption></figure>
 
 Following is the sample grammar file block dimension:
 
@@ -54,7 +54,7 @@ If the uploaded grammar file is valid, then a Validate Data button will be enabl
 
 Following screenshot will be displayed to the user
 
-<figure><img src="https://lh6.googleusercontent.com/5oS8SWuHUwwK7oXRideOp0RLbcG-O7gfPEqai_nyscUFMDG-lLHfbEmR3B_GONV9nwTOwEUrf2gcLGIrBVTqdgWlFUx3BLIUYU0bKE69yf1OZOVHV71rXCcd1neN8Gn9dIQFkWqWV9yE_h5KmWOvH-M" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/sH3nVYHfOpopGhRZ03lBCbn-vAXoCyK7Y_Qz4wlx_NlKKJBjRleu_bIBM6nh086H-GFnuLONTAZJ7nD8ZZarynPEobKqTccOE1zYv8SxDDL5kTnklXJA636f5M5n5Q-vo5omoJd0uLmV0-8NwOWYluw" alt=""><figcaption></figcaption></figure>
 
 3. **Validate the raw data against the uploaded grammar file.**
 
@@ -64,16 +64,19 @@ If there are no errors in the raw data file, then the validation will be success
 
 Following screenshot for validate the data
 
-<figure><img src="https://lh4.googleusercontent.com/PHkWBe8aPy8YzWBQTtDqPwv2nofWCpEYNiwvzGYd5rm-eLSuROPCYYd7Zs61ehmc0AHHxrNOO3KFR-DAAsNAj6zAjGnmBPidkC3t0LNTgf2GAxBGipuEGGhquxa6oSTI6hEwabdAMN7sLrkCJCqJvH4" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/8Qh_qyyzxBs-56hFhH6S4D3KqRG_54tojwBvf1EM7XgVgV0cDOEYS_bnJ9BPsWE2eQ-WQQkQEouo7tnN4SXLOt5lBfdYlKAbfr2TNUL18lWrPkam873ycP_mYmVoUZvfCOtOGnkd9D4G7hC0f4CtoYM" alt=""><figcaption></figcaption></figure>
 
 If there are any errors in the uploaded data, then the errors will be reported to the user in the form of a table. Following is a screenshot of the error screen.
 
-<figure><img src="https://lh5.googleusercontent.com/VQj_cRUb7PcZfukb-KWB7wASOjrvp8hgr0ZxHTCQ55FeaMrnYw-S5QEn5pnEHI-IGyK-F2v89U99YVAQHhWgrKKCP90crH6qiLjbYn69-ijZYsPBB__jhRqr5eOzCXKprKv2Ee3HT6muYYWp3HwcXxs" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/ZglCSoRa-h3u-5Y8Ejqenilfj0FJHCYkAoBqz8PKJUg3GbaqpWXlgoLfUkYn2lrjcdW6qu5nZa3Qa0B0xBTaXDbNG-p7csPi3ZH6jWjREYBTrfakgA-LQHSZT5jNaEQ2zGEpMyYkylvy8l4CEaFba9U" alt=""><figcaption></figcaption></figure>
+
+\
+If the file is valid, then a alert message  will be displayed to the user, which means that the data is ready to be ingested. Following is the screenshot:
+
+<figure><img src="https://lh7-us.googleusercontent.com/jDZtQHs2PIanm81-8_hqjNw6SbtZ1e2duniZcQACNDpzJkqBI-m6Oi7axqNw--9EENKja2hy35KAjw-ux0NI9s6VkTUSvaKnyzw4HJypTzkYOeplKYZSksvapXd5zjEtvl2QktKTqIMhVZjng77GZsE" alt=""><figcaption></figcaption></figure>
 
 \
 
-
-<figure><img src="https://lh4.googleusercontent.com/LxHvoHAUjoqQ_2RdJPoVcKVTQMnJhJNJP2_XsNUGMHxjAd_la7_PTYGCfG0B1KI0g-tr8862Twla0kDtQionJyj8Rqw2mYFiEDpn5hiHOXr3AS9qmZah4AyBS6L_tdwslghY2Uj92Ktxk2u6z19yUOE" alt=""><figcaption></figcaption></figure>
 
 **Steps:**
 
