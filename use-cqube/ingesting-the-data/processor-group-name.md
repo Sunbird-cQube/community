@@ -1,6 +1,6 @@
-# Processor Group Name
+# Processor group name
 
-&#x20;The programs are  individually  scheduled by using scheduled API please run the following program name space.
+The programs are  individually  scheduled by using scheduled API please run the following program name space.
 
 1. nishtha
 2. pgi

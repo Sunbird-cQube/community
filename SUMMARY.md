@@ -58,6 +58,7 @@
   * [Error during ingestion](use-cqube/ingesting-the-data/error-during-ingestion.md)
     * [Error Monitoring](use-cqube/ingesting-the-data/error-during-ingestion/error-monitoring.md)
     * [Common errors in data files during ingestion](use-cqube/ingesting-the-data/error-during-ingestion/common-errors-in-data-files-during-ingestion.md)
+  * [Processor group name](use-cqube/ingesting-the-data/processor-group-name.md)
 * [Adapter details](use-cqube/adapter-details.md)
 * [Postman details](use-cqube/postman-details.md)
 * [Processing of data](use-cqube/processing-of-data/README.md)
@@ -121,7 +122,6 @@
 * [State List](deployment-process/state-list.md)
 * [AWS Deployment](deployment-process/aws-deployment.md)
 * [SDC Deployment](deployment-process/sdc-deployment.md)
-* [Processor Group Name](deployment-process/processor-group-name.md)
 * [Adapter Details During the Processing](deployment-process/adapter-details-during-the-processing.md)
 
 ## 🈴 UPGRADING TO LATEST VERSION

@@ -1,4 +1,4 @@
-# Common during ingestion
+# Common errors in data files during ingestion
 
 ### Single Master of Districts, Blocks, Clusters and Schools within a state to be referenced:
 
@@ -9,11 +9,6 @@
 
 * State and national programs in cQube will require data for grade, subject and medium being followed in the state. Generally the states share values of subject in arrays like \['Political Science/Civics', 'Social Science']. This is an incorrect format.
 * The subjects should have individual values and different subjects should be in different rows. For example: Political Science / Civics will be Row 1 with relevant data in the event file and Social Science will be Row 2 with relevant data in the event file. Dimension for subject in the specified format linked here will also have 2 rows with unique IDs - Political Science / Civics and Social Science.
-
-### Change in column name in diksha\_nishtha\_percentage-enrollment-certification.zip for NISHTHA Program:
-
-* File from NCERT Team will contain 2 duplicate column names for diksha\_nishtha\_percentage-enrollment-certification.zip for NISHTHA program : State and State.
-* Change the first State column (Column B) to State Name\_Correct.
 
 ### No quotes - single (') or double (“) should be present in the data being ingested
 

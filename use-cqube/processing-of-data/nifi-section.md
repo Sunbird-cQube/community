@@ -1,6 +1,6 @@
 # Nifi section
 
-Comment start Nifi in cQube is used to create a data flow and automate the processing of data with the help of processor groups. These processor groups are responsible for accessing the data files from the cloud storage and moving it into the processing-ms codebase. Once the data files are moved the commands will be executed which will ingest the data into the database.&#x20;
+&#x20;Nifi in cQube is used to create a data flow and automate the processing of data with the help of processor groups. These processor groups are responsible for accessing the data files from the cloud storage and moving it into the processing-ms codebase. Once the data files are moved the commands will be executed which will ingest the data into the database.&#x20;
 
 Here we have different processor groups to process the data(Nifi canvas).\
 1\. To run adapters.
@@ -27,7 +27,7 @@ The Processor groups in nifi can be scheduled using API called [scheduled API ](
 
 **3.To run program wise:** This processor group is used to move particular program files from process\_input folder to processing\_ms folder. Then it will run yarn cli ingest and yarn cli ingest-data --filter=’program\_name’.(where it will ingest particular program data files).
 
-In order to automate these processor groups we have written REST-APIs
+
 
 <figure><img src="https://lh7-us.googleusercontent.com/WLJMhDjsBMTveEgWHBrLVTNqb62DdiRsrxyh2K_TRdnxWVb29xnKDv5r2fnKkV3bfAa9ekyK4kR-vLIRtPQXpNOtxdDEer7prp24KTK3NKkt-vMYn8Tu0EiBPivT_tjnsV63iKYHhZQ_2YsOXd5VKsQ" alt=""><figcaption></figcaption></figure>
 
