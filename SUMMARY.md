@@ -57,7 +57,7 @@
     * [Scheduled API](use-cqube/ingesting-the-data/steps-to-ingest-data-files/scheduled-api.md)
   * [Error during ingestion](use-cqube/ingesting-the-data/error-during-ingestion.md)
     * [Error Monitoring](use-cqube/ingesting-the-data/error-during-ingestion/error-monitoring.md)
-    * [Common during ingestion](use-cqube/ingesting-the-data/error-during-ingestion/common-during-ingestion.md)
+    * [Common errors in data files during ingestion](use-cqube/ingesting-the-data/error-during-ingestion/common-errors-in-data-files-during-ingestion.md)
 * [Adapter details](use-cqube/adapter-details.md)
 * [Postman details](use-cqube/postman-details.md)
 * [Processing of data](use-cqube/processing-of-data/README.md)
