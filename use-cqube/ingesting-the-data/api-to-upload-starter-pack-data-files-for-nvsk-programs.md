@@ -39,16 +39,9 @@ Provide the valid input details for the parameters shown below.
 
 Click on the send button for the request and if the request is successful the user should see a response message which contains the status of the file.
 
-If the csv files are too large in size, the upload process of those files will take more time which will make users wait for longer duration to receive the response from the API. As a result, the upload process will be running asynchronously and we have developed this api to know the status of the file at any particular time.
+
 
 <figure><img src="https://lh4.googleusercontent.com/ZYvquzK3X_OlYqpX6LucWKlOywN07ulIUh7qvxGUAzi2H9KAZiPXkgCv7PIgEMCHr_tiPLMKY1UmBRse3ug75SCkKKlJJ3IgSXDxc6XmXPYvG1SMcyoB1Uvu9kAAvf0QNaqwgUJxUlzwcQ4qLyG7lGU" alt=""><figcaption></figcaption></figure>
 
-**Difference between State Specific programs and National programs API**
 
 
-
-| State Specific                                                                                                                                         | National Programs                                                                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| <ol><li>Accepts file in .csv format</li></ol>                                                                                                          | <ol><li>Accepts file in .zip format</li></ol>                                                                         |
-| <ol start="2"><li>It is mainly used when the state team  wants to onboard new programs apart from the starter pack.</li></ol>                          |       2. This API can be used for starter pack             programs of VSK and NVSK                                   |
-| <ol start="3"><li>The uploaded file will be present in the process_input folder in cloud storage given that there are no errors in the data.</li></ol> | 3. The uploaded file will be present in the emission folder in cloud storage given if there are no errors in the data |
