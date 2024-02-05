@@ -10,7 +10,7 @@ Create an AWS EC2 instance with the following configurations:
 
 * Ubuntu  22.04 (supported)
 * 16 GB of System RAM (minimum requirement)
-* 4 core CPU for AWS, Azure and 2 OCPU for Oracle (minimum requirement)
+* 4 core CPU for AWS(minimum requirement)
 * 250GB HDD
 
 Other Requirements:
@@ -25,7 +25,7 @@ Create an AzureEC2 instance with the following configurations:
 
 * Ubuntu  22.04 (supported)
 * 16 GB of System RAM (minimum requirement)
-* 4 core CPU for Azure and 2 OCPU for Oracle (minimum requirement)
+* 4 core CPU for Azure(minimum requirement)
 * 250GB HDD
 
 Other Requirements:
