@@ -49,6 +49,12 @@ Data Debugger: Identify and troubleshoot errors in your data pipelines more effe
 _Schema Generation_\
 Schema Creator: Generate data schemas effortlessly, streamlining data management and reporting.
 
+**Data Pull**&#x20;
+
+Data transfer from NVSK to VSK has been successfully implemented for three programs (NAS, PMPOSHAN, and UDISE), utilizing state\_id as a criterion to segregate records on the NVSK server before their automatic ingestion into the VSK server. For this process to function correctly, the NVSK domain name must be specified during setup. It's crucial that the NVSK server is operational at the time of installation for the data transfer mechanism to activate; if the server is down, the data transfer process will not commence.
+
+
+
 ### Share Your Ideas
 
 We believe in continuous improvement, and your feedback is invaluable. We invite you to contribute your ideas and suggestions for enhancing cQube via our [GitHub Discussions](https://github.com/orgs/Sunbird-cQube/discussions/791). Your input will play a vital role in shaping our roadmap.
