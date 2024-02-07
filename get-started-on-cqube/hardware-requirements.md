@@ -12,6 +12,7 @@ Create an AWS EC2 instance with the following configurations:
 * 16 GB of System RAM (minimum requirement)
 * 4 core CPU for AWS(minimum requirement)
 * 250GB HDD
+* S3 Storage
 
 Other Requirements:
 
@@ -27,6 +28,7 @@ Create an AzureEC2 instance with the following configurations:
 * 16 GB of System RAM (minimum requirement)
 * 4 core CPU for Azure(minimum requirement)
 * 250GB HDD
+* Blob storage
 
 Other Requirements:
 
@@ -42,6 +44,7 @@ Create an Oracle EC2 instance with the following configurations:
 * 16 GB of System RAM (minimum requirement)
 * 4 core CPU for  2 OCPU for Oracle (minimum requirement)
 * 250GB HDD
+* Cloud Storage
 
 Other Requirements:
 
@@ -57,6 +60,9 @@ One server is required with the following configurations:
 * 16 GB of System RAM (minimum requirement)
 * 4 core CPU (minimum requirement)
 * 250GB HDD
+* Minio Storage&#x20;
+
+
 
 Other Requirements:
 
